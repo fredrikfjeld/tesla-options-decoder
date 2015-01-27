@@ -1,0 +1,323 @@
+jQuery.extend(Drupal.settings, {"basePath":"/","block_edit":{"hover_links":1},
+"jcarousel":{"ajaxPath":"/no_NO/jcarousel/ajax/views"},
+"tesla":{"resType":null,"rn":null,"resCountry":null,"resConfigModel":null,"cfgOrigin":null,"resInvited":null,"resStatus":null,"orderStarted":null,"configSetPrices":"{"pricing_date":"1/23/2015 9:58 PM","currency_code":"NOK","vat_percent":0.00,"recycling_fee":2400.00,"models":{"ms":{"base_price":511000.00,"price_book_name":"NO 2015 JANUARY V2","options":{
+
+"BT60":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+
+# Supercharging
+"SC01":{"dependent_overrides":{
+  "PBT85":{"price":"0.00","price_indicator":"Included","override_indicator":"Included","after_delivery_price":"21100.00"},
+  "BT60":{"price_indicator":"Optional","override_indicator":"Optional","price":"13800.00","after_delivery_price":"21100.00"},
+  "BT85":{"price_indicator":"Included","override_indicator":"Included","price":"0","after_delivery_price":"21100.00"},
+  "P85D":{"price":"0.00","price_indicator":"Included","after_delivery_price":"21100.00","override_indicator":"Included"}
+},"price_indicator":"Optional","price":13800.00,"list_price":13800.00,"is_default":false},
+
+"BT85":{"price_indicator":"Optional","price":76000.00,"list_price":76000.00,"is_default":false},
+
+"SC00":{"dependent_overrides":{
+  "BT60":{"price_indicator":"Optional","override_indicator":"Optional"},
+  "BT85":{"price_indicator":"Included","override_indicator":"Included"}
+},"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+
+"DRLH":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+"TM00":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+"PF00":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+
+# Black paint
+"PBSB":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+# White paint
+"PBCW":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":false},
+
+# Metallic silver paint
+"PMSS":{"price_indicator":"Optional","price":5400.00,"list_price":5400.00,"is_default":false},
+# Metallic blue paint
+"PMMB":{"price_indicator":"Optional","price":5400.00,"list_price":5400.00,"is_default":false},
+# Metallic gray paint
+"PMSG":{"price_indicator":"Optional","price":5400.00,"list_price":5400.00,"is_default":false},
+# Metallic paint
+"PMAB":{"price_indicator":"Optional","price":5400.00,"list_price":5400.00,"is_default":false},
+
+# Multicolor red paint
+"PPMR":{"price_indicator":"Optional","price":10800.00,"list_price":10800.00,"is_default":false},
+# Multicolor white paint
+"PPSW":{"price_indicator":"Optional","price":10800.00,"list_price":10800.00,"is_default":false},
+
+
+"RFBK":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":false},
+# Roof in body color
+"RFBC":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+# Panoramic roof
+"RFPO":{"price_indicator":"Optional","price":17900.00,"list_price":17900.00,"is_default":false},
+
+# 19 inch wheels
+"WT19":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+# 21 inch wheels
+"WT21":{"price_indicator":"Optional","price":32300.00,"list_price":32300.00,"is_default":false},
+
+# Piano black interior
+"IDPB":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+# Lacewood interior
+"IDLW":{"price_indicator":"Optional","price":4700.00,"list_price":4700.00,"is_default":false},
+
+# Tech package with auto pilot
+"TP02":{"price_indicator":"Optional","price":30500.00,"list_price":30500.00,"is_default":false},
+# No tech
+"TP00":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+
+# Ultra hifi
+"AU01":{"price_indicator":"Optional","price":17900.00,"list_price":17900.00,"is_default":false},
+# Standard audio
+"AU00":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+
+# Air suspension
+"SU01":{"price_indicator":"Optional","price":16100.00,"list_price":16100.00,"is_default":false},
+# Standard coils
+"SU00":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+
+# Rear facing jump seats
+"TR01":{"price_indicator":"Optional","price":17900.00,"list_price":17900.00,"is_default":false},
+# No rear facing jump seats
+"TR00":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+
+"PS01":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+"PS00":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":false},
+
+# Single charger
+"CH00":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+# Dual charger
+"CH01":{"price_indicator":"Optional","price":10800.00,"list_price":10800.00,"is_default":false},
+
+# Safety package
+"SP01":{"price_indicator":"Optional","price":3100.00,"list_price":3100.00,"is_default":false},
+# Standard alarm
+"SP00":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+
+"LP01":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":false},
+"LP00":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+"CW01":{"price_indicator":"Optional","price":5400.00,"list_price":5400.00,"is_default":false},
+"CW00":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+"PK01":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":false},
+"PK00":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+"YF01":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":false},
+"YF00":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+"BS00":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+
+# P85
+"PBT85":{"price_indicator":"Optional","price":243000.00,"list_price":243000.00,"is_default":false},
+
+# Base paint
+"COL1":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":false},
+# Metallic paint
+"COL2":{"price_indicator":"Optional","price":5400.00,"list_price":5400.00,"is_default":false},
+# Multicolor paint
+"COL3":{"price_indicator":"Optional","price":10800.00,"list_price":10800.00,"is_default":false},
+
+"PPSR":{"price_indicator":"Optional","price":10800.00,"list_price":10800.00,"is_default":false},
+
+# 19 inch Turbine wheels
+"WTTB":{"price_indicator":"Optional","price":17900.00,"list_price":17900.00,"is_default":false},
+# Unknown wheels
+"WTTP":{"price_indicator":"Optional","price":17900.00,"list_price":17900.00,"is_default":false},
+# 21 inch Turbine silver wheels
+"WTSS":{"price_indicator":"Optional","price":32300.00,"list_price":32300.00,"is_default":false},
+# Unknown wheels
+"WTSP":{"price_indicator":"Optional","price":32300.00,"list_price":32300.00,"is_default":false},
+# 21 inch Turbine gray wheels
+"WTSG":{"price_indicator":"Optional","price":32300.00,"list_price":32300.00,"is_default":false},
+
+"QPBT":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+
+# Black leather seats front
+"QPMB":{"dependent_overrides":{
+  "BT60":{"price":"9700","price_indicator":"Optional"},
+  "BT85":{"price":"9700","price_indicator":"Optional"},
+  "PBT85":{"price":"9700","price_indicator":"Optional"}
+},"price_indicator":"Optional","price":10800.00,"list_price":10800.00,"is_default":false},
+
+# Gray leather seats front
+"QPMG":{"price_indicator":"Optional","price":10800.00,"list_price":10800.00,"is_default":false},
+# Tan leather seats front
+"QPMT":{"price_indicator":"Optional","price":10800.00,"list_price":10800.00,"is_default":false},
+# Black leather seats back
+"QXMB":{"price_indicator":"Optional","price":10800.00,"list_price":10800.00,"is_default":false},
+# Gray leather seats back
+"QXMG":{"price_indicator":"Optional","price":10800.00,"list_price":10800.00,"is_default":false},
+# Tan leather seats back
+"QXMT":{"price_indicator":"Optional","price":10800.00,"list_price":10800.00,"is_default":false},
+
+# Black performance leather seats front
+"QZMB":{"price_indicator":"Optional","price":17900.00,"list_price":17900.00,"is_default":false},
+# Gray performance leather seats front
+"QZMG":{"price_indicator":"Optional","price":17900.00,"list_price":17900.00,"is_default":false},
+# Tan performance leather seats front
+"QZMT":{"price_indicator":"Optional","price":17900.00,"list_price":17900.00,"is_default":false},
+# Black performance leather seats back
+"QYMB":{"price_indicator":"Optional","price":17900.00,"list_price":17900.00,"is_default":false},
+# Gray performance leather seats back
+"QYMG":{"price_indicator":"Optional","price":17900.00,"list_price":17900.00,"is_default":false},
+# Tam performance leather seats back
+"QYMT":{"price_indicator":"Optional","price":17900.00,"list_price":17900.00,"is_default":false},
+
+"IX00":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+"IX01":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":false},
+
+# Carbon fibre interior
+"IDCF":{"price_indicator":"Optional","price":5700.00,"list_price":5700.00,"is_default":false},
+
+"PX00":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+"PX01":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":false},
+
+# Gray calipers
+"BC0B":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+# Red calipers
+"BC0R":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":false},
+
+# Textile headliner
+"UTMF":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+# White alcantara headliner
+"UTAW":{"dependent_overrides":{
+  "P85D":{"price":"0","price_indicator":"Included"},
+  "BT60":{"price":"10800","price_indicator":"Optional"},
+  "BT85":{"price":"10800","price_indicator":"Optional"},
+  "PBT85":{"price":"0","price_indicator":"Included"}
+},"price_indicator":"Optional","price":10800.00,"list_price":10800.00,"is_default":false},
+
+"FG00":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+"FG01":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":false},
+"FG02":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":false},
+"AD05":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+"AD06":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+# Red charging adapter 400V
+"AD07":{"price_indicator":"Optional","price":600.00,"list_price":600.00,"is_default":false},
+# Blue charging adapter 230V
+"AD08":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+
+"CDM0":{"dependent_overrides":{
+  "SC01":{"price_indicator":"Optional","override_indicator":"Optional"},
+  "SC00":{"price_indicator":"Optional","override_indicator":"Optional"}
+},"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+
+"CDM1":{"dependent_overrides":{
+  "SC00":{"price":"15100.00","price_indicator":"Optional","override_indicator":"Optional"},
+  "SC01":{"price":"6300.00","price_indicator":"Optional","override_indicator":"Optional"}
+},"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":false},
+
+# Type 2 cable
+"ADPC2":{"price_indicator":"Optional","price":1300.00,"list_price":1300.00,"is_default":false},
+
+# 19 inch Pirelli winter wheels
+"WTW3":{"price_indicator":"Optional","price":16000.00,"list_price":16000.00,"is_default":false},
+
+# 19 inch Nokian winter wheels studdless
+"WTW2":{"price_indicator":"Optional","price":21000.00,"list_price":21000.00,"is_default":false},
+# 19 inch Nokian winter wheels studded
+"WTW1":{"price_indicator":"Optional","price":21000.00,"list_price":21000.00,"is_default":false},
+
+"X001":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":false},
+"X002":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":false},
+"X003":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":false},
+"X004":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":false},
+"X011":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":false},
+"X012":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":false},
+"X013":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":false},
+"X014":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":false},
+
+# Carbon spoiler
+"X019":{"price_indicator":"Optional","price":7200.00,"list_price":7200.00,"is_default":false},
+# Carbon spoiler
+"X021":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":false},
+
+"X028":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+"X029":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":false},
+"X030":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":false},
+"X031":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":false},
+"ADPX2":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+"ADX7":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+"WXW1":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+"WXW2":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+"WXW3":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+"PA00":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+"HP00":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+
+# Glossy obeche wood interior
+"IDHG":{"price_indicator":"Optional","price":4700.00,"list_price":4700.00,"is_default":false},
+# Matte obeche wood interior
+"IDHM":{"price_indicator":"Optional","price":4700.00,"list_price":4700.00,"is_default":false},
+
+"AF00":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":false},
+"AF01":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+"PSP15":{"price_indicator":"Optional","price":17750.00,"list_price":17750.00,"is_default":false},
+"PSPX5":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+"SR01":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+
+# Bakre komfortseter
+"SR02":{"price_indicator":"Optional","price":14300.00,"list_price":14300.00,"is_default":false},
+
+"DV2W":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+
+# Dual motor
+"DV4W":{"dependent_overrides":{
+  "P85D":{"price":"0","price_indicator":"Included"},
+  "BT85":{"price":"35900","price_indicator":"Optional"},
+  "PBT85":{"price":"70000","price_indicator":"Optional"}
+},"price_indicator":"Optional","price":35900.00,"list_price":35900.00,"is_default":false},
+
+"DSH5":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+"DSH7":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":false},
+"PMNG":{"price_indicator":"Optional","price":5400.00,"list_price":5400.00,"is_default":false},
+
+# Black alcantara headliner
+"UTAB":{"dependent_overrides":{
+  "BT60":{"price":"10800","price_indicator":"Optional"},
+  "BT85":{"price":"10800","price_indicator":"Optional"},
+  "PBT85":{"price":"0","price_indicator":"Included"},
+  "P85D":{"price":"0","price_indicator":"Included"}
+},"price_indicator":"Optional","price":10800.00,"list_price":10800.00,"is_default":false},
+
+"DA00":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":false},
+"DA01":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+"PI00":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+
+# P85D
+"P85D":{"price_indicator":"Optional","price":252000.00,"list_price":252000.00,"is_default":false},
+
+# Premium interior
+"PI01":{"price_indicator":"Optional","price":25100.00,"list_price":25100.00,"is_default":false},
+
+# 21 winter wheels
+"WTW5":{"price_indicator":"Optional","price":35000.00,"list_price":35000.00,"is_default":false},
+
+"WXW5":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":false},
+"ME02":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+
+"QREB":{"price_indicator":"Optional","price":25100.00,"list_price":25100.00,"is_default":false},
+"QRET":{"price_indicator":"Optional","price":25100.00,"list_price":25100.00,"is_default":false},
+"QREG":{"price_indicator":"Optional","price":25100.00,"list_price":25100.00,"is_default":false},
+
+# Black next generation seats (front and back)
+"QRLB":{"price_indicator":"Optional","price":25100.00,"list_price":25100.00,"is_default":false},
+# Tan next generation seats (front and back)
+"QRLT":{"price_indicator":"Optional","price":25100.00,"list_price":25100.00,"is_default":false},
+# Gray next generation seats (front and back)
+"QRLG":{"price_indicator":"Optional","price":25100.00,"list_price":25100.00,"is_default":false},
+
+# Winter package
+"CW02":{"dependent_overrides":{
+  "SR02":{"price":"0","price_indicator":"Included"}
+},"price_indicator":"Optional","price":5400.00,"list_price":5400.00,"is_default":false},
+
+# Black next generation seats (front only)
+"QNEB":{"price_indicator":"Optional","price":25100.00,"list_price":25100.00,"is_default":false},
+# Tan next generation seats (front only)
+"QNET":{"price_indicator":"Optional","price":25100.00,"list_price":25100.00,"is_default":false},
+# Gray next generation seats (front only)
+"QNEG":{"price_indicator":"Optional","price":25100.00,"list_price":25100.00,"is_default":false},
+# Black next generation seats (front only)
+"QNLB":{"price_indicator":"Optional","price":25100.00,"list_price":25100.00,"is_default":false},
+# Tan next generation seats (front only)
+"QNLT":{"price_indicator":"Optional","price":25100.00,"list_price":25100.00,"is_default":false},
+# Gray next generation seats (front only)
+"QNLG":{"price_indicator":"Optional","price":25100.00,"list_price":25100.00,"is_default":false}
+
+}}}}","configSetLocale":null,"configSetPreConfigure":[],"configurationAccepted":null,"showDoneButtonOverlay":null,"earliestDeliveryData":"{"BT60":"Late April","BT85":"Late April","PBT85":"Late June","BT60D":"Late April","BT85D":"Late June","P85D":" May"}","isResNull":null,"isFreePriceGalleryPage":0,"isLoResPage":0,"isProduction":true,"staticHosts":"static01.www.teslamotors.com,static02.www.teslamotors.com,static03.www.teslamotors.com,static04.www.teslamotors.com","debugLevel":0,"country":"NO","region":"NO","locale":"no_NO","localePrefix":"/no_NO"},
+"SharingCookies":{"AcrossDomain":null}});
