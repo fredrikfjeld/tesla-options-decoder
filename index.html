@@ -7,9 +7,17 @@
 </head>
 <body>
   <script type="text/javascript">
-var options = $.getJSON("all-options.json");
-console.log(options);
-alert(options.options.AU01.name);
+$.getJSON("all-options.json", function ( data ) {
+  var items = [];
+  $.each( data, function ( key, val ) {
+    items.push( "<li id='" + key + "'>" + val + "</li>" );
+  });
+
+  $( "<ul/>", {
+    "class": "my-new-list",
+    html: items.join( "" )
+  }).appendTo( "body" );
+});
   </script>
 
 
