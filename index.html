@@ -7,9 +7,8 @@
 </head>
 <body>
   <script type="text/javascript">
-$.getJSON("all-options.json", function(json) {
-  console.log(json);
-});
+var options = $.getJSON("all-options.json");
+alert(options.options);
   </script>
 </body>
 </html>
