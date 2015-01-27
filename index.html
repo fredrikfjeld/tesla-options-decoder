@@ -7,18 +7,11 @@
 </head>
 <body>
   <script type="text/javascript">
-var lolz = $.getJSON( "all-options.json", function() {
-  console.log("success");
-})
-  .done(function() {
-    console.log("second success");
-  })
-  .fail(function() {
-    console.log("error");
-  })
-  .always(function() {
-    console.log("complete");
-  });
+$.getJSON("all-options.json", function(json) {
+  console.log(json);
+});
   </script>
 </body>
 </html>
+
+get "options" => name
