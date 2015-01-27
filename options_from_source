@@ -19,7 +19,9 @@ jQuery.extend(Drupal.settings, {"basePath":"/","block_edit":{"hover_links":1},
   "BT85":{"price_indicator":"Included","override_indicator":"Included"}
 },"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
 
+# Left hand steering wheel
 "DRLH":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
+
 "TM00":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
 "PF00":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
 
@@ -42,7 +44,7 @@ jQuery.extend(Drupal.settings, {"basePath":"/","block_edit":{"hover_links":1},
 # Multicolor white paint
 "PPSW":{"price_indicator":"Optional","price":10800.00,"list_price":10800.00,"is_default":false},
 
-
+# Black roof
 "RFBK":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":false},
 # Roof in body color
 "RFBC":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
@@ -111,7 +113,7 @@ jQuery.extend(Drupal.settings, {"basePath":"/","block_edit":{"hover_links":1},
 "COL2":{"price_indicator":"Optional","price":5400.00,"list_price":5400.00,"is_default":false},
 # Multicolor paint
 "COL3":{"price_indicator":"Optional","price":10800.00,"list_price":10800.00,"is_default":false},
-
+# Signature red
 "PPSR":{"price_indicator":"Optional","price":10800.00,"list_price":10800.00,"is_default":false},
 
 # 19 inch Turbine wheels
@@ -125,6 +127,7 @@ jQuery.extend(Drupal.settings, {"basePath":"/","block_edit":{"hover_links":1},
 # 21 inch Turbine gray wheels
 "WTSG":{"price_indicator":"Optional","price":32300.00,"list_price":32300.00,"is_default":false},
 
+# Black textile seats
 "QPBT":{"price_indicator":"Included","price":0.00,"list_price":0.00,"is_default":true},
 
 # Black leather seats front
