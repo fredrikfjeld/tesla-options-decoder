@@ -23,21 +23,23 @@
     </div>
 
   </div>
+
+  
+  <script type="text/javascript">
+    $.getJSON("pricebook-3_MS_NO.json", function ( data ) {
+    var items = [];
+    $.each( data.options, function ( opt_code, opt_content ) {
+      items.push( "<dt>" + opt_code + "</dt><dd>" + opt_content.name + "</dd>" );
+    });
+
+    $( "<dl/>", {
+      "class": "options-list",
+      html: items.join( "" )
+    }).appendTo( "#optionslist" );
+    });
+  </script>
+
 </body>
-
-<script type="text/javascript">
-$.getJSON("pricebook-3_MS_NO.json", function ( data ) {
-var items = [];
-$.each( data.options, function ( opt_code, opt_content ) {
-  items.push( "<dt>" + opt_code + "</dt><dd>" + opt_content.name + "</dd>" );
-});
-
-$( "<dl/>", {
-  "class": "options-list",
-  html: items.join( "" )
-}).appendTo( "#optionslist" );
-});
-</script>
 
 
 </html>
