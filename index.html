@@ -9,7 +9,7 @@
   <script type="text/javascript">
 $.getJSON("all-options.json", function ( data ) {
   var items = [];
-  $.each( data, function ( key, val ) {
+  $.each( data.options, function ( key, val ) {
     items.push( "<li id='" + key + "'>" + val + "</li>" );
   });
 
