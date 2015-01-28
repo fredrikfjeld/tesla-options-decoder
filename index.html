@@ -90,7 +90,8 @@
     var myurl = myurl_arr[1].split("=");
     var myoptions = myurl[1].split("&");
     myoptions = myoptions[0];
-    myoptions = myoptions.replace('/\%2C/g', ',');
+    var commaregex = new RegExp('\%2C', 'g');
+    myoptions = myoptions.replace(commaregex, ',');
 
     alert(myoptions);
     console.log("myoptions" + myoptions);
