@@ -88,8 +88,7 @@
     console.log("myurl_arr[0]=" + myurl_arr[0]);
     console.log("myurl_arr[1]=" + myurl_arr[1]);
     var myurl = myurl_arr[1].split("=");
-    var almostmyoptions = myurl[1];
-    var myoptions = almostmyoptions.split("&");
+    var myoptions = myurl[1].split("&");
 
     alert(myoptions[0]);
     console.log("myoptions" + myoptions[0]);
