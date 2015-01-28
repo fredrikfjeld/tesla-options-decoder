@@ -1,0 +1,3900 @@
+{
+  "base_price":0,
+  "categories":{
+    "C_ACC":{
+      "exclusive":false,
+      "includes":[
+        "ADPC2",
+        "WTW3",
+        "WTW5"
+      ],
+      "long_name":null,
+      "name":"Accessories &amp; Service",
+      "sort_order": 10
+    },
+    "C_BAT":{
+      "description":null,
+      "disclaimer":"<sup class=\"push-left\">*</sup> Range shown for 85D and P85D is estimated, pending NEDC confirmation. Range decreases 3 percent when equipped with 21-inch wheels.",
+      "exclusive":true,
+      "includes":[
+        "BT60",
+        "BT85",
+        "PBT85",
+        "P85D"
+      ],
+      "long_name":null,
+      "name":"Battery",
+      "sort_order":0
+    },
+    "C_BODY":{
+      "description":null,
+      "includes":[
+        "C_RF",
+        "C_WT"
+      ],
+      "long_name":null,
+      "name":"Roof &amp; Wheels",
+      "sort_order":2
+    },
+    "C_CHG_SUPER":{
+      "description":"Model S comes standard with an onboard charger and a Type 2 standard connector. Charge rates up to 34 miles per hour of charge are possible depending on the power source. An optional domestic 3-pin connector is available at your nearest service centre.",
+      "exclusive":false,
+      "includes":[
+        "SC01",
+        "CH01"
+      ],
+      "long_name":null,
+      "name":"Charging",
+      "sort_order":8
+    },
+    "C_DRIVE":{
+      "description":null,
+      "exclusive":false,
+      "includes":[
+        "DRRH"
+      ],
+      "long_name":null,
+      "name":"Drive Orientation"
+    },
+    "C_EXT":{
+      "description":null,
+      "includes":[
+        "C_EXTCOL"
+      ],
+      "long_name":null,
+      "name":"Paint",
+      "sort_order":2
+    },
+    "C_EXTCOL":{
+      "category":"C_EXT",
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "COL1",
+        "COL2",
+        "COL3"
+      ],
+      "long_name":null,
+      "name":"Paint",
+      "sort_order":1
+    },
+    "C_INT":{
+      "description":null,
+      "includes":[
+        "C_INTBASE",
+        "C_INTDECOR",
+        "C_INT_HEADLINER",
+        "C_INT_NOW_DEFAULT_OPTS"
+      ],
+      "long_name":null,
+      "name":"Interior",
+      "sort_order":5
+    },
+    "C_INTBASE":{
+      "category":"C_INT",
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "C_INTBASE_BASE",
+        "C_INTBASE_CUSTOM"
+      ],
+      "long_name":null,
+      "name":"Base Color"
+    },
+    "C_INTBASE_BASE":{
+      "category":"C_INTBASE",
+      "description":null,
+      "exclusive":false,
+      "includes":[
+        "QPBT"
+      ],
+      "long_name":null,
+      "name":"Seating"
+    },
+    "C_INTBASE_CUSTOM":{
+      "category":"C_INTBASE",
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "C_INTBASE_CUSTOM_PREMIUM",
+        "C_INTBASE_CUSTOM_PREMIUM_LEATHER",
+        "C_INTBASE_CUSTOM_PERFORMANCE_UPGRADE",
+        "C_INTBASE_CUSTOM_PERFORMANCE_UPGRADE_LEATHER",
+        "C_INTBASE_PREMIUM_R_UPGRADE",
+        "C_INTBASE_PREMIUM_R"
+      ],
+      "long_name":null,
+      "name":"Leather"
+    },
+    "C_INTBASE_CUSTOM_PERFORMANCE_UPGRADE":{
+      "category":"C_INTBASE_CUSTOM",
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "QZMB",
+        "QZMT",
+        "QZMG"
+      ],
+      "long_name":"Performance Upgrade",
+      "name":"Leather"
+    },
+    "C_INTBASE_CUSTOM_PERFORMANCE_UPGRADE_LEATHER":{
+      "category":"C_INTBASE_CUSTOM",
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "long_name":"Performance Upgrade",
+      "name":"Leather"
+    },
+    "C_INTBASE_CUSTOM_PREMIUM":{
+      "category":"C_INTBASE_CUSTOM",
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "QPMB",
+        "QPMT",
+        "QPMG"
+      ],
+      "long_name":null,
+      "name":"Leather"
+    },
+    "C_INTBASE_CUSTOM_PREMIUM_LEATHER":{
+      "category":"C_INTBASE_CUSTOM",
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "QXMB",
+        "QXMT",
+        "QXMG"
+      ],
+      "long_name":null,
+      "name":"Leder"
+    },
+    "C_INT_EXEC":{
+      "category":"C_INT",
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "SR01",
+        "SR02"
+      ],
+      "long_name":null,
+      "name":"Executive Seats"
+    },
+    "C_INTBASE_PREMIUM_R_UPGRADE":{
+      "category":"C_INTBASE_CUSTOM",
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QREB",
+        "QRET",
+        "QREG"
+      ],
+      "long_name":null,
+      "name":"Leather"
+    },
+    "C_INTBASE_PREMIUM_R":{
+      "category":"C_INTBASE_CUSTOM",
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "QNLB",
+        "QNLT",
+        "QNLG",
+        "QRLB",
+        "QRLT",
+        "QRLG"
+      ],
+      "long_name":null,
+      "name":"Leather"
+    },
+    "C_INTDECOR":{
+      "category":"C_INT",
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "C_INTDECOR_CUSTOM"
+      ],
+      "long_name":null,
+      "name":"D&eacute;cor"
+    },
+    "C_INTDECOR_CUSTOM":{
+      "category":"C_INTDECOR",
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "C_INTDECOR_DECOR",
+        "C_INTDECOR_CUSTOM_PREMIUM",
+        "C_INTDECOR_CUSTOM_CARBON"
+      ],
+      "long_name":null,
+      "name":"D&eacute;cor"
+    },
+    "C_INTDECOR_CUSTOM_CARBON":{
+      "category":"C_INTDECOR",
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "IDCF"
+      ],
+      "long_name":null,
+      "name":"D&eacute;cor"
+    },
+    "C_INTDECOR_CUSTOM_PREMIUM":{
+      "category":"C_INTDECOR",
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "IDHM",
+        "IDHG"
+      ],
+      "long_name":null,
+      "name":"D&eacute;cor"
+    },
+    "C_INTDECOR_DECOR":{
+      "category":"C_INTDECOR",
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "IDPB"
+      ],
+      "long_name":null,
+      "name":"D&eacute;cor"
+    },
+    "C_INT_HEADLINER":{
+      "category":"C_INT",
+      "description":null,
+      "exclusive":true,
+      "includes":[
+          "UTMF",
+          "UTAW",
+          "UTAB"
+      ],
+      "name":"Headliner"
+    },
+    "C_INT_NOW_DEFAULT_OPTS":{
+        "note":"This is a placeholder/dummy category that represents options that are now required under certain package interior options, but used to be UI visible, however still need to be visible to a customer in certain UI sections and official documents, order agreement, etc.",
+        "category":"C_INT",
+        "description":null,
+        "exclusive":false,
+        "includes":[
+            "DSH7",
+            "YF01",
+            "LP01",
+            "IX01"
+        ],
+        "name":"Interior Package Default Options",
+        "no_ui":true
+    },
+    "C_MOTOR":{
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "DV2W",
+        "DV4W"
+      ],
+      "long_name":null,
+      "name":"Drive",
+      "sort_order":1
+    },
+    "C_OPTS":{
+      "description":null,
+      "disclaimer":"Rear Facing Seats are child restraint systems intended for children at least 3' 1\" tall and between 35 and 77 pounds. Children should be seated upright without their head touching the roof of the car and be properly belted in at all times. It's important that you follow all provided instructions to ensure the safety of your passengers.",
+      "exclusive":false,
+      "includes":[
+        "TP02",
+        "SU01",
+        "PI01",
+        "SR02",
+        "CW02",
+        "AU01",
+        "SP01",
+        "TR01"
+      ],
+      "long_name":null,
+      "name":"Options",
+      "sort_order":9
+    },
+    "C_PERF":{
+      "description":null,
+      "disclaimer":"Performance characteristics are estimated or determined by Tesla Motors, Inc. under certain driving, operating, and environmental conditions. Actual results will vary based on your driving habits and other factors.",
+      "exclusive":false,
+      "includes":[
+        "X019",
+        "BC0R"
+      ],
+      "long_name":null,
+      "name":"Model S Performance",
+      "sort_order":6
+    },
+    "C_RF":{
+      "category":"C_BODY",
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "C_RF_ONE",
+        "C_RF_TWO"
+      ],
+      "long_name":null,
+      "name":"Roof",
+      "sort_order":3
+    },
+    "C_RF_ONE":{
+      "category":"C_RF",
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "RFBC",
+        "RFBK"
+      ],
+      "long_name":null,
+      "name":"Roof"
+    },
+    "C_RF_TWO":{
+      "category":"C_RF",
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "RFPO"
+      ],
+      "long_name":null,
+      "name":"Roof"
+    },
+    "C_STDEQ":{
+      "description":"<p>Model S comes standard with a forward looking camera, radar, and 360-degree ultrasonic sensors that actively monitor the surrounding roadway. Progressive software updates over time will enable sophisticated safety and convenience features that use these sensors to respond to real world conditions. Safety features include systems that warn drivers of potential hazards and help avoid or lessen the impacts of collisions. Convenience features include everyday driving manoeuvres that reduce driver workload, such as traffic aware cruise control and automatic parking. </p><p>Safety features, today and in the future, are included in every Model S with Autopilot hardware. Convenience features will be included in the Tech Package. It will take several months for all the features to be completed and uploaded to the cars. </p><p>&nbsp;</p>",
+      "disclaimer":null,
+      "exclusive":false,
+      "includes":[
+          "DA01",
+          "X003",
+          "X027",
+          "X007",
+          "X037",
+          "PS01",
+          "X031",
+          "ME01",
+          "X002",
+          "X012"
+      ],
+      "long_name":null,
+      "name":"Autopilot",
+      "sort_order":7
+    },
+    "C_TRIM":{
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "TM00",
+        "TM0A",
+        "TM0B",
+        "TM0C"
+      ],
+      "long_name":null,
+      "name":"Model Trim"
+    },
+    "C_WT":{
+      "category":"C_BODY",
+      "description":null,
+      "disclaimer":"<p>21-inch wheels are equipped with low-profile performance tyres that provide less protection from, and are consequently more likely to suffer damage from, uneven road surfaces, debris, curbs, and other common obstacles. Damage to wheels or tyres from these conditions are not covered under the Model S new vehicle limited warranty. 21-inch wheels with low-profile performance tyres wear faster and reduce battery range compared to 19-inch wheels with all season tyres. For best results, follow recommended tyre maintenance including tyre rotation. Model S does not come with a spare wheel and tyre.</p><p>Low-profile performance tyres are meant for summer use and will not have adequate traction in cold, snowy or icy conditions. We recommend driving on winter tyres, available on both 21-inch and 19-inch wheels, in winter weather.</p>",
+      "exclusive":true,
+      "includes":[
+        "WT19",
+        "WTTB",
+        "WT21",
+        "WTSP",
+        "WTSS",
+        "WTSG"
+      ],
+      "long_name":null,
+      "name":"Wheels",
+      "sort_order":4
+    }
+  },
+  "currency_code":"GBP",
+  "delivery_date":"20120901",
+  "delivery_price_translation":"Destination and Regulatory Doc Fee",
+  "disclaimer":"The information presented on this website is based on data available at the time. Design, specifications, price, and production dates are subject to change without notice and pertain specifically to United Kingdom vehicles. Some features and options may be unavailable when your vehicle enters production.",
+  "supercharger_disclaimer":"In some cases, Tesla will temporarily enable Supercharging on non-Supercharging equipped vehicles to permit pickup from a Tesla location. ",
+  "incentives_amount":5000.0,
+  "incentives_txt":"Electric vehicle incentives include a £5,000 plug-in vehicle grant and waivers for road tax, company car tax, and London congestion charges. <a href='http://www.teslamotors.com/incentives/UK/'>Learn more about incentives.</a>",
+  "resale_value_guarantee_text":"Our Resale Value Guarantee lets you enjoy the ownership benefits of a hire purchase with the flexibility of a lease. <a href='/en_GB/financing/faq'>Learn more about the Tesla Resale Value Guarantee.</a>",
+  "inspect_prep_price":0,
+  "market":"GB",
+  "mfg_constraints":{
+    "TP00":{
+      "excludes":[
+        "FG01",
+        "FG02"
+      ],
+      "requires":[
+        "FG00"
+      ]
+    }
+  },
+  "model_code":"ms",
+  "model_name":"Model S",
+  "name":"CS_3_MS_GB",
+  "options":{
+    "AD09":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Description",
+      "disclaimer":"Disclaimer",
+      "list_price":0,
+      "long_name":"Adapter, Swiss (1 phase, 10A)",
+      "name":"Adapter, Swiss (1 phase, 10A)",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"ADX9"
+    },
+    "AD10":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Description",
+      "disclaimer":"Disclaimer",
+      "list_price":0,
+      "long_name":"Adapter, Denmark (1 phase, 13A)",
+      "name":"Adapter, Denmark (1 phase, 13A)",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"ADX10"
+    },
+    "AD11":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Description",
+      "disclaimer":"Disclaimer",
+      "list_price":0,
+      "long_name":"Adapter, Italy (1 phase, 13A)",
+      "name":"Adapter, Italy (1 phase, 13A)",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"ADX11"
+    },
+    "ADX10":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Description",
+      "disclaimer":"Disclaimer",
+      "list_price":0,
+      "long_name":"No - Adapter, Denmark (1 phase, 13A)",
+      "name":"No - Adapter, Denmark (1 phase, 13A)",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"AD10"
+    },
+    "ADX11":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Description",
+      "disclaimer":"Disclaimer",
+      "list_price":0,
+      "long_name":"No - Adapter, Italy (1 phase, 13A)",
+      "name":"No - Adapter, Italy (1 phase, 13A)",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"AD11"
+    },
+    "ADX9":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Description",
+      "disclaimer":"Disclaimer",
+      "list_price":0,
+      "long_name":"No - Adapter, Swiss (1 phase, 10A)",
+      "name":"No - Adapter, Swiss (1 phase, 10A)",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"AD09"
+    },
+    "ADPC2":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Model S comes with a Type 2 charge port. Most charging stations require a Type 2 to Type 2 connector. Up to 23 miles of range per hour on a single-phase charge station at home. Up to 68 miles of range per hour when equipped with optional onboard 22 kW Dual Chargers (Note: charging rate also depends on power output of the charging station).",
+      "disclaimer":"",
+      "list_price":0,
+      "long_name":"Type 2 to Type 2 Connector",
+      "name":"Type 2 to Type 2 Connector",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "AU00":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"No Audio Package",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"No Audio Package",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "requires":[
+        "X014"
+      ],
+      "toggle_pair":"AU01"
+    },
+    "AU01":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Ultra High Fidelity Sound envelops passengers in a concert hall like environment that uses 12 precisely positioned speakers to accurately reproduce sound and deliver it directly to passengers' ears. Its digital signal processing was developed with well known record producers and is precisely tuned for the speakers' placement inside the car. Our sound engineers even accounted for acoustic differences in the roof material by creating a different signal processing codec for standard and all glass panoramic roofs. The package includes: <ul> <li>DAB+ radio</li> <li>12 speakers with neodymium magnets including an 8\" subwoofer</li>  </ul>",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Ultra High Fidelity Sound",
+      "price":0,
+      "price_indicator":"Optional",
+      "requires":[
+        "X013"
+      ],
+      "toggle_pair":"AU00"
+    },
+    "BC0B":{
+      "category":"C_PERF",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Black Brake Calipers",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Black Brake Calipers",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"BC0R"
+    },
+    "BC0R":{
+      "category":"C_PERF",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Tesla Red four piston Brembo brake calipers.",
+      "disclaimer":"Requires P85D",
+      "list_price":500,
+      "name":"Tesla Red Brake Calipers",
+      "price":0,
+      "price_indicator":"Optional",
+      "requires":[
+        "P85D"
+      ],
+      "toggle_pair":"BC0B",
+      "valid_pairs":[
+        "PBT85",
+        "P85D"
+      ]
+    },
+    "BS00":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"NOBULL00",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"NOBULL00",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"BS01"
+    },
+    "BS01":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"YESBULL00",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"YESBULL00",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"BS00"
+    },
+    "BT60":{
+      "category":"C_BAT",
+      "defaults":[
+        "SC00"
+      ],
+      "delivery_date":"20121101",
+      "delivery_date_warning":null,
+      "description":"<ul><li><strong>240</strong> miles range (NEDC)<br /></li><li><strong>380</strong> hp motor power</li><li><strong>5.9</strong> seconds 0-60 mph</li><li><strong>120</strong> mph top speed</li><li>8 year, 125,000 mile battery and drive unit warranty</li><li>Supercharging optional</li></ul>",
+      "disclaimer":"",
+      "list_price":0,
+      "long_name":"60 kWh Model S",
+      "name":"60 kWh Battery",
+      "price":0,
+      "price_indicator":"Optional",
+      "requires":[
+        "PX00",
+        "X021",
+        "X025",
+        "BC0B",
+        "DV2W"
+      ],
+      "toggle_map":{
+        "QZMB":"QPMB",
+        "QZMT":"QPMT",
+        "QZMG":"QPMG",
+        "QYMB":"QXMB",
+        "QYMT":"QXMT",
+        "QYMG":"QXMG",
+        "QNLB":"QPMB",
+        "QNLT":"QPMT",
+        "QNLG":"QPMG",
+        "QNEB":"QXMB",
+        "QNET":"QXMT",
+        "QNEG":"QXMG",
+        "QRLB":"QPMB",
+        "QRLT":"QPMT",
+        "QRLG":"QPMG",
+        "QREB":"QXMB",
+        "QRET":"QXMT",
+        "QREG":"QXMG",
+        "WTSG":"WTSP",
+        "WTSS":"WT21",
+        "DV4W":"DV2W"
+      },
+      "toggle_map_trigger":true,
+      "valid_pairs":[
+        "SC01"
+      ]
+    },
+    "BT85":{
+      "category":"C_BAT",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"<ul><li><strong>310</strong> miles range (NEDC)<br /></li><li><strong>380</strong> hp motor power</li><li><strong>5.4</strong> seconds 0-60 mph</li><li><strong>140</strong> mph top speed</li><li>8 year, infinite mile battery and drive unit warranty</li><li>Supercharging included</li></ul>",
+      "disclaimer":"",
+      "list_price":0,
+      "long_name":"85 kWh Model S",
+      "name":"85 kWh Battery",
+      "price":0,
+      "price_indicator":"Optional",
+      "requires":[
+        "PX00",
+        "SC01",
+        "X021",
+        "X025",
+        "BC0B"
+      ],
+      "toggle_map":{
+        "QZMB":"QPMB",
+        "QZMT":"QPMT",
+        "QZMG":"QPMG",
+        "QYMB":"QXMB",
+        "QYMT":"QXMT",
+        "QYMG":"QXMG",
+        "QNLB":"QPMB",
+        "QNLT":"QPMT",
+        "QNLG":"QPMG",
+        "QNEB":"QXMB",
+        "QNET":"QXMT",
+        "QNEG":"QXMG",
+        "QRLB":"QPMB",
+        "QRLT":"QPMT",
+        "QRLG":"QPMG",
+        "QREB":"QXMB",
+        "QRET":"QXMT",
+        "QREG":"QXMG",
+        "WTSG":"WTSP",
+        "WTSS":"WT21"
+      },
+      "toggle_map_trigger":true
+    },
+    "CDM0":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "dependent_overrides":{
+        "SC00":{
+          "override_disclaimer":"£850 when Supercharging is enabled",
+          "override_indicator":"Optional",
+          "price_indicator":"Optional"
+        },
+        "SC01":{
+          "override_disclaimer":"£850 when Supercharging is enabled",
+          "override_indicator":"Optional",
+          "price_indicator":"Optional"
+        }
+      },
+      "description":"No CHAdeMO Charging Adaptor",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"No CHAdeMO Charging Adaptor",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"CDM1"
+    },
+    "CDM1":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "dependent_overrides":{
+        "SC00":{
+          "override_disclaimer":"{{#disclaimer-price}} when Supercharging is enabled",
+          "override_indicator":"Optional",
+          "price":0,
+          "priced_disclaimer_key":"SC01",
+          "price_indicator":"Optional"
+        },
+        "SC01":{
+          "override_disclaimer":"{{#disclaimer-price}} when Supercharging is not enabled",
+          "override_indicator":"Optional",
+          "price":0,
+          "priced_disclaimer_key":"SC00",
+          "price_indicator":"Optional"
+        }
+      },
+      "description":"Take advantage of CHAdeMO’s network of 50 kW charging stations by enabling onboard hardware and purchasing an external adapter. Hardware is already enabled on all Supercharger equipped Model S. Up to 150 miles of range per hour of charge.",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"CHAdeMO Charging Adaptor",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"CDM0"
+    },
+    "CH00":{
+      "category":"C_CHG_SUPER",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Single Charger",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Single Charger",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"CH01"
+    },
+    "CH01":{
+      "category":"C_CHG_SUPER",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Outfit Model S with a second onboard charger for up to twice the standard rate of charge, up to 68 miles of range per hour of charge. Combine with a IEC Type 2 public charging station for best results.",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Dual Chargers",
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"CH00"
+    },
+    "COL0":{
+      "category":"C_EXTCOL",
+      "description":"Exclusive Signature Color",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Signature",
+      "price":0,
+      "price_indicator":"Included",
+      "value_list":{
+        "PPSR":{
+          "long_name":"Signature Red Paint",
+          "name":"Signature Red"
+        }
+      }
+    },
+    "COL1":{
+      "category":"C_EXTCOL",
+      "description":"Solid Colors (available first 6 months of production)",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Solid",
+      "price":0,
+      "price_indicator":"Included",
+      "value_list":{
+        "PBSB":{
+          "delivery_date_warning":null,
+          "long_name":"Black Solid Paint",
+          "name":"Black"
+        },
+        "PBCW":{
+          "delivery_date_warning":null,
+          "long_name":"White Solid Paint",
+          "name":"White"
+        }
+      }
+    },
+    "COL2":{
+      "category":"C_EXTCOL",
+      "description":"Metallic colors (available at 7 months of production)",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Metallic",
+      "price":0,
+      "price_indicator":"Optional",
+      "value_list":{
+        "PMSS":{
+          "delivery_date_warning":null,
+          "long_name":"Silver Metallic Paint",
+          "name":"Silver"
+        },
+        "PMMB":{
+          "delivery_date_warning":null,
+          "long_name":"Blue Metallic Paint",
+          "name":"Blue"
+        },
+        "PMSG":{
+          "delivery_date_warning":null,
+          "long_name":"Green Metallic Paint",
+          "name":"Green",
+          "no_ui":true
+        },
+        "PMAB":{
+          "delivery_date_warning":null,
+          "long_name":"Brown Metallic Paint",
+          "name":"Brown",
+          "no_ui":true
+        },
+        "PMNG":{
+          "delivery_date_warning":null,
+          "long_name":"Grey Metallic Paint",
+          "name":"Grey"
+        }
+      }
+    },
+    "COL3":{
+      "category":"C_EXTCOL",
+      "description":"Premium colors (available at 9 months of production)",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Tesla Multi-coat",
+      "price":0,
+      "price_indicator":"Optional",
+      "value_list":{
+        "PPSW":{
+          "delivery_date_warning":null,
+          "long_name":"Pearl White Paint",
+          "name":"Pearl White"
+        },
+        "PPMR":{
+          "delivery_date_warning":null,
+          "long_name":"Red Multi-Coat Paint",
+          "name":"Red"
+        }
+      }
+    },
+    "CW00":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"No Cold Weather Package",
+      "disclaimer":null,
+      "excludes":[
+        "CW01"
+      ],
+      "list_price":0,
+      "name":"No Cold Weather Package",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"CW02"
+    },
+    "CW01":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Improve cold-weather comfort and convenience by adding: <ul><li>3 zone rear seat heaters</li> <li>Wiper blade defrosters</li><li>Washer nozzle heaters</li></ul>",
+      "disclaimer":"Recommended for climates where temperatures<br />regularly fall well below freezing",
+      "excludes":[
+        "CW00",
+        "CW02"
+      ],
+      "list_price":0,
+      "name":"Subzero Weather Package",
+      "no_ui":true,
+      "pdf_show":true,
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "CW02":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "dependent_overrides":{
+        "SR02":{
+          "price":0,
+          "price_indicator":"Included"
+        }
+      },
+      "description":"Improve cold-weather comfort and convenience by adding: <ul><li>3 zone rear seat heaters</li> <li>Wiper blade defrosters</li><li>Washer nozzle heaters</li><li>Heated steering wheel</li></ul>",
+      "disclaimer":"Recommended for climates where temperatures<br />regularly fall well below freezing",
+      "excludes":[
+        "CW01"
+      ],
+      "list_price":0,
+      "name":"Subzero Weather Package",
+      "price":0,
+      "price_indicator":"Optional",
+      "required_by":[
+        "SR02"
+      ],
+      "toggle_pair":"CW00"
+    },
+    "DA01":{
+      "category":"C_STDEQ",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"<ul><li>Adaptive cruise control</li><li>Lane departure warning</li><li>Speed assist</li></ul>",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Active Safety",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "DRRH":{
+      "category":"C_DRIVE",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Right Hand Drive",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Right Hand Drive",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "requires":["ME01"]
+    },
+    "DSH5":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"PUR Dash Pad",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"PUR Dash Pad",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"DSH7"
+    },
+    "DSH7":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Pair the premium headliner with an Alcantara dashboard panel that borders the instrument panel, climate control vents and 17\" touchscreen.",
+      "disclaimer":"Requires Alcantara Headliner",
+      "list_price":0,
+      "name":"Black Alcantara Dashboard Accents",
+      "no_ui":true,
+      "pkg_visible":false,
+      "price_indicator_no_ui":true,
+      "emancipated":true,
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"DSH5"
+    },
+    "DV2W":{
+      "category":"C_MOTOR",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Single Drive Motor",
+      "disclaimer":null,
+      "list_price":0,
+      "long_name":"Rear Wheel Drive",
+      "name":"Rear Wheel Drive",
+      "price":0,
+      "price_indicator":"Included",
+      "requires":[
+        "PX00"
+      ],
+      "toggle_map":{
+        "QNEB":"QYMB",
+        "QNET":"QYMT",
+        "QNEG":"QYMG",
+        "QREB":"QYMB",
+        "QRET":"QYMT",
+        "QREG":"QYMG"
+      },
+      "toggle_map_trigger":true,
+      "toggle_pair":"DV4W",
+      "valid_pairs":[
+        "BT60",
+        "BT85"
+      ]
+    },
+    "DV4W":{
+      "category":"C_MOTOR",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":null,
+      "dependent_overrides":{
+        "BT60":{
+          "override_description":"<ul><li><strong>240</strong> miles range (NEDC est.)</li><li><strong>376</strong> hp motor power<br/><strong>188</strong> hp front and rear</li><li><strong>5.7</strong> seconds 0-60 mph</li><li><strong>125</strong> mph top speed</li><li>8 year, 125,000 mile battery and drive unit warranty</li><li>Supercharging optional</li></ul>",
+          "override_disclaimer":null,
+          "override_indicator":"Optional",
+          "override_name":"Dual Motor All Wheel Drive",
+          "price":4000,
+          "price_indicator":"Optional"
+        },
+        "BT85":{
+          "override_description":"<ul><li><strong>310</strong> miles range (NEDC est.)</li><li><strong>376</strong> hp motor power<br/><strong>188</strong> hp front and rear</li><li><strong>5.2</strong> seconds 0-60 mph</li><li><strong>155</strong> mph top speed</li><li>8 year, infinite mile battery and drive unit warranty</li><li>Supercharging included</li></ul>",
+          "override_disclaimer":null,
+          "override_indicator":"Optional",
+          "override_name":"Dual Motor All Wheel Drive",
+          "price":4000,
+          "price_indicator":"Optional"
+        },
+        "PBT85":{
+          "override_disclaimer":"Tech package, air suspension, 21\" wheels <br> and next gen seats recommended",
+          "override_name":"<span class=\"red text headline\">Dual Motor Performance</span>",
+          "override_indicator":"Optional",
+          "price":4000,
+          "price_indicator":"Optional"
+        },
+        "P85D":{
+          "override_disclaimer":"Tech package, air suspension, 21\" wheels and next gen seats recommended",
+          "override_name":"<span class=\"red text headline\">High Performance</span> Dual Motor All Wheel Drive",
+          "override_indicator":"Optional",
+          "price":8000,
+          "price_indicator":"Optional"
+        }
+      },
+      "disclaimer":null,
+      "list_price":0,
+      "long_name":"Dual Motor All Wheel Drive",
+      "name":"Dual Motor All Wheel Drive",
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_map":{
+        "PBT85":"P85D"
+      },
+      "toggle_map_trigger": true,
+      "toggle_pair":"DV2W"
+    },
+    "FG00":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":null,
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Base Exterior Lighting",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"FG02"
+    },
+    "FG02":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Cut through fog and illuminate obstacles on dark roads with LED fog lights that are controlled through the touchscreen. Our newly redesigned fog lights are designed to work with our LED cornering lights and headlights as a complete system.",
+      "list_price":0,
+      "long_name":"Exterior Lighting Package",
+      "name":"Exterior Lighting Package",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"FG00"
+    },
+    "HP00":{
+      "category":"C_CHG_SUPER",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"No High Power Wall Connector",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"No High Power Wall Connector",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "IDCF":{
+      "category":"C_INTDECOR",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Carbon Fibre D&eacute;cor",
+      "disclaimer":null,
+      "excludes":[
+        "IDPB",
+        "IDOM",
+        "IDOG",
+        "IDHG",
+        "IDHM",
+        "IDLW"
+      ],
+      "list_price":0,
+      "long_name":"Carbon Fibre D&eacute;cor",
+      "name":"Carbon Fibre D&eacute;cor",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "IDLW":{
+      "category":"C_INTDECOR",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Lacewood",
+      "disclaimer":null,
+      "no_ui":true,
+      "excludes":[
+        "IDPB",
+        "IDOM",
+        "IDOG",
+        "IDHG",
+        "IDHM",
+        "IDCF"
+      ],
+      "list_price":0,
+      "long_name":"Lacewood D&eacute;cor",
+      "name":"Lacewood D&eacute;cor",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "IDOG":{
+      "category":"C_INTDECOR",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Obeche Wood Gloss",
+      "disclaimer":null,
+      "no_ui":true,
+      "excludes":[
+        "IDPB",
+        "IDOM",
+        "IDCF",
+        "IDHG",
+        "IDHM",
+        "IDLW"
+      ],
+      "list_price":0,
+      "long_name":"Obeche Wood Gloss D&eacute;cor",
+      "name":"Obeche Wood Gloss D&eacute;cor",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "IDOM":{
+      "category":"C_INTDECOR",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Obeche Wood Matte D&eacute;cor",
+      "disclaimer":null,
+      "no_ui":true,
+      "excludes":[
+        "IDPB",
+        "IDCF",
+        "IDOG",
+        "IDHG",
+        "IDHM",
+        "IDLW"
+      ],
+      "list_price":0,
+      "long_name":"Obeche Wood Matte D&eacute;cor",
+      "name":"Obeche Wood Matte D&eacute;cor",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "IDHG":{
+      "category":"C_INTDECOR",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Obeche Wood Gloss D&eacute;cor",
+      "disclaimer":null,
+      "excludes":[
+        "IDPB",
+        "IDOM",
+        "IDCF",
+        "IDOG",
+        "IDHM",
+        "IDLW"
+      ],
+      "list_price":0,
+      "long_name":"Obeche Wood Gloss D&eacute;cor",
+      "name":"Obeche Wood Gloss D&eacute;cor",
+      "price":650,
+      "price_indicator":"Optional"
+    },
+    "IDHM":{
+      "category":"C_INTDECOR",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Obeche Wood Matte D&eacute;cor",
+      "disclaimer":null,
+      "excludes":[
+        "IDPB",
+        "IDCF",
+        "IDOG",
+        "IDHG",
+        "IDOM",
+        "IDLW"
+      ],
+      "list_price":0,
+      "long_name":"Obeche Wood Matte D&eacute;cor",
+      "name":"Obeche Wood Matte D&eacute;cor",
+      "price":650,
+      "price_indicator":"Optional"
+    },
+    "IDPB":{
+      "category":"C_INTDECOR",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Piano Black D&eacute;cor",
+      "disclaimer":null,
+      "excludes":[
+        "IDCF",
+        "IDOM",
+        "IDOG",
+        "IDHG",
+        "IDHM",
+        "IDLW"
+      ],
+      "list_price":0,
+      "long_name":"Piano Black D&eacute;cor",
+      "name":"Piano Black D&eacute;cor",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "IX00":{
+      "category":"C_INT_NOW_DEFAULT_OPTS",
+      "defaults":[
+        "QPBT"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"No Extended Nappa Leather Trim",
+      "disclaimer":null,
+      "excludes":[
+        "QREB",
+        "QRET",
+        "QREG",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QXMB",
+        "QXMG",
+        "QXMT",
+        "QYMB",
+        "QYMG",
+        "QYMT"
+      ],
+      "list_price":0,
+      "long_name":"No Extended Nappa Leather Trim",
+      "name":"White",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "requires":[
+        "PI00"
+      ],
+      "toggle_map":{
+        "QXMB":"QPMB",
+        "QXMG":"QPMG",
+        "QXMT":"QPMT",
+        "QYMB":"QZMB",
+        "QYMG":"QZMG",
+        "QYMT":"QZMT",
+        "QNEB":"QNLB",
+        "QNET":"QNLT",
+        "QNEG":"QNLG",
+        "QREB":"QRLB",
+        "QRET":"QRLT",
+        "QREG":"QRLG"
+      },
+      "toggle_map_trigger": true,
+      "toggle_pair":"IX01",
+      "unbundle":true
+    },
+    "IX01":{
+      "category":"C_INT_NOW_DEFAULT_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Wrap the interior of your car in the same luxurious Nappa leather used for our seats. Selectively chosen top-grade hides are minimally processed to retain their natural character. The result is an especially soft, smooth finish for the following surfaces:<ul><li>Lower instrument panel</li><li>Armrests (door and console)</li><li>Driver airbag cover</li></ul>",
+      "disclaimer":"Requires Leather or Performance seats",
+      "excludes":[
+        "QPBT",
+        "QPMB",
+        "QPMG",
+        "QRLB",
+        "QRLT",
+        "QRLG",
+        "QNLB",
+        "QNLT",
+        "QNLG",
+        "QPMT",
+        "QZMB",
+        "QZMG",
+        "QZMT"
+      ],
+      "list_price":0,
+      "long_name":"Extended Nappa Leather Trim",
+      "name":"Extended Nappa Leather Trim",
+      "no_ui":true,
+      "pkg_visible":false,
+      "price":0,
+      "price_indicator":"Included",
+      "requires":[
+        "PI01"
+      ],
+      "toggle_map":{
+        "QPBT":"QXMB",
+        "QPMB":"QXMB",
+        "QPMG":"QXMG",
+        "QPMT":"QXMT",
+        "QZMB":"QYMB",
+        "QZMG":"QYMG",
+        "QZMT":"QYMT",
+        "QNLB":"QNEB",
+        "QNLT":"QNET",
+        "QNLG":"QNEG",
+        "QRLB":"QREB",
+        "QRLT":"QRET",
+        "QRLG":"QREG"
+      },
+      "toggle_map_trigger": true,
+      "toggle_pair":"IX00",
+      "unbundle":true
+    },
+    "LP00":{
+      "category":"C_INT_NOW_DEFAULT_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"No Lighting Package",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"No Lighting Package",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "requires":[
+        "PI00"
+      ],
+      "toggle_pair":"LP01",
+      "unbundle":true
+    },
+    "LP01":{
+      "category":"C_INT_NOW_DEFAULT_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Add ambiance to Model S with strategically placed LED lights that illuminate without reflecting off the windshield. Interior lighting includes: <ul><li>Door-panel ambient lights</li><li>Second-row footwell lights</li><li>Second-row puddle lights</li></ul>",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Premium Interior Lighting",
+      "no_ui":true,
+      "pkg_visible":false,
+      "price":0,
+      "price_indicator":"Optional",
+      "requires":[
+        "PI01"
+      ],
+      "toggle_pair":"LP00",
+      "unbundle":true
+    },
+    "ME01":{
+        "category":"C_STDEQ",
+        "delivery_date":null,
+        "delivery_date_warning":null,
+        "list_price":0,
+        "name":"Memory Seats",
+        "long_name":"Memory Seats",
+        "no_ui":true,
+        "price":0,
+        "price_indicator":"Included"
+    },
+    "PA00":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"No Paint Armor",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"No Paint Armor",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"PA01"
+    },
+    "PA01":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Protect key areas of Model S against stone chips, bug damage, weathering and other paint damage. Paint Armor is clear film that is applied to:<br /><ul><li>Exterior mirrors</li><li>Front bumper, fascia and hood (nose)</li><li>Front and rear fender (trailing edge)</li><li>Front and rear rocker panels</li><li>Rear bumper fascia</li></ul><br />Depending on the angle of sunlight, seams between protected and unprotected paint areas will be visible, particularly on white and pearl white cars.",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"No Paint Armor",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"PA00"
+    },
+    "PBT85":{
+      "category":"C_BAT",
+      "defaults":[
+        "BC0R",
+        "UTAW"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"<ul> <li><strong>310</strong> miles range (NEDC est.)</li> <li><strong>470</strong> hp motor power</li> <li><strong>4.2</strong> seconds 0-60 mph</li> <li><strong>130</strong> mph top speed</li> <li>8 year, infinite mile battery and drive unit warranty</li> <li>Supercharging and Alcantara headliner included</li> </ul>",
+      "disclaimer":null,
+      "list_price":0,
+      "long_name":"85 kWh Performance Model S",
+      "name":"85 kWh <span class=\"red text\">Performance</span>",
+      "price":0,
+      "price_indicator":"Optional",
+      "no_ui":true,
+      "requires":[
+        "SC01",
+        "X024",
+        "DV2W"
+      ],
+      "toggle_map":{
+        "QRLB":"QZMB",
+        "QRLT":"QZMT",
+        "QRLG":"QZMG",
+        "QREB":"QYMB",
+        "QRET":"QYMT",
+        "QREG":"QYMG",
+        "QNLB":"QZMB",
+        "QNLT":"QZMT",
+        "QNLG":"QZMG",
+        "QNEB":"QYMB",
+        "QNET":"QYMT",
+        "QNEG":"QYMG",
+        "WT21":"WTSS",
+        "WTSP":"WTSG"
+      },
+      "toggle_map_trigger":true,
+      "valid_pairs":[
+        "X021",
+        "BC0B",
+        "UTAB",
+        "UTAW",
+        "UTMF"
+      ]
+    },
+    "P85D":{
+      "category":"C_BAT",
+      "defaults":[
+        "BC0R",
+        "UTAW"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"<ul> <li><strong>300</strong> miles range (NEDC est.)</li> <li><strong>691</strong> hp motor power<br/><strong>221</strong> hp front, <strong>470</strong> hp rear</li> <li><strong>3.2</strong> seconds 0-60 mph</li> <li><strong>155</strong> mph top speed</li><li>High performance Dual Motor all wheel drive with specially designed suspension for exceptional power and handling</li><li>8 year, infinite mile battery and drive unit warranty</li></ul>",
+      "disclaimer":"",
+      "list_price":0,
+      "long_name":"85 kWh Performance Model S",
+      "name":"85 kWh <span class=\"red text\">Performance</span>",
+      "price":0,
+      "price_indicator":"Optional",
+      "requires":[
+        "SC01",
+        "X024",
+        "DV4W"
+      ],
+      "set_last":true,
+      "toggle_map":{
+        "WT21":"WTSS",
+        "WTSP":"WTSG"
+      },
+      "toggle_map_trigger":true,
+      "valid_pairs":[
+        "X021",
+        "BC0B",
+        "UTAB",
+        "UTAW",
+        "UTMF"
+      ]
+    },
+    "PF00":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"No Performance Legacy Package",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"No Performance Legacy Package",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"PF01"
+    },
+    "PF01":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Performance Legacy Package",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Performance Legacy Package",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"PF00"
+    },
+    "PI00":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":null,
+      "disclaimer":null,
+      "excludes":[
+        "SR02",
+        "PI01"
+      ],
+      "list_price":0,
+      "name":"No Premium Interior",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional",
+      "requires":[
+        "IX00",
+        "LP00",
+        "YF00",
+        "SR01"
+      ],
+      "set_last":true,
+      "toggle_pair":"PI01",
+      "unbundle":true
+    },
+    "PI01":{
+      "category":"C_OPTS",
+      "children":[
+        "SR02"
+      ],
+      "defaults":[
+        "UTAW"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Enhance your Model S with LED accent lighting and extended Nappa leather throughout the cabin. Selectively chosen top-grade hides are minimally processed to retain their natural character, covering the armrests, driver’s airbag cover, and lower dashboard.",
+      "disclaimer":"Requires leather seats and Alcantara headliner",
+      "list_price":0,
+      "name":"Premium Interior Package",
+      "price":0,
+      "price_indicator":"Optional",
+      "requires":[
+        "IX01",
+        "LP01"
+      ],
+      "set_last":true,
+      "toggle_pair":"PI00",
+      "unbundle":true,
+      "valid_pairs":[
+        "UTAW",
+        "UTAB"
+      ]
+    },
+    "PK00":{
+      "category":"C_STDEQ",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":null,
+      "disclaimer":null,
+      "list_price":0,
+      "name":"LEGACY No Parking Sensors",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "PS00":{
+      "category":"C_STDEQ",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"No Parcel Shelf",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"No Parcel Shelf",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"PS01"
+    },
+    "PS01":{
+      "category":"C_STDEQ",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Add extra privacy to the cargo area with the removable parcel shelf, which slides between the rear seats and rear window to shield belongings from view.",
+      "disclaimer":null,
+      "no_ui":true,
+      "list_price":0,
+      "name":"Parcel Shelf",
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"PS00"
+    },
+    "PSP14":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":null,
+      "disclaimer":"",
+      "list_price":0,
+      "long_name":"Four Years Prepaid Service",
+      "name":"Four Years",
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"PSPX4"
+    },
+    "PSPX4":{
+      "category":"C_ACC",
+      "description":"Ranger service",
+      "disclaimer":null,
+      "list_price":0,
+      "long_name":"No Four-year prepaid",
+      "name":"No Four-year prepaid",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"PSP14"
+    },
+    "PX00":{
+      "category":"C_PERF",
+      "defaults":[
+        "WT19"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"No Performance Plus Package",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"No Performance Plus Package",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_map":{
+        "WTSG":"WTSP",
+        "WTSS":"WT21"
+      },
+      "toggle_pair":"PX01",
+      "ui_excludes":[
+        "WTSS",
+        "WTSG"
+      ],
+      "valid_pairs":[
+        "WT19",
+        "WTTB",
+        "WT21",
+        "WTSP"
+      ]
+    },
+    "PX01":{
+      "category":"C_PERF",
+      "defaults":[
+        "WTSG"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Performance Plus adds world class handling to the incredible acceleration of Model S Performance, while also improving range. After hundreds of iterations affecting every detail of the suspension, our vehicle dynamics team was able to achieve the rare outcome of improving both performance and efficiency. In addition to upgraded dampers, bushings, stabilizer bars and tyres (Michelin Pilot Sport PS2), the rear tyres are 20 mm wider and staggered for improved acceleration on low grip surfaces. Range improves 10 to 20 kilometers over regular 21\" wheels.",
+      "disclaimer":"Requires 85 kWh Performance, Tech Package, Smart Air Suspension, and 21\" Wheels",
+      "list_price":0,
+      "name":"Performance Plus",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional",
+      "requires":[
+        "TP02",
+        "SU01",
+        "P85D"
+      ],
+      "set_last":true,
+      "toggle_map":{
+        "WT21":"WTSS",
+        "WTSP":"WTSG"
+      },
+      "toggle_map_trigger":true,
+      "toggle_pair":"PX00",
+      "ui_excludes":[
+        "WT21",
+        "WTSP"
+      ],
+      "valid_pairs":[
+        "WT19",
+        "WTTB",
+        "WTSS",
+        "WTSG"
+      ]
+    },
+    "TP00":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"No Technology Package",
+      "disclaimer":null,
+      "excludes":[
+        "FG02"
+      ],
+      "list_price":0,
+      "name":"No Technology Package",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "requires":[
+        "X002",
+        "X004",
+        "X007",
+        "X010",
+        "X012",
+        "X026",
+        "X030",
+        "SU00",
+        "FG00"
+      ],
+      "toggle_pair":"TP02"
+    },
+    "TP02":{
+      "category":"C_OPTS",
+      "children":[
+        "SU01"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"The Tech Package adds a host of features to an already advanced car. <ul> <li>Autopilot convenience features available through software updates </li><li>Onboard maps and navigation with free updates for 7 years</li><li>LED Cornering lights and fog lamps </li><li>Automatic keyless entry </li><li>Lighted door handles </li><li>Power liftgate </li><li>Electrochromatic mirrors </li><li>Power folding, heated side mirrors with memory </li> </ul>",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Tech Package with Autopilot",
+      "price":0,
+      "price_indicator":"Optional",
+      "requires":[
+        "X001",
+        "X003",
+        "X007",
+        "X037",
+        "X011",
+        "X027",
+        "X031",
+        "FG02"
+      ],
+      "toggle_pair":"TP00"
+    },
+    "QPBT":{
+      "category":"C_INTBASE_BASE",
+      "delivery_date":"20120901",
+      "delivery_date_warning":null,
+      "description":"Textile",
+      "disclaimer":null,
+      "excludes":[
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLT",
+        "QRLG",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLT",
+        "QNLG",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Black Textile Seats",
+      "name":"Black Textile Seats",
+      "price":0,
+      "price_indicator":"Included",
+      "requires":[
+        "IX00"
+      ]
+    },
+    "QPMB":{
+      "category":"C_INTBASE_CUSTOM_PREMIUM",
+      "defaults":[
+        "IX00"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Black Leather Seats",
+      "disclaimer":null,
+      "excludes":[
+        "QPBT",
+        "QPMT",
+        "QPMG",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLT",
+        "QRLG",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLT",
+        "QNLG",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Black Leather Seats",
+      "name":"Black Leather Seats",
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "QPMG":{
+      "category":"C_INTBASE_CUSTOM_PREMIUM",
+      "defaults":[
+        "IX00"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Grey Leather Seats",
+      "disclaimer":null,
+      "excludes":[
+        "QPMB",
+        "QPMT",
+        "QPBT",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLT",
+        "QRLG",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLT",
+        "QNLG",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Grey Leather Seats",
+      "name":"Grey Leather Seats",
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "QPMT":{
+      "category":"C_INTBASE_CUSTOM_PREMIUM",
+      "defaults":[
+        "IX00"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Tan Leather Seats",
+      "disclaimer":null,
+      "excludes":[
+        "IX01",
+        "QPMB",
+        "QPBT",
+        "QPMG",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLT",
+        "QRLG",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLT",
+        "QNLG",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Tan Leather Seats",
+      "name":"Tan Leather Seats",
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "QNEB":{
+      "category":"C_INTBASE_PREMIUM_R_UPGRADE",
+      "defaults":[
+        "IX01"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Black Next Generation Seats",
+      "disclaimer":null,
+      "excludes":[
+        "IX00",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QPBT",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLG",
+        "QNLT",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLG",
+        "QRLT",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Black Next Generation Seats",
+      "name":"Black Next Generation Seats",
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "QNEG":{
+      "category":"C_INTBASE_PREMIUM_R_UPGRADE",
+      "defaults":[
+        "IX01"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Grey Next Generation Seats",
+      "disclaimer":null,
+      "excludes":[
+        "IX00",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QPBT",
+        "QNEB",
+        "QNET",
+        "QNLB",
+        "QNLG",
+        "QNLT",
+        "QREB",
+        "QREG",
+        "QRET",
+        "QRLB",
+        "QRLG",
+        "QRLT",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Grey Next Generation Seats",
+      "name":"Grey Next Generation Seats",
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "QNET":{
+      "category":"C_INTBASE_PREMIUM_R_UPGRADE",
+      "defaults":[
+        "IX01"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Tan Next Generation Seats",
+      "disclaimer":null,
+      "excludes":[
+        "IX00",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QPBT",
+        "QNEB",
+        "QNEG",
+        "QNLB",
+        "QNLG",
+        "QNLT",
+        "QREB",
+        "QREG",
+        "QRET",
+        "QRLB",
+        "QRLG",
+        "QRLT",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Tan Next Generation Seats",
+      "name":"Tan Next Generation Seats",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "QNLB":{
+      "category":"C_INTBASE_PREMIUM_R",
+      "defaults":[
+        "IX00"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Black Next Generation Seats",
+      "disclaimer":null,
+      "excludes":[
+        "IX01",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QPBT",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLT",
+        "QNLG",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLT",
+        "QRLG",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "logical_category":"LC_INT",
+      "long_name":"Black Next Generation Seats",
+      "name":"Black Next Generation Seats",
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "QNLG":{
+      "category":"C_INTBASE_PREMIUM_R",
+      "defaults":[
+        "IX00"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Grey Next Generation Seats",
+      "disclaimer":null,
+      "excludes":[
+        "IX01",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QPBT",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLT",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLG",
+        "QRLT",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Grey Next Generation Seats",
+      "name":"Grey Next Generation Seats",
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "QNLT":{
+      "category":"C_INTBASE_PREMIUM_R",
+      "defaults":[
+        "IX00"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Tan Next Generation Seats",
+      "disclaimer":null,
+      "excludes":[
+        "IX01",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QPBT",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLG",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLG",
+        "QRLT",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Tan Next Generation Seats",
+      "name":"Tan Next Generation Seats",
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "QREB":{
+      "category":"C_INTBASE_PREMIUM_R_UPGRADE",
+      "defaults":[
+        "IX01"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Black Next Generation Seats",
+      "disclaimer":null,
+      "excludes":[
+        "IX00",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QPBT",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLG",
+        "QNLT",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLG",
+        "QRLT",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Black Next Generation Seats",
+      "name":"Black Next Generation Seats",
+      "no_ui":true,
+      "pdf_show":true,
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "QREG":{
+      "category":"C_INTBASE_PREMIUM_R_UPGRADE",
+      "defaults":[
+        "IX01"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Grey Next Generation Seats",
+      "disclaimer":null,
+      "excludes":[
+        "IX00",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QPBT",
+        "QNEB",
+        "QNET",
+        "QNLB",
+        "QNLG",
+        "QNLT",
+        "QREB",
+        "QRET",
+        "QRLB",
+        "QRLG",
+        "QRLT",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Grey Next Generation Seats",
+      "name":"Grey Next Generation Seats",
+      "no_ui":true,
+      "pdf_show":true,
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "QRET":{
+      "category":"C_INTBASE_PREMIUM_R_UPGRADE",
+      "defaults":[
+        "IX01"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Tan Next Generation Seats",
+      "disclaimer":null,
+      "excludes":[
+        "IX00",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QPBT",
+        "QNEB",
+        "QNEG",
+        "QNLB",
+        "QNLG",
+        "QNLT",
+        "QREB",
+        "QREG",
+        "QRLB",
+        "QRLG",
+        "QRLT",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Tan Next Generation Seats",
+      "name":"Tan Next Generation Seats",
+      "no_ui":true,
+      "pdf_show":true,
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "QRLB":{
+      "category":"C_INTBASE_PREMIUM_R",
+      "defaults":[
+        "IX00"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Black Next Generation Seats",
+      "disclaimer":null,
+      "excludes":[
+        "IX01",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QPBT",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLT",
+        "QNLG",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLT",
+        "QRLG",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "logical_category":"LC_INT",
+      "long_name":"Black Next Generation Seats",
+      "name":"Black Next Generation Seats",
+      "no_ui":true,
+      "pdf_show":true,
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "QRLG":{
+      "category":"C_INTBASE_PREMIUM_R",
+      "defaults":[
+        "IX00"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Grey Next Generation Seats",
+      "disclaimer":null,
+      "excludes":[
+        "IX01",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QPBT",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLT",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLT",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Grey Next Generation Seats",
+      "name":"Grey Next Generation Seats",
+      "no_ui":true,
+      "pdf_show":true,
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "QRLT":{
+      "category":"C_INTBASE_PREMIUM_R",
+      "defaults":[
+        "IX00"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Tan Next Generation Seats",
+      "disclaimer":null,
+      "excludes":[
+        "IX01",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QPBT",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLG",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLG",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Tan Next Generation Seats",
+      "name":"Tan Next Generation Seats",
+      "no_ui":true,
+      "pdf_show":true,
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "QXMB":{
+      "category":"C_INTBASE_CUSTOM_PREMIUM_LEATHER",
+      "defaults":[
+        "IX01"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Black Leather Seats",
+      "disclaimer":null,
+      "excludes":[
+        "IX00",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLT",
+        "QNLG",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLT",
+        "QRLG",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QPBT",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Black Leather Seats",
+      "name":"Black Leather Seats",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "QXMG":{
+      "category":"C_INTBASE_CUSTOM_PREMIUM_LEATHER",
+      "defaults":[
+        "IX01"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Grey Leather Seats",
+      "disclaimer":null,
+      "excludes":[
+        "IX00",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLT",
+        "QNLG",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLT",
+        "QRLG",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QPBT",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Grey Leather Seats",
+      "name":"Grey Leather Seats",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "QXMT":{
+      "category":"C_INTBASE_CUSTOM_PREMIUM_LEATHER",
+      "defaults":[
+        "IX01"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Tan Nappa Leather Seats",
+      "disclaimer":null,
+      "excludes":[
+        "IX00",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLT",
+        "QNLG",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLT",
+        "QRLG",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QPBT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Tan Leather Seats",
+      "name":"Tan Leather Seats",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "QYMB":{
+      "category":"C_INTBASE_CUSTOM_PERFORMANCE_UPGRADE_LEATHER",
+      "defaults":[
+        "IX01"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Black Leather/Alcantara with White Piping",
+      "disclaimer":null,
+      "excludes":[
+        "IX00",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLT",
+        "QNLG",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLT",
+        "QRLG",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QPBT",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Black Leather and Alcantara Seats",
+      "name":"Black Leather and Alcantara Seats",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "QYMG":{
+      "category":"C_INTBASE_CUSTOM_PERFORMANCE_UPGRADE_LEATHER",
+      "defaults":[
+        "IX01"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Grey Leather/Alcantara with White Piping",
+      "disclaimer":null,
+      "excludes":[
+        "IX00",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLT",
+        "QNLG",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLT",
+        "QRLG",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QPBT"
+      ],
+      "list_price":0,
+      "long_name":"Grey Leather and Alcantara Seats",
+      "name":"Grey Leather and Alcantara Seats",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "QYMT":{
+      "category":"C_INTBASE_CUSTOM_PERFORMANCE_UPGRADE_LEATHER",
+      "defaults":[
+        "IX01"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Tan Leather/Alcantara with White Piping",
+      "disclaimer":null,
+      "excludes":[
+        "IX00",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLT",
+        "QNLG",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLT",
+        "QRLG",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QPBT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Tan Leather and Alcantara Seats",
+      "name":"Tan Leather and Alcantara Seats",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "QZMB":{
+      "category":"C_INTBASE_CUSTOM_PERFORMANCE_UPGRADE",
+      "defaults":[
+        "IX00"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Black Leather/Alcantara with Red Piping",
+      "disclaimer":null,
+      "excludes":[
+        "IX01",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLT",
+        "QNLG",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLT",
+        "QRLG",
+        "QPBT",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Black Leather and Alcantara Seats",
+      "name":"Black Leather and Alcantara Seats",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "QZMG":{
+      "category":"C_INTBASE_CUSTOM_PERFORMANCE_UPGRADE",
+      "defaults":[
+        "IX00"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Grey Leather/Alcantara with White Piping",
+      "disclaimer":null,
+      "excludes":[
+        "IX01",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLT",
+        "QNLG",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLT",
+        "QRLG",
+        "QZMB",
+        "QZMT",
+        "QPBT",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Grey Leather and Alcantara Seats",
+      "name":"Grey Leather and Alcantara Seats",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "QZMT":{
+      "category":"C_INTBASE_CUSTOM_PERFORMANCE_UPGRADE",
+      "defaults":[
+        "IX00"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Tan Leather/Alcantara with Grey Piping",
+      "disclaimer":null,
+      "excludes":[
+        "IX01",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLT",
+        "QNLG",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLT",
+        "QRLG",
+        "QZMB",
+        "QPBT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Tan Leather and Alcantara Seats",
+      "name":"Tan Leather and Alcantara Seats",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "RFBC":{
+      "category":"C_RF_ONE",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Solid aluminium roof available in black or matching exterior paint. Not compatible with roof racks. To mount a roof rack, please choose the All Glass Panoramic Roof.",
+      "disclaimer":null,
+      "excludes":[
+        "RFPO",
+        "RFBK"
+      ],
+      "list_price":0,
+      "long_name":"Body Color Roof",
+      "name":"Solid Roof",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "RFBK":{
+      "category":"C_RF_ONE",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Solid aluminium roof available in black or matching exterior paint. Not compatible with roof racks. To mount a roof rack, please choose the All Glass Panoramic Roof.",
+      "disclaimer":null,
+      "excludes":[
+        "RFBC",
+        "RFPO"
+      ],
+      "list_price":0,
+      "long_name":"Black Roof",
+      "name":"Black",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "RFPO":{
+      "category":"C_RF_TWO",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Retractable roof made of lightweight safety glass which exceeds federal safety standards and blocks both 100% of ultraviolet light and 81% of solar heat. Standard with mounting points for roof racks.",
+      "disclaimer":null,
+      "excludes":[
+        "RFBC",
+        "RFBK"
+      ],
+      "list_price":0,
+      "long_name":"All Glass Panoramic Roof",
+      "name":"All Glass Panoramic Roof",
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "SC00":{
+      "category":"C_CHG_SUPER",
+      "comment":"This option has the same info as its toggle_pair (SC01 - Supercharging) for use in the UI, but is actually the opposite (No Supercharging)",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "dependent_overrides":{
+        "BT60":{
+          "override_disclaimer":"Included with the 85 kWh battery",
+          "override_indicator":"Optional",
+          "price_indicator":"Optional"
+        },
+        "BT85":{
+          "override_disclaimer":"&euro; 1.900 with the 60 kWh battery",
+          "override_indicator":"Included",
+          "price_indicator":"Included"
+        },
+        "P85D":{
+          "override_disclaimer":"$2,000 with the 60 kWh battery",
+          "override_indicator":"Included",
+          "price_indicator":"Included"
+        },
+        "PBT85":{
+          "override_disclaimer":"&euro; 1.900 with the 60 kWh battery",
+          "override_indicator":"Included",
+          "price_indicator":"Included"
+        }
+      },
+      "description":"Supercharging",
+      "disclaimer":"Included with the 85 kWh battery",
+      "list_price":0,
+      "name":"Supercharging",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"SC01"
+    },
+    "SC01":{
+      "category":"C_CHG_SUPER",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "dependent_overrides":{
+        "BT60":{
+          "override_disclaimer":"Included with the 85 kWh battery<br />{{#after_delivery_price}} after delivery",
+          "override_indicator":"Optional",
+          "price":0,
+          "after_delivery_price":0,
+          "price_indicator":"Optional"
+        },
+        "BT85":{
+          "override_disclaimer":"{{#disclaimer-price}} with the 60 kWh battery<br />{{#after_delivery_price}} after delivery",
+          "priced_disclaimer_key":"BT60",
+          "override_indicator":"Included",
+          "price":0,
+          "after_delivery_price":0,
+          "price_indicator":"Included"
+        },
+        "PBT85":{
+          "override_disclaimer":"{{#disclaimer-price}} with the 60 kWh battery<br />{{#after_delivery_price}} after delivery",
+          "priced_disclaimer_key":"BT60",
+          "override_indicator":"Included",
+          "price":0,
+          "after_delivery_price":0,
+          "price_indicator":"Included"
+        },
+        "P85D":{
+          "override_disclaimer":"{{#disclaimer-price}} with the 60 kWh battery<br />{{#after_delivery_price}} after delivery",
+          "priced_disclaimer_key":"BT60",
+          "override_indicator":"Included",
+          "price":0,
+          "after_delivery_price":0,
+          "price_indicator":"Included"
+        }
+      },
+      "description":"Tesla Superchargers are external chargers designed to replenish over half of a charge in as little as 20 minutes. Tesla is building a network of 120 kW Superchargers throughout Europe in Scandinavia and Central Europe, expanding to most of Western Europe by winter 2014.",
+      "disclaimer":"Included with the 85 kWh battery<br />£2,400 after delivery",
+      "list_price":0,
+      "name":"Supercharger Enabled",
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"SC00"
+    },
+    "SP00":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"No Security Package",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"No Security Package",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"SP01"
+    },
+    "SP01":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Protect your Model S with a motion-activated intrusion alarm backed by an independent battery. This secondary battery is separate from the car's electronics and will remain operational should thieves try to disable the normal 12 volt electrical system.",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Security Package",
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"SP00"
+    },
+    "SR01":{
+      "category":"C_INT_EXEC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Standard 2nd row",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Standard 2nd row",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"SR02"
+    },
+    "SR02":{
+      "category":"C_OPTS",
+      "defaults":[
+        "UTAW"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Customise your Model S cabin with private and comfortable executive rear seats. Both leather wrapped seats include two zone heaters and are separated by a wide centre console with hidden storage. Rear seat passengers can control media, climate and panoramic roof settings with the <span class='no-wrap'>Tesla app</span>.",
+      "disclaimer":"Requires Premium Interior Package and includes<br />Subzero Weather Package",
+      "list_price":0,
+      "name":"Executive Rear Seats",
+      "price":0,
+      "price_indicator":"Included",
+      "requires":[
+        "CW02",
+        "TR00"
+      ],
+      "parent":"PI01",
+      "toggle_pair":"SR01",
+      "valid_pairs":[
+        "UTAW",
+        "UTAB"
+      ]
+    },
+    "SU00":{
+      "category":"C_OPTS",
+      "defaults":[
+        "PX00"
+      ],
+      "delivery_date":"20130101",
+      "delivery_date_warning":null,
+      "description":"Standard Suspension",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Standard Suspension",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"SU01"
+    },
+    "SU01":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Automatically adjusts rigidity for optimum performance and ride regardless of road surface or cargo. Location aware, the air suspension automatically re-applies manual settings each time it nears previous GPS coordinates, particularly useful for steep driveways.",
+      "disclaimer":"Requires Tech Package",
+      "list_price":0,
+      "name":"Smart Air Suspension",
+      "parent":"TP02",
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"SU00"
+    },
+    "TM00":{
+      "category":"C_TRIM",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"General Production Trim",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"General Production Trim",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"TM02"
+    },
+    "TM02":{
+      "category":"C_TRIM",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"General Production Signature Trim",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"General Production Signature Trim",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"TM00"
+    },
+    "TM0A":{
+      "category":"C_TRIM",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"PRE-PRODUCTION NON-SALEABLE",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"ALPHA PRE-PRODUCTION NON-SALEABLE",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "TM0B":{
+      "category":"C_TRIM",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"PRE-PRODUCTION NON-SALEABLE",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"BETA PRE-PRODUCTION NON-SALEABLE",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "TM0C":{
+      "category":"C_TRIM",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"PRE-PRODUCTION SALEABLE",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"PRE-PRODUCTION SALEABLE",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "TR00":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"No Third Row Seat",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"No Third Row Seat",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"TR01"
+    },
+    "TR01":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Carry up to 7 passengers in Model S by adding seating for two children with rear facing seats. Engineered to far exceed federal safety standards, they attach to a second frame that augments our standard bumper with high strength aluminium for the utmost protection. These comfortable seats are hand wrapped in black microfibre and synthetic leather and fold completely flat into the floor when not in use.",
+      "disclaimer":"Must be factory installed",
+      "list_price":0,
+      "name":"Rear Facing Seats",
+      "price":0,
+      "price_indicator":"Optional",
+      "requires":[
+        "SR01"
+      ],
+      "toggle_pair":"TR00",
+      "ui_excludes":[
+        "SR02"
+      ]
+    },
+    "UTAB":{
+      "category":"C_INT_HEADLINER",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Complement the interior of Model S with our premium Alcantara headliner, a high quality synthetic material that looks and feels like suede. It covers the trim above the windowsill and sun visors.",
+      "dependent_overrides":{
+        "BT60":{
+          "override_disclaimer":"Included with 85 kWh Performance battery",
+          "override_indicator":"Optional",
+          "price":1500,
+          "price_indicator":"Optional"
+        },
+        "BT85":{
+          "override_disclaimer":"Included with 85 kWh Performance battery",
+          "override_indicator":"Optional",
+          "price":1500,
+          "price_indicator":"Optional"
+        },
+        "PBT85":{
+          "override_disclaimer":"",
+          "override_indicator":"Included",
+          "price":0,
+          "price_indicator":"Included"
+        },
+        "P85D":{
+          "override_disclaimer":"",
+          "override_indicator":"Included",
+          "price":0,
+          "price_indicator":"Included"
+        }
+      },
+      "disclaimer":"Included with 85 kWh Performance",
+      "excludes":[
+        "UTAW",
+        "UTMF"
+      ],
+      "list_price":0,
+      "long_name":"Black Alcantara Headliner",
+      "name":"Black Alcantara",
+      "price":0,
+      "price_indicator":"Optional",
+      "requires":[
+        "DSH7"
+      ]
+    },
+    "UTAW":{
+      "category":"C_INT_HEADLINER",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Complement the interior of Model S with our premium Alcantara headliner, a high quality synthetic material that looks and feels like suede. It covers the trim above the windowsill and sun visors.",
+      "dependent_overrides":{
+        "BT60":{
+          "override_disclaimer":"Included with 85 kWh Performance battery",
+          "override_indicator":"Optional",
+          "price":1500,
+          "price_indicator":"Optional"
+        },
+        "BT85":{
+          "override_disclaimer":"Included with 85 kWh Performance battery",
+          "override_indicator":"Optional",
+          "price":1500,
+          "price_indicator":"Optional"
+        },
+        "PBT85":{
+          "override_disclaimer":"",
+          "override_indicator":"Included",
+          "price":0,
+          "price_indicator":"Included"
+        },
+        "P85D":{
+          "override_disclaimer":"",
+          "override_indicator":"Included",
+          "price":0,
+          "price_indicator":"Included"
+        }
+      },
+      "disclaimer":"Included with 85 kWh Performance",
+      "excludes":[
+        "UTMF",
+        "UTAB"
+      ],
+      "list_price":0,
+      "long_name":"White Alcantara Headliner",
+      "name":"White Alcantara",
+      "price":0,
+      "price_indicator":"Optional",
+      "requires":[
+        "DSH7"
+      ]
+    },
+    "UTMF":{
+      "category":"C_INT_HEADLINER",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Textile Headliner",
+      "disclaimer":null,
+      "excludes":[
+        "UTAW",
+        "UTAB"
+      ],
+      "list_price":0,
+      "name":"Textile Headliner",
+      "price":0,
+      "price_indicator":"Included",
+      "requires":[
+        "DSH5"
+      ]
+    },
+    "WT19":{
+      "category":"C_WT",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Standard with Goodyear Eagle RS-A2 high performance all-season tyres.",
+      "disclaimer":null,
+      "list_price":0,
+      "long_name":"19\" Wheels",
+      "name":"19\"",
+      "price":0,
+      "price_indicator":"Included",
+      "type":"Boolean"
+    },
+    "WT21":{
+      "category":"C_WT",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Standard with Continental ExtremeContact tyres for high performance in both wet and dry conditions.",
+      "disclaimer":null,
+      "list_price":0,
+      "long_name":"21\" Silver Turbine Wheels",
+      "name":"21\" Turbine",
+      "price":0,
+      "price_indicator":"Optional",
+      "ui_pair":"WTSP"
+    },
+    "WTSG":{
+      "category":"C_WT",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Standard with Continental ExtremeContact tyres for high performance in both wet and dry conditions.",
+      "disclaimer":null,
+      "list_price":0,
+      "long_name":"21\" Grey Turbine Wheels",
+      "name":"21\" Turbine",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "WTSP":{
+      "category":"C_WT",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Standard with Continental ExtremeContact tyres for high performance in both wet and dry conditions.",
+      "disclaimer":null,
+      "list_price":0,
+      "long_name":"21\" Grey Turbine Wheels",
+      "name":"21\" Turbine",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "WTSS":{
+      "category":"C_WT",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Standard with Continental ExtremeContact tyres for high performance in both wet and dry conditions.",
+      "disclaimer":null,
+      "list_price":0,
+      "long_name":"21\" Silver Turbine Wheels",
+      "name":"21\" Turbine",
+      "price":0,
+      "price_indicator":"Included",
+      "ui_pair":"WTSG"
+    },
+    "WTTB":{
+      "category":"C_WT",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Standard with Goodyear Eagle RS-A2 high performance all-season tyres. ",
+      "disclaimer":null,
+      "list_price":0,
+      "long_name":"19\" Silver Cyclone Wheels",
+      "name":"19\" Cyclone",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "WTW2":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Nokian Hakkapeliitta R2 non-studded tyres, specifically designed for Nordic winters, have small environmentally friendly crystal particles embedded throughout the rubber compound that enhance grip in snowy conditions. Includes four standard 19\" wheels with mounted tyres.",
+      "disclaimer":"Includes wheels and tyres",
+      "list_price":0,
+      "long_name":"19\" Nokian Winter Wheel Set",
+      "name":"19\" Nokian Winter Wheel Set",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"WXW2"
+    },
+    "WTW3":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Pirelli Winter Sottozero Series II combine both low rolling resistance and high grip on snowy roads. Includes four standard 19\" wheels with mounted tyres.",
+      "disclaimer":"Includes wheels and tyres",
+      "list_price":0,
+      "long_name":"19\" Pirelli Winter Wheel Set",
+      "name":"19\" Pirelli Winter Wheel Set",
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"WXW3"
+    },
+    "WTX0":{
+      "category":"C_OPTS",
+      "comment":"This is a dummy UI only option to map the ",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":null,
+      "disclaimer":null,
+      "list_price":0,
+      "long_name":"No 19\" Michelin Primacy Tyre Upgrade",
+      "name":"No 19\" Michelin Primacy Tyre Upgrade",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "type":"Boolean"
+    },
+    "WXW2":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Description",
+      "disclaimer":"Disclaimer",
+      "list_price":0,
+      "long_name":"No - 19\" Wheels with Nokian Winter Tyres",
+      "name":"No - 19\" Wheels with Nokian Winter Tyres",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"WTW2"
+    },
+    "WXW3":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Description",
+      "disclaimer":"Disclaimer",
+      "list_price":0,
+      "long_name":"No - 19\" Wheels with Pirelli Winter Tyres",
+      "name":"No - 19\" Wheels with Pirelli Winter Tyres",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"WTW3"
+    },
+    "WTW4":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Four standard 19\" wheels with mounted Pirelli Winter Sottozero winter tyres, size 245/45-19.",
+      "disclaimer":"Includes wheels and tyres",
+      "list_price":0,
+      "long_name":"19\" Winter Tyre Set",
+      "name":"19\" Winter Tyre Set",
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"WXW4"
+    },
+    "WXW4":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":null,
+      "disclaimer":"Includes wheels and tyres",
+      "list_price":0,
+      "long_name":"No 19\" Winter Tyre Set",
+      "name":"No 19\" 19\" Winter Tyre Set",
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"WTW4"
+    },
+    "WTW5":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Four 21\" wheels with mounted Pirelli Winter Sottozero winter tyres, size 245/35-21. Winter wheels will be matched to your Model S.",
+      "disclaimer":"Includes wheels and tyres",
+      "list_price":0,
+      "long_name":"21\" Winter Tyre Set",
+      "name":"21\" Winter Tyre Set",
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"WXW5"
+    },
+    "WXW5":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":null,
+      "disclaimer":"Includes wheels and tyres",
+      "list_price":0,
+      "long_name":"No 21\" Winter Tyre Set",
+      "name":"No 21\" 21\" Winter Tyre Set",
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"WTW5"
+    },
+    "X001":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Override: Power Liftgate",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Override: Power Liftgate",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"X002"
+    },
+    "X002":{
+      "category":"C_STDEQ",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Override: Manual Liftgate",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Override: Manual Liftgate",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"X001"
+    },
+    "X003":{
+      "category":"C_STDEQ",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":null,
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Maps & Navigation",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"X004"
+    },
+    "X004":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Override: No Navigation",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Override: No Navigation",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"X003"
+    },
+    "X007":{
+      "category":"C_STDEQ",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":null,
+      "disclaimer":null,
+      "list_price":0,
+      "name":"LED Daytime Running Lights",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "X037":{
+      "category":"C_STDEQ",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":null,
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Powerfolding Mirrors",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"X010"
+    },
+    "X010":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Base Mirrors",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Base Mirrors",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"X037"
+    },
+    "X011":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Override: Homelink",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Override: Homelink",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"X012"
+    },
+    "X012":{
+      "category":"C_STDEQ",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Override: No Homelink",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Override: No Homelink",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"X011"
+    },
+    "X013":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Override: Satellite Radio",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Override: Satellite Radio",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"X014"
+    },
+    "X014":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Override: No Satellite Radio",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Override: No Satellite Radio",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"X013"
+    },
+    "X019":{
+      "category":"C_PERF",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Improve high speed stability by adding the carbon fibre spoiler to your boot lid. Made from lightweight, cross-woven carbon fibres with a matte epoxy finish.",
+      "disclaimer":"Requires P85D",
+      "list_price":0,
+      "long_name":"Carbon Fibre Spoiler",
+      "name":"Carbon Fibre Spoiler",
+      "price":0,
+      "price_indicator":"Included",
+      "requires":[
+        "P85D"
+      ],
+      "toggle_pair":"X021",
+      "valid_pairs":[
+        "P85D",
+        "PBT85"
+      ]
+    },
+    "X021":{
+      "category":"C_PERF",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"No Carbon Fibre Spoiler",
+      "disclaimer":null,
+      "list_price":0,
+      "long_name":"No Carbon Fibre Spoiler",
+      "name":"No Spoiler",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"X019"
+    },
+    "X024":{
+      "category":"C_PERF",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Performance Package. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies fermentum velit, eget cursus turpis tristique ut. In pretium facilisis scelerisque. Nullam et dui malesuada, pretium dolor pretium, fringilla risus. Praesent id velit eget ligula aliquet varius. Suspendisse hendrerit justo urna, at blandit ipsum sodales sed.",
+      "disclaimer":"Delivers in about 2 months",
+      "list_price":0,
+      "name":"Performance Package",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "requires":[
+        "PF01"
+      ],
+      "toggle_pair":"X025"
+    },
+    "X025":{
+      "category":"C_PERF",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"No Performance Package",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"No Performance Package",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "required_by":[
+        "BT85",
+        "BT60"
+      ],
+      "requires":[
+        "PF00"
+      ],
+      "toggle_pair":"X024"
+    },
+    "X026":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Override: No LEDs/Non-Tech Pkg",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Override: No LEDs/Non-Tech Pkg",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"X027"
+    },
+    "X027":{
+      "category":"C_STDEQ",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":null,
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Lighted Door Handles",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"X026"
+    },
+    "X028":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Battery Badge",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Battery Badge",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"X029"
+    },
+    "X029":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Remove Battery Badge",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Remove Battery Badge",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"X028"
+    },
+    "X030":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Override: No Passive Entry Pkg",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Override: No Passive Entry Pkg",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"X031"
+    },
+    "X031":{
+      "category":"C_STDEQ",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":null,
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Keyless Entry",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"X030"
+    },
+    "X038":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"GB charger firmware flag",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"GB charger firmware flag",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "YF00":{
+      "category":"C_INT_NOW_DEFAULT_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"No Yacht Floor",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"No Yacht Floor",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "requires":[
+        "PI00"
+      ],
+      "toggle_pair":"YF01",
+      "unbundle":true
+    },
+    "YF01":{
+      "category":"C_INT_NOW_DEFAULT_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Add elegance to your centre console tray with a yacht floor that matches your car's décor. Strips of rubber run lengthwise atop the trim for added grip.",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Matching Yacht Floor",
+      "no_ui":true,
+      "pkg_visible":false,
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"YF00",
+      "upgrade_map":"C_INTDECOR_CUSTOM",
+      "unbundle":true
+    }
+  },
+  "personal_delivery_price":380.0,
+  "price_disclaimer":"Base price includes VAT and a United Kingdom plug-in vehicle grant of £5,000. Price may not include some local and regionally required fees. VAT rates are subject to change.",
+  "price_indicators":{
+    "Included":"Included",
+    "Optional":"Optional",
+    "Standard":"Standard"
+  },
+  "region":"REEU",
+  "finance_disclaimer":"<h2>Explanation of Assumptions</h2><h3>How do we calculate these figures?</h3><p>We encourage you to think about the true out of pocket cost of financing Model S. In calculating our effective monthly cost of financing, we’ve compared the cost of driving Model S to an average upper middle class vehicle of 15,000 miles per year.</p><p>The financing information has been provided by BMW Financial Services (GB) Limited trading as Alphera Financial Services. Based on fuel economy of 39.2 miles per gallon and an average fuel cost of £1.33 per litre the fuel cost for the comparable combustion engine vehicle would be £15.42 per 100 miles. The electricity cost to drive Model S at 294.51 Wh per mile over the same distance is £2.95 assuming a combination of charging methods (40% at £0.14 per kWh per hour at home, 30% at £0.09 per kWh per hour at work and 30% at no charge using Tesla's Supercharger network with a Supercharger-enabled Model S) giving the saving on fuel of £12.47 for every 100 miles driven. Tesla Model S drivers are in band A for CO2 omissions and pay no standard road tax compared with, by way of example, standard road tax of £290 in the first year and £205 annually subsequently for a petrol or diesel band H car.</p><p>When considering the savings from using electricity instead of petrol and road tax, you can save approximately £175 per month over a petrol powered saloon. </p><p>Additional incentives can be calculated from London congestion charge savings and Benefit in Kind savings from driving a Model S as a company employee. London congestion charges are calculated on 240 working days per year at the discounted rate of £10.50 per day. If you are an employee driving Model S under a company car scheme and in the 40% tax bracket, you may receive additional tax savings of £335 per month compared to the Benefit in Kind taxes required of an employee driving an internal combustion vehicle of 174 g/km with a purchase price of £50,280.<h3>Disclaimer</h3>The monthly hire purchase payments have been calculated by Tesla Motors Limited from data provided by BMW Financial Services (GB) Limited trading as Alphera Financial Services. The quotes are on a monthly basis calculated using a 60 month term (as indicated) and the 15% down payment and interest rate of 5.9% APR as indicated. </p><p>The estimated fuel savings are based on the assumptions specified on an annual basis. Please refer to Alphera Financial Services for full details of hire purchase terms and conditions.</p>",
+  "reservation_price":2000.0,
+  "root_vehicle":"MS02",
+  "smartling":{
+    "translate_keys":[
+      "delivery_price_translation",
+      "vat_text",
+      "disclaimer",
+      "price_disclaimer",
+      "vat_disclaimer",
+      "name",
+      "long_name",
+      "model_name",
+      "description"
+    ],
+    "translate_mode":"custom"
+  },
+  "tax_credit":null,
+  "tax_disclaimer":null,
+  "valid_config":{
+    "audio":{
+      "patterns":[
+        "AU(00|01)",
+        "X0(13|14)"
+      ]
+    },
+    "battery":{
+      "patterns":[
+        "(P)?(BT)?[0-9]{2}(D|S)?"
+      ]
+    },
+    "brakes":{
+      "patterns":[
+        "BC0(B|R)?"
+      ]
+    },
+    "charging":{
+      "patterns":[
+        "CH(00|01)",
+        "SC(00|01)"
+      ]
+    },
+    "color":{
+      "patterns":[
+        "COL[0-9]"
+      ]
+    },
+    "drive":{
+      "patterns":[
+        "X02(4|5)",
+        "PF(00|01)"
+      ]
+    },
+    "general_opts":{
+      "patterns":[
+        "RF[A-Z]{2}",
+        "SP[0-9]{2}",
+        "CW[0-9]{2}",
+        "PS[0-9]{2}",
+        "TR[0-9]{2}",
+        "LP[0-9]{2}",
+        "BS[0-9]{2}"
+      ]
+    },
+    "interior":{
+      "patterns":[
+        "Q(N|P|R|Z|X|Y)[A-Z]{2}",
+        "ID[A-Z]{2}",
+        "YF[0-9]{2}",
+        "IX[0-9]{2}",
+        "SR[0-9]{2}"
+      ]
+    },
+    "performance":{
+      "patterns":[
+        "PX[0-9]{2}"
+      ]
+    },
+    "spoiler":{
+      "patterns":[
+        "X0(19|21)"
+      ]
+    },
+    "std_eq":{
+      "patterns":[
+        "FG[0-9]{2}",
+        "SU[0-9]{2}",
+        "X0(01|02)",
+        "X0(03|04)",
+        "X0(07|08)",
+        "X0(37|10)",
+        "X0(11|12)",
+        "X0(26|27)",
+        "X0(30|31)"
+      ]
+    },
+    "wheels":{
+      "patterns":[
+        "WT([0-9]{2}|[A-Z]{2})"
+      ]
+    }
+  },
+  "vat_percent":20,
+  "vat_text":"Includes VAT of approx."
+}

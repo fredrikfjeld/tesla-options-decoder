@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset=utf-8 />
-  <title></title>
+  <title>Tesla Model S options decoder</title>
   <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
@@ -11,30 +11,124 @@
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
+  <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Tesla Model S options decoder</a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Check your options</a></li>
+          <li><a href="#all">Show all possible options</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
+
   <div class="container">
 
-    Plan:
-    get "options" => name
-    test
-    
+    <div class="heading">
+      <h1>Tesla Model S Options Decoder</h1>
+      <p class="lead">Enter your "Show Design" PDF-link <a href="#">(how do I find my link?)</a></p>
+
+      <form class="form-inline">
+        <div class="form-group">
+          <input type="text" class="form-control" id="pdflink" placeholder="https://my.teslamotors.com/mytesla/pdf/view-design-pdf?…">
+        </div>
+        <button type="button" class="btn btn-primary">Check option codes</button>
+      </form>
+
+    </div>
+
+    <div class="row my-options">
+      <div class="heading">
+        <h1>My options</h1>
+      </div>
+      <div class="list-my-options">
+      </div>
+    </div>
+
+    <div class="row all-options">
+      <div class="heading">
+        <h1>All options</h1>
+      </div>
+    </div>
+    <div class="row">
+
+      <div class="col-md-6">
+        <div id="optionslist_no">
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div id="optionslist_us">
+        </div>
+      </div>
+
+    </div>
+
   </div>
+
+
+  <script type="text/javascript">
+    // Parsing URL
+    var pdfurl = "https://my.teslamotors.com/mytesla/pdf/view-design-pdf?model=ms&options=MS02%2CREEU%2CAD05%2CAD06%2CAD07%2CAD08%2CADPC2%2CAU01%2CBC0R%2CBS00%2CCDM0%2CCH00%2CCOL3-PPMR%2CCW01%2CDA01%2CDRLH%2CDSH7%2CDV4W%2CFG02%2CHP00%2CIDCF%2CIX00%2CLP00%2CME02%2CP85D%2CPA00%2CPF01%2CPI00%2CPK00%2CPS01%2CPSPX5%2CPX01%2CQRLB%2CRFPO%2CSC01%2CSP01%2CSR01%2CSU01%2CTM00%2CTP02%2CTR00%2CUTAB%2CWTSG%2CWTW2%2CWXW1%2CWXW3%2CWXW5%2CX001%2CX003%2CX007%2CX011%2CX013%2CX019%2CX024%2CX027%2CX028%2CX031%2CX037%2CYF00&configset=CS_3_MS_NO&rn=RN426038&src=dashboard";
+
+    var myurl_arr = pdfurl.split("options");
+    var myurl = myurl_arr[1].split("=");
+    var myoptions = myurl[1].split("&");
+    myoptions = myoptions[0];
+    var commaregex = new RegExp('\%2C', 'g');
+    myoptions = myoptions.replace(commaregex, ',');
+
+    //$(".list-my-options").append( myoptions ); // For debugging
+
+    console.log("options: " + myoptions);
+
+    // Parsing JSON data
+    $.getJSON("pricebook-3_MS_NO.json", function ( data ) {
+    var items = [];
+
+    var OptionCode = function(code, name) {
+      this.code = code;
+      this.name = name;
+    };
+
+    $.each( data.options, function ( opt_code, opt_content ) {
+      items.push( "<dt>" + opt_code + "</dt><dd>" + opt_content.name + "</dd>" );
+    });
+
+    $( "<dl/>", {
+      "class": "options-list dl-horizontal",
+      html: items.join( "" )
+    }).appendTo( "#optionslist_no" );
+    });
+
+    $.getJSON("pricebook-3_MS_GB.json", function ( data ) {
+    var items = [];
+    $.each( data.options, function ( opt_code, opt_content ) {
+      items.push( "<dt>" + opt_code + "</dt><dd>" + opt_content.name + "</dd>" );
+    });
+
+    $( "<dl/>", {
+      "class": "options-list dl-horizontal",
+      html: items.join( "" )
+    }).appendTo( "#optionslist_us" );
+    });
+  </script>
+
 </body>
-
-<script type="text/javascript">
-$.getJSON("pricebook-3_MS_NO.json", function ( data ) {
-var items = [];
-$.each( data.options, function ( opt_code, opt_content ) {
-  items.push( "<dt>" + opt_code + "</dt><dd>" + opt_content.name + "</dd>" );
-});
-
-$( "<dl/>", {
-  "class": "options-list",
-  html: items.join( "" )
-}).appendTo( "body" );
-});
-</script>
 
 
 </html>
