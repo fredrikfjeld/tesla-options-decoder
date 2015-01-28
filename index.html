@@ -92,8 +92,8 @@
     var commaregex = new RegExp('\%2C', 'g');
     myoptions = myoptions.replace(commaregex, ',');
 
-    $(myoptions).appendTo(".list-my-options");
-    
+    $(".list-my-options").append( myoptions );
+
     console.log("options: " + myoptions);
 
     // Parsing JSON data
