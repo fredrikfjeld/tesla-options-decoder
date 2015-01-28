@@ -87,7 +87,7 @@
     }).appendTo( "#optionslist_no" );
     });
 
-    $.getJSON("pricebook-3_MS_US.json", function ( data ) {
+    $.getJSON("pricebook-3_MS_GB.json", function ( data ) {
     var items = [];
     $.each( data.options, function ( opt_code, opt_content ) {
       items.push( "<dt>" + opt_code + "</dt><dd>" + opt_content.name + "</dd>" );
