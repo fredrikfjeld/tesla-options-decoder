@@ -18,7 +18,10 @@
     Plan:
     get "options" => name
     test
-    
+
+    <div id="optionslist">
+    </div>
+
   </div>
 </body>
 
@@ -32,7 +35,7 @@ $.each( data.options, function ( opt_code, opt_content ) {
 $( "<dl/>", {
   "class": "options-list",
   html: items.join( "" )
-}).appendTo( "body" );
+}).appendTo( "#optionslist" );
 });
 </script>
 
