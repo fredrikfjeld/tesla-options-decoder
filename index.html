@@ -7,7 +7,7 @@
 </head>
 <body>
   <script type="text/javascript">
-$.getJSON("http://my.teslamotors.com/configurator/pricebook/?pricebook=3_MS_NO", function ( data ) {
+$.getJSON("pricebook-3_MS_NO.json", function ( data ) {
   var items = [];
   $.each( data.options, function ( opt_code, opt_content ) {
     items.push( "<li id='" + opt_code + "'>" + opt_content.name + "</li>" );
@@ -20,7 +20,7 @@ $.getJSON("http://my.teslamotors.com/configurator/pricebook/?pricebook=3_MS_NO",
 });
   </script>
 
-
+  Plan:
   get "options" => name
   test
 </body>

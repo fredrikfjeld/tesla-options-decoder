@@ -1,0 +1,4161 @@
+
+{
+  "base_price":0,
+  "categories":{
+    "C_ACC":{
+      "exclusive":false,
+      "includes":[
+        "AD07",
+        "AD08",
+        "ADPC2",
+        "WTW1",
+        "WTW2",
+        "WTW3",
+        "WTW5"
+      ],
+      "long_name":null,
+      "name":"Tilbehør &amp; service",
+      "sort_order": 10
+    },
+    "C_BAT":{
+      "description":null,
+      "disclaimer":"<sup class=\"push-left\">*</sup> Det viste utvalget for 85D og P85D er estimert, i påvente av bekreftelse fra Ny europeisk kjøresyklus (NEDC). Rekkevidden reduseres med 3 prosent når utstyrt med 21-tommers hjul.",
+      "exclusive":true,
+      "includes":[
+        "BT60",
+        "BT85",
+        "PBT85",
+        "P85D"
+      ],
+      "long_name":null,
+      "name":"Batteri",
+      "sort_order":0
+    },
+    "C_BODY":{
+      "description":null,
+      "includes":[
+        "C_RF",
+        "C_WT"
+      ],
+      "long_name":null,
+      "name":"Tak &amp; Hjul",
+      "sort_order":2
+    },
+    "C_CHG_SUPER":{
+      "description":"Model S kommer med det nødvendige utstyret for å kunne lade hjemme eller på farten.<ul><li>11kW innebygget lader</li><li>Mobillader</li><li>Standard Schuko adapter</li><li>IEC Type 2-kompatibel ladeport</li><li>IEC 60309 230 volt adapter (Blå)</li></ul><p>Lad opptil 55 kilometer per time (32 ampere).</p>",
+      "exclusive":false,
+      "includes":[
+        "SC01",
+        "CH01"
+      ],
+      "long_name":null,
+      "name":"Lading",
+      "sort_order":8
+    },
+    "C_DRIVE":{
+      "description":null,
+      "exclusive":false,
+      "includes":[
+        "DRLH"
+      ],
+      "long_name":null,
+      "name":"Kjøreorientering"
+    },
+    "C_EXT":{
+      "description":null,
+      "includes":[
+        "C_EXTCOL"
+      ],
+      "long_name":null,
+      "name":"Lakk",
+      "sort_order":2
+    },
+    "C_EXTCOL":{
+      "category":"C_EXT",
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "COL1",
+        "COL2",
+        "COL3"
+      ],
+      "long_name":null,
+      "name":"Lakk",
+      "sort_order":1
+    },
+    "C_INT":{
+      "description":null,
+      "includes":[
+        "C_INTBASE",
+        "C_INTDECOR",
+        "C_INT_HEADLINER",
+        "C_INT_NOW_DEFAULT_OPTS"
+      ],
+      "long_name":null,
+      "name":"Interiør",
+      "sort_order":5
+    },
+    "C_INTBASE":{
+      "category":"C_INT",
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "C_INTBASE_BASE",
+        "C_INTBASE_CUSTOM"
+      ],
+      "long_name":null,
+      "name":"Grunnfarge"
+    },
+    "C_INTBASE_BASE":{
+      "category":"C_INTBASE",
+      "description":null,
+      "exclusive":false,
+      "includes":[
+        "QPBT"
+      ],
+      "long_name":null,
+      "name":"Seter"
+    },
+    "C_INTBASE_CUSTOM":{
+      "category":"C_INTBASE",
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "C_INTBASE_CUSTOM_PREMIUM",
+        "C_INTBASE_CUSTOM_PREMIUM_LEATHER",
+        "C_INTBASE_CUSTOM_PERFORMANCE_UPGRADE",
+        "C_INTBASE_CUSTOM_PERFORMANCE_UPGRADE_LEATHER",
+        "C_INTBASE_PREMIUM_R_UPGRADE",
+        "C_INTBASE_PREMIUM_R"
+      ],
+      "long_name":null,
+      "name":"Skinn"
+    },
+    "C_INTBASE_CUSTOM_PERFORMANCE_UPGRADE":{
+      "category":"C_INTBASE_CUSTOM",
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "QZMB",
+        "QZMT",
+        "QZMG"
+      ],
+      "long_name":"Performance-oppgradering",
+      "name":"Skinn"
+    },
+    "C_INTBASE_CUSTOM_PERFORMANCE_UPGRADE_LEATHER":{
+      "category":"C_INTBASE_CUSTOM",
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "long_name":"Performance-oppgradering",
+      "name":"Skinn"
+    },
+    "C_INTBASE_CUSTOM_PREMIUM":{
+      "category":"C_INTBASE_CUSTOM",
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "QPMB",
+        "QPMT",
+        "QPMG"
+      ],
+      "long_name":null,
+      "name":"Skinn"
+    },
+    "C_INTBASE_CUSTOM_PREMIUM_LEATHER":{
+      "category":"C_INTBASE_CUSTOM",
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "QXMB",
+        "QXMT",
+        "QXMG"
+      ],
+      "long_name":null,
+      "name":"Skinn"
+    },
+    "C_INT_EXEC":{
+      "category":"C_INT",
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "SR01",
+        "SR02"
+      ],
+      "long_name":null,
+      "name":"Executive Seats"
+    },
+    "C_INTBASE_PREMIUM_R_UPGRADE":{
+      "category":"C_INTBASE_CUSTOM",
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QREB",
+        "QRET",
+        "QREG"
+      ],
+      "long_name":null,
+      "name":"Leather"
+    },
+    "C_INTBASE_PREMIUM_R":{
+      "category":"C_INTBASE_CUSTOM",
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "QNLB",
+        "QNLT",
+        "QNLG",
+        "QRLB",
+        "QRLT",
+        "QRLG"
+      ],
+      "long_name":null,
+      "name":"Leather"
+    },
+    "C_INTDECOR":{
+      "category":"C_INT",
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "C_INTDECOR_CUSTOM"
+      ],
+      "long_name":null,
+      "name":"Innredning"
+    },
+    "C_INTDECOR_CUSTOM":{
+      "category":"C_INTDECOR",
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "C_INTDECOR_DECOR",
+        "C_INTDECOR_CUSTOM_PREMIUM",
+        "C_INTDECOR_CUSTOM_CARBON"
+      ],
+      "long_name":null,
+      "name":"Innredning"
+    },
+    "C_INTDECOR_CUSTOM_CARBON":{
+      "category":"C_INTDECOR",
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "IDCF"
+      ],
+      "long_name":null,
+      "name":"Innredning"
+    },
+    "C_INTDECOR_CUSTOM_PREMIUM":{
+      "category":"C_INTDECOR",
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "IDHM",
+        "IDHG"
+      ],
+      "long_name":null,
+      "name":"Innredning"
+    },
+    "C_INTDECOR_DECOR":{
+      "category":"C_INTDECOR",
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "IDPB"
+      ],
+      "long_name":null,
+      "name":"Innredning"
+    },
+    "C_INT_HEADLINER":{
+        "category":"C_INT",
+        "description":null,
+        "exclusive":true,
+        "includes":[
+            "UTMF",
+            "UTAW",
+            "UTAB"
+        ],
+        "name":"Taktrekk"
+    },
+    "C_INT_NOW_DEFAULT_OPTS":{
+        "note":"This is a placeholder/dummy category that represents options that are now required under certain package interior options, but used to be UI visible, however still need to be visible to a customer in certain UI sections and official documents, order agreement, etc.",
+        "category":"C_INT",
+        "description":null,
+        "exclusive":false,
+        "includes":[
+            "DSH7",
+            "YF01",
+            "LP01",
+            "IX01"
+        ],
+        "name":"Interior Package Default Options",
+        "no_ui":true
+    },
+    "C_MOTOR":{
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "DV2W",
+        "DV4W"
+      ],
+      "long_name":null,
+      "name":"Drift",
+      "sort_order":1
+    },
+    "C_OPTS":{
+      "description":null,
+      "disclaimer":"Bakovervendte seter er barnesikringsutstyr beregnet for barn som er minst 95 cm høye og som veier mellom 16 og 35 kg. Barn må kunne sitte opp uten at hodet deres berører taket av bilen og må være ordentlig fastspent til enhver tid. Det er viktig at du følger alle tilgjengelige instruksjoner for å sikre sikkerheten til passasjerene.",
+      "exclusive":false,
+      "includes":[
+        "TP02",
+        "SU01",
+        "PI01",
+        "SR02",
+        "CW02",
+        "AU01",
+        "TR01",
+        "SP01"
+      ],
+      "long_name":null,
+      "name":"Alternativer",
+      "sort_order":9
+    },
+    "C_PERF":{
+      "description":null,
+      "disclaimer":"Ytelsesegenskaper er beregnet eller bestemt av Tesla Motors, Inc. under visse kjøre-, drifts- og miljøforhold. Faktiske resultater kan variere basert på dine kjørevaner og andre faktorer.",
+      "exclusive":false,
+      "includes":[
+        "X019",
+        "BC0R"
+      ],
+      "long_name":null,
+      "name":"Model S Performance",
+      "sort_order":6
+    },
+    "C_RF":{
+      "category":"C_BODY",
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "C_RF_ONE",
+        "C_RF_TWO"
+      ],
+      "long_name":null,
+      "name":"Tak",
+      "sort_order":3
+    },
+    "C_RF_ONE":{
+      "category":"C_RF",
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "RFBC",
+        "RFBK"
+      ],
+      "long_name":null,
+      "name":"Tak"
+    },
+    "C_RF_TWO":{
+      "category":"C_RF",
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "RFPO"
+      ],
+      "long_name":null,
+      "name":"Tak"
+    },
+    "C_STDEQ":{
+      "description":"<p>Model S leveres med foroverseende kamera, radar og 360-graders ultrasoniske sensorer som standard, de overvåker aktivt den omliggende veien. Progressive programvareoppdateringer over tid gjør det mulig med sofistikerte bekvemmelighets- og sikkerhetsrettede funksjoner som bruker sensorene til å handle ut fra forholdene i den virkelige verden. Sikkerhetsfunksjoner inkluderer systemer som varsler førere om potensielle farer og bidrar til å unngå eller redusere konsekvensene av kollisjoner. Bekvemmelighetsfunksjoner inkluderer daglige kjøringsmanøvrer som reduserer førerens arbeidsbelastning, for eksempel adaptiv cruise-kontroll som er oppmerksom på trafikken og automatisk parkering.</p><p>Sikkerhetsfunksjoner er både i dag og i fremtiden inkludert i alle Model S med Autopilot-maskinvare. Bekvemmelighetsfunksjoner vil bli inkludert i Tech-pakken. Det vil ta flere måneder før alle funksjonene fullføres og lastes opp til bilene.</p><p>&nbsp;</p>",
+      "disclaimer":null,
+      "exclusive":false,
+      "includes":[
+          "DA01",
+          "X003",
+          "X027",
+          "X007",
+          "X037",
+          "PS01",
+          "X031",
+          "ME02",
+          "X002",
+          "X012"
+      ],
+      "long_name":null,
+      "name":"Autopilot",
+      "sort_order":7
+    },
+    "C_TRIM":{
+      "description":null,
+      "exclusive":true,
+      "includes":[
+        "TM00",
+        "TM0A",
+        "TM0B",
+        "TM0C"
+      ],
+      "long_name":null,
+      "name":"Modellutstyr"
+    },
+    "C_WT":{
+      "category":"C_BODY",
+      "description":null,
+      "disclaimer":"<p>21-tommers hjul er utstyrt med lavprofildekk som gir mindre beskyttelse fra, og dermed er mer utsatt for skade fra, ujevnheter i veibanen, rusk, fortau og andre vanlige hindringer. Skade på hjul eller dekk under disse forholdene er ikke omfattet av nybilsgarantien for Model S. 21-tommers hjul med lavprofildekk reduserer batterirekkevidden sammenlignet med 19-tommers hjul. Model S kommer ikke med reservehjul og jekk.</p><p>Lavprofilsdekk er designet for bruk på sommeren og vil ikke gi tilstrekkelig veigrep i kalde, snødekte eller isete forhold. Vi anbefaler at du bruker vinterdekk på vinterføre, og tilbyr komplette vinterdekk på både 19\" og 21\" hjul.</p>",
+      "exclusive":true,
+      "includes":[
+        "WT19",
+        "WTTB",
+        "WT21",
+        "WTSP",
+        "WTSS",
+        "WTSG"
+      ],
+      "long_name":null,
+      "name":"Hjul",
+      "sort_order":4
+    }
+  },
+  "currency_code":"NOK",
+  "delivery_date":"20120901",
+  "delivery_price_translation":"Dokumentavgift for destinasjon og forskrifter",
+  "recycling_fee_translation":"Vrakpant",
+  "disclaimer":"Informasjon på dette nettstedet er basert på data tilgjengelig til enhver tid. Design, spesifikasjoner, pris og produksjonsdatoer kan endres uten forvarsel og gjelder spesifikt for amerikanske kjøretøy. Noen funksjoner og alternativer kan være utilgjengelige når bilen settes i produksjon.",
+  "supercharger_disclaimer":"I noen tilfeller vil Tesla midlertidig aktivere superlader-tilgang på biler som normalt sett ikke har denne funksjonen. Dette er for å tillate henting av bilen fra en Tesla lokasjon.",
+  "incentives_txt":"Tesla kjøretøy kjøpt i Norge drar nytte av mange insentiver, inkludert momsfritak og fri tilgang til bomveier, parkering og kollektivfelt.",
+  "financing_disclaimer":"Ved beregning av effektive månedlige kostnader for finansiering, har vi sammenlignet kostnadene for bruk av Model S med et gjennomsnittlig kjøretøy i øvre middelklasse for 25 000 km i året.<p>Å kjøre med en sammenlignbar forbrenningsmotor koster kr 118,80 for hver 100 kilometer, basert på et drivstofforbruk på 8,0 liter per 100 km og en gjennomsnittlig bensinpris på kr 14,85 per liter. Elektrisiteten som kreves for å kjøre Model S på 183 Wh per kilometer den samme avstanden er kr 10,50, hvis du lader 70 % hjemme (til kr 0,82 per kWt) og 30 % ved å bruke Teslas gratis Supercharger-nettverk. De som kjører Model S sparer også kr 2570 i gjennomsnitt hvert år på skatter knyttet til bilbruk. Med hensyn til besparelser fra å bruke elektrisitet i stedet for bensin og årlig skatt knyttet til bil, anslår vi at du kan spare ca kr 2470 i måneden, sammenlignet med en bensindrevet sedan. I tillegg er elektriske biler fritatt fra bompenger i Norge. Pendlere til Oslo sparer kr 41,85 i bompenger for Oslo og Bærum per tur.</p><p>Vi oppfordrer deg til å tenke på de reelle kostnadene ved å kjøre Model S ved å utføre dine egne beregninger eller søke profesjonell hjelp, også i forhold til andre finansieringsmuligheter.</p>",
+  "inspect_prep_price":0,
+  "market":"NO",
+  "model_code":"ms",
+  "model_name":"Model S",
+  "name":"CS_3_MS_NO",
+  "options":{
+    "AD04":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Description",
+      "disclaimer":"Disclaimer",
+      "list_price":0,
+      "long_name":"3 phase Universal Mobile Connector (UMC)",
+      "name":"3 phase Universal Mobile Connector (UMC)",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"ADX4"
+    },
+    "AD05":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Description",
+      "disclaimer":"Disclaimer",
+      "list_price":0,
+      "long_name":"3 phase Universal Mobile Connector (UMC) - IT Grid",
+      "name":"3 phase Universal Mobile Connector (UMC) - IT Grid",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"ADX5"
+    },
+    "AD06":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Description",
+      "disclaimer":"Disclaimer",
+      "list_price":0,
+      "long_name":"Adapter, Schuko (1 phase, 13A)",
+      "name":"Adapter, Schuko (1 phase, 13A)",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"ADX6"
+    },
+    "AD07":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Utstyr din mobillader med et rødt IEC 60309 ladeadapter<ul><li>Tre-fase</li><li>400V</li><li>16 A</li><li>Opptil 55km rekkevidde per time lading</li></ul>",
+      "disclaimer":"",
+      "list_price":0,
+      "long_name":"Rød ladeadapter",
+      "name":"Rød ladeadapter",
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"ADX7"
+    },
+    "AD08":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Utstyr din mobillader med et blått 60309 ladeadapter<ul><li>Èn-fase</li><li>230 V</li><li>32 A</li><li>Opptil 36km rekkevidde per time lading</li></ul>",
+      "disclaimer":"",
+      "list_price":0,
+      "long_name":"Blått ladeadapter",
+      "name":"Blått ladeadapter",
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"ADX8"
+    },
+    "AD09":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Description",
+      "disclaimer":"Disclaimer",
+      "list_price":0,
+      "long_name":"Adapter, Swiss (1 phase, 10A)",
+      "name":"Adapter, Swiss (1 phase, 10A)",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"ADX9"
+    },
+    "AD10":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Description",
+      "disclaimer":"Disclaimer",
+      "list_price":0,
+      "long_name":"Adapter, Denmark (1 phase, 13A)",
+      "name":"Adapter, Denmark (1 phase, 13A)",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"ADX10"
+    },
+    "AD11":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Description",
+      "disclaimer":"Disclaimer",
+      "list_price":0,
+      "long_name":"Adapter, Italy (1 phase, 13A)",
+      "name":"Adapter, Italy (1 phase, 13A)",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"ADX11"
+    },
+    "ADX10":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Description",
+      "disclaimer":"Disclaimer",
+      "list_price":0,
+      "long_name":"No - Adapter, Denmark (1 phase, 13A)",
+      "name":"No - Adapter, Denmark (1 phase, 13A)",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"AD10"
+    },
+    "ADX11":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Description",
+      "disclaimer":"Disclaimer",
+      "list_price":0,
+      "long_name":"No - Adapter, Italy (1 phase, 13A)",
+      "name":"No - Adapter, Italy (1 phase, 13A)",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"AD11"
+    },
+    "ADX4":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Description",
+      "disclaimer":"Disclaimer",
+      "list_price":0,
+      "long_name":"No - 3 phase Universal Mobile Connector (UMC)",
+      "name":"No - 3 phase Universal Mobile Connector (UMC)",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"AD04"
+    },
+    "ADX5":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Description",
+      "disclaimer":"Disclaimer",
+      "list_price":0,
+      "long_name":"No - 3 phase Universal Mobile Connector (UMC) - IT Grid",
+      "name":"No -  3 phase Universal Mobile Connector (UMC) - IT Grid",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"AD05"
+    },
+    "ADX6":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Description",
+      "disclaimer":"Disclaimer",
+      "list_price":0,
+      "long_name":"No - Adapter, Schuko (1 phase, 13A)",
+      "name":"No - Adapter, Schuko (1 phase, 13A)",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"AD06"
+    },
+    "ADX7":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Description",
+      "disclaimer":"Disclaimer",
+      "list_price":0,
+      "long_name":"No - 3-ph Red IEC309 (3 phase, 16A)",
+      "name":"no - 3-ph Red IEC309 (3 phase, 16A)",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"AD07"
+    },
+    "ADX8":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Description",
+      "disclaimer":"Disclaimer",
+      "list_price":0,
+      "long_name":"No - Blue IEC309 (1 phase, 32A)",
+      "name":"No - Blue IEC309 (1 phase, 32A)",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"AD08"
+    },
+    "ADX9":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Description",
+      "disclaimer":"Disclaimer",
+      "list_price":0,
+      "long_name":"No - Adapter, Swiss (1 phase, 10A)",
+      "name":"No - Adapter, Swiss (1 phase, 10A)",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"AD09"
+    },
+    "ADPC2":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Model S kommer med Type 2 ladeport. De fleste offentlige ladestasjoner krever at du har en egen type 2 ladekabel. Opp til 55 kilometer rekkevidde per time med standard 11 kW enkeltlader. Opp til 110 kilometer rekkevidde per time med tilvalget 22 kW dobbeltlader. (Ps: ladehastighet avhenger også av utgangseffekten på ladestasjonen).",
+      "disclaimer":"",
+      "list_price":0,
+      "long_name":"Type 2 offentlig ladekabel",
+      "name":"Type 2 offentlig ladekabel",
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"ADPX2"
+    },
+    "ADPX2":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Description",
+      "disclaimer":"Disclaimer",
+      "list_price":0,
+      "long_name":"Type 2 Public Charging Connector",
+      "name":"Type 2 Public Charging Connector",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"ADPC2"
+    },
+    "AU00":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Ingen lydpakke",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Ingen lydpakke",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "requires":[
+        "X014"
+      ],
+      "toggle_pair":"AU01"
+    },
+    "AU01":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Ultra Hi-Fi lydsystemet omslutter passasjerene som i en konsertsal, og bruker 12 presist plasserte høyttalere for å nøyaktig gjengi lyd og levere den direkte til passasjerenes ører. Dens digitale signalbehandling ble utviklet med kjente plateprodusenter og er nøyaktig innstilt for høyttalernes plassering inne i bilen. Våre lydteknikerne tok til og med akustiske forskjeller i takmaterialet med i beregningen ved å opprette forskjellige signalbehandlingskoder for standard tak og panoramatak i helglass. Pakken inneholder: <ul>  <li>DAB+ radio</li>  <li>12 høyttalere med neodymmagneter, inkludert en 8&quot; subwoofer</li>   </ul>",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Ultra Hi-Fi lydsystem",
+      "price":0,
+      "price_indicator":"Optional",
+      "requires":[
+        "X013"
+      ],
+      "toggle_pair":"AU00"
+    },
+    "BC0B":{
+      "category":"C_PERF",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Black Brake Calipers",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Black Brake Calipers",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"BC0R"
+    },
+    "BC0R":{
+      "category":"C_PERF",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Firestempels Brembo bremsecalipere i Tesla-rødt",
+      "disclaimer":"Krever P85D",
+      "list_price":0,
+      "name":"Tesla-røde bremsecalipere",
+      "price":0,
+      "price_indicator":"Optional",
+      "requires":[
+        "P85D"
+      ],
+      "toggle_pair":"BC0B",
+      "valid_pairs":[
+        "PBT85",
+        "P85D"
+      ]
+    },
+    "BS00":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"NOBULL00",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"NOBULL00",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"BS01"
+    },
+    "BS01":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"YESBULL00",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"YESBULL00",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"BS00"
+    },
+    "BT60":{
+      "category":"C_BAT",
+      "defaults":[
+        "SC00"
+      ],
+      "delivery_date":"20121101",
+      "delivery_date_warning":null,
+      "description":"<ul><li><strong>390</strong> Rekkevidde i km (NEDC)<br /></li><li><strong>385</strong> hk motorkraft</li><li><strong>6.2</strong> sekunder 0 - 100 km/t</li><li><strong>190</strong> km/t toppfart</li><li>8-års, 200 000 km batteri- og drivenhetsgaranti</li><li>Superlading valgfritt</li></ul>",
+      "disclaimer":"",
+      "list_price":0,
+      "long_name":"60 kWt Model S",
+      "name":"60 kWt Batteri",
+      "price":0,
+      "price_indicator":"Optional",
+      "requires":[
+        "PX00",
+        "X021",
+        "X025",
+        "BC0B",
+        "DV2W"
+      ],
+      "toggle_map":{
+        "QZMB":"QPMB",
+        "QZMT":"QPMT",
+        "QZMG":"QPMG",
+        "QYMB":"QXMB",
+        "QYMT":"QXMT",
+        "QYMG":"QXMG",
+        "QNLB":"QPMB",
+        "QNLT":"QPMT",
+        "QNLG":"QPMG",
+        "QNEB":"QXMB",
+        "QNET":"QXMT",
+        "QNEG":"QXMG",
+        "QRLB":"QPMB",
+        "QRLT":"QPMT",
+        "QRLG":"QPMG",
+        "QREB":"QXMB",
+        "QRET":"QXMT",
+        "QREG":"QXMG",
+        "WTSG":"WTSP",
+        "WTSS":"WT21",
+        "DV4W":"DV2W"
+      },
+      "toggle_map_trigger":true,
+      "valid_pairs":[
+        "SC01"
+      ]
+    },
+    "BT85":{
+      "category":"C_BAT",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"<ul><li><strong>502</strong> Rekkevidde i km (NEDC)<br /></li><li><strong>385</strong> hk motorkraft</li><li><strong>5.6</strong> sekunder 0 - 100 km/t</li><li><strong>225</strong> km/t toppfart</li><li>8-års garanti med ubegrenset kilometer for batteri og drivenhet</li><li>Superlading inkludert</li></ul>",
+      "disclaimer":"",
+      "list_price":0,
+      "long_name":"85 kWt Model S",
+      "name":"85 kWt Batteri",
+      "price":0,
+      "price_indicator":"Optional",
+      "requires":[
+        "PX00",
+        "SC01",
+        "X021",
+        "X025",
+        "BC0B"
+      ],
+      "toggle_map":{
+        "QZMB":"QPMB",
+        "QZMT":"QPMT",
+        "QZMG":"QPMG",
+        "QYMB":"QXMB",
+        "QYMT":"QXMT",
+        "QYMG":"QXMG",
+        "QNLB":"QPMB",
+        "QNLT":"QPMT",
+        "QNLG":"QPMG",
+        "QNEB":"QXMB",
+        "QNET":"QXMT",
+        "QNEG":"QXMG",
+        "QRLB":"QPMB",
+        "QRLT":"QPMT",
+        "QRLG":"QPMG",
+        "QREB":"QXMB",
+        "QRET":"QXMT",
+        "QREG":"QXMG",
+        "WTSG":"WTSP",
+        "WTSS":"WT21"
+      },
+      "toggle_map_trigger":true
+    },
+    "CDM0":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "dependent_overrides":{
+        "SC00":{
+          "override_disclaimer":"*** SC00 Override Disclaimer *** ",
+          "override_indicator":"Optional",
+          "price_indicator":"Optional"
+        },
+        "SC01":{
+          "override_disclaimer":"*** SC00 Override Disclaimer *** ",
+          "override_indicator":"Optional",
+          "price_indicator":"Optional"
+        }
+      },
+      "description":"No CHAdeMO Charging Adaptor",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"No CHAdeMO Charging Adaptor",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"CDM1"
+    },
+    "CDM1":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "dependent_overrides":{
+        "SC00":{
+          "override_disclaimer":"{{#disclaimer-price}} om supercharging er aktivert",
+          "override_indicator":"Optional",
+          "price":0,
+          "priced_disclaimer_key":"SC01",
+          "price_indicator":"Optional"
+        },
+        "SC01":{
+          "override_disclaimer":"{{#disclaimer-price}} om supercharging ikke er aktivert",
+          "override_indicator":"Optional",
+          "price":0,
+          "priced_disclaimer_key":"SC00",
+          "price_indicator":"Optional"
+        }
+      },
+      "description":"Dra nytte av CHAdeMO sitt nettverk av 50kw ladestasjoner ved å aktivere maskinvaren ombord på Model S  og i tillegg kjøpe et separat adapter. Maskinvaren er allerede  aktivert på alle Model S hvor supercharger maskinvaren er inkludert. Gir opptil 240km  per time lading",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"CHAdeMO Lade Adapter",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"CDM0"
+    },
+    "CH00":{
+      "category":"C_CHG_SUPER",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Enkellader",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Enkellader",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"CH01"
+    },
+    "CH01":{
+      "category":"C_CHG_SUPER",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Utstyr Model S med  en ekstra lader for opptil dobbelt så rask ladetid og dra nytte av opptil 110km rekkevidde per time lading. Bruk sammen med  High  Power Wall Connector eller type 2 offentlig ladestasjoner for best resultat.",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Dobbeltlader",
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"CH00"
+    },
+    "COL0":{
+      "category":"C_EXTCOL",
+      "description":"Eksklusiv Signature-farge",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Signature",
+      "price":0,
+      "price_indicator":"Included",
+      "value_list":{
+        "PPSR":{
+          "long_name":"Signature rød lakk",
+          "name":"Signature-rød"
+        }
+      }
+    },
+    "COL1":{
+      "category":"C_EXTCOL",
+      "description":"Solide farger (tilgjengelige de 6 første månedene av produksjonen)",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Hel",
+      "price":0,
+      "price_indicator":"Included",
+      "value_list":{
+        "PBSB":{
+          "delivery_date_warning":null,
+          "long_name":"Svart solid lakk",
+          "name":"Svart"
+        },
+        "PBCW":{
+          "delivery_date_warning":null,
+          "long_name":"Hvit solid lakk",
+          "name":"Hvit"
+        }
+      }
+    },
+    "COL2":{
+      "category":"C_EXTCOL",
+      "description":"Metallic farger (tilgjengelig på syv måneder av produksjonen)",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Metallic",
+      "price":0,
+      "price_indicator":"Optional",
+      "value_list":{
+        "PMSS":{
+          "delivery_date_warning":null,
+          "long_name":"Sølv metallic lakk",
+          "name":"Sølv"
+        },
+        "PMMB":{
+          "delivery_date_warning":null,
+          "long_name":"Blå metallic lakk",
+          "name":"Blå"
+        },
+        "PMSG":{
+          "delivery_date_warning":null,
+          "long_name":"Grønn metallic lakk",
+          "name":"Grønn",
+          "no_ui":true
+        },
+        "PMAB":{
+          "delivery_date_warning":null,
+          "long_name":"Brun metallic lakk",
+          "name":"Brun",
+          "no_ui":true
+        },
+        "PMNG":{
+          "delivery_date_warning":null,
+          "long_name":"Grå metallic lakk",
+          "name":"Grå"
+        }
+      }
+    },
+    "COL3":{
+      "category":"C_EXTCOL",
+      "description":"Premium farger (tilgjengelig på 9 måneder av produksjonen)",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Tesla multibelegg",
+      "price":0,
+      "price_indicator":"Optional",
+      "value_list":{
+        "PPSW":{
+          "delivery_date_warning":null,
+          "long_name":"Perlehvit lakk",
+          "name":"Perlehvit"
+        },
+        "PPMR":{
+          "delivery_date_warning":null,
+          "long_name":"Rød multibelegg lakk",
+          "name":"Rød"
+        }
+      }
+    },
+    "CW00":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Ingen vinterpakke",
+      "disclaimer":null,
+      "excludes":[
+        "CW01"
+      ],
+      "list_price":0,
+      "name":"Ingen vinterpakke",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"CW02"
+    },
+    "CW01":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Forbedre komforten og bekvemmeligheten i kaldt vær ved å legge til: <ul><li>3-sonet baksetevarmere</li>  <li>Vindusviskervarmere</li><li>Vinduspylervarmere</li></ul>",
+      "disclaimer":"Anbefalt for klimaer der temperaturen regelmessig faller til under frysepunktet",
+      "excludes":[
+        "CW00",
+        "CW02"
+      ],
+      "list_price":0,
+      "name":"Vinterpakke",
+      "no_ui":true,
+      "pdf_show":true,
+      "price":0,
+      "price_indicator":"Optional"
+    },
+     "CW02":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "dependent_overrides":{
+        "SR02":{
+          "price":0,
+          "price_indicator":"Included"
+        }
+      },
+      "description":"Forbedre komforten og bekvemmeligheten i kaldt vær ved å legge til: <ul><li>3-sonet baksetevarmere</li>  <li>Vindusviskervarmere</li><li>Vinduspylervarmere</li><li>Oppvarmet ratt</li></ul>",
+       "disclaimer":"Anbefalt for klimaer der temperaturen regelmessig faller til under frysepunktet",
+      "excludes":[
+        "CW01"
+      ],
+      "list_price":0,
+      "name":"Vinterpakke",
+      "price":0,
+      "price_indicator":"Optional",
+      "required_by":[
+        "SR02"
+      ],
+      "toggle_pair":"CW00"
+    },
+    "DA01":{
+      "category":"C_STDEQ",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"<ul><li>Adaptiv cruise-kontroll</li><li>Varsel om avkjøring fra kjørefelt</li><li>Hastighetstilpasning</li></ul>",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Aktiv sikkerhet",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "DRLH":{
+      "category":"C_DRIVE",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Høyreratt",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Høyreratt",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "requires":["ME02"]
+    },
+    "DSH5":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"PUR Dash Pad",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"PUR Dash Pad",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"DSH7"
+    },
+    "DSH7":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Velg premium taktrekk med et Alcantara dashbordpanel ved siden av instrumentpanelet, klimakontrollåpningene og 17\" touchscreen.",
+      "disclaimer":"Krever Alcantara innertak",
+      "list_price":0,
+      "name":"Black Alcantara Dashboard Accents",
+      "no_ui":true,
+      "pkg_visible":false,
+      "price_indicator_no_ui":true,
+      "emancipated":true,
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"DSH5"
+    },
+    "DV2W":{
+      "category":"C_MOTOR",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Single Drive Motor",
+      "disclaimer":null,
+      "list_price":0,
+      "long_name":"Bakhjulsdrift",
+      "name":"Bakhjulsdrift",
+      "price":0,
+      "price_indicator":"Included",
+      "requires":[
+        "PX00"
+      ],
+      "toggle_map":{
+        "QNEB":"QYMB",
+        "QNET":"QYMT",
+        "QNEG":"QYMG",
+        "QREB":"QYMB",
+        "QRET":"QYMT",
+        "QREG":"QYMG"
+      },
+      "toggle_map_trigger":true,
+      "toggle_pair":"DV4W",
+      "valid_pairs":[
+        "BT60",
+        "BT85"
+      ]
+    },
+    "DV4W":{
+      "category":"C_MOTOR",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":null,
+      "dependent_overrides":{
+        "BT60":{
+          "override_disclaimer":"",
+          "override_indicator":"Optional",
+          "override_name":"Firehjulstrekk med Dual Motor",
+          "override_description":"<ul><li><strong>360</strong> km rekkevidde i 105 km/t</li><li><strong>380</strong> hp motorkraft<br /><strong>140</strong> kw foran og bak</li><li><strong>6.0</strong> sekunder 0 - 100 km/t</li><li><strong>200</strong> km/t toppfart</li><li>8-års garanti med 200.000 kilometer for batteri og drivenhet</li><li>Superlading er valgfritt</li></ul>",
+          "price":4000,
+          "price_indicator":"Optional"
+        },
+        "BT85":{
+          "override_disclaimer":"",
+          "override_indicator":"Optional",
+          "override_name":"Dual Motor Firehjulsdrift",
+          "override_description":"<ul><li><strong>502</strong> Rekkevidde i km (NEDC estimert)</li><li><strong>380</strong> hk motorkraft<br /><strong>190</strong> hk foran og bak</li><li><strong>5.4</strong> sekunder 0 - 100 km/t</li><li><strong>250</strong> km/t toppfart</li><li>8-års garanti med ubegrenset kilometer for batteri og drivenhet</li><li>Superlading inkludert</li></ul>",
+          "price":4000,
+          "price_indicator":"Optional"
+        },
+        "PBT85":{
+          "override_disclaimer":"Tech-pakke, luftfjæring, 21\"<br /> hjul og Neste generasjon seter anbefales",
+          "override_name":"<span class=\"red text headline\">Dual Motor Firehjulsdrift</span>",
+          "override_indicator":"Optional",
+          "price":4000,
+          "price_indicator":"Optional"
+        },
+        "P85D":{
+          "override_disclaimer":"Tech-pakke, luftfjæring, 21\" hjul og Neste generasjon seter anbefales",
+          "override_name":"<span class=\"red text headline\">Høyytelses</span> Dual Motor firehjulstrekk",
+          "override_indicator":"Standard",
+          "price":8000,
+          "price_indicator":"Standard"
+        }
+      },
+      "disclaimer":null,
+      "list_price":0,
+      "long_name":"Firehjulstrekk med Dual Motor",
+      "name":"Firehjulstrekk med Dual Motor",
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_map":{
+        "PBT85":"P85D"
+      },
+      "toggle_map_trigger": true,
+      "toggle_pair":"DV2W"
+    },
+    "FG00":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":null,
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Grunn ekstern belysning",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"FG02"
+    },
+    "FG02":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Skjær gjennom tåke og belys hindringer på mørke veier med LED tåkelys som styres via bilens touchscreen. Våre ny-designede tåkelys er designet for å virke med våre LED kurvelys og frontlys som et komplett system.",
+      "list_price":0,
+      "long_name":"Exterior Lighting Package",
+      "name":"Exterior Lighting Package",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"FG00"
+    },
+    "HP00":{
+      "category":"C_CHG_SUPER",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"No High Power Wall Connector",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"No High Power Wall Connector",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "IDCF":{
+      "category":"C_INTDECOR",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Karbonfiber",
+      "disclaimer":null,
+      "excludes":[
+        "IDPB",
+        "IDOM",
+        "IDOG",
+        "IDHG",
+        "IDHM",
+        "IDLW"
+      ],
+      "list_price":0,
+      "long_name":"Karbonfiberinnredning",
+      "name":"Karbonfiberinnredning",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "IDLW":{
+      "category":"C_INTDECOR",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Morbærtre",
+      "disclaimer":null,
+      "no_ui":true,
+      "excludes":[
+        "IDPB",
+        "IDOM",
+        "IDOG",
+        "IDHG",
+        "IDHM",
+        "IDCF"
+      ],
+      "list_price":0,
+      "long_name":"Morbærtre innredning",
+      "name":"Morbærtre innredning",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "IDOG":{
+      "category":"C_INTDECOR",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Blankt abachi-tre",
+      "disclaimer":null,
+      "no_ui":true,
+      "excludes":[
+        "IDPB",
+        "IDOM",
+        "IDCF",
+        "IDHG",
+        "IDHM",
+        "IDLW"
+      ],
+      "list_price":0,
+      "long_name":"Blankt abeche-tre glanset innredning",
+      "name":"Blankt abachi-tre glanset innredning",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "IDOM":{
+      "category":"C_INTDECOR",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Matt abachi-tre",
+      "disclaimer":null,
+      "no_ui":true,
+      "excludes":[
+        "IDPB",
+        "IDCF",
+        "IDOG",
+        "IDHG",
+        "IDHM",
+        "IDLW"
+      ],
+      "list_price":0,
+      "long_name":"Abeche-tre matt innredning",
+      "name":"Abeche-tre matt innredning",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "IDHG":{
+      "category":"C_INTDECOR",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Blankt abachi-tre",
+      "disclaimer":null,
+      "excludes":[
+        "IDPB",
+        "IDOM",
+        "IDCF",
+        "IDOG",
+        "IDHM",
+        "IDLW"
+      ],
+      "list_price":0,
+      "long_name":"Obeche-tre glanset innredning",
+      "name":"Blankt abachi-tre",
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "IDHM":{
+      "category":"C_INTDECOR",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Matt abachi-tre",
+      "disclaimer":null,
+      "excludes":[
+        "IDPB",
+        "IDCF",
+        "IDOG",
+        "IDHG",
+        "IDOM",
+        "IDLW"
+      ],
+      "list_price":0,
+      "long_name":"Obeche-tre matt innredning",
+      "name":"Matt abachi-tre",
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "IDPB":{
+      "category":"C_INTDECOR",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Pianosvart",
+      "disclaimer":null,
+      "excludes":[
+        "IDCF",
+        "IDOM",
+        "IDOG",
+        "IDHG",
+        "IDHM",
+        "IDLW"
+      ],
+      "list_price":0,
+      "long_name":"Pianosvart innredning",
+      "name":"Pianosvart",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "IX00":{
+      "category":"C_INT_NOW_DEFAULT_OPTS",
+      "defaults":[
+        "QPBT"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"No Extended Nappa Leather Trim",
+      "disclaimer":null,
+      "excludes":[
+        "QREB",
+        "QRET",
+        "QREG",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QXMB",
+        "QXMG",
+        "QXMT",
+        "QYMB",
+        "QYMG",
+        "QYMT"
+      ],
+      "list_price":0,
+      "long_name":"No Extended Nappa Leather Trim",
+      "name":"White",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "requires":[
+        "PI00"
+      ],
+      "toggle_map":{
+        "QXMB":"QPMB",
+        "QXMG":"QPMG",
+        "QXMT":"QPMT",
+        "QYMB":"QZMB",
+        "QYMG":"QZMG",
+        "QYMT":"QZMT",
+        "QNEB":"QNLB",
+        "QNET":"QNLT",
+        "QNEG":"QNLG",
+        "QREB":"QRLB",
+        "QRET":"QRLT",
+        "QREG":"QRLG"
+      },
+      "toggle_map_trigger": true,
+      "toggle_pair":"IX01",
+      "unbundle":true
+    },
+    "IX01":{
+      "category":"C_INT_NOW_DEFAULT_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Wrap the interior of your car in the same luxurious Nappa leather used for our seats. Selectively chosen top-grade hides are minimally processed to retain their natural character. The result is an especially soft, smooth finish for the following surfaces:<ul><li>Lower instrument panel</li><li>Armrests (door and console)</li><li>Driver airbag cover</li></ul>",
+      "disclaimer":"Requires Leather or Performance seats",
+      "excludes":[
+        "QPBT",
+        "QPMB",
+        "QPMG",
+        "QRLB",
+        "QRLT",
+        "QRLG",
+        "QNLB",
+        "QNLT",
+        "QNLG",
+        "QPMT",
+        "QZMB",
+        "QZMG",
+        "QZMT"
+      ],
+      "list_price":0,
+      "long_name":"Utvidede dekorlister i Nappaskinn",
+      "name":"Extended Nappa Leather Trim",
+      "no_ui":true,
+      "pkg_visible":false,
+      "price":0,
+      "price_indicator":"Included",
+      "requires":[
+        "PI01"
+      ],
+      "toggle_map":{
+        "QPBT":"QXMB",
+        "QPMB":"QXMB",
+        "QPMG":"QXMG",
+        "QPMT":"QXMT",
+        "QZMB":"QYMB",
+        "QZMG":"QYMG",
+        "QZMT":"QYMT",
+        "QNLB":"QNEB",
+        "QNLT":"QNET",
+        "QNLG":"QNEG",
+        "QRLB":"QREB",
+        "QRLT":"QRET",
+        "QRLG":"QREG"
+      },
+      "toggle_map_trigger": true,
+      "toggle_pair":"IX00",
+      "unbundle":true
+    },
+    "LP00":{
+      "category":"C_INT_NOW_DEFAULT_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Ingen lyspakke",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Ingen lyspakke",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "requires":[
+        "PI00"
+      ],
+      "toggle_pair":"LP01",
+      "unbundle":true
+    },
+    "LP01":{
+      "category":"C_INT_NOW_DEFAULT_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Få stemning i din Model S med strategisk plasserte LED-lys som belyser uten å reflekteres i frontruta. Interiørbelysning inkluderer: <ul><li>Stemningsbelysning i dørpanelene</li><li>Gulvbelysning på andre rad</li><li>Bakkebelysning i andre rad</li></ul>",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Premium interiørbelysning",
+      "no_ui":true,
+      "pkg_visible":false,
+      "price":0,
+      "price_indicator":"Optional",
+      "requires":[
+        "PI01"
+      ],
+      "toggle_pair":"LP00",
+      "unbundle":true
+    },
+    "ME02":{
+        "category":"C_STDEQ",
+        "delivery_date":null,
+        "delivery_date_warning":null,
+        "list_price":0,
+        "name":"Memory Seats",
+        "long_name":"Memory Seats",
+        "no_ui":true,
+        "price":0,
+        "price_indicator":"Included"
+    },
+    "PA00":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"No Paint Armor",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"No Paint Armor",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"PA01"
+    },
+    "PA01":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Protect key areas of Model S against stone chips, bug damage, weathering and other paint damage. Paint Armor is clear film that is applied to:<br /><ul><li>Exterior mirrors</li><li>Front bumper, fascia and hood (nose)</li><li>Front and rear fender (trailing edge)</li><li>Front and rear rocker panels</li><li>Rear bumper fascia</li></ul><br />Depending on the angle of sunlight, seams between protected and unprotected paint areas will be visible, particularly on white and pearl white cars.",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Paint Armor",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"PA00"
+    },
+    "PBT85":{
+      "category":"C_BAT",
+      "defaults":[
+        "BC0R",
+        "UTAW"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"<ul><li><strong>502</strong> km ny europeisk kjøresyklus-rekkevidde</li><li><strong>376</strong> hp motorkraft</li><li><strong>4.4</strong> sekunder 0 - 100 km/t</li><li><strong>210</strong> km/t toppfart</li><ul><li>8-års garanti med ubegrenset kilometer for batteri og drivenhet</li><li>Superlading inkludert</li></ul>",
+      "disclaimer":"",
+      "list_price":0,
+      "long_name":"85 kWt Performance Model S",
+      "name":"85 kWt <span class=\"red text\">Performance</span>",
+      "price":0,
+      "price_indicator":"Optional",
+      "no_ui":true,
+      "requires":[
+        "SC01",
+        "X024",
+        "DV2W"
+      ],
+      "toggle_map":{
+        "QRLB":"QZMB",
+        "QRLT":"QZMT",
+        "QRLG":"QZMG",
+        "QREB":"QYMB",
+        "QRET":"QYMT",
+        "QREG":"QYMG",
+        "QNLB":"QZMB",
+        "QNLT":"QZMT",
+        "QNLG":"QZMG",
+        "QNEB":"QYMB",
+        "QNET":"QYMT",
+        "QNEG":"QYMG",
+        "WT21":"WTSS",
+        "WTSP":"WTSG"
+      },
+      "toggle_map_trigger":true,
+      "valid_pairs":[
+        "X021",
+        "BC0B",
+        "UTAB",
+        "UTAW",
+        "UTMF"
+      ]
+    },
+    "P85D":{
+      "category":"C_BAT",
+      "defaults":[
+        "BC0R",
+        "UTAW"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"<ul> <li><strong>480</strong> Rekkevidde i km (NEDC estimert)</li> <li><strong>700</strong> hk motorkraft<br /><strong>224</strong> hk foran, <strong>476</strong> hk bak</li> <li><strong>3.4</strong> sekunder 0 - 100 km/t</li> <li><strong>250</strong> km/t toppfart</li> <li>Høyytelses Dual Motor firehjulstrekk med understell spesialdesignet for enestående veigrep og eksepsjonelle krefter</li><li>8-års garanti med ubegrenset kilometer for batteri og drivenhet</li></ul>",
+      "disclaimer":"",
+      "next_gen_seats":"Model S Dual Motor Ytelsen vil motta <a href='http://www.teslamotors.com/sites/default/files/blog_images/next-generation-black-lhd.jpg' target='_blank'> Teslas neste generasjon sete </a>, reengineered for komfort og sidestøtte.",
+      "list_price":0,
+      "long_name":"85 kWt Performance Model S",
+      "name":"85 kWt <span class=\"red text\">Performance</span>",
+      "price":0,
+      "price_indicator":"Optional",
+      "requires":[
+        "SC01",
+        "X024",
+        "DV4W"
+      ],
+      "set_last":true,
+      "toggle_map":{
+        "WT21":"WTSS",
+        "WTSP":"WTSG"
+      },
+      "toggle_map_trigger":true,
+      "valid_pairs":[
+        "X021",
+        "BC0B",
+        "UTAB",
+        "UTAW",
+        "UTMF"
+      ]
+    },
+    "PF00":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Ingen Perfomance Legacy-pakke",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Ingen Perfomance Legacy-pakke",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"PF01"
+    },
+    "PF01":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Perfomance Legacy-pakke",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Perfomance Legacy-pakke",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"PF00"
+    },
+    "PI00":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":null,
+      "disclaimer":null,
+      "excludes":[
+        "SR02",
+        "PI01"
+      ],
+      "list_price":0,
+      "name":"No Premium Interior",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional",
+      "requires":[
+        "IX00",
+        "LP00",
+        "YF00",
+        "SR01"
+      ],
+      "set_last":true,
+      "toggle_pair":"PI01",
+      "unbundle":true
+    },
+    "PI01":{
+      "category":"C_OPTS",
+      "children":[
+        "SR02"
+      ],
+      "defaults":[
+        "UTAW"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Fremhev interiøret i Model S med LED effektbelysning og utvidet nappaskinn i hele kabinen. De nøye utvalgte skinntypene i aller høyeste kvalitet er minimalt behandlet, sånn at den naturlige karakteren beholdes, og dekker armlenene, dekslet over airbagen til føreren, og det nedre dashbordet. ",
+      "disclaimer":"Krever skinnseter og Alcantara taktrekk",
+      "list_price":0,
+      "name":"Premium interiørpakke",
+      "price":0,
+      "price_indicator":"Optional",
+      "requires":[
+        "IX01",
+        "LP01"
+      ],
+      "set_last":true,
+      "toggle_pair":"PI00",
+      "unbundle":true,
+      "valid_pairs":[
+        "UTAW",
+        "UTAB"
+      ]
+    },
+    "PK00":{
+      "category":"C_STDEQ",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":null,
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Legacy Ingen parkeringssensor",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "PS00":{
+      "category":"C_STDEQ",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Ingen hattehylle",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Ingen hattehylle",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"PS01"
+    },
+    "PS01":{
+      "category":"C_STDEQ",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Skap redusert innsyn i baggasjerommet med den avtagbare hattehyllen som sklir inn mellom baksetene og bakruten for å skjerme eiendelene dine.",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Hattehylle",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"PS00"
+    },
+    "PSP14":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Valgfri ranger besøk koster minimum kr. 1.000 per besøk",
+      "disclaimer":"",
+      "excludes":[
+        "PSPR14"
+      ],
+      "list_price":0,
+      "long_name":"Fire år",
+      "name":"Fire år",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"PSPX4"
+    },
+     "PSP15":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":null,
+      "disclaimer":"",
+      "excludes":[
+        "PSPR14"
+      ],
+      "list_price":17750,
+      "long_name":"Fem år",
+      "name":"Fem år",
+      "price":17750,
+      "price_indicator":"Optional",
+      "toggle_pair":"PSPX5",
+      "no_ui": true
+    },
+    "PSPR14":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Inkluderer ubegrenset ranger besøk",
+      "disclaimer":null,
+      "excludes":[
+        "PSP14"
+      ],
+      "list_price":0,
+      "long_name":"Fire år + ubegrenset Ranger",
+      "name":"Fire år + ubegrenset Ranger",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"PSPRX4"
+    },
+    "PSP8":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"",
+      "disclaimer":"",
+      "excludes":[
+        "PSPR8"
+      ],
+      "list_price":28400,
+      "long_name":"Eight Years Prepaid Service",
+      "name":"åtte år",
+      "no_ui":true,
+      "price":28400,
+      "price_indicator":"Optional",
+      "toggle_pair":"PSPX8"
+    },
+    "PSPX4":{
+      "category":"C_ACC",
+      "description":"Ranger service",
+      "disclaimer":null,
+      "list_price":0,
+      "long_name":"No Four-year prepaid",
+      "name":"No Four-year prepaid",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"PSP14"
+    },
+    "PSPX5":{
+      "category":"C_ACC",
+      "description":"Ranger service",
+      "disclaimer":null,
+      "list_price":0,
+      "long_name":"No Four-year prepaid",
+      "name":"No Four-year prepaid",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"PSP15"
+    },
+    "PSPX8":{
+      "category":"C_ACC",
+      "description":"Ranger service",
+      "disclaimer":null,
+      "list_price":0,
+      "long_name":"No Eight-year prepaid",
+      "name":"No Eight-year prepaid",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"PSP8"
+    },
+    "PSPRX4":{
+      "category":"C_ACC",
+      "disclaimer":null,
+      "list_price":0,
+      "long_name":"No Four-year prepaid Annual Service with Ranger Service",
+      "name":"No Four-year prepaid Annual Service with Ranger Service",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"PSPR14"
+    },
+    "PX00":{
+      "category":"C_PERF",
+      "defaults":[
+        "WT19"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Ingen Performance Plus-pakke",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Ingen Performance Plus-pakke",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_map":{
+        "WTSG":"WTSP",
+        "WTSS":"WT21"
+      },
+      "toggle_pair":"PX01",
+      "ui_excludes":[
+        "WTSS",
+        "WTSG"
+      ],
+      "valid_pairs":[
+        "WT19",
+        "WTTB",
+        "WT21",
+        "WTSP"
+      ]
+    },
+    "PX01":{
+      "category":"C_PERF",
+      "defaults":[
+        "WTSG"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Performance Plus legger håndtering i verdensklasse til den utrolige akselerasjonen til Model S Performance mens den samtidig forbedrer rekkevidden. Etter hundrevis av gjentakelser som påvirker hver eneste detalj av fjæringen, oppnådde kjøretøysdynamikkteamet vårt det sjeldne utfallet å forbedre både ytelse og effektivitet. I tillegg til oppgraderte dempere, foringer, stabilisatorbarer og dekk (Michelin Pilot Sport PS2), er bakdekkene 20 mm bredere og forskjøvne for bedre akselerasjon på veidekker med dårlig grep. Rekkevidden forbedres 6 til 12 miles i forhold til vanlige 21\" hjul.",
+      "disclaimer":"Krever 85 kWt Performance, teknologipakke, Smart Luftfjæring og 21\" hjul",
+      "list_price":0,
+      "name":"Performance Plus",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional",
+      "requires":[
+        "TP02",
+        "SU01",
+        "P85D"
+      ],
+      "set_last":true,
+      "toggle_map":{
+        "WT21":"WTSS",
+        "WTSP":"WTSG"
+      },
+      "toggle_map_trigger":true,
+      "toggle_pair":"PX00",
+      "ui_excludes":[
+        "WT21",
+        "WTSP"
+      ],
+      "valid_pairs":[
+        "WT19",
+        "WTTB",
+        "WTSS",
+        "WTSG"
+      ]
+    },
+    "TP00":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"No Technology Package",
+      "disclaimer":null,
+      "excludes":[
+        "FG02"
+      ],
+      "list_price":0,
+      "name":"No Technology Package",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "requires":[
+        "X002",
+        "X004",
+        "X007",
+        "X010",
+        "X012",
+        "X026",
+        "X030",
+        "SU00",
+        "FG00"
+      ],
+      "toggle_pair":"TP02"
+    },
+    "TP02":{
+      "category":"C_OPTS",
+      "children":[
+        "SU01"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Tech-pakken legger til en rekke funksjoner på en allerede avansert bil.<ul> <li>Bekvemmelighetsegenskapene i autopiloten er tilgjengelige gjennom programvareoppdateringer</li><li>Innebygde kart og navigasjon med gratis oppdatering i 7 år</li><li>LED hjørne- og tåkelys</li><li>Automatisk, nøkkelfri døråpning</li><li>Belyste dørhåndtak</li><li>Elektronisk betjent bakluke</li><li>Automatisk avblendbare speil</li><li>Elektriske vippespeil med varme på sidene (minnefunksjon)</li> </ul>",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Tech-pakke med autopilot",
+      "price":0,
+      "price_indicator":"Optional",
+      "requires":[
+        "X001",
+        "X003",
+        "X007",
+        "X037",
+        "X011",
+        "X027",
+        "X031",
+        "FG02"
+      ],
+      "toggle_pair":"TP00"
+    },
+    "QPBT":{
+      "category":"C_INTBASE_BASE",
+      "delivery_date":"20120901",
+      "delivery_date_warning":null,
+      "description":"Tekstil",
+      "disclaimer":null,
+      "excludes":[
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLT",
+        "QRLG",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLT",
+        "QNLG",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Svarte tekstilseter",
+      "name":"Svarte tekstilseter",
+      "price":0,
+      "price_indicator":"Included",
+      "requires":[
+        "IX00"
+      ]
+    },
+    "QPMB":{
+      "category":"C_INTBASE_CUSTOM_PREMIUM",
+      "defaults":[
+        "IX00"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Svarte skinnseter",
+      "disclaimer":null,
+      "excludes":[
+        "QPBT",
+        "QPMT",
+        "QPMG",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLT",
+        "QRLG",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLT",
+        "QNLG",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Svarte skinnseter",
+      "name":"Svarte skinnseter",
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "QPMG":{
+      "category":"C_INTBASE_CUSTOM_PREMIUM",
+      "defaults":[
+        "IX00"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Grå skinnseter",
+      "disclaimer":null,
+      "excludes":[
+        "QPMB",
+        "QPMT",
+        "QPBT",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLT",
+        "QRLG",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLT",
+        "QNLG",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Grå skinnseter",
+      "name":"Grå skinnseter",
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "QPMT":{
+      "category":"C_INTBASE_CUSTOM_PREMIUM",
+      "defaults":[
+        "IX00"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Beige skinnseter",
+      "disclaimer":null,
+      "excludes":[
+        "IX01",
+        "QPMB",
+        "QPBT",
+        "QPMG",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLT",
+        "QRLG",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLT",
+        "QNLG",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Beige skinnseter",
+      "name":"Beige skinnseter",
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "QNEB":{
+      "category":"C_INTBASE_PREMIUM_R_UPGRADE",
+      "defaults":[
+        "IX01"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Sorte Neste generasjon seter",
+      "disclaimer":null,
+      "excludes":[
+        "IX00",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QPBT",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLG",
+        "QNLT",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLG",
+        "QRLT",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Sorte Neste generasjon seter",
+      "name":"Sorte Neste generasjon seter",
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "QNEG":{
+      "category":"C_INTBASE_PREMIUM_R_UPGRADE",
+      "defaults":[
+        "IX01"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Grått Neste generasjon seter",
+      "disclaimer":null,
+      "excludes":[
+        "IX00",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QPBT",
+        "QNEB",
+        "QNET",
+        "QNLB",
+        "QNLG",
+        "QNLT",
+        "QREB",
+        "QREG",
+        "QRET",
+        "QRLB",
+        "QRLG",
+        "QRLT",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Grått Neste generasjon seter",
+      "name":"Grått Neste generasjon seter",
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "QNET":{
+      "category":"C_INTBASE_PREMIUM_R_UPGRADE",
+      "defaults":[
+        "IX01"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Beige Neste generasjon seter",
+      "disclaimer":null,
+      "excludes":[
+        "IX00",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QPBT",
+        "QNEB",
+        "QNEG",
+        "QNLB",
+        "QNLG",
+        "QNLT",
+        "QREB",
+        "QREG",
+        "QRET",
+        "QRLB",
+        "QRLG",
+        "QRLT",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Beige Neste generasjon seter",
+      "name":"Beige Neste generasjon seter",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "QNLB":{
+      "category":"C_INTBASE_PREMIUM_R",
+      "defaults":[
+        "IX00"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Sorte Neste generasjon seter",
+      "disclaimer":null,
+      "excludes":[
+        "IX01",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QPBT",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLT",
+        "QNLG",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLT",
+        "QRLG",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "logical_category":"LC_INT",
+      "long_name":"Sorte Neste generasjon seter",
+      "name":"Sorte Neste generasjon seter",
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "QNLG":{
+      "category":"C_INTBASE_PREMIUM_R",
+      "defaults":[
+        "IX00"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Grått Neste generasjon seter",
+      "disclaimer":null,
+      "excludes":[
+        "IX01",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QPBT",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLT",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLG",
+        "QRLT",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Grått Neste generasjon seter",
+      "name":"Grått Neste generasjon seter",
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "QNLT":{
+      "category":"C_INTBASE_PREMIUM_R",
+      "defaults":[
+        "IX00"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Beige Neste generasjon seter",
+      "disclaimer":null,
+      "excludes":[
+        "IX01",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QPBT",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLG",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLG",
+        "QRLT",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Beige Neste generasjon seter",
+      "name":"Beige Neste generasjon seter",
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "QREB":{
+      "category":"C_INTBASE_PREMIUM_R_UPGRADE",
+      "defaults":[
+        "IX01"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Sorte Neste generasjon seter",
+      "disclaimer":null,
+      "excludes":[
+        "IX00",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QPBT",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLG",
+        "QNLT",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLG",
+        "QRLT",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Sorte Neste generasjon seter",
+      "name":"Sorte Neste generasjon seter",
+      "no_ui":true,
+      "pdf_show":true,
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "QREG":{
+      "category":"C_INTBASE_PREMIUM_R_UPGRADE",
+      "defaults":[
+        "IX01"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Grått Neste generasjon seter",
+      "disclaimer":null,
+      "excludes":[
+        "IX00",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QPBT",
+        "QNEB",
+        "QNET",
+        "QNLB",
+        "QNLG",
+        "QNLT",
+        "QREB",
+        "QRET",
+        "QRLB",
+        "QRLG",
+        "QRLT",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Grått Neste generasjon seter",
+      "name":"Grått Neste generasjon seter",
+      "no_ui":true,
+      "pdf_show":true,
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "QRET":{
+      "category":"C_INTBASE_PREMIUM_R_UPGRADE",
+      "defaults":[
+        "IX01"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Beige Neste generasjon seter",
+      "disclaimer":null,
+      "excludes":[
+        "IX00",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QPBT",
+        "QNEB",
+        "QNEG",
+        "QNLB",
+        "QNLG",
+        "QNLT",
+        "QREB",
+        "QREG",
+        "QRLB",
+        "QRLG",
+        "QRLT",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Beige Neste generasjon seter",
+      "name":"Beige Neste generasjon seter",
+      "no_ui":true,
+      "pdf_show":true,
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "QRLB":{
+      "category":"C_INTBASE_PREMIUM_R",
+      "defaults":[
+        "IX00"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Sorte Neste generasjon seter",
+      "disclaimer":null,
+      "excludes":[
+        "IX01",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QPBT",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLT",
+        "QNLG",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLT",
+        "QRLG",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "logical_category":"LC_INT",
+      "long_name":"Sorte Neste generasjon seter",
+      "name":"Sorte Neste generasjon seter",
+      "no_ui":true,
+      "pdf_show":true,
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "QRLG":{
+      "category":"C_INTBASE_PREMIUM_R",
+      "defaults":[
+        "IX00"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Grått Neste generasjon seter",
+      "disclaimer":null,
+      "excludes":[
+        "IX01",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QPBT",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLT",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLT",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Grått Neste generasjon seter",
+      "name":"Grått Neste generasjon seter",
+      "no_ui":true,
+      "pdf_show":true,
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "QRLT":{
+      "category":"C_INTBASE_PREMIUM_R",
+      "defaults":[
+        "IX00"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Beige Neste generasjon seter",
+      "disclaimer":null,
+      "excludes":[
+        "IX01",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QPBT",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLG",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLG",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Beige Neste generasjon seter",
+      "name":"Beige Neste generasjon seter",
+      "no_ui":true,
+      "pdf_show":true,
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "QXMB":{
+      "category":"C_INTBASE_CUSTOM_PREMIUM_LEATHER",
+      "defaults":[
+        "IX01"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Svart nappaskinn / Alcantara med hvite fremhevninger",
+      "disclaimer":null,
+      "excludes":[
+        "IX00",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLT",
+        "QNLG",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLT",
+        "QRLG",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QPBT",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Svarte skinnseter",
+      "name":"Black Leather",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "QXMG":{
+      "category":"C_INTBASE_CUSTOM_PREMIUM_LEATHER",
+      "defaults":[
+        "IX01"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Grått nappaskinn / Alcantara med hvite fremhevninger",
+      "disclaimer":null,
+      "excludes":[
+        "IX00",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLT",
+        "QNLG",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLT",
+        "QRLG",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QPBT",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Grå skinnseter",
+      "name":"Grey Leather",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "QXMT":{
+      "category":"C_INTBASE_CUSTOM_PREMIUM_LEATHER",
+      "defaults":[
+        "IX01"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Brunt nappaskinn / Alcantara med hvite fremhevninger",
+      "disclaimer":null,
+      "excludes":[
+        "IX00",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLT",
+        "QNLG",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLT",
+        "QRLG",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QPBT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Beige skinnseter",
+      "name":"Tan Leather",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "QYMB":{
+      "category":"C_INTBASE_CUSTOM_PERFORMANCE_UPGRADE_LEATHER",
+      "defaults":[
+        "IX01"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Sorte Performance skinnseter",
+      "disclaimer":null,
+      "excludes":[
+        "IX00",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLT",
+        "QNLG",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLT",
+        "QRLG",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QPBT",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Sorte Performance skinnseter",
+      "name":"Sorte Performance skinnseter",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "QYMG":{
+      "category":"C_INTBASE_CUSTOM_PERFORMANCE_UPGRADE_LEATHER",
+      "defaults":[
+        "IX01"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Grå Performance skinnseter",
+      "disclaimer":null,
+      "excludes":[
+        "IX00",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLT",
+        "QNLG",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLT",
+        "QRLG",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QPBT"
+      ],
+      "list_price":0,
+      "long_name":"Grå Performance skinnseter",
+      "name":"Grå Performance skinnseter",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "QYMT":{
+      "category":"C_INTBASE_CUSTOM_PERFORMANCE_UPGRADE_LEATHER",
+      "defaults":[
+        "IX01"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Brune Performance skinnseter",
+      "disclaimer":null,
+      "excludes":[
+        "IX00",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLT",
+        "QNLG",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLT",
+        "QRLG",
+        "QZMB",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QPBT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Brune Performance skinnseter",
+      "name":"Brune Performance skinnseter",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "QZMB":{
+      "category":"C_INTBASE_CUSTOM_PERFORMANCE_UPGRADE",
+      "defaults":[
+        "IX00"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Svarte Performance skinnseter",
+      "disclaimer":null,
+      "excludes":[
+        "IX01",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLT",
+        "QNLG",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLT",
+        "QRLG",
+        "QPBT",
+        "QZMT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Svarte Performance skinnseter",
+      "name":"Svarte Performance skinnseter",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "QZMG":{
+      "category":"C_INTBASE_CUSTOM_PERFORMANCE_UPGRADE",
+      "defaults":[
+        "IX00"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Grå Performance skinnseter",
+      "disclaimer":null,
+      "excludes":[
+        "IX01",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLT",
+        "QNLG",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLT",
+        "QRLG",
+        "QZMB",
+        "QZMT",
+        "QPBT",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Grå Performance skinnseter",
+      "name":"Grå Performance skinnseter",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "QZMT":{
+      "category":"C_INTBASE_CUSTOM_PERFORMANCE_UPGRADE",
+      "defaults":[
+        "IX00"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Brune Performance skinnseter",
+      "disclaimer":null,
+      "excludes":[
+        "IX01",
+        "QPMB",
+        "QPMT",
+        "QPMG",
+        "QNEB",
+        "QNET",
+        "QNEG",
+        "QNLB",
+        "QNLT",
+        "QNLG",
+        "QREB",
+        "QRET",
+        "QREG",
+        "QRLB",
+        "QRLT",
+        "QRLG",
+        "QZMB",
+        "QPBT",
+        "QZMG",
+        "QXMB",
+        "QXMT",
+        "QXMG",
+        "QYMB",
+        "QYMT",
+        "QYMG"
+      ],
+      "list_price":0,
+      "long_name":"Brune Performance skinnseter",
+      "name":"Brune Performance skinnseter",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "RFBC":{
+      "category":"C_RF_ONE",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Solid aluminiumstak tilgjengelig i svart eller matchende utvendig lakk. Ikke kompatibelt med takstativ. For å montere takstativ må du velge panoramatak i helglass.",
+      "disclaimer":null,
+      "excludes":[
+        "RFPO",
+        "RFBK"
+      ],
+      "list_price":0,
+      "long_name":"Karosserifarget tak",
+      "name":"Karosserifarge",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "RFBK":{
+      "category":"C_RF_ONE",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Solid aluminiumstak tilgjengelig i svart eller matchende utvendig lakk. Ikke kompatibelt med takstativ. For å montere takstativ må du velge panoramatak i helglass.",
+      "disclaimer":null,
+      "excludes":[
+        "RFBC",
+        "RFPO"
+      ],
+      "list_price":0,
+      "long_name":"Svart tak",
+      "name":"Svart",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "RFPO":{
+      "category":"C_RF_TWO",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Uttrekkbart tak laget av lett sikkerhetsglass som overgår sikkerhetsstandarder og blokkerer både 98% av ultrafiolett lys og 81 % av solvarmen. Standard med festepunkter for takstativ.",
+      "disclaimer":null,
+      "excludes":[
+        "RFBC",
+        "RFBK"
+      ],
+      "list_price":0,
+      "long_name":"Panoramatak i helglass",
+      "name":"Panoramatak i helglass",
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "SC00":{
+      "category":"C_CHG_SUPER",
+      "comment":"This option has the same info as its toggle_pair (SC01 - Supercharging) for use in the UI, but is actually the opposite (No Supercharging)",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "dependent_overrides":{
+        "BT60":{
+          "override_disclaimer":"Inkludert med 85 kWt batteriet",
+          "override_indicator":"Optional",
+          "price_indicator":"Optional"
+        },
+        "BT85":{
+          "override_disclaimer":"$2,000 med 60 kWt batteriet",
+          "override_indicator":"Included",
+          "price_indicator":"Included"
+        },
+        "P85D":{
+          "override_disclaimer":"$2,000 with the 60 kWh battery",
+          "override_indicator":"Included",
+          "price_indicator":"Included"
+        },
+        "PBT85":{
+          "override_disclaimer":"$2,000 med 60 kWt batteriet",
+          "override_indicator":"Included",
+          "price_indicator":"Included"
+        }
+      },
+      "description":"Supercharging",
+      "disclaimer":"Inkludert med 85 kWt batteriet",
+      "list_price":0,
+      "name":"Supercharging",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"SC01"
+    },
+    "SC01":{
+      "category":"C_CHG_SUPER",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "dependent_overrides":{
+        "BT60":{
+          "override_disclaimer":"Inkludert med 85 kWt batteriet<br />{{#after_delivery_price}} etter levering",
+          "override_indicator":"Optional",
+          "price":0,
+          "after_delivery_price":0,
+          "price_indicator":"Optional"
+        },
+        "BT85":{
+          "override_disclaimer":"{{#disclaimer-price}} med 60 kWt batteriet<br />{{#after_delivery_price}} etter levering",
+          "priced_disclaimer_key":"BT60",
+          "override_indicator":"Included",
+          "price":0,
+          "after_delivery_price":0,
+          "price_indicator":"Included"
+        },
+        "P85D":{
+          "override_disclaimer":"{{#disclaimer-price}} med 60 kWt batteriet<br />{{#after_delivery_price}} etter levering",
+          "priced_disclaimer_key":"BT60",
+          "override_indicator":"Included",
+          "price":0,
+          "after_delivery_price":0,
+          "price_indicator":"Included"
+        },
+        "PBT85":{
+          "override_disclaimer":"{{#disclaimer-price}} med 60 kWt batteriet<br />{{#after_delivery_price}} etter levering",
+          "priced_disclaimer_key":"BT60",
+          "override_indicator":"Included",
+          "price":0,
+          "after_delivery_price":0,
+          "price_indicator":"Included"
+        }
+      },
+      "description":"Tesla Supercharger er eksterne ladere utformet for å fylle opp en halv ladning på så lite som 20 minutter. Tesla bygger et nettverk av 120kW superladere over hele Europa. Nettverket vil dekke mesteparten av vest-europa før vinteren 2014.",
+      "disclaimer":"Inkludert med 85 kWt batteriet<br/>$2.000 USD med 60 kWt batteriet",
+      "list_price":0,
+      "name":"Aktivert for Supercharger",
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"SC00"
+    },
+    "SP00":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Ingen sikkerhetspakke",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Ingen sikkerhetspakke",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"SP01"
+    },
+    "SP01":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Beskytt din Model S med en bevegelsesaktivert innbruddsalarm støttet av et uavhengig batteri. Dette sekundære batteriet er adskilt fra bilens elektronikk og vil være operativt selv om tyver prøver å deaktivere det normale 12-volts elektriske systemet. ",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Sikkerhetspakke",
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"SP00"
+    },
+    "SR01":{
+      "category":"C_INT_EXEC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Standard 2nd row",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Standard 2nd row",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"SR02"
+    },
+    "SR02":{
+      "category":"C_OPTS",
+      "defaults":[
+        "UTAW"
+      ],
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Tilpass din Model S kabin med private og komfortable executive-bakseter. Begge de skinntrukkede setene inkluderer to-soners varme, og har en bred midtkonsoll med skjult oppbevaring mellom seg. Passasjerer i baksetet kan kontrollere media, klimakontroll og panoramataket med Tesla appen.",
+      "disclaimer":"Det kreves Premium interiørpakke, og inkluderer Vinterpakke.",
+      "list_price":0,
+      "name":"Bakre komfortseter",
+      "price":0,
+      "price_indicator":"Included",
+      "requires":[
+        "CW02",
+        "TR00"
+      ],
+      "parent":"PI01",
+      "toggle_pair":"SR01",
+      "valid_pairs":[
+        "UTAW",
+        "UTAB"
+      ]
+    },
+    "SU00":{
+      "category":"C_OPTS",
+      "defaults":[
+        "PX00"
+      ],
+      "delivery_date":"20130101",
+      "delivery_date_warning":null,
+      "description":"Standard fjæring",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Standard fjæring",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"SU01"
+    },
+    "SU01":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Jevner ut og justerer automatisk stivhet for optimal ytelse og kjøreopplevelse, uavhengig av veibane eller last. Ved å benytte bilens touchscreen kan føreren heve eller senke Model S. Dette er nyttig ved bratte oppkjørsler, til å kjøre gjennom snø, for vareavlasting eller når passasjerer skal gå av.",
+      "disclaimer":"Krever Tech-Pakke",
+      "list_price":0,
+      "name":"Smart Luftfjæring",
+      "parent":"TP02",
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"SU00"
+    },
+    "TM00":{
+      "category":"C_TRIM",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Generell produksjonsutstyr",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Generell produksjonsutstyr",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"TM02"
+    },
+    "TM02":{
+      "category":"C_TRIM",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Generell produksjon Signature trim",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Generell produksjon Signature trim",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"TM00"
+    },
+    "TM0A":{
+      "category":"C_TRIM",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"PRE-PRODUCTION NON-SALEABLE",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"ALPHA PRE-PRODUCTION NON-SALEABLE",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "TM0B":{
+      "category":"C_TRIM",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"PRE-PRODUCTION NON-SALEABLE",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"BETA PRE-PRODUCTION NON-SALEABLE",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "TM0C":{
+      "category":"C_TRIM",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"PRE-PRODUCTION SALEABLE",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"PRE-PRODUCTION SALEABLE",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional"
+    },
+    "TR00":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Ingen tredjerads seter",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Ingen tredjerads seter",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"TR01"
+    },
+    "TR01":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Transporter opptil 7 passasjerer i Model S ved å legge til seter for to barn med bakovervendte seter. Konstruert for å langt overskride statlige sikkerhetsstandarder, festes de til en annen ramme som forsterker standardstøtfangeren med sterk aluminium for den beste beskyttelsen. Disse komfortable setene foldes helt flate ned i gulvet når de ikke er i bruk.",
+      "disclaimer":"Må være fabrikkmontert",
+      "list_price":0,
+      "name":"Bakovervendte seter",
+      "price":0,
+      "price_indicator":"Optional",
+      "requires":[
+        "SR01"
+      ],
+      "toggle_pair":"TR00",
+      "ui_excludes":[
+        "SR02"
+      ]
+    },
+    "UTAB":{
+      "category":"C_INT_HEADLINER",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Kompletter interiøret av Model S med vårt premium Alcantara innertrekk, et syntetisk stoff av høy kvalitet som ser ut som og føles som semsket skinn. Det dekker trimmen over vinduskarmene og solskjermene.",
+      "dependent_overrides":{
+        "BT60":{
+          "override_disclaimer":"Included with 85 kWh Performance battery",
+          "override_indicator":"Optional",
+          "price":1500,
+          "price_indicator":"Optional"
+        },
+        "BT85":{
+          "override_disclaimer":"Included with 85 kWh Performance battery",
+          "override_indicator":"Optional",
+          "price":1500,
+          "price_indicator":"Optional"
+        },
+        "PBT85":{
+          "override_disclaimer":"",
+          "override_indicator":"Included",
+          "price":0,
+          "price_indicator":"Included"
+        },
+        "P85D":{
+          "override_disclaimer":"",
+          "override_indicator":"Included",
+          "price":0,
+          "price_indicator":"Included"
+        }
+      },
+      "disclaimer":"Inkludert med 85 kWt Performance",
+      "excludes":[
+        "UTAW",
+        "UTMF"
+      ],
+      "list_price":0,
+      "long_name":"Sort Alcantara taktrekk",
+      "name":"Sort Alcantara",
+      "price":0,
+      "price_indicator":"Optional",
+      "requires":[
+        "DSH7"
+      ]
+    },
+    "UTAW":{
+      "category":"C_INT_HEADLINER",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Kompletter interiøret av Model S med vårt premium Alcantara innertrekk, et syntetisk stoff av høy kvalitet som ser ut som og føles som semsket skinn. Det dekker trimmen over vinduskarmene og solskjermene.",
+      "dependent_overrides":{
+        "BT60":{
+          "override_disclaimer":"Included with 85 kWh Performance battery",
+          "override_indicator":"Optional",
+          "price":1500,
+          "price_indicator":"Optional"
+        },
+        "BT85":{
+          "override_disclaimer":"Included with 85 kWh Performance battery",
+          "override_indicator":"Optional",
+          "price":1500,
+          "price_indicator":"Optional"
+        },
+        "PBT85":{
+          "override_disclaimer":"",
+          "override_indicator":"Included",
+          "price":0,
+          "price_indicator":"Included"
+        },
+        "P85D":{
+          "override_disclaimer":"",
+          "override_indicator":"Included",
+          "price":0,
+          "price_indicator":"Included"
+        }
+      },
+      "disclaimer":"Inkludert med 85 kWt Performance",
+      "excludes":[
+        "UTMF",
+        "UTAB"
+      ],
+      "list_price":0,
+      "long_name":"Hvitt Alcantara taktrekk",
+      "name":"Hvitt Alcantara",
+      "price":0,
+      "price_indicator":"Optional",
+      "requires":[
+        "DSH7"
+      ]
+    },
+    "UTMF":{
+      "category":"C_INT_HEADLINER",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Tekstil taktrekk",
+      "disclaimer":null,
+      "excludes":[
+        "UTAW",
+        "UTAB"
+      ],
+      "list_price":0,
+      "name":"Tekstil taktrekk",
+      "price":0,
+      "price_indicator":"Included",
+      "requires":[
+        "DSH5"
+      ]
+    },
+    "WT19":{
+      "category":"C_WT",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Standard med Goodyear Eagle RS-A2 høyytelses helårsdekk.",
+      "disclaimer":null,
+      "list_price":0,
+      "long_name":"19\" hjul",
+      "name":"19\"",
+      "price":0,
+      "price_indicator":"Included",
+      "type":"Boolean"
+    },
+    "WT21":{
+      "category":"C_WT",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Standard med Continental ExtremeContact-dekk for høy ytelse ved både våte og tørre forhold.",
+      "disclaimer":null,
+      "list_price":0,
+      "long_name":"21\" sølv Turbine-hjul",
+      "name":"21\" Turbine",
+      "price":0,
+      "price_indicator":"Optional",
+      "ui_pair":"WTSP"
+    },
+    "WTSG":{
+      "category":"C_WT",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Standard med Continental ExtremeContact-dekk for høy ytelse ved både våte og tørre forhold.",
+      "disclaimer":null,
+      "list_price":0,
+      "long_name":"21\" grå Turbine-hjul",
+      "name":"21\" Turbine",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "WTSP":{
+      "category":"C_WT",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Standard med Continental ExtremeContact-dekk for høy ytelse ved både våte og tørre forhold.",
+      "disclaimer":null,
+      "list_price":0,
+      "long_name":"21\" grå Turbine-hjul",
+      "name":"21\" Turbine",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "WTSS":{
+      "category":"C_WT",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Standard med Continental ExtremeContact-dekk for høy ytelse ved både våte og tørre forhold.",
+      "disclaimer":null,
+      "list_price":0,
+      "long_name":"21\" sølv Turbine-hjul",
+      "name":"21\" Turbine",
+      "price":0,
+      "price_indicator":"Included",
+      "ui_pair":"WTSG"
+    },
+    "WTTB":{
+      "category":"C_WT",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Standard med Goodyear Eagle RS-A2 høyytelses helårsdekk. ",
+      "disclaimer":null,
+      "list_price":0,
+      "long_name":"19\" sølv Cyclone-hjul",
+      "name":"19\" Cyclone",
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "WTW1":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Nokian Hakkapeliitta 7 piggdekk, spesielt designet for Nordiske vinterforhold, innebyggede støtdempere som minimerer motstanden fra piggene mot veioverflaten. Dette reduserer både kabin-støy og slitasje. Inkluderer fire standard 19” felger med dekk montert.",
+      "disclaimer":"Inkluderer dekk og felger",
+      "list_price":0,
+      "long_name":"19” Nokian vinterhjul piggdekk",
+      "name":"19” Nokian vinterhjul piggdekk",
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"WXW1"
+    },
+    "WTW2":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Nokian Hakkapeliitta R2 piggfrie vinterdekk, spesielt designet for Nordiske vinterforhold, har små miljøvennlige krystaller i gummien som forbedrer veigrepet på snødekte veier. Inkluderer fire standard 19” felger med dekk montert.",
+      "disclaimer":"Inkluderer dekk og felger",
+      "list_price":0,
+      "long_name":"19” Nokian vinterhjul uten pigg",
+      "name":"19” Nokian vinterhjul uten pigg",
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"WXW2"
+    },
+    "WTW3":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Pirelli Vinter Sottozero Series II combinerer både lav rulle-motstand og bra grep på vinter veier. Det inkluderer fire standard 19” felger med påmontert vinterdekk.",
+      "disclaimer":"Inkluderer dekk og felger",
+      "list_price":0,
+      "long_name":"19” Pirelli Vinterhjul sett",
+      "name":"19” Pirelli Vinterhjul sett",
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"WXW3"
+    },
+    "WTW4":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Fire standard 19\" hjul med påmontert Pirelli  Winter Sottozero vinterdekk, størrelse 245/45-19.",
+      "disclaimer":"Inneholder felger og dekk",
+      "list_price":0,
+      "long_name":"Sett med 19\" vinterdekk",
+      "name":"Sett med 19\" vinterdekk",
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"WXW4"
+    },
+    "WXW4":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":null,
+      "disclaimer":"Inneholder felger og dekk",
+      "list_price":0,
+      "long_name":"No Sett med 19\" vinterdekk",
+      "name":"No 19\" Sett med 19\" vinterdekk",
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"WTW4"
+    },
+    "WTW5":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Fire standard 21\" hjul med påmontert Pirelli Winter Sottozero vinterdekk, størrelse 245/35-21. Vinterfelgene tilpasses din Model S.",
+      "disclaimer":"Inneholder felger og dekk",
+      "list_price":0,
+      "long_name":"Sett med 21\" vinterdekk",
+      "name":"Sett med 21\" vinterdekk",
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"WXW5"
+    },
+    "WTX0":{
+      "category":"C_OPTS",
+      "comment":"This is a dummy UI only option to map the ",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":null,
+      "disclaimer":null,
+      "list_price":0,
+      "long_name":"No 19\" Michelin Primacy Tire Upgrade",
+      "name":"No 19\" Michelin Primacy Tire Upgrade",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "type":"Boolean"
+    },
+    "WXW5":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":null,
+      "disclaimer":"Inneholder felger og dekk",
+      "list_price":0,
+      "long_name":"No Sett med 21\" vinterdekk",
+      "name":"No 21\" Sett med 21\" vinterdekk",
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"WTW5"
+    },
+    "WXW1":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Description",
+      "disclaimer":"Disclaimer",
+      "list_price":0,
+      "long_name":"No - 19\" Wheels with Nokian Studded Winter Tires",
+      "name":"No - 19\" Wheels with Nokian Studded Winter Tires",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"WTW1"
+    },
+    "WXW2":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Description",
+      "disclaimer":"Disclaimer",
+      "list_price":0,
+      "long_name":"No - 19\" Wheels with Nokian Winter Tires",
+      "name":"No - 19\" Wheels with Nokian Winter Tires",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"WTW2"
+    },
+    "WXW3":{
+      "category":"C_ACC",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Description",
+      "disclaimer":"Disclaimer",
+      "list_price":0,
+      "long_name":"No - 19\" Wheels with Pirelli Winter Tires",
+      "name":"No - 19\" Wheels with Pirelli Winter Tires",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"WTW3"
+    },
+    "X001":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Override: Elektrisk hevet bakluke",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Override: Elektrisk hevet bakluke",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"X002"
+    },
+    "X002":{
+      "category":"C_STDEQ",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Override: Manual Liftgate",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Override: Manual Liftgate",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"X001"
+    },
+    "X003":{
+      "category":"C_STDEQ",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":null,
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Maps & Navigation",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"X004"
+    },
+    "X004":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Override: No Navigation",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Override: No Navigation",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"X003"
+    },
+    "X007":{
+      "category":"C_STDEQ",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":null,
+      "disclaimer":null,
+      "list_price":0,
+      "name":"LED Daytime Running Lights",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included"
+    },
+    "X037":{
+      "category":"C_STDEQ",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":null,
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Powerfolding Mirrors",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"X010"
+    },
+    "X010":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Grunn speil",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Grunn speil",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"X037"
+    },
+    "X011":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Override: Homelink",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Override: Homelink",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"X012"
+    },
+    "X012":{
+      "category":"C_STDEQ",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Override: No Homelink",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Override: No Homelink",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"X011"
+    },
+    "X013":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Override: Satellite Radio",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Override: Satellite Radio",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"X014"
+    },
+    "X014":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Override: No Satellite Radio",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Override: No Satellite Radio",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"X013"
+    },
+    "X019":{
+      "category":"C_PERF",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Ved å legge til en karbonfiber spoiler på bakluken forbedres stabiliteten ved høy fart. Den er laget av tverrvevet lettvekts karbonfiber med en matt epoxy finish.",
+      "disclaimer":"Krever P85D",
+      "list_price":0,
+      "long_name":"Karbonfiberspoiler",
+      "name":"Karbonfiberspoiler",
+      "price":0,
+      "price_indicator":"Included",
+      "requires":[
+        "P85D"
+      ],
+      "toggle_pair":"X021",
+      "valid_pairs":[
+        "P85D",
+        "PBT85"
+      ]
+    },
+    "X021":{
+      "category":"C_PERF",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Ingen karbonfiberspoiler",
+      "disclaimer":null,
+      "list_price":0,
+      "long_name":"Ingen karbonfiberspoiler",
+      "name":"Ingen spoiler",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"X019"
+    },
+    "X024":{
+      "category":"C_PERF",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Performance Package. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies fermentum velit, eget cursus turpis tristique ut. In pretium facilisis scelerisque. Nullam et dui malesuada, pretium dolor pretium, fringilla risus. Praesent id velit eget ligula aliquet varius. Suspendisse hendrerit justo urna, at blandit ipsum sodales sed.",
+      "disclaimer":"Leveres på ca. 2 måneder",
+      "list_price":0,
+      "name":"Performance-pakke",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "requires":[
+        "PF01"
+      ],
+      "toggle_pair":"X025"
+    },
+    "X025":{
+      "category":"C_PERF",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Ingen Performance-pakke",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Ingen Performance-pakke",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "required_by":[
+        "BT85",
+        "BT60"
+      ],
+      "requires":[
+        "PF00"
+      ],
+      "toggle_pair":"X024"
+    },
+    "X026":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Override: No LEDs/Non-Tech Pkg",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Override: No LEDs/Non-Tech Pkg",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"X027"
+    },
+    "X027":{
+      "category":"C_STDEQ",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":null,
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Lighted Door Handles",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"X026"
+    },
+    "X028":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Batterimerke",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Batterimerke",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"X029"
+    },
+    "X029":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Fjern batterimerke",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Fjern batterimerke",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"X028"
+    },
+    "X030":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Override: No Passive Entry Pkg",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Override: No Passive Entry Pkg",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"X031"
+    },
+    "X031":{
+      "category":"C_STDEQ",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":null,
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Keyless Entry",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "toggle_pair":"X030"
+    },
+    "YF00":{
+      "category":"C_INT_NOW_DEFAULT_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Inget Yacht-gulv",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Inget Yacht-gulv",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Included",
+      "requires":[
+        "PI00"
+      ],
+      "toggle_pair":"YF01",
+      "unbundle":true
+    },
+    "YF01":{
+      "category":"C_INT_NOW_DEFAULT_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Gjør midtkonsollen elegant med et brett med yacht-gulv som matcher bilens innredning. Gummistrimler ligger langs toppen av trimmen for bedre grep.",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"Matchende Yacht-gulv",
+      "no_ui":true,
+      "pkg_visible":false,
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"YF00",
+      "upgrade_map":"C_INTDECOR_CUSTOM",
+      "unbundle":true
+    }
+  },
+  "personal_delivery_price":2800,
+  "price_disclaimer":"Pris inkluderer henting fra en Tesla lokasjon. Norske elektriske biler er fritatt for moms i tillegg til andre insentiver. Prisene inkluderer ikke eventuelle andre lokale og regionale avgifter. Merverdiavgiften kan være gjenstand for endring.",
+  "price_indicators":{
+    "Included":"Inkludert",
+    "Optional":"Tilleggsutstyr",
+    "Standard":"Standard"
+  },
+  "region":"REEU",
+  "reservation_price":15000.0,
+  "root_vehicle":"MS02",
+  "smartling":{
+    "translate_keys":[
+      "delivery_price_translation",
+      "vat_text",
+      "disclaimer",
+      "price_disclaimer",
+      "vat_disclaimer",
+      "name",
+      "long_name",
+      "model_name",
+      "description"
+    ],
+    "translate_mode":"custom"
+  },
+  "tax_credit":null,
+  "tax_disclaimer":null,
+  "valid_config":{
+    "adapters":{
+      "patterns":[
+        "AD(0|1)?[1-9]{1}"
+      ]
+    },
+    "audio":{
+      "patterns":[
+        "AU(00|01)",
+        "X0(13|14)"
+      ]
+    },
+    "battery":{
+      "patterns":[
+        "(P)?(BT)?[0-9]{2}(D|S)?"
+      ]
+    },
+    "brakes":{
+      "patterns":[
+        "BC0(B|R)?"
+      ]
+    },
+    "charging":{
+      "patterns":[
+        "CH(00|01)",
+        "SC(00|01)"
+      ]
+    },
+    "color":{
+      "patterns":[
+        "COL[0-9]"
+      ]
+    },
+    "drive":{
+      "patterns":[
+        "X02(4|5)",
+        "PF(00|01)"
+      ]
+    },
+    "general_opts":{
+      "patterns":[
+        "RF[A-Z]{2}",
+        "SP[0-9]{2}",
+        "CW[0-9]{2}",
+        "PS[0-9]{2}",
+        "TR[0-9]{2}",
+        "LP[0-9]{2}",
+        "BS[0-9]{2}"
+      ]
+    },
+    "interior":{
+      "patterns":[
+        "Q(N|P|R|Z|X|Y)[A-Z]{2}",
+        "ID[A-Z]{2}",
+        "YF[0-9]{2}",
+        "IX[0-9]{2}",
+        "SR[0-9]{2}"
+      ]
+    },
+    "performance":{
+      "patterns":[
+        "PX[0-9]{2}"
+      ]
+    },
+    "spoiler":{
+      "patterns":[
+        "X0(19|21)"
+      ]
+    },
+    "std_eq":{
+      "patterns":[
+        "FG[0-9]{2}",
+        "SU[0-9]{2}",
+        "X0(01|02)",
+        "X0(03|04)",
+        "X0(07|08)",
+        "X0(37|10)",
+        "X0(11|12)",
+        "X0(26|27)",
+        "X0(30|31)"
+      ]
+    },
+    "wheels":{
+      "patterns":[
+        "WT([0-9]{2}|[A-Z]{2})"
+      ]
+    }
+  },
+  "vat_percent":0,
+  "vat_percent_override":{
+    "PSP14": 25,
+    "PSPR14": 25
+  },
+  "vat_text":"Includes VAT of approx."
+}
+
