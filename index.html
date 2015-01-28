@@ -90,7 +90,7 @@
     var myurl = myurl_arr[1].split("=");
     var myoptions = myurl[1].split("&");
     myoptions = myoptions[0];
-    myoptions = myoptions.replace("%2C", ",");
+    myoptions = myoptions.replace("\%2C", ",");
 
     alert(myoptions);
     console.log("myoptions" + myoptions);
