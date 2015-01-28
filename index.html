@@ -85,6 +85,8 @@
     var pdfurl = "https://my.teslamotors.com/mytesla/pdf/view-design-pdf?model=ms&options=MS02%2CREEU%2CAD05%2CAD06%2CAD07%2CAD08%2CADPC2%2CAU01%2CBC0R%2CBS00%2CCDM0%2CCH00%2CCOL3-PPMR%2CCW01%2CDA01%2CDRLH%2CDSH7%2CDV4W%2CFG02%2CHP00%2CIDCF%2CIX00%2CLP00%2CME02%2CP85D%2CPA00%2CPF01%2CPI00%2CPK00%2CPS01%2CPSPX5%2CPX01%2CQRLB%2CRFPO%2CSC01%2CSP01%2CSR01%2CSU01%2CTM00%2CTP02%2CTR00%2CUTAB%2CWTSG%2CWTW2%2CWXW1%2CWXW3%2CWXW5%2CX001%2CX003%2CX007%2CX011%2CX013%2CX019%2CX024%2CX027%2CX028%2CX031%2CX037%2CYF00&configset=CS_3_MS_NO&rn=RN426038&src=dashboard";
 
     var myurl_arr = pdfurl.split("options");
+    console.log("myurl_arr[0]=" + myurl_arr[0]);
+    console.log("myurl_arr[1]=" + myurl_arr[1]);
     var myurl = myurl_arr[1];
     var myoptions = myurl.split("=");
     alert(myoptions[0]);
