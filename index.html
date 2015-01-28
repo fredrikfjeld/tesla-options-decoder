@@ -9,8 +9,8 @@
   <script type="text/javascript">
 $.getJSON("all-options.json", function ( data ) {
   var items = [];
-  $.each( data.options, function ( key, val ) {
-    items.push( "<li id='" + key + "'>" + val + "</li>" );
+  $.each( data.options, function ( opt_code, opt_content ) {
+    items.push( "<li id='" + opt_code + "'>" + opt_content.name + "</li>" );
   });
 
   $( "<ul/>", {
