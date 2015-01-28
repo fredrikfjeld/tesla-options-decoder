@@ -89,9 +89,10 @@
     console.log("myurl_arr[1]=" + myurl_arr[1]);
     var myurl = myurl_arr[1].split("=");
     var myoptions = myurl[1].split("&");
+    myoptions = myoptions[0]
 
-    alert(html(myoptions[0]).text());
-    console.log("myoptions" + myoptions[0]);
+    alert(myoptions);
+    console.log("myoptions" + myoptions);
 
     $.getJSON("pricebook-3_MS_NO.json", function ( data ) {
     var items = [];
