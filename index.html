@@ -10,11 +10,11 @@
 $.getJSON("pricebook-3_MS_NO.json", function ( data ) {
   var items = [];
   $.each( data.options, function ( opt_code, opt_content ) {
-    items.push( "<li id='" + opt_code + "'>" + opt_content.name + "</li>" );
+    items.push( "<dt>" + opt_code + "</dt><dd>" + opt_content.name + "</dd>" );
   });
 
-  $( "<ul/>", {
-    "class": "my-new-list",
+  $( "<dl/>", {
+    "class": "options-list",
     html: items.join( "" )
   }).appendTo( "body" );
 });
