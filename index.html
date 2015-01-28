@@ -87,8 +87,8 @@
     var myurl_arr = pdfurl.split("options");
     console.log("myurl_arr[0]=" + myurl_arr[0]);
     console.log("myurl_arr[1]=" + myurl_arr[1]);
-    var myurl = myurl_arr[1];
-    var almostmyoptions = myurl.split("=");
+    var myurl = myurl_arr[1].split("=");
+    var almostmyoptions = myurl[1];
     var myoptions = almostmyoptions.split("&");
 
     alert(myoptions[0]);
