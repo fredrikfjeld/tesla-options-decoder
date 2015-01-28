@@ -15,11 +15,18 @@
 <body>
   <div class="container">
 
-    Plan:
-    get "options" => name
-    test
+    <div class="row">
 
-    <div id="optionslist">
+      <div class="col-md-6">
+        <div id="optionslist_no">
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div id="optionslist_us">
+        </div>
+      </div>
+
     </div>
 
   </div>
@@ -35,7 +42,19 @@
     $( "<dl/>", {
       "class": "options-list dl-horizontal",
       html: items.join( "" )
-    }).appendTo( "#optionslist" );
+    }).appendTo( "#optionslist_no" );
+    });
+
+    $.getJSON("pricebook-3_MS_US.json", function ( data ) {
+    var items = [];
+    $.each( data.options, function ( opt_code, opt_content ) {
+      items.push( "<dt>" + opt_code + "</dt><dd>" + opt_content.name + "</dd>" );
+    });
+
+    $( "<dl/>", {
+      "class": "options-list dl-horizontal",
+      html: items.join( "" )
+    }).appendTo( "#optionslist_us" );
     });
   </script>
 
