@@ -90,7 +90,7 @@
     var myurl = myurl_arr[1].split("=");
     var myoptions = myurl[1].split("&");
 
-    alert(myoptions[0]);
+    alert(html(myoptions[0]).text());
     console.log("myoptions" + myoptions[0]);
 
     $.getJSON("pricebook-3_MS_NO.json", function ( data ) {
