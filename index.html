@@ -24,7 +24,7 @@
 
   </div>
 
-  
+
   <script type="text/javascript">
     $.getJSON("pricebook-3_MS_NO.json", function ( data ) {
     var items = [];
@@ -33,7 +33,7 @@
     });
 
     $( "<dl/>", {
-      "class": "options-list",
+      "class": "options-list dl-horizontal",
       html: items.join( "" )
     }).appendTo( "#optionslist" );
     });
