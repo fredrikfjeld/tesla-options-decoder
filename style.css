@@ -5,3 +5,7 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
+a.anchor {
+  color: #333;
+  text-decoration: none;
+}

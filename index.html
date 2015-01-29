@@ -29,7 +29,7 @@
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
           <li class="active"><a href="#">Check your options</a></li>
-          <li><a href="#all">Show all possible options</a></li>
+          <li><a href="#all-options">Show all possible options</a></li>
           <li><a href="#about">About</a></li>
         </ul>
       </div><!--/.nav-collapse -->
@@ -46,32 +46,34 @@
         <div class="form-group">
           <input type="text" class="form-control" id="pdflink" placeholder="https://my.teslamotors.com/mytesla/pdf/view-design-pdf?…">
         </div>
-        <button type="button" class="btn btn-primary">Check option codes</button>
+        <button type="button" class="btn btn-primary" id="submitPdfLink">Check option codes</button>
       </form>
 
     </div>
 
     <div class="row my-options">
       <div class="heading">
-        <h1>My options</h1>
+        <h1><a class="anchor" name="my-options">My options</a></h1>
       </div>
-      <div class="list-my-options">
+      <div id="list-my-options">
       </div>
     </div>
 
     <div class="row all-options">
       <div class="heading">
-        <h1>All options</h1>
+        <h1><a class="anchor" name="all-options">All options</a></h1>
       </div>
     </div>
     <div class="row">
 
       <div class="col-md-6">
+        <h2>Norwegian options list</h2>
         <div id="optionslist_no">
         </div>
       </div>
 
       <div class="col-md-6">
+        <h2>US options list</h2>
         <div id="optionslist_us">
         </div>
       </div>
@@ -85,47 +87,86 @@
     // Parsing URL
     var pdfurl = "https://my.teslamotors.com/mytesla/pdf/view-design-pdf?model=ms&options=MS02%2CREEU%2CAD05%2CAD06%2CAD07%2CAD08%2CADPC2%2CAU01%2CBC0R%2CBS00%2CCDM0%2CCH00%2CCOL3-PPMR%2CCW01%2CDA01%2CDRLH%2CDSH7%2CDV4W%2CFG02%2CHP00%2CIDCF%2CIX00%2CLP00%2CME02%2CP85D%2CPA00%2CPF01%2CPI00%2CPK00%2CPS01%2CPSPX5%2CPX01%2CQRLB%2CRFPO%2CSC01%2CSP01%2CSR01%2CSU01%2CTM00%2CTP02%2CTR00%2CUTAB%2CWTSG%2CWTW2%2CWXW1%2CWXW3%2CWXW5%2CX001%2CX003%2CX007%2CX011%2CX013%2CX019%2CX024%2CX027%2CX028%2CX031%2CX037%2CYF00&configset=CS_3_MS_NO&rn=RN426038&src=dashboard";
 
+
+
     var myurl_arr = pdfurl.split("options");
     var myurl = myurl_arr[1].split("=");
     var myoptions = myurl[1].split("&");
     myoptions = myoptions[0];
     var commaregex = new RegExp('\%2C', 'g');
     myoptions = myoptions.replace(commaregex, ',');
+    var arrayOfOptions = myoptions.split(",");
+
 
     //$(".list-my-options").append( myoptions ); // For debugging
 
-    console.log("options: " + myoptions);
+    //console.log("options: " + myoptions); // Debugging
 
-    // Parsing JSON data
+    ////
+    // Show all options
+    ////
     $.getJSON("pricebook-3_MS_NO.json", function ( data ) {
-    var items = [];
+      var items = [];
+      $.each( data.options, function ( opt_code, opt_content ) {
+        items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt"><a>' + opt_content.name + '</a><span class="opt-descr" style="display:none;" ><br/>' + opt_content.description + "</span></dd>" );
+      });
 
-    var OptionCode = function(code, name) {
-      this.code = code;
-      this.name = name;
-    };
-
-    $.each( data.options, function ( opt_code, opt_content ) {
-      items.push( "<dt>" + opt_code + "</dt><dd>" + opt_content.name + "</dd>" );
+      $( "<dl/>", {
+        "class": "options-list dl-horizontal",
+        html: items.join( "" )
+      }).appendTo( "#optionslist_no" );
     });
 
-    $( "<dl/>", {
-      "class": "options-list dl-horizontal",
-      html: items.join( "" )
-    }).appendTo( "#optionslist_no" );
+    $.getJSON("pricebook-3_MS_US.json", function ( data ) {
+      var items = [];
+      $.each( data.options, function ( opt_code, opt_content ) {
+        items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt"><a>' + opt_content.name + '</a><span class="opt-descr" style="display:none;" ><br/>' + opt_content.description + "</span></dd>" );
+      });
+
+      $( "<dl/>", {
+        "class": "options-list dl-horizontal",
+        html: items.join( "" )
+      }).appendTo( "#optionslist_us" );
     });
 
-    $.getJSON("pricebook-3_MS_GB.json", function ( data ) {
-    var items = [];
-    $.each( data.options, function ( opt_code, opt_content ) {
-      items.push( "<dt>" + opt_code + "</dt><dd>" + opt_content.name + "</dd>" );
+
+
+    $(document).on('click', '.opt', function() {
+      var $this = $(this);
+      $this.find("span.opt-descr").fadeToggle(0);
+      $('.opt-descr').not($this.find("span.opt-descr")).fadeOut(0);
     });
 
-    $( "<dl/>", {
-      "class": "options-list dl-horizontal",
-      html: items.join( "" )
-    }).appendTo( "#optionslist_us" );
+    $(document).on('click', '#submitPdfLink', function() {
+      ////
+      // Getting and displaying your options
+      ////
+      var pdfurl = $('#pdflink').val();
+      var myurl_arr = pdfurl.split("options");
+      var myurl = myurl_arr[1].split("=");
+      var myoptions = myurl[1].split("&");
+      myoptions = myoptions[0];
+      var commaregex = new RegExp('\%2C', 'g');
+      myoptions = myoptions.replace(commaregex, ',');
+      var arrayOfOptions = myoptions.split(",");
+
+      // Parsing JSON data
+      $.getJSON("pricebook-3_MS_NO.json", function ( data ) {
+        var items = [];
+
+        $.each( data.options, function ( opt_code, opt_content ) {
+          if( jQuery.inArray( opt_code, arrayOfOptions ) != -1 ) {
+            items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt"><a>' + opt_content.name + '</a><span class="opt-descr" style="display:none;" ><br/>' + opt_content.description + "</span></dd>" );
+          }
+        });
+
+        $( "<dl/>", {
+          "class": "options-list dl-horizontal",
+          html: items.join( "" )
+        }).appendTo( "#list-my-options" );
+      });
     });
+
   </script>
 
 </body>
