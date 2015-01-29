@@ -40,7 +40,7 @@
 
     <div class="heading">
       <h1>Tesla Model S Options Decoder</h1>
-      <p class="lead">Enter your "Show Design" PDF-link <a href="#">(how do I find my link?)</a></p>
+      <p class="lead">Enter your "Show Design" PDF-link <a href="#" id="howFindLink">(how do I find my link?)</a></p>
 
       <form class="form-inline">
         <div class="form-group">
@@ -49,6 +49,16 @@
         <button type="button" class="btn btn-primary" id="submitPdfLink">Check option codes</button>
       </form>
 
+    </div>
+
+    <div class="row" id="linkInstruction" style="display:none;">
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        <div class="alert alert-info">
+          <p><span class="glyphicon glyphicon-info-sign"></span> You can find your PDF-link with the option codes by logging in to your "My Tesla"-page on the Tesla Motors web site, right clicking on the "SHOW DESIGN" button and selecting "Copy Link Adress".</p>
+        </div>
+      </div>
+      <div class="col-md-4"></div>
     </div>
 
     <div class="row my-options">
@@ -113,12 +123,19 @@
 
 
 
+    // Show/hide option description on click
     $(document).on('click', '.opt', function() {
       var $this = $(this);
       $this.find("span.opt-descr").fadeToggle(0);
       $('.opt-descr').not($this.find("span.opt-descr")).fadeOut(0);
     });
 
+    // Show instructions on how to find PDF-link
+    $(document).on('click', '#howFindLink', function() {
+      $("#linkInstruction").toggle();
+    });
+
+    // Check my options
     $(document).on('click', '#submitPdfLink', function() {
       ////
       // Getting and displaying your options
