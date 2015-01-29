@@ -61,7 +61,7 @@
       <div class="col-md-4"></div>
     </div>
 
-    <div class="row my-options">
+    <div class="row my-options" style="display:none;">
       <div class="heading">
         <h1><a class="anchor" name="my-options">My options</a></h1>
       </div>
@@ -164,6 +164,7 @@
           html: items.join( "" )
         }).appendTo( "#list-my-options" );
       });
+      $(".my-options").show();
     });
 
   </script>
