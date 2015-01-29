@@ -42,12 +42,12 @@
       <h1>Tesla Model S Options Decoder</h1>
       <p class="lead">Enter your "Show Design" PDF-link <a href="#" id="howFindLink">(how do I find my link?)</a></p>
 
-      <form class="form-inline">
+      <div class="form-inline">
         <div class="form-group">
           <input type="text" class="form-control" id="pdflink" placeholder="https://my.teslamotors.com/mytesla/pdf/view-design-pdf?…">
         </div>
         <button type="button" class="btn btn-primary" id="submitPdfLink">Check option codes</button>
-      </form>
+      </div>
 
     </div>
 
@@ -135,6 +135,13 @@
       $("#linkInstruction").toggle();
     });
 
+    // Simulate click on button with return key
+    $("#pdflink").keyup(function(event){
+      if(event.keyCode == 13){
+        $("#submitPdfLink").click();
+      }
+    });
+
     // Check my options
     $(document).on('click', '#submitPdfLink', function() {
       ////
@@ -149,8 +156,22 @@
       myoptions = myoptions.replace(commaregex, ',');
       var arrayOfOptions = myoptions.split(",");
 
+      // Set jsonfile based on region
+      var jsonfile = "pricebook-3_MS_US.json";
+
+      switch(pdfurl.split("/")[3]) {
+        case "no_NO":
+          jsonfile = "pricebook-3_MS_NO.json";
+          break;
+        case "en_GB":
+          jsonfile = "pricebook-3_MS_GB.json";
+          break;
+        default:
+          jsonfile = "pricebook-3_MS_US.json";
+      }
+
       // Parsing JSON data
-      $.getJSON("pricebook-3_MS_NO.json", function ( data ) {
+      $.getJSON(jsonfile, function ( data ) {
         var items = [];
 
         $.each( data.options, function ( opt_code, opt_content ) {
