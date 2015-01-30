@@ -109,7 +109,7 @@
     $.getJSON("pricebook-3_MS_NO.json", function ( data ) {
       var items = [];
       $.each( data.options, function ( opt_code, opt_content ) {
-        items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt"><a>' + opt_content.name + '</a><span class="opt-descr" style="display:none;" ><br/>' + opt_content.description + "</span></dd>" );
+        items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt"><a class="listitem">' + opt_content.name + '</a><span class="opt-descr" style="display:none;" ><br/>' + opt_content.description + "</span></dd>" );
       });
 
       $( "<dl/>", {
@@ -121,7 +121,7 @@
     $.getJSON("pricebook-3_MS_US.json", function ( data ) {
       var items = [];
       $.each( data.options, function ( opt_code, opt_content ) {
-        items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt"><a>' + opt_content.name + '</a><span class="opt-descr" style="display:none;" ><br/>' + opt_content.description + "</span></dd>" );
+        items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt"><a class="listitem">' + opt_content.name + '</a><span class="opt-descr" style="display:none;" ><br/>' + opt_content.description + "</span></dd>" );
       });
 
       $( "<dl/>", {
@@ -133,14 +133,14 @@
 
 
     // Show/hide option description on click
-    $(document).on('click', '.opt', function() {
+    $(document).on('click touchstart', '.opt', function() {
       var $this = $(this);
       $this.find("span.opt-descr").fadeToggle(0);
       $('.opt-descr').not($this.find("span.opt-descr")).fadeOut(0);
     });
 
     // Show instructions on how to find PDF-link
-    $(document).on('click', '#howFindLink', function() {
+    $(document).on('click touchstart', '#howFindLink', function() {
       $("#linkInstruction").toggle();
     });
 
@@ -152,7 +152,7 @@
     });
 
     // Check my options
-    $(document).on('click', '#submitPdfLink', function() {
+    $(document).on('click touchstart', '#submitPdfLink', function() {
       ////
       // Getting and displaying your options
       ////
@@ -185,7 +185,7 @@
 
         $.each( data.options, function ( opt_code, opt_content ) {
           if( jQuery.inArray( opt_code, arrayOfOptions ) != -1 ) {
-            items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt"><a>' + opt_content.name + '</a><span class="opt-descr" style="display:none;" ><br/>' + opt_content.description + "</span></dd>" );
+            items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt"><a class="listitem">' + opt_content.name + '</a><span class="opt-descr" style="display:none;" ><br/>' + opt_content.description + "</span></dd>" );
           }
         });
 

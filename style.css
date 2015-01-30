@@ -9,3 +9,7 @@ a.anchor {
   color: #333;
   text-decoration: none;
 }
+a.listitem {
+  cursor: pointer;
+  cursor: hand;
+}
