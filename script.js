@@ -110,19 +110,19 @@ $(function(){
   });
 
   // Click my options
-  $('#my-options-link').click(function() {
+  $('#my-options-link').on('click touchstart', function() {
     $('#my-options-container').show();
     $('#all-options-container').hide();
     $('#about-container').hide();
   });
   // Click all options
-  $('#all-options-link').click(function() {
+  $('#all-options-link').on('click touchstart', function() {
     $('#my-options-container').hide();
     $('#all-options-container').show();
     $('#about-container').hide();
   });
   // Click about
-  $('#about-link').click(function() {
+  $('#about-link').on('click touchstart', function() {
     $('#my-options-container').hide();
     $('#all-options-container').hide();
     $('#about-container').show();
