@@ -28,9 +28,9 @@
       </div>
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Check your options</a></li>
-          <li><a href="#all-options">Show all possible options</a></li>
-          <li><a href="#about">About</a></li>
+          <li class="active"><a href="#" id="my-options-link">Check your options</a></li>
+          <li><a href="#all-options" id="all-options-link">Show all possible options</a></li>
+          <li><a href="#about" id="about-link">About</a></li>
         </ul>
       </div><!--/.nav-collapse -->
     </div>
@@ -38,55 +38,63 @@
 
   <div class="container">
 
-    <div class="heading">
-      <h1>Tesla Model S Options Decoder</h1>
-      <p class="lead">Enter your "View Design" PDF-link <a href="#" id="howFindLink">(how do I find my link?)</a></p>
-
-      <div class="form-inline">
-        <div class="form-group">
-          <input type="text" class="form-control" id="pdflink" placeholder="https://my.teslamotors.com/mytesla/pdf/view-design-pdf?…">
-        </div>
-        <button type="button" class="btn btn-primary" id="submitPdfLink">Check option codes</button>
-      </div>
-
-    </div>
-
-    <div class="row" id="linkInstruction" style="display:none;">
-      <div class="col-md-4"></div>
-      <div class="col-md-4">
-        <div class="alert alert-info">
-          <p><span class="glyphicon glyphicon-info-sign"></span> You can find your PDF-link with the option codes by logging in to your "My Tesla"-page on the Tesla Motors web site, right clicking on the "VIEW DESIGN" button and selecting "Copy Link Adress".</p>
-        </div>
-      </div>
-      <div class="col-md-4"></div>
-    </div>
-
-    <div class="row my-options" style="display:none;">
+    <div id="my-options-container">
       <div class="heading">
-        <h1><a class="anchor" name="my-options">My options</a></h1>
+        <h1>Tesla Model S Options Decoder</h1>
+        <p class="lead">Enter your "View Design" PDF-link <a href="#" id="howFindLink">(how do I find my link?)</a></p>
+
+        <div class="form-inline">
+          <div class="form-group">
+            <input type="text" class="form-control" id="pdflink" placeholder="https://my.teslamotors.com/mytesla/pdf/view-design-pdf?…">
+          </div>
+          <button type="button" class="btn btn-primary" id="submitPdfLink">Check option codes</button>
+        </div>
+
       </div>
-      <div id="list-my-options">
+
+      <div class="row" id="linkInstruction" style="display:none;">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <div class="alert alert-info">
+            <p><span class="glyphicon glyphicon-info-sign"></span> You can find your PDF-link with the option codes by logging in to your "My Tesla"-page on the Tesla Motors web site, right clicking on the "VIEW DESIGN" button and selecting "Copy Link Adress".</p>
+          </div>
+        </div>
+        <div class="col-md-4"></div>
+      </div>
+
+      <div class="row my-options" style="display:none;">
+        <div class="heading">
+          <h1><a class="anchor" name="my-options">My options</a></h1>
+        </div>
+        <div id="list-my-options">
+        </div>
       </div>
     </div>
 
-    <div class="row all-options">
-      <div class="heading">
-        <h1><a class="anchor" name="all-options">All options</a></h1>
+    <div id="all-options-container" style="display:none;">
+      <div class="row">
+        <div class="heading">
+          <h1><a class="anchor" name="all-options">All options</a></h1>
+        </div>
+      </div>
+      <div class="row">
+
+        <div class="col-md-6">
+          <h2>Norwegian options list</h2>
+          <div id="optionslist_no">
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <h2>US options list</h2>
+          <div id="optionslist_us">
+          </div>
+        </div>
+
       </div>
     </div>
-    <div class="row">
 
-      <div class="col-md-6">
-        <h2>Norwegian options list</h2>
-        <div id="optionslist_no">
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <h2>US options list</h2>
-        <div id="optionslist_us">
-        </div>
-      </div>
+    <div id="about-container" style="display:none;">
 
     </div>
 
@@ -195,6 +203,44 @@
         }).appendTo( "#list-my-options" );
       });
       $(".my-options").show();
+    });
+
+
+    ////
+    // Clicking on the menu
+    ////
+    $(function(){
+      $('.nav li a').on('click touchstart', function(e) {
+        e.preventDefault(); // prevent link click if necessary?
+        var $thisLi = $(this).parent('li');
+        var $ul = $thisLi.parent('ul');
+
+        if (!$thisLi.hasClass('active')){
+          $ul.find('li.active').removeClass('active');
+          $thisLi.addClass('active');
+        }
+
+      });
+
+      // Click my options
+      $('#my-options-link').click(function() {
+        $('#my-options-container').show();
+        $('#all-options-container').hide();
+        $('#about-container').hide();
+      });
+      // Click all options
+      $('#all-options-link').click(function() {
+        $('#my-options-container').hide();
+        $('#all-options-container').show();
+        $('#about-container').hide();
+      });
+      // Click about
+      $('#about-link').click(function() {
+        $('#my-options-container').hide();
+        $('#all-options-container').hide();
+        $('#about-container').show();
+      });
+
     });
 
   </script>
