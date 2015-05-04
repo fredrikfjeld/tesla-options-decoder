@@ -6,18 +6,20 @@
       "includes":[
         "ADPC2",
         "WTW3",
-        "WTW5"
+        "WTW5",
+        "PSP14"
       ],
       "long_name":null,
-      "name":"Accessories &amp; Service",
+      "name":"Accessories",
       "sort_order": 10
     },
     "C_BAT":{
       "description":null,
-      "disclaimer":"<sup class=\"push-left\">*</sup> Range shown for 85D and P85D is estimated, pending NEDC confirmation. Range decreases 3 percent when equipped with 21-inch wheels.",
+      "disclaimer":"",
       "exclusive":true,
       "includes":[
         "BT60",
+        "BT70",
         "BT85",
         "PBT85",
         "P85D"
@@ -305,16 +307,16 @@
       "sort_order":1
     },
     "C_OPTS":{
-      "description":null,
+      "description":"Model S comes with a range of features included as standard. <ul> <li>Maps and navigation </li><li>LED daytime running lights</li> <li>Mobile connectivity</li> <li>Lane departure warning</li> <li>Speed limit display</li> <li><a href='/en_EU/models#battery-options' target='_blank'>And much more</a></li> </ul>",
       "disclaimer":"Rear Facing Seats are child restraint systems intended for children at least 3' 1\" tall and between 35 and 77 pounds. Children should be seated upright without their head touching the roof of the car and be properly belted in at all times. It's important that you follow all provided instructions to ensure the safety of your passengers.",
       "exclusive":false,
       "includes":[
         "TP02",
         "SU01",
+        "AU01",
         "PI01",
         "SR02",
         "CW02",
-        "AU01",
         "SP01",
         "TR01"
       ],
@@ -385,7 +387,8 @@
       ],
       "long_name":null,
       "name":"Autopilot",
-      "sort_order":7
+      "sort_order":7,
+      "no_ui":true
     },
     "C_TRIM":{
       "description":null,
@@ -410,7 +413,8 @@
         "WT21",
         "WTSP",
         "WTSS",
-        "WTSG"
+        "WTSG",
+        "WTAE"
       ],
       "long_name":null,
       "name":"Wheels",
@@ -535,6 +539,7 @@
       "list_price":0,
       "long_name":"Type 2 to Type 2 Connector",
       "name":"Type 2 to Type 2 Connector",
+      "no_ui":true,
       "price":0,
       "price_indicator":"Included"
     },
@@ -550,7 +555,8 @@
       "price":0,
       "price_indicator":"Included",
       "requires":[
-        "X014"
+        "X014",
+        "X040"
       ],
       "toggle_pair":"AU01"
     },
@@ -565,7 +571,7 @@
       "price":0,
       "price_indicator":"Optional",
       "requires":[
-        "X013"
+        "X039"
       ],
       "toggle_pair":"AU00"
     },
@@ -655,21 +661,46 @@
         "QYMB":"QXMB",
         "QYMT":"QXMT",
         "QYMG":"QXMG",
-        "QNLB":"QPMB",
-        "QNLT":"QPMT",
-        "QNLG":"QPMG",
-        "QNEB":"QXMB",
-        "QNET":"QXMT",
-        "QNEG":"QXMG",
-        "QRLB":"QPMB",
-        "QRLT":"QPMT",
-        "QRLG":"QPMG",
-        "QREB":"QXMB",
-        "QRET":"QXMT",
-        "QREG":"QXMG",
         "WTSG":"WTSP",
         "WTSS":"WT21",
         "DV4W":"DV2W"
+      },
+      "toggle_map_trigger":true,
+      "valid_pairs":[
+        "SC01"
+      ]
+    },
+    "BT70":{
+      "category":"C_BAT",
+      "defaults":[
+        "SC00"
+      ],
+      "delivery_date":"20121101",
+      "delivery_date_warning":null,
+      "description":"<ul><li><strong>240</strong> miles range (NEDC)<br /></li><li><strong>380</strong> hp motor power</li><li><strong>5.9</strong> seconds 0-60 mph</li><li><strong>120</strong> mph top speed</li><li>8 year, 125,000 mile battery and drive unit warranty</li><li>Supercharging optional</li></ul>",
+      "disclaimer":"",
+      "list_price":0,
+      "long_name":"70 kWh Model S",
+      "name":"70 kWh Battery",
+      "price":0,
+      "no_ui":true,
+      "price_indicator":"Optional",
+      "requires":[
+        "PX00",
+        "X021",
+        "X025",
+        "BC0B",
+        "DV4W"
+      ],
+      "toggle_map":{
+        "QZMB":"QPMB",
+        "QZMT":"QPMT",
+        "QZMG":"QPMG",
+        "QYMB":"QXMB",
+        "QYMT":"QXMT",
+        "QYMG":"QXMG",
+        "WTSG":"WTSP",
+        "WTSS":"WT21"
       },
       "toggle_map_trigger":true,
       "valid_pairs":[
@@ -701,18 +732,6 @@
         "QYMB":"QXMB",
         "QYMT":"QXMT",
         "QYMG":"QXMG",
-        "QNLB":"QPMB",
-        "QNLT":"QPMT",
-        "QNLG":"QPMG",
-        "QNEB":"QXMB",
-        "QNET":"QXMT",
-        "QNEG":"QXMG",
-        "QRLB":"QPMB",
-        "QRLT":"QPMT",
-        "QRLG":"QPMG",
-        "QREB":"QXMB",
-        "QRET":"QXMT",
-        "QREG":"QXMG",
         "WTSG":"WTSP",
         "WTSS":"WT21"
       },
@@ -795,7 +814,8 @@
       "name":"Dual Chargers",
       "price":0,
       "price_indicator":"Optional",
-      "toggle_pair":"CH00"
+      "toggle_pair":"CH00",
+      "no_ui":true
     },
     "COL0":{
       "category":"C_EXTCOL",
@@ -868,6 +888,24 @@
           "delivery_date_warning":null,
           "long_name":"Grey Metallic Paint",
           "name":"Grey"
+        },
+        "PPSB":{
+          "delivery_date_warning":null,
+          "long_name":"PPSB",
+          "name":"PPSB",
+          "no_ui":true
+        },
+        "PPTI":{
+          "delivery_date_warning":null,
+          "long_name":"PPTI",
+          "name":"PPTI",
+          "no_ui":true
+        },
+        "PMBL":{
+          "delivery_date_warning":null,
+          "long_name":"PMBL",
+          "name":"PMBL",
+          "no_ui":true
         }
       }
     },
@@ -935,7 +973,7 @@
           "price_indicator":"Included"
         }
       },
-      "description":"Improve cold-weather comfort and convenience by adding: <ul><li>3 zone rear seat heaters</li> <li>Wiper blade defrosters</li><li>Washer nozzle heaters</li><li>Heated steering wheel</li></ul>",
+      "description":"Improve cold-weather comfort and convenience by adding: <ul><li>Heated steering wheel</li><li>3 zone rear seat heaters</li> <li>Wiper blade defrosters</li><li>Washer nozzle heaters</li></ul>",
       "disclaimer":"Recommended for climates where temperatures<br />regularly fall well below freezing",
       "excludes":[
         "CW01"
@@ -1017,14 +1055,6 @@
       "requires":[
         "PX00"
       ],
-      "toggle_map":{
-        "QNEB":"QYMB",
-        "QNET":"QYMT",
-        "QNEG":"QYMG",
-        "QREB":"QYMB",
-        "QRET":"QYMT",
-        "QREG":"QYMG"
-      },
       "toggle_map_trigger":true,
       "toggle_pair":"DV4W",
       "valid_pairs":[
@@ -1040,18 +1070,18 @@
       "dependent_overrides":{
         "BT60":{
           "override_description":"<ul><li><strong>240</strong> miles range (NEDC est.)</li><li><strong>376</strong> hp motor power<br/><strong>188</strong> hp front and rear</li><li><strong>5.7</strong> seconds 0-60 mph</li><li><strong>125</strong> mph top speed</li><li>8 year, 125,000 mile battery and drive unit warranty</li><li>Supercharging optional</li></ul>",
-          "override_disclaimer":null,
+          "override_disclaimer":"Requires 85 kWh Battery",
           "override_indicator":"Optional",
-          "override_name":"Dual Motor All Wheel Drive",
-          "price":4000,
+          "override_name":"All-Wheel Drive Dual Motor",
+          "price":4100,
           "price_indicator":"Optional"
         },
         "BT85":{
           "override_description":"<ul><li><strong>310</strong> miles range (NEDC est.)</li><li><strong>376</strong> hp motor power<br/><strong>188</strong> hp front and rear</li><li><strong>5.2</strong> seconds 0-60 mph</li><li><strong>155</strong> mph top speed</li><li>8 year, infinite mile battery and drive unit warranty</li><li>Supercharging included</li></ul>",
-          "override_disclaimer":null,
+          "override_disclaimer":"Requires 85 kWh Battery",
           "override_indicator":"Optional",
-          "override_name":"Dual Motor All Wheel Drive",
-          "price":4000,
+          "override_name":"All-Wheel Drive Dual Motor",
+          "price":4100,
           "price_indicator":"Optional"
         },
         "PBT85":{
@@ -1063,7 +1093,7 @@
         },
         "P85D":{
           "override_disclaimer":"Tech package, air suspension, 21\" wheels and next gen seats recommended",
-          "override_name":"<span class=\"red text headline\">High Performance</span> Dual Motor All Wheel Drive",
+          "override_name":"<span class=\"red text headline\">High Performance</span> All-Wheel Drive Dual Motor",
           "override_indicator":"Optional",
           "price":8000,
           "price_indicator":"Optional"
@@ -1071,11 +1101,12 @@
       },
       "disclaimer":null,
       "list_price":0,
-      "long_name":"Dual Motor All Wheel Drive",
-      "name":"Dual Motor All Wheel Drive",
+      "long_name":"All-Wheel Drive Dual Motor",
+      "name":"All-Wheel Drive Dual Motor",
       "price":0,
       "price_indicator":"Optional",
       "toggle_map":{
+        "BT60":"BT85",
         "PBT85":"P85D"
       },
       "toggle_map_trigger": true,
@@ -1488,7 +1519,7 @@
       ],
       "delivery_date":null,
       "delivery_date_warning":null,
-      "description":"<ul> <li><strong>300</strong> miles range (NEDC est.)</li> <li><strong>691</strong> hp motor power<br/><strong>221</strong> hp front, <strong>470</strong> hp rear</li> <li><strong>3.2</strong> seconds 0-60 mph</li> <li><strong>155</strong> mph top speed</li><li>High performance Dual Motor all wheel drive with specially designed suspension for exceptional power and handling</li><li>8 year, infinite mile battery and drive unit warranty</li></ul>",
+      "description":"<ul> <li><strong>300</strong> miles range (NEDC est.)</li> <li><strong>691</strong> hp motor power<br/><strong>221</strong> hp front, <strong>470</strong> hp rear</li> <li><strong>3.2</strong> seconds 0-60 mph</li> <li><strong>155</strong> mph top speed</li><li>High performance All-Wheel Drive Dual Motor for exceptional power and handling with specially designed suspension</li><li>8 year, infinite mile battery and drive unit warranty</li></ul>",
       "disclaimer":"",
       "list_price":0,
       "long_name":"85 kWh Performance Model S",
@@ -1635,11 +1666,12 @@
       "category":"C_ACC",
       "delivery_date":null,
       "delivery_date_warning":null,
-      "description":null,
+      "description":"Annual service includes an inspection every 20,000 kilometers, replacement parts like brake pads and windshield wipers, 24 hour roadside assistance, and remote diagnostics.",
       "disclaimer":"",
       "list_price":0,
       "long_name":"Four Years Prepaid Service",
-      "name":"Four Years",
+      "name":"Four Years Prepaid Service",
+      "no_ui":true,
       "price":0,
       "price_indicator":"Optional",
       "toggle_pair":"PSPX4"
@@ -1739,7 +1771,6 @@
       "price_indicator":"Included",
       "requires":[
         "X002",
-        "X004",
         "X007",
         "X010",
         "X012",
@@ -1757,7 +1788,7 @@
       ],
       "delivery_date":null,
       "delivery_date_warning":null,
-      "description":"The Tech Package adds a host of features to an already advanced car. <ul> <li>Autopilot convenience features available through software updates </li><li>Onboard maps and navigation with free updates for 7 years</li><li>LED Cornering lights and fog lamps </li><li>Automatic keyless entry </li><li>Lighted door handles </li><li>Power liftgate </li><li>Electrochromatic mirrors </li><li>Power folding, heated side mirrors with memory </li> </ul>",
+      "description":"<p>The Tech Package adds Autopilot convenience features and more to an already advanced car.</p><ul> <li>Traffic-aware cruise control</li> <li>Lane keeping with automatic steering</li> <li>Self-parking</li> <li>LED fog and cornering lights with automatic high beams</li> <li>Automatic keyless entry</li> <li>Lighted door handles</li> <li>Power liftgate</li> <li>Electrochromatic mirrors</li> <li>Power folding, heated side mirrors with memory</li></ul><p>Autopilot features are made available through progressive software updates. Lane keeping and self-parking updates will be available soon.</p>",
       "disclaimer":null,
       "list_price":0,
       "name":"Tech Package with Autopilot",
@@ -1765,7 +1796,6 @@
       "price_indicator":"Optional",
       "requires":[
         "X001",
-        "X003",
         "X007",
         "X037",
         "X011",
@@ -1979,6 +2009,7 @@
       "list_price":0,
       "long_name":"Black Next Generation Seats",
       "name":"Black Next Generation Seats",
+      "no_ui":false,
       "price":0,
       "price_indicator":"Optional"
     },
@@ -2021,6 +2052,7 @@
       "list_price":0,
       "long_name":"Grey Next Generation Seats",
       "name":"Grey Next Generation Seats",
+      "no_ui":false,
       "price":0,
       "price_indicator":"Optional"
     },
@@ -2063,6 +2095,7 @@
       "list_price":0,
       "long_name":"Tan Next Generation Seats",
       "name":"Tan Next Generation Seats",
+      "no_ui":false,
       "price":0,
       "price_indicator":"Included"
     },
@@ -2106,6 +2139,7 @@
       "logical_category":"LC_INT",
       "long_name":"Black Next Generation Seats",
       "name":"Black Next Generation Seats",
+      "no_ui":false,
       "price":0,
       "price_indicator":"Optional"
     },
@@ -2148,6 +2182,7 @@
       "list_price":0,
       "long_name":"Grey Next Generation Seats",
       "name":"Grey Next Generation Seats",
+      "no_ui":false,
       "price":0,
       "price_indicator":"Optional"
     },
@@ -2190,6 +2225,7 @@
       "list_price":0,
       "long_name":"Tan Next Generation Seats",
       "name":"Tan Next Generation Seats",
+      "no_ui":false,
       "price":0,
       "price_indicator":"Optional"
     },
@@ -2952,7 +2988,7 @@
           "price_indicator":"Included"
         }
       },
-      "description":"Tesla Superchargers are external chargers designed to replenish over half of a charge in as little as 20 minutes. Tesla is building a network of 120 kW Superchargers throughout Europe in Scandinavia and Central Europe, expanding to most of Western Europe by winter 2014.",
+      "description":"Tesla Superchargers are external chargers designed to replenish over half of a charge in as little as 20 minutes.",
       "disclaimer":"Included with the 85 kWh battery<br />£2,400 after delivery",
       "list_price":0,
       "name":"Supercharger Enabled",
@@ -2983,7 +3019,8 @@
       "name":"Security Package",
       "price":0,
       "price_indicator":"Optional",
-      "toggle_pair":"SP00"
+      "toggle_pair":"SP00",
+      "no_ui":true
     },
     "SR01":{
       "category":"C_INT_EXEC",
@@ -3277,6 +3314,21 @@
       "price":0,
       "price_indicator":"Optional",
       "ui_pair":"WTSP"
+    },
+    "WTAE":{
+      "category":"C_WT",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Improves range by 3 percent and comes standard with Goodyear Eagle RS-A2 high performance all-season tires.",
+      "disclaimer":null,
+      "list_price":0,
+      "long_name":"19\" Aerodynamic Wheels",
+      "name":"19\" Aerodynamic",
+      "no_ui":true,
+      "pdf_show":true,
+      "price":0,
+      "price_indicator":"Included",
+      "type":"Boolean"
     },
     "WTSG":{
       "category":"C_WT",
@@ -3751,6 +3803,32 @@
       "price":0,
       "price_indicator":"Included"
     },
+    "X039":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"DAB Radio",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"DAB Radio",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"X040"
+    },
+    "X040":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"No DAB Radio",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"No DAB Radio",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"X039"
+    },
     "YF00":{
       "category":"C_INT_NOW_DEFAULT_OPTS",
       "delivery_date":null,
@@ -3793,7 +3871,7 @@
     "Standard":"Standard"
   },
   "region":"REEU",
-  "finance_disclaimer":"<h2>Explanation of Assumptions</h2><h3>How do we calculate these figures?</h3><p>We encourage you to think about the true out of pocket cost of financing Model S. In calculating our effective monthly cost of financing, we’ve compared the cost of driving Model S to an average upper middle class vehicle of 15,000 miles per year.</p><p>The financing information has been provided by BMW Financial Services (GB) Limited trading as Alphera Financial Services. Based on fuel economy of 39.2 miles per gallon and an average fuel cost of £1.33 per litre the fuel cost for the comparable combustion engine vehicle would be £15.42 per 100 miles. The electricity cost to drive Model S at 294.51 Wh per mile over the same distance is £2.95 assuming a combination of charging methods (40% at £0.14 per kWh per hour at home, 30% at £0.09 per kWh per hour at work and 30% at no charge using Tesla's Supercharger network with a Supercharger-enabled Model S) giving the saving on fuel of £12.47 for every 100 miles driven. Tesla Model S drivers are in band A for CO2 omissions and pay no standard road tax compared with, by way of example, standard road tax of £290 in the first year and £205 annually subsequently for a petrol or diesel band H car.</p><p>When considering the savings from using electricity instead of petrol and road tax, you can save approximately £175 per month over a petrol powered saloon. </p><p>Additional incentives can be calculated from London congestion charge savings and Benefit in Kind savings from driving a Model S as a company employee. London congestion charges are calculated on 240 working days per year at the discounted rate of £10.50 per day. If you are an employee driving Model S under a company car scheme and in the 40% tax bracket, you may receive additional tax savings of £335 per month compared to the Benefit in Kind taxes required of an employee driving an internal combustion vehicle of 174 g/km with a purchase price of £50,280.<h3>Disclaimer</h3>The monthly hire purchase payments have been calculated by Tesla Motors Limited from data provided by BMW Financial Services (GB) Limited trading as Alphera Financial Services. The quotes are on a monthly basis calculated using a 60 month term (as indicated) and the 15% down payment and interest rate of 5.9% APR as indicated. </p><p>The estimated fuel savings are based on the assumptions specified on an annual basis. Please refer to Alphera Financial Services for full details of hire purchase terms and conditions.</p>",
+  "finance_disclaimer":"<h2>Explanation of Assumptions</h2><h3>How do we calculate these figures?</h3><p>We encourage you to think about the true out of pocket cost of financing Model S. In calculating our effective monthly cost of financing, we’ve compared the cost of driving Model S to an average upper middle class vehicle of 15,000 miles per year.</p><p>The financing information has been provided by BMW Financial Services (GB) Limited trading as Alphera Financial Services. Based on fuel economy of 39.2 miles per gallon and an average fuel cost of £1.33 per litre the fuel cost for the comparable combustion engine vehicle would be £15.42 per 100 miles. The electricity cost to drive Model S at 294.51 Wh per mile over the same distance is £2.95 assuming a combination of charging methods (40% at £0.14 per kWh per hour at home, 30% at £0.09 per kWh per hour at work and 30% at no charge using Tesla's Supercharger network with a Supercharger-enabled Model S) giving the saving on fuel of £12.47 for every 100 miles driven. Tesla Model S drivers are in band A for CO2 omissions and pay no standard road tax compared with, by way of example, standard road tax of £290 in the first year and £205 annually subsequently for a petrol or diesel band H car.</p><p>When considering the savings from using electricity instead of petrol and road tax, you can save approximately £175 per month over a petrol powered saloon. </p><p>Additional incentives can be calculated from London congestion charge savings and Benefit in Kind savings from driving a Model S as a company employee. London congestion charges are calculated on 240 working days per year at the discounted rate of £10.50 per day. If you are an employee driving Model S under a company car scheme and in the 40% tax bracket, you may receive additional tax savings of £335 per month compared to the Benefit in Kind taxes required of an employee driving an internal combustion vehicle of 174 g/km with a purchase price of £50,280.<h3>Disclaimer</h3>The monthly hire purchase payments have been calculated by Tesla Motors Limited from data provided by BMW Financial Services (GB) Limited trading as Alphera Financial Services. The quotes are on a monthly basis calculated using a 48, 60, or 72 month term (as indicated) and the 15% down payment and interest rate of 5.9% APR as indicated. </p><p>The estimated fuel savings are based on the assumptions specified on an annual basis. Please refer to Alphera Financial Services for full details of hire purchase terms and conditions.</p>",
   "reservation_price":2000.0,
   "root_vehicle":"MS02",
   "smartling":{

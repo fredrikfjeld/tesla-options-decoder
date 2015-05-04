@@ -11,18 +11,21 @@
         "WTW1",
         "WTW2",
         "WTW3",
-        "WTW5"
+        "WTW5",
+        "PSP15",
+        "PSP8"
       ],
       "long_name":null,
-      "name":"Tilbehør &amp; service",
+      "name":"Tilbehør",
       "sort_order": 10
     },
     "C_BAT":{
       "description":null,
-      "disclaimer":"<sup class=\"push-left\">*</sup> Det viste utvalget for 85D og P85D er estimert, i påvente av bekreftelse fra Ny europeisk kjøresyklus (NEDC). Rekkevidden reduseres med 3 prosent når utstyrt med 21-tommers hjul.",
+      "disclaimer":"",
       "exclusive":true,
       "includes":[
         "BT60",
+        "BT70",
         "BT85",
         "PBT85",
         "P85D"
@@ -42,7 +45,7 @@
       "sort_order":2
     },
     "C_CHG_SUPER":{
-      "description":"Model S kommer med det nødvendige utstyret for å kunne lade hjemme eller på farten.<ul><li>11kW innebygget lader</li><li>Mobillader</li><li>Standard Schuko adapter</li><li>IEC Type 2-kompatibel ladeport</li><li>IEC 60309 230 volt adapter (Blå)</li></ul><p>Lad opptil 55 kilometer per time (32 ampere).</p>",
+      "description":"Model S kommer med det nødvendige utstyret for å kunne lade hjemme eller på farten.<ul><li>11kW innebygget lader</li><li>Mobillader</li><li>Standard Schuko adapter</li><li>IEC Type 2-kompatibel ladeport</li><li>IEC 60309 230 volt adapter (Blå)</li></ul>",
       "exclusive":false,
       "includes":[
         "SC01",
@@ -310,16 +313,16 @@
       "sort_order":1
     },
     "C_OPTS":{
-      "description":null,
+      "description":" Model S leveres med et stort utvalg egenskaper som standard. <ul> <li> Kart og navigasjon <li> LED-kjørelys </li> <li> Mobiltilkobling </li> <li> Advarsel ved fildriving </li> <li> Fartsgrense-display </li> <li><a href='/no_NO/models#battery-options' target='_blank'> Og mye mer</a></li> </ul>",
       "disclaimer":"Bakovervendte seter er barnesikringsutstyr beregnet for barn som er minst 95 cm høye og som veier mellom 16 og 35 kg. Barn må kunne sitte opp uten at hodet deres berører taket av bilen og må være ordentlig fastspent til enhver tid. Det er viktig at du følger alle tilgjengelige instruksjoner for å sikre sikkerheten til passasjerene.",
       "exclusive":false,
       "includes":[
         "TP02",
         "SU01",
+        "AU01",
         "PI01",
         "SR02",
         "CW02",
-        "AU01",
         "TR01",
         "SP01"
       ],
@@ -390,7 +393,8 @@
       ],
       "long_name":null,
       "name":"Autopilot",
-      "sort_order":7
+      "sort_order":7,
+      "no_ui":true
     },
     "C_TRIM":{
       "description":null,
@@ -415,7 +419,8 @@
         "WT21",
         "WTSP",
         "WTSS",
-        "WTSG"
+        "WTSG",
+        "WTAE"
       ],
       "long_name":null,
       "name":"Hjul",
@@ -487,6 +492,7 @@
       "list_price":0,
       "long_name":"Rød ladeadapter",
       "name":"Rød ladeadapter",
+      "no_ui":true,
       "price":0,
       "price_indicator":"Optional",
       "toggle_pair":"ADX7"
@@ -500,6 +506,7 @@
       "list_price":0,
       "long_name":"Blått ladeadapter",
       "name":"Blått ladeadapter",
+      "no_ui":true,
       "price":0,
       "price_indicator":"Included",
       "toggle_pair":"ADX8"
@@ -667,6 +674,7 @@
       "list_price":0,
       "long_name":"Type 2 offentlig ladekabel",
       "name":"Type 2 offentlig ladekabel",
+      "no_ui":true,
       "price":0,
       "price_indicator":"Optional",
       "toggle_pair":"ADPX2"
@@ -697,7 +705,8 @@
       "price":0,
       "price_indicator":"Included",
       "requires":[
-        "X014"
+        "X014",
+        "X040"
       ],
       "toggle_pair":"AU01"
     },
@@ -712,7 +721,7 @@
       "price":0,
       "price_indicator":"Optional",
       "requires":[
-        "X013"
+        "X039"
       ],
       "toggle_pair":"AU00"
     },
@@ -802,21 +811,46 @@
         "QYMB":"QXMB",
         "QYMT":"QXMT",
         "QYMG":"QXMG",
-        "QNLB":"QPMB",
-        "QNLT":"QPMT",
-        "QNLG":"QPMG",
-        "QNEB":"QXMB",
-        "QNET":"QXMT",
-        "QNEG":"QXMG",
-        "QRLB":"QPMB",
-        "QRLT":"QPMT",
-        "QRLG":"QPMG",
-        "QREB":"QXMB",
-        "QRET":"QXMT",
-        "QREG":"QXMG",
         "WTSG":"WTSP",
         "WTSS":"WT21",
         "DV4W":"DV2W"
+      },
+      "toggle_map_trigger":true,
+      "valid_pairs":[
+        "SC01"
+      ]
+    },
+    "BT70":{
+      "category":"C_BAT",
+      "defaults":[
+        "SC00"
+      ],
+      "delivery_date":"20121101",
+      "delivery_date_warning":null,
+      "description":"<ul><li><strong>390</strong> Rekkevidde i km (NEDC)<br /></li><li><strong>385</strong> hk motorkraft</li><li><strong>6.2</strong> sekunder 0 - 100 km/t</li><li><strong>190</strong> km/t toppfart</li><li>8-års, 200 000 km batteri- og drivenhetsgaranti</li><li>Superlading valgfritt</li></ul>",
+      "disclaimer":"",
+      "list_price":0,
+      "long_name":"70 kWt Model S",
+      "name":"70 kWt Batteri",
+      "price":0,
+      "no_ui":true,
+      "price_indicator":"Optional",
+      "requires":[
+        "PX00",
+        "X021",
+        "X025",
+        "BC0B",
+        "DV4W"
+      ],
+      "toggle_map":{
+        "QZMB":"QPMB",
+        "QZMT":"QPMT",
+        "QZMG":"QPMG",
+        "QYMB":"QXMB",
+        "QYMT":"QXMT",
+        "QYMG":"QXMG",
+        "WTSG":"WTSP",
+        "WTSS":"WT21"
       },
       "toggle_map_trigger":true,
       "valid_pairs":[
@@ -848,18 +882,6 @@
         "QYMB":"QXMB",
         "QYMT":"QXMT",
         "QYMG":"QXMG",
-        "QNLB":"QPMB",
-        "QNLT":"QPMT",
-        "QNLG":"QPMG",
-        "QNEB":"QXMB",
-        "QNET":"QXMT",
-        "QNEG":"QXMG",
-        "QRLB":"QPMB",
-        "QRLT":"QPMT",
-        "QRLG":"QPMG",
-        "QREB":"QXMB",
-        "QRET":"QXMT",
-        "QREG":"QXMG",
         "WTSG":"WTSP",
         "WTSS":"WT21"
       },
@@ -942,7 +964,8 @@
       "name":"Dobbeltlader",
       "price":0,
       "price_indicator":"Optional",
-      "toggle_pair":"CH00"
+      "toggle_pair":"CH00",
+      "no_ui":true
     },
     "COL0":{
       "category":"C_EXTCOL",
@@ -1015,6 +1038,24 @@
           "delivery_date_warning":null,
           "long_name":"Grå metallic lakk",
           "name":"Grå"
+        },
+        "PPSB":{
+          "delivery_date_warning":null,
+          "long_name":"PPSB",
+          "name":"PPSB",
+          "no_ui":true
+        },
+        "PPTI":{
+          "delivery_date_warning":null,
+          "long_name":"PPTI",
+          "name":"PPTI",
+          "no_ui":true
+        },
+        "PMBL":{
+          "delivery_date_warning":null,
+          "long_name":"PMBL",
+          "name":"PMBL",
+          "no_ui":true
         }
       }
     },
@@ -1082,7 +1123,7 @@
           "price_indicator":"Included"
         }
       },
-      "description":"Forbedre komforten og bekvemmeligheten i kaldt vær ved å legge til: <ul><li>3-sonet baksetevarmere</li>  <li>Vindusviskervarmere</li><li>Vinduspylervarmere</li><li>Oppvarmet ratt</li></ul>",
+      "description":"Forbedre komforten og bekvemmeligheten i kaldt vær ved å legge til: <ul><li>Oppvarmet ratt</li><li>3-sonet baksetevarmere</li>  <li>Vindusviskervarmere</li><li>Vinduspylervarmere</li></ul>",
        "disclaimer":"Anbefalt for klimaer der temperaturen regelmessig faller til under frysepunktet",
       "excludes":[
         "CW01"
@@ -1164,14 +1205,6 @@
       "requires":[
         "PX00"
       ],
-      "toggle_map":{
-        "QNEB":"QYMB",
-        "QNET":"QYMT",
-        "QNEG":"QYMG",
-        "QREB":"QYMB",
-        "QRET":"QYMT",
-        "QREG":"QYMG"
-      },
       "toggle_map_trigger":true,
       "toggle_pair":"DV4W",
       "valid_pairs":[
@@ -1186,31 +1219,31 @@
       "description":null,
       "dependent_overrides":{
         "BT60":{
-          "override_disclaimer":"",
+          "override_disclaimer":"Krever batteri på 85 kWt",
           "override_indicator":"Optional",
-          "override_name":"Firehjulstrekk med Dual Motor",
+          "override_name":"Dual Motor firehjulsdrift",
           "override_description":"<ul><li><strong>360</strong> km rekkevidde i 105 km/t</li><li><strong>380</strong> hp motorkraft<br /><strong>140</strong> kw foran og bak</li><li><strong>6.0</strong> sekunder 0 - 100 km/t</li><li><strong>200</strong> km/t toppfart</li><li>8-års garanti med 200.000 kilometer for batteri og drivenhet</li><li>Superlading er valgfritt</li></ul>",
-          "price":4000,
+          "price":35900,
           "price_indicator":"Optional"
         },
         "BT85":{
-          "override_disclaimer":"",
+          "override_disclaimer":"Krever batteri på 85 kWt",
           "override_indicator":"Optional",
-          "override_name":"Dual Motor Firehjulsdrift",
+          "override_name":"Dual Motor firehjulsdrift",
           "override_description":"<ul><li><strong>502</strong> Rekkevidde i km (NEDC estimert)</li><li><strong>380</strong> hk motorkraft<br /><strong>190</strong> hk foran og bak</li><li><strong>5.4</strong> sekunder 0 - 100 km/t</li><li><strong>250</strong> km/t toppfart</li><li>8-års garanti med ubegrenset kilometer for batteri og drivenhet</li><li>Superlading inkludert</li></ul>",
-          "price":4000,
+          "price":35900,
           "price_indicator":"Optional"
         },
         "PBT85":{
           "override_disclaimer":"Tech-pakke, luftfjæring, 21\"<br /> hjul og Neste generasjon seter anbefales",
-          "override_name":"<span class=\"red text headline\">Dual Motor Firehjulsdrift</span>",
+          "override_name":"<span class=\"red text headline\">Dual Motor firehjulsdrift</span>",
           "override_indicator":"Optional",
           "price":4000,
           "price_indicator":"Optional"
         },
         "P85D":{
           "override_disclaimer":"Tech-pakke, luftfjæring, 21\" hjul og Neste generasjon seter anbefales",
-          "override_name":"<span class=\"red text headline\">Høyytelses</span> Dual Motor firehjulstrekk",
+          "override_name":"<span class=\"red text headline\">Høytytende</span> Dual Motor firehjulsdrift",
           "override_indicator":"Standard",
           "price":8000,
           "price_indicator":"Standard"
@@ -1218,11 +1251,12 @@
       },
       "disclaimer":null,
       "list_price":0,
-      "long_name":"Firehjulstrekk med Dual Motor",
-      "name":"Firehjulstrekk med Dual Motor",
+      "long_name":"Dual Motor firehjulsdrift",
+      "name":"Dual Motor firehjulsdrift",
       "price":0,
       "price_indicator":"Optional",
       "toggle_map":{
+        "BT60":"BT85",
         "PBT85":"P85D"
       },
       "toggle_map_trigger": true,
@@ -1635,7 +1669,7 @@
       ],
       "delivery_date":null,
       "delivery_date_warning":null,
-      "description":"<ul> <li><strong>480</strong> Rekkevidde i km (NEDC estimert)</li> <li><strong>700</strong> hk motorkraft<br /><strong>224</strong> hk foran, <strong>476</strong> hk bak</li> <li><strong>3.4</strong> sekunder 0 - 100 km/t</li> <li><strong>250</strong> km/t toppfart</li> <li>Høyytelses Dual Motor firehjulstrekk med understell spesialdesignet for enestående veigrep og eksepsjonelle krefter</li><li>8-års garanti med ubegrenset kilometer for batteri og drivenhet</li></ul>",
+      "description":"<ul> <li><strong>480</strong> Rekkevidde i km (NEDC estimert)</li> <li><strong>700</strong> hk motorkraft<br /><strong>224</strong> hk foran, <strong>476</strong> hk bak</li> <li><strong>3.4</strong> sekunder 0 - 100 km/t</li> <li><strong>250</strong> km/t toppfart</li> <li>Høytytende Dual Motor firehjulsdrift gir eksepsjonell kraft og veigrep med spesialdesignet understell</li><li>8-års garanti med ubegrenset kilometer for batteri og drivenhet</li></ul>",
       "disclaimer":"",
       "next_gen_seats":"Model S Dual Motor Ytelsen vil motta <a href='http://www.teslamotors.com/sites/default/files/blog_images/next-generation-black-lhd.jpg' target='_blank'> Teslas neste generasjon sete </a>, reengineered for komfort og sidestøtte.",
       "list_price":0,
@@ -1789,29 +1823,35 @@
         "PSPR14"
       ],
       "list_price":0,
-      "long_name":"Fire år",
-      "name":"Fire år",
+      "long_name":"Fire år forhåndsbetalt tjeneste",
+      "name":"Fire år forhåndsbetalt tjeneste",
       "no_ui":true,
+      "pdf_show":true,
       "price":0,
       "price_indicator":"Optional",
       "toggle_pair":"PSPX4"
     },
-     "PSP15":{
+    "PSP15":{
       "category":"C_ACC",
       "delivery_date":null,
       "delivery_date_warning":null,
-      "description":null,
-      "disclaimer":"",
+      "description":"Årligeservicen inkluderer en inspeksjon hver 20.000 kilometer, erstatningsdeler som f.eks bremseklosser og vindusviskere, 24 timers bergning og fjern-diagnose",
+      "disclaimer":null,
       "excludes":[
         "PSPR14"
       ],
       "list_price":17750,
-      "long_name":"Fem år",
-      "name":"Fem år",
+      "long_name":"Fem år forhåndsbetalt tjeneste",
+      "name":"Fem år forhåndsbetalt tjeneste",
+      "no_ui":true,
+      "pdf_show":true,
       "price":17750,
       "price_indicator":"Optional",
-      "toggle_pair":"PSPX5",
-      "no_ui": true
+      "toggle_map":{
+        "PSP8":"PSPX8"
+      },
+      "toggle_map_trigger":true,
+      "toggle_pair":"PSPX5"
     },
     "PSPR14":{
       "category":"C_ACC",
@@ -1834,17 +1874,21 @@
       "category":"C_ACC",
       "delivery_date":null,
       "delivery_date_warning":null,
-      "description":"",
+      "description":"Årligeservicen inkluderer en inspeksjon hver 20.000 kilometer, erstatningsdeler som f.eks bremseklosser og vindusviskere, 24 timers bergning og fjern-diagnose",
       "disclaimer":"",
       "excludes":[
         "PSPR8"
       ],
       "list_price":28400,
-      "long_name":"Eight Years Prepaid Service",
-      "name":"åtte år",
+      "long_name":"Åtte år forhåndsbetalt tjeneste",
+      "name":"Åtte år forhåndsbetalt tjeneste",
       "no_ui":true,
       "price":28400,
       "price_indicator":"Optional",
+      "toggle_map":{
+        "PSP15":"PSPX5"
+      },
+      "toggle_map_trigger":true,
       "toggle_pair":"PSPX8"
     },
     "PSPX4":{
@@ -1977,7 +2021,6 @@
       "price_indicator":"Included",
       "requires":[
         "X002",
-        "X004",
         "X007",
         "X010",
         "X012",
@@ -1995,7 +2038,7 @@
       ],
       "delivery_date":null,
       "delivery_date_warning":null,
-      "description":"Tech-pakken legger til en rekke funksjoner på en allerede avansert bil.<ul> <li>Bekvemmelighetsegenskapene i autopiloten er tilgjengelige gjennom programvareoppdateringer</li><li>Innebygde kart og navigasjon med gratis oppdatering i 7 år</li><li>LED hjørne- og tåkelys</li><li>Automatisk, nøkkelfri døråpning</li><li>Belyste dørhåndtak</li><li>Elektronisk betjent bakluke</li><li>Automatisk avblendbare speil</li><li>Elektriske vippespeil med varme på sidene (minnefunksjon)</li> </ul>",
+      "description":"<p> Tech-pakke legger bekvemmeligheten av autopilotegenskapene og mer til en allerede avansert bil.</p><ul> <li> Trafikkoppmerksom cruise-kontroll </li> <li>Filholder med automatisk styring</li> <li> Selvparkering</li> <li> LED tåke- og hjørnelys med automatiske fjernlys </li> <li> Automatisk, nøkkelfri døråpning </li> <li> Belyste dørhåndtak </li> <li> Elektrisk betjent bakluke </li> <li> Automatisk avblendbare speil </li> <li> Elektrisk innfelbare speil med varme og minnefunksjon </li></ul><p>Autopilot funksjonene er gjort tilgjengelig gjennom progressive programvareoppdateringer. Oppdateringer for Filbyttevarsling og automatisk parkeringshjelp vil snart være tilgjengelige.</p>",
       "disclaimer":null,
       "list_price":0,
       "name":"Tech-pakke med autopilot",
@@ -2003,7 +2046,6 @@
       "price_indicator":"Optional",
       "requires":[
         "X001",
-        "X003",
         "X007",
         "X037",
         "X011",
@@ -2217,6 +2259,7 @@
       "list_price":0,
       "long_name":"Sorte Neste generasjon seter",
       "name":"Sorte Neste generasjon seter",
+      "no_ui":false,
       "price":0,
       "price_indicator":"Optional"
     },
@@ -2259,6 +2302,7 @@
       "list_price":0,
       "long_name":"Grått Neste generasjon seter",
       "name":"Grått Neste generasjon seter",
+      "no_ui":false,
       "price":0,
       "price_indicator":"Optional"
     },
@@ -2301,6 +2345,7 @@
       "list_price":0,
       "long_name":"Beige Neste generasjon seter",
       "name":"Beige Neste generasjon seter",
+      "no_ui":false,
       "price":0,
       "price_indicator":"Included"
     },
@@ -2344,6 +2389,7 @@
       "logical_category":"LC_INT",
       "long_name":"Sorte Neste generasjon seter",
       "name":"Sorte Neste generasjon seter",
+      "no_ui":false,
       "price":0,
       "price_indicator":"Optional"
     },
@@ -2386,6 +2432,7 @@
       "list_price":0,
       "long_name":"Grått Neste generasjon seter",
       "name":"Grått Neste generasjon seter",
+      "no_ui":false,
       "price":0,
       "price_indicator":"Optional"
     },
@@ -2428,6 +2475,7 @@
       "list_price":0,
       "long_name":"Beige Neste generasjon seter",
       "name":"Beige Neste generasjon seter",
+      "no_ui":false,
       "price":0,
       "price_indicator":"Optional"
     },
@@ -3190,7 +3238,7 @@
           "price_indicator":"Included"
         }
       },
-      "description":"Tesla Supercharger er eksterne ladere utformet for å fylle opp en halv ladning på så lite som 20 minutter. Tesla bygger et nettverk av 120kW superladere over hele Europa. Nettverket vil dekke mesteparten av vest-europa før vinteren 2014.",
+      "description":"Tesla Supercharger er eksterne ladere utformet for å fylle opp en halv ladning på så lite som 20 minutter.",
       "disclaimer":"Inkludert med 85 kWt batteriet<br/>$2.000 USD med 60 kWt batteriet",
       "list_price":0,
       "name":"Aktivert for Supercharger",
@@ -3221,7 +3269,8 @@
       "name":"Sikkerhetspakke",
       "price":0,
       "price_indicator":"Optional",
-      "toggle_pair":"SP00"
+      "toggle_pair":"SP00",
+      "no_ui":true
     },
     "SR01":{
       "category":"C_INT_EXEC",
@@ -3515,6 +3564,21 @@
       "price":0,
       "price_indicator":"Optional",
       "ui_pair":"WTSP"
+    },
+    "WTAE":{
+      "category":"C_WT",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"Improves range by 3 percent and comes standard with Goodyear Eagle RS-A2 high performance all-season tires.",
+      "disclaimer":null,
+      "list_price":0,
+      "long_name":"19\" Aerodynamic Wheels",
+      "name":"19\" Aerodynamic",
+      "no_ui":true,
+      "pdf_show":true,
+      "price":0,
+      "price_indicator":"Included",
+      "type":"Boolean"
     },
     "WTSG":{
       "category":"C_WT",
@@ -4003,6 +4067,32 @@
       "price_indicator":"Included",
       "toggle_pair":"X030"
     },
+    "X039":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"DAB Radio",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"DAB Radio",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"X040"
+    },
+    "X040":{
+      "category":"C_OPTS",
+      "delivery_date":null,
+      "delivery_date_warning":null,
+      "description":"No DAB Radio",
+      "disclaimer":null,
+      "list_price":0,
+      "name":"No DAB Radio",
+      "no_ui":true,
+      "price":0,
+      "price_indicator":"Optional",
+      "toggle_pair":"X039"
+    },
     "YF00":{
       "category":"C_INT_NOW_DEFAULT_OPTS",
       "delivery_date":null,
@@ -4038,7 +4128,7 @@
     }
   },
   "personal_delivery_price":2800,
-  "price_disclaimer":"Pris inkluderer henting fra en Tesla lokasjon. Norske elektriske biler er fritatt for moms i tillegg til andre insentiver. Prisene inkluderer ikke eventuelle andre lokale og regionale avgifter. Merverdiavgiften kan være gjenstand for endring.",
+  "price_disclaimer":"Pris inkluderer henting fra en Tesla lokasjon. Norske elektriske biler er fritatt for moms i tillegg til andre insentiver. Prisene inkluderer ikke eventuelle andre lokale og regionale avgifter. Merverdiavgiften kan være gjenstand for endring. Serviceplaner inkluderer 25% moms.",
   "price_indicators":{
     "Included":"Inkludert",
     "Optional":"Tilleggsutstyr",
@@ -4064,11 +4154,6 @@
   "tax_credit":null,
   "tax_disclaimer":null,
   "valid_config":{
-    "adapters":{
-      "patterns":[
-        "AD(0|1)?[1-9]{1}"
-      ]
-    },
     "audio":{
       "patterns":[
         "AU(00|01)",
@@ -4153,9 +4238,11 @@
   },
   "vat_percent":0,
   "vat_percent_override":{
+    "PSP15": 25,
     "PSP14": 25,
+    "PSP8": 25,
     "PSPR14": 25
   },
-  "vat_text":"Includes VAT of approx."
+  "vat_text":"Includes VAT of approx.",
+  "vat_text_service_plan":"Dette produktet er fritatt for alle gjeldene skatter<br />Serviceplaner inkluderer 25% moms"
 }
-
