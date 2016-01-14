@@ -1,7 +1,7 @@
 ////
 // Show all options
 ////
-$.getJSON("pricebook-3_MS_NO.json", function ( data ) {
+$.getJSON("pricebook-3_MS_NO", function ( data ) {
   var items = [];
   $.each( data.options, function ( opt_code, opt_content ) {
     items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt"><a class="listitem">' + opt_content.name + '</a><span class="opt-descr" style="display:none;" ><br/>' + opt_content.description + "</span></dd>" );
@@ -13,7 +13,7 @@ $.getJSON("pricebook-3_MS_NO.json", function ( data ) {
   }).appendTo( "#optionslist_no" );
 });
 
-$.getJSON("pricebook-3_MS_US.json", function ( data ) {
+$.getJSON("pricebook-3.5_MS_US.json", function ( data ) {
   var items = [];
   $.each( data.options, function ( opt_code, opt_content ) {
     items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt"><a class="listitem">' + opt_content.name + '</a><span class="opt-descr" style="display:none;" ><br/>' + opt_content.description + "</span></dd>" );
@@ -61,17 +61,17 @@ $(document).on('click touchstart', '#submitPdfLink', function() {
   var arrayOfOptions = myoptions.split(",");
 
   // Set jsonfile based on region
-  var jsonfile = "pricebook-3_MS_US.json";
+  var jsonfile = "pricebook-3.5_MS_US.json";
 
   switch(pdfurl.split("/")[3]) {
     case "no_NO":
-      jsonfile = "pricebook-3_MS_NO.json";
+      jsonfile = "pricebook-3.5_MS_US.json";
       break;
     case "en_GB":
-      jsonfile = "pricebook-3_MS_GB.json";
+      jsonfile = "pricebook-3.5_MS_US.json";
       break;
     default:
-      jsonfile = "pricebook-3_MS_US.json";
+      jsonfile = "pricebook-3.5_MS_US.json";
   }
 
   // Parsing JSON data
