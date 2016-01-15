@@ -1,9 +1,9 @@
 ////
 // Show all options
 ////
-$.getJSON("pricebook-3_MS_NO", function ( data ) {
+$.getJSON("pricebook-3.5_MS_NO.json", function ( data ) {
   var items = [];
-  $.each( data.options, function ( opt_code, opt_content ) {
+  $.each( data.tesla["configSetPrices"].options, function ( opt_code, opt_content ) {
     items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt"><a class="listitem">' + opt_content.name + '</a><span class="opt-descr" style="display:none;" ><br/>' + opt_content.description + "</span></dd>" );
   });
 
@@ -15,7 +15,7 @@ $.getJSON("pricebook-3_MS_NO", function ( data ) {
 
 $.getJSON("pricebook-3.5_MS_US.json", function ( data ) {
   var items = [];
-  $.each( data.options, function ( opt_code, opt_content ) {
+  $.each( data.tesla["configSetPrices"].options, function ( opt_code, opt_content ) {
     items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt"><a class="listitem">' + opt_content.name + '</a><span class="opt-descr" style="display:none;" ><br/>' + opt_content.description + "</span></dd>" );
   });
 
@@ -78,7 +78,7 @@ $(document).on('click touchstart', '#submitPdfLink', function() {
   $.getJSON(jsonfile, function ( data ) {
     var items = [];
 
-    $.each( data.options, function ( opt_code, opt_content ) {
+    $.each( data.tesla["configSetPrices"].options, function ( opt_code, opt_content ) {
       if( jQuery.inArray( opt_code, arrayOfOptions ) != -1 ) {
         items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt"><a class="listitem">' + opt_content.name + '</a><span class="opt-descr" style="display:none;" ><br/>' + opt_content.description + "</span></dd>" );
       }
