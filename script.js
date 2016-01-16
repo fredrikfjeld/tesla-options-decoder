@@ -1,7 +1,7 @@
 ////
 // Show all options
 ////
-$.getJSON("pricebook-3.5_MS_NO.json", function ( data ) {
+$.getJSON("pricebook-3.5_MS_no_NO.json", function ( data ) {
   var items = [];
   $.each( data.tesla["configSetPrices"].options, function ( opt_code, opt_content ) {
     items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt"><a class="listitem">' + opt_content.name + '</a><span class="opt-descr" style="display:none;" ><br/>' + opt_content.description + "</span></dd>" );
