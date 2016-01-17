@@ -25,13 +25,174 @@ $.getJSON("pricebook-3.5_MS_US.json", function ( data ) {
   }).appendTo( "#optionslist_us" );
 });
 
+$.getJSON("pricebook-3.5_MS_da_DK.json", function ( data ) {
+  var items = [];
+  $.each( data.tesla["configSetPrices"].options, function ( opt_code, opt_content ) {
+    items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt"><a class="listitem">' + opt_content.name + '</a><span class="opt-descr" style="display:none;" ><br/>' + opt_content.description + "</span></dd>" );
+  });
 
+  $( "<dl/>", {
+    "class": "options-list dl-horizontal",
+    html: items.join( "" )
+  }).appendTo( "#optionslist_dk" );
+});
+
+$.getJSON("pricebook-3.5_MS_de_AT.json", function ( data ) {
+  var items = [];
+  $.each( data.tesla["configSetPrices"].options, function ( opt_code, opt_content ) {
+    items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt"><a class="listitem">' + opt_content.name + '</a><span class="opt-descr" style="display:none;" ><br/>' + opt_content.description + "</span></dd>" );
+  });
+
+  $( "<dl/>", {
+    "class": "options-list dl-horizontal",
+    html: items.join( "" )
+  }).appendTo( "#optionslist_at" );
+});
+
+$.getJSON("pricebook-3.5_MS_de_DE.json", function ( data ) {
+  var items = [];
+  $.each( data.tesla["configSetPrices"].options, function ( opt_code, opt_content ) {
+    items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt"><a class="listitem">' + opt_content.name + '</a><span class="opt-descr" style="display:none;" ><br/>' + opt_content.description + "</span></dd>" );
+  });
+
+  $( "<dl/>", {
+    "class": "options-list dl-horizontal",
+    html: items.join( "" )
+  }).appendTo( "#optionslist_de" );
+});
+
+$.getJSON("pricebook-3.5_MS_en_AU.json", function ( data ) {
+  var items = [];
+  $.each( data.tesla["configSetPrices"].options, function ( opt_code, opt_content ) {
+    items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt"><a class="listitem">' + opt_content.name + '</a><span class="opt-descr" style="display:none;" ><br/>' + opt_content.description + "</span></dd>" );
+  });
+
+  $( "<dl/>", {
+    "class": "options-list dl-horizontal",
+    html: items.join( "" )
+  }).appendTo( "#optionslist_au" );
+});
+
+$.getJSON("pricebook-3.5_MS_en_EU.json", function ( data ) {
+  var items = [];
+  $.each( data.tesla["configSetPrices"].options, function ( opt_code, opt_content ) {
+    items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt"><a class="listitem">' + opt_content.name + '</a><span class="opt-descr" style="display:none;" ><br/>' + opt_content.description + "</span></dd>" );
+  });
+
+  $( "<dl/>", {
+    "class": "options-list dl-horizontal",
+    html: items.join( "" )
+  }).appendTo( "#optionslist_eu" );
+});
+
+$.getJSON("pricebook-3.5_MS_en_GB.json", function ( data ) {
+  var items = [];
+  $.each( data.tesla["configSetPrices"].options, function ( opt_code, opt_content ) {
+    items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt"><a class="listitem">' + opt_content.name + '</a><span class="opt-descr" style="display:none;" ><br/>' + opt_content.description + "</span></dd>" );
+  });
+
+  $( "<dl/>", {
+    "class": "options-list dl-horizontal",
+    html: items.join( "" )
+  }).appendTo( "#optionslist_gb" );
+});
+
+$.getJSON("pricebook-3.5_MS_en_HK.json", function ( data ) {
+  var items = [];
+  $.each( data.tesla["configSetPrices"].options, function ( opt_code, opt_content ) {
+    items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt"><a class="listitem">' + opt_content.name + '</a><span class="opt-descr" style="display:none;" ><br/>' + opt_content.description + "</span></dd>" );
+  });
+
+  $( "<dl/>", {
+    "class": "options-list dl-horizontal",
+    html: items.join( "" )
+  }).appendTo( "#optionslist_hk" );
+});
+
+$.getJSON("pricebook-3.5_MS_en_MO.json", function ( data ) {
+  var items = [];
+  $.each( data.tesla["configSetPrices"].options, function ( opt_code, opt_content ) {
+    items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt"><a class="listitem">' + opt_content.name + '</a><span class="opt-descr" style="display:none;" ><br/>' + opt_content.description + "</span></dd>" );
+  });
+
+  $( "<dl/>", {
+    "class": "options-list dl-horizontal",
+    html: items.join( "" )
+  }).appendTo( "#optionslist_mo" );
+});
+
+$.getJSON("pricebook-3.5_MS_fi_FI.json", function ( data ) {
+  var items = [];
+  $.each( data.tesla["configSetPrices"].options, function ( opt_code, opt_content ) {
+    items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt"><a class="listitem">' + opt_content.name + '</a><span class="opt-descr" style="display:none;" ><br/>' + opt_content.description + "</span></dd>" );
+  });
+
+  $( "<dl/>", {
+    "class": "options-list dl-horizontal",
+    html: items.join( "" )
+  }).appendTo( "#optionslist_fi" );
+});
+
+$.getJSON("pricebook-3.5_MS_fr_FR.json", function ( data ) {
+  var items = [];
+  $.each( data.tesla["configSetPrices"].options, function ( opt_code, opt_content ) {
+    items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt"><a class="listitem">' + opt_content.name + '</a><span class="opt-descr" style="display:none;" ><br/>' + opt_content.description + "</span></dd>" );
+  });
+
+  $( "<dl/>", {
+    "class": "options-list dl-horizontal",
+    html: items.join( "" )
+  }).appendTo( "#optionslist_fr" );
+});
+
+$.getJSON("pricebook-3.5_MS_it_IT.json", function ( data ) {
+  var items = [];
+  $.each( data.tesla["configSetPrices"].options, function ( opt_code, opt_content ) {
+    items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt"><a class="listitem">' + opt_content.name + '</a><span class="opt-descr" style="display:none;" ><br/>' + opt_content.description + "</span></dd>" );
+  });
+
+  $( "<dl/>", {
+    "class": "options-list dl-horizontal",
+    html: items.join( "" )
+  }).appendTo( "#optionslist_it" );
+});
+
+$.getJSON("pricebook-3.5_MS_nl_NL.json", function ( data ) {
+  var items = [];
+  $.each( data.tesla["configSetPrices"].options, function ( opt_code, opt_content ) {
+    items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt"><a class="listitem">' + opt_content.name + '</a><span class="opt-descr" style="display:none;" ><br/>' + opt_content.description + "</span></dd>" );
+  });
+
+  $( "<dl/>", {
+    "class": "options-list dl-horizontal",
+    html: items.join( "" )
+  }).appendTo( "#optionslist_nl" );
+});
+
+$.getJSON("pricebook-3.5_MS_sv_SV.json", function ( data ) {
+  var items = [];
+  $.each( data.tesla["configSetPrices"].options, function ( opt_code, opt_content ) {
+    items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt"><a class="listitem">' + opt_content.name + '</a><span class="opt-descr" style="display:none;" ><br/>' + opt_content.description + "</span></dd>" );
+  });
+
+  $( "<dl/>", {
+    "class": "options-list dl-horizontal",
+    html: items.join( "" )
+  }).appendTo( "#optionslist_sv" );
+});
+
+// Show/hide options list on click
+$(document).on('click touchstart', 'h2.optionslist_head', function() {
+  var $this = $(this);
+  $this.next(".optionslists").fadeToggle(0);
+  //$('.opt-descr').not($this.find("span.opt-descr")).fadeOut(0);
+});
 
 // Show/hide option description on click
 $(document).on('click touchstart', '.opt', function() {
   var $this = $(this);
   $this.find("span.opt-descr").fadeToggle(0);
-  $('.opt-descr').not($this.find("span.opt-descr")).fadeOut(0);
+  //$('.opt-descr').not($this.find("span.opt-descr")).fadeOut(0);
 });
 
 // Show instructions on how to find PDF-link

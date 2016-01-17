@@ -30,3 +30,7 @@ a.listitem {
 .container .text-muted {
   margin: 20px 0;
 }
+
+.optionslists {
+  display: none;
+}
