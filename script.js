@@ -226,10 +226,10 @@ $(document).on('click touchstart', '#submitPdfLink', function() {
 
   switch(pdfurl.split("/")[3]) {
     case "no_NO":
-      jsonfile = "pricebook-3.5_MS_US.json";
+      jsonfile = "pricebook-3.5_MS_no_NO.json";
       break;
     case "en_GB":
-      jsonfile = "pricebook-3.5_MS_US.json";
+      jsonfile = "pricebook-3.5_MS_en_GB.json";
       break;
     default:
       jsonfile = "pricebook-3.5_MS_US.json";
