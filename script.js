@@ -255,7 +255,10 @@ $(document).on('click touchstart', '#submitPdfLink', function() {
     $.each( arrayOfOptions, function ( n, opt_code ) {
       var opt_content = optionsData[opt_code];
       if( opt_content != null ) {
-        items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt"><a class="listitem">' + opt_content.name + '</a><span class="opt-descr" style="display:none;" ><br/>' + opt_content.description + "</span></dd>" );
+        if (opt_content.description != null && opt_content.description != opt_content.name)
+          items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt"><a class="listitem">' + opt_content.name + '</a><span class="opt-descr" style="display:none;" ><br/>' + opt_content.description + "</span></dd>" );
+        else
+          items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt">' + opt_content.name + "</dd>" );
       } else {
         items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd></dd>' );
       }
