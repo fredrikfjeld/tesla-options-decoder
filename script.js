@@ -254,7 +254,7 @@ $(document).on('click touchstart', '#submitPdfLink', function() {
     var optionsData = data.tesla["configSetPrices"].options;
     $.each( arrayOfOptions, function ( n, opt_code ) {
       var opt_content = optionsData[opt_code];
-      if( opt_content != null ) {
+      if(opt_content != null && opt_content.name != null) {
         if (opt_content.description != null && opt_content.description != opt_content.name)
           items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt"><a class="listitem">' + opt_content.name + '</a><span class="opt-descr" style="display:none;" ><br/>' + opt_content.description + "</span></dd>" );
         else
