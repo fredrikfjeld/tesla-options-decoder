@@ -308,7 +308,9 @@ $(function(){
 
 // Handle get params
 $(document).ready(function () {
-  params = window.location.href.slice(window.location.href.indexOf('?') + 1)
-  $('#pdflink').val(params);
-  $("#submitPdfLink").click();
+  if (window.location.href.indexOf('?') != -1) {
+    params = window.location.href.slice(window.location.href.indexOf('?') + 1)
+    $('#pdflink').val(params);
+    $("#submitPdfLink").click();
+  }
 });
