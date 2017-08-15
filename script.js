@@ -254,7 +254,7 @@ $(document).on('click touchstart', '#submitPdfLink', function() {
       if( opt_content != null ) {
         items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt"><a class="listitem">' + opt_content.name + '</a><span class="opt-descr" style="display:none;" ><br/>' + opt_content.description + "</span></dd>" );
       } else {
-        items.push( '<dt class="opt opt-code">' + opt_code + '</dt>' );
+        items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd></dd>' );
       }
     });
 
