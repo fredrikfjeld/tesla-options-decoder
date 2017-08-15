@@ -201,11 +201,14 @@ $(document).on('click touchstart', '#howFindLink', function() {
 });
 
 // Simulate click on button with return key
-$("#pdflink").keyup(function(event){
-  if(event.keyCode == 13){
-    $("#submitPdfLink").click();
-  }
+$(document).ready(function(){
+  $("#pdflink").keypress(function(event){
+    if(event.keyCode == 13){
+      $("#submitPdfLink").click();
+    }
+  });
 });
+
 
 // Check my options
 $(document).on('click touchstart', '#submitPdfLink', function() {
