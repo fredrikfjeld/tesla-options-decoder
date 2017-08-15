@@ -169,7 +169,7 @@ $.getJSON("pricebook-3.5_MS_nl_NL.json", function ( data ) {
   }).appendTo( "#optionslist_nl" );
 });
 
-$.getJSON("pricebook-3.5_MS_sv_SV.json", function ( data ) {
+$.getJSON("pricebook-3.5_MS_sv_SE.json", function ( data ) {
   var items = [];
   $.each( data.tesla["configSetPrices"].options, function ( opt_code, opt_content ) {
     items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt"><a class="listitem">' + opt_content.name + '</a><span class="opt-descr" style="display:none;" ><br/>' + opt_content.description + "</span></dd>" );
@@ -214,9 +214,18 @@ $(document).on('click touchstart', '#submitPdfLink', function() {
   ////
   var pdfurl = $('#pdflink').val();
   var myurl_arr = pdfurl.split("options");
-  var myurl = myurl_arr[1].split("=");
-  var myoptions = myurl[1].split("&");
-  myoptions = myoptions[0];
+  var myoptions = "";
+
+  if (myurl_arr.length >= 2) {
+    // handle case where full URL is posted
+    var myurl = myurl_arr[1].split("=");
+    var myoptions = myurl[1].split("&");
+    myoptions = myoptions[0];
+  } else {
+    // handle just the options string being posted
+    myoptions = pdfurl;
+  }
+
   var commaregex = new RegExp('\%2C', 'g');
   myoptions = myoptions.replace(commaregex, ',');
   var arrayOfOptions = myoptions.split(",");
@@ -239,11 +248,17 @@ $(document).on('click touchstart', '#submitPdfLink', function() {
   $.getJSON(jsonfile, function ( data ) {
     var items = [];
 
-    $.each( data.tesla["configSetPrices"].options, function ( opt_code, opt_content ) {
-      if( jQuery.inArray( opt_code, arrayOfOptions ) != -1 ) {
+    var optionsData = data.tesla["configSetPrices"].options;
+    $.each( arrayOfOptions, function ( n, opt_code ) {
+      var opt_content = optionsData[opt_code];
+      if( opt_content != null ) {
         items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt"><a class="listitem">' + opt_content.name + '</a><span class="opt-descr" style="display:none;" ><br/>' + opt_content.description + "</span></dd>" );
+      } else {
+        items.push( '<dt class="opt opt-code">' + opt_code + '</dt>' );
       }
     });
+
+    $( "#list-my-options" ).html("");
 
     $( "<dl/>", {
       "class": "options-list dl-horizontal",
@@ -289,4 +304,11 @@ $(function(){
     $('#about-container').show();
   });
 
+});
+
+// Handle get params
+$(document).ready(function () {
+  params = window.location.href.slice(window.location.href.indexOf('?') + 1)
+  $('#pdflink').val(params);
+  $("#submitPdfLink").click();
 });
