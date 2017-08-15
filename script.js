@@ -217,13 +217,13 @@ $(document).on('click touchstart', '#submitPdfLink', function() {
   var myoptions = "";
 
   if (myurl_arr.length >= 2) {
-    # handle case where full URL is posted
+    // handle case where full URL is posted
     var myurl = myurl_arr[1].split("=");
     var myoptions = myurl[1].split("&");
     myoptions = myoptions[0];
   } else {
-    # handle just the options string being posted
-    myoptions = pdfurl
+    // handle just the options string being posted
+    myoptions = pdfurl;
   }
 
   var commaregex = new RegExp('\%2C', 'g');
