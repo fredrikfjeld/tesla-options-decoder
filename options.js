@@ -6,7 +6,7 @@ var options = {
   'PMSS'  : 'Metallic silver paint',
   'PMMB'  : 'Metallic blue paint',
   'PMSG'  : 'Metallic steel grey paint',
-  'PMAB'  : 'Unknown metallic paint',
+  'PMAB'  : 'Metallic brown paint',
   'PPMR'  : 'Multi-coat red paint',
   'PPSW'  : 'Multi-coat white paint',
   'RFBK'  : 'Black roof',
@@ -45,7 +45,7 @@ var options = {
   'QXMB'  : 'Black leather seats back',
   'QXMG'  : 'Grey leather seats back',
   'QXMT'  : 'Tan leather seats back',
-  
+
 
   'QRLB'  : 'Black next generation seats (front and back)',
   'QRLT'  : 'Tan next generation seats (front and back)',
