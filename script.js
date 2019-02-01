@@ -1,6 +1,47 @@
 ////
 // Show all options
 ////
+
+// Model 3
+$.getJSON("model3-en_US.json", function ( data ) {
+  var items = [];
+  $.each( data.DSServices["Lexicon.m3"].options, function ( opt_code, opt_content ) {
+    // Strip leading $
+    while(opt_code.charAt(0) === '$')
+    {
+      opt_code = opt_code.substr(1);
+    }
+
+    items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt"><a class="listitem">' + opt_content.name + '</a><span class="opt-descr" style="display:none;" ><br/>' + opt_content.description + "</span></dd>" );
+  });
+
+  $( "<dl/>", {
+    "class": "options-list dl-horizontal",
+    html: items.join( "" )
+  }).appendTo( "#optionslist_us_model3" );
+});
+
+$.getJSON("model3-no_NO.json", function ( data ) {
+  var items = [];
+  $.each( data.DSServices["Lexicon.m3"].options, function ( opt_code, opt_content ) {
+    // Strip leading $
+    while(opt_code.charAt(0) === '$')
+    {
+      opt_code = opt_code.substr(1);
+    }
+
+    items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt"><a class="listitem">' + opt_content.name + '</a><span class="opt-descr" style="display:none;" ><br/>' + opt_content.description + "</span></dd>" );
+  });
+
+  $( "<dl/>", {
+    "class": "options-list dl-horizontal",
+    html: items.join( "" )
+  }).appendTo( "#optionslist_no_model3" );
+});
+
+
+// Model S
+
 $.getJSON("pricebook-3.5_MS_no_NO.json", function ( data ) {
   var items = [];
   $.each( data.tesla["configSetPrices"].options, function ( opt_code, opt_content ) {
@@ -182,7 +223,7 @@ $.getJSON("pricebook-3.5_MS_sv_SE.json", function ( data ) {
 });
 
 // Show/hide options list on click
-$(document).on('click touchstart', 'h2.optionslist_head', function() {
+$(document).on('click touchstart', 'h3.optionslist_head', function() {
   var $this = $(this);
   $this.next(".optionslists").fadeToggle(0);
   //$('.opt-descr').not($this.find("span.opt-descr")).fadeOut(0);
@@ -217,6 +258,7 @@ $(document).on('click touchstart', '#submitPdfLink', function() {
   ////
   var pdfurl = $('#pdflink').val();
   var myurl_arr = pdfurl.split("options");
+  var model_arr = pdfurl.split("model");
   var myoptions = "";
 
   if (myurl_arr.length >= 2) {
@@ -229,6 +271,16 @@ $(document).on('click touchstart', '#submitPdfLink', function() {
     myoptions = pdfurl;
   }
 
+  if (model_arr.length >= 2) {
+    // handle case where full URL is posted
+    var myurl = model_arr[1].split("=");
+    var mymodel = myurl[1].split("&");
+    mymodel = mymodel[0];
+  } else {
+    // handle just the options string being posted
+    mymodel = pdfurl;
+  }
+
   var commaregex = new RegExp('\%2C', 'g');
   myoptions = myoptions.replace(commaregex, ',');
   var arrayOfOptions = myoptions.split(",");
@@ -236,9 +288,9 @@ $(document).on('click touchstart', '#submitPdfLink', function() {
   // Set jsonfile based on region
   var jsonfile = "pricebook-3.5_MS_US.json";
 
-  switch(pdfurl.split("/")[3]) {
-    case "no_NO":
-      jsonfile = "pricebook-3.5_MS_no_NO.json";
+  switch(mymodel) {
+    case "m3":
+      jsonfile = "model3-en_US.json";
       break;
     case "en_GB":
       jsonfile = "pricebook-3.5_MS_en_GB.json";
@@ -251,7 +303,12 @@ $(document).on('click touchstart', '#submitPdfLink', function() {
   $.getJSON(jsonfile, function ( data ) {
     var items = [];
 
-    var optionsData = data.tesla["configSetPrices"].options;
+    if mymodel == "m3" {
+      var optionsData = data.DSServices["Lexicon.m3"].options;
+    }
+    else {
+      var optionsData = data.tesla["configSetPrices"].options;
+    }
     $.each( arrayOfOptions, function ( n, opt_code ) {
       var opt_content = optionsData[opt_code];
       if(opt_content != null && opt_content.name != null) {
