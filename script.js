@@ -303,7 +303,7 @@ $(document).on('click touchstart', '#submitPdfLink', function() {
   $.getJSON(jsonfile, function ( data ) {
     var items = [];
 
-    if mymodel == "m3" {
+    if (mymodel == "m3") {
       var optionsData = data.DSServices["Lexicon.m3"].options;
     }
     else {
