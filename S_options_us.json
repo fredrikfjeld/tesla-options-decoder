@@ -1,0 +1,5830 @@
+{
+  "$ACL1": {
+    "code": "$ACL1",
+    "name": "Ludicrous Mode",
+    "price": 20000,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 20000,
+        "context": "default"
+      }
+    ],
+    "long_name": "Ludicrous Mode",
+    "extra_copy": [
+      {
+        "type": "selectLabel",
+        "content": "Ludicrous Mode"
+      },
+      {
+        "type": "deselectLabel",
+        "content": "Ludicrous Mode"
+      },
+      {
+        "type": "more_info",
+        "content": "20% faster acceleration"
+      }
+    ],
+    "description": "Ludicrous Mode",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "checkbox_extended"
+          }
+        ]
+      }
+    ],
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "unset",
+          "target": "$ACL1",
+          "condition_code": "$MT10B",
+          "condition_state": "set"
+        }
+      ]
+    },
+    "after_delivery_price": 10000,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$ACL1"
+      },
+      {
+        "action": "unset",
+        "target": "$ACL1",
+        "condition_code": "$MT10B",
+        "condition_state": "set"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$ACL1"
+      }
+    ]
+  },
+  "$APF2": {
+    "code": "$APF2",
+    "name": "Full Self-Driving Capability",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 3000,
+        "context": "default"
+      },
+      {
+        "type": "upgrade",
+        "value": 5000,
+        "context": "default"
+      }
+    ],
+    "long_name": "Full Self-Driving Capability",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "optional"
+      },
+      {
+        "type": "disclaimer",
+        "content": "Requires Enhanced Autopilot<br/>$4,000 upgrade after delivery"
+      },
+      {
+        "type": "short_description",
+        "content": "Model 3 will pilot itself along freeways and automatically park at your destination."
+      },
+      {
+        "type": "disclaimer_details",
+        "content": "This functionality is dependent upon extensive software validation and regulatory approval. It is not possible to know exactly when it will be available, as this is highly dependent on local regulatory approval, which may vary widely by jurisdiction."
+      },
+      {
+        "type": "disclaimer[0]",
+        "content": "Requires Enhanced Autopilot"
+      },
+      {
+        "type": "disclaimer[1]",
+        "content": "$5,000 upgrade if added after delivery"
+      },
+      {
+        "type": "selectLabel",
+        "content": "Select Option"
+      },
+      {
+        "type": "deselectLabel",
+        "content": "Option Selected"
+      }
+    ],
+    "description": "Full Self-Driving Capability",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "card"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODEL3/UI/sd_img.png",
+            "type": "image",
+            "action": [
+              {
+                "type": "PLAY_VIDEO",
+                "content": {
+                  "src": "https://player.vimeo.com/video/192179726?autoplay=1&color=ff0000&title=0&byline=0&portrait=0",
+                  "type": "video",
+                  "width": 640,
+                  "height": 360
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "set",
+          "target": "$APPB"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$APF2"
+      },
+      {
+        "action": "set",
+        "target": "$APPB"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$APF2"
+      }
+    ]
+  },
+  "$APPB": {
+    "code": "$APPB",
+    "name": "Enhanced Autopilot",
+    "price": 5000,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 5000,
+        "context": "default"
+      },
+      {
+        "type": "upgrade",
+        "value": 6000,
+        "context": "default"
+      }
+    ],
+    "long_name": "Enhanced Autopilot",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "optional"
+      },
+      {
+        "type": "short_description",
+        "content": "In the future, tell Model 3 where to go and it will navigate with no driver intervention."
+      },
+      {
+        "type": "disclaimer",
+        "content": "$7,000 upgrade after delivery"
+      },
+      {
+        "type": "description",
+        "content": "With Enhanced Autopilot your car will steer, accelerate and brake for you within almost any traffic lane! It will also automatically change lanes on most highways to overtake other cars or navigate to interchanges and exits. And with regular over-the-air software updates, you’ll always have access to our most advanced features and functionality."
+      },
+      {
+        "type": "disclaimer_details",
+        "content": "After delivery prices are subject to change. Enhanced Autopilot includes additional driver assistance features. Every driver is responsible for remaining alert and active when using Autopilot, and must be prepared to take action at any time."
+      },
+      {
+        "type": "disclaimer",
+        "content": "$7,000 if added after delivery"
+      },
+      {
+        "type": "selectLabel",
+        "content": "Select Option"
+      },
+      {
+        "type": "deselectLabel",
+        "content": "Option Selected"
+      }
+    ],
+    "description": "Enhanced Autopilot",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "card"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODEL3/UI/autopilot3.jpg",
+            "type": "image",
+            "selected_by": {
+              "or": [
+                {
+                  "on": [
+                    "mobile"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "url": "https://www.tesla.com/ns_videos/models/autonomy/hero-mobile.mp4",
+            "type": "video-inline",
+            "relative": true,
+            "urlDesktop": "https://www.tesla.com/ns_videos/models/autonomy/hero.mp4",
+            "selected_by": {
+              "or": [
+                {
+                  "on": [
+                    "desktop",
+                    "tablet"
+                  ]
+                }
+              ]
+            },
+            "video_props": {
+              "loop": 2,
+              "muted": true,
+              "autoPlay": true,
+              "stopTime": 2,
+              "fullWidth": true
+            }
+          }
+        ]
+      }
+    ],
+    "user_defined_rules": {
+      "set_rules": [],
+      "unset_rules": [
+        {
+          "action": "unset",
+          "target": "$APF2"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$APPB"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$APPB"
+      },
+      {
+        "action": "unset",
+        "target": "$APF2"
+      }
+    ]
+  },
+  "$HC01": {
+    "code": "$HC01",
+    "name": "Home Charging Installation",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 0,
+        "context": "default"
+      }
+    ],
+    "long_name": "Home Charging Installation",
+    "description": "Home Charging Installation",
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$HC01"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$HC01"
+      }
+    ]
+  },
+  "$IDBA": {
+    "code": "$IDBA",
+    "name": "Dark Ash Wood Décor",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 0,
+        "context": "default"
+      }
+    ],
+    "long_name": "Dark Ash Wood Décor",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Included"
+      }
+    ],
+    "description": "Dark Ash Wood Décor",
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "unset",
+          "target": "$IDCF"
+        },
+        {
+          "action": "set",
+          "target": "$IDBO",
+          "operator": "or",
+          "condition_code": "$INFBP",
+          "condition_state": "set"
+        },
+        {
+          "operator": "or",
+          "condition_code": "$INLFP",
+          "condition_state": "set"
+        },
+        {
+          "condition_code": "$INBBS",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$IDOK",
+          "condition_code": "$INLFC",
+          "condition_state": "set"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$IDBA"
+      },
+      {
+        "action": "unset",
+        "target": "$IDBO"
+      },
+      {
+        "action": "unset",
+        "target": "$IDOK"
+      },
+      {
+        "action": "unset",
+        "target": "$IDCF"
+      },
+      {
+        "action": "set",
+        "target": "$IDBO",
+        "operator": "or",
+        "condition_code": "$INFBP",
+        "condition_state": "set"
+      },
+      {
+        "operator": "or",
+        "condition_code": "$INLFP",
+        "condition_state": "set"
+      },
+      {
+        "condition_code": "$INBBS",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$IDOK",
+        "condition_code": "$INLFC",
+        "condition_state": "set"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$IDBA"
+      },
+      {
+        "action": "set",
+        "target": "$IDBA",
+        "operator": "and",
+        "condition_code": "$IDBO",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$IDOK",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$IDCF",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$IDBO": {
+    "code": "$IDBO",
+    "name": "Figured Ash Wood Décor",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 0,
+        "context": "default"
+      }
+    ],
+    "long_name": "Figured Ash Wood Décor",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Included"
+      }
+    ],
+    "description": "Figured Ash Wood Décor",
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "set",
+          "target": "$IDBA",
+          "operator": "or",
+          "condition_code": "$INBTB",
+          "condition_state": "set"
+        },
+        {
+          "operator": "or",
+          "condition_code": "$INBFW",
+          "condition_state": "set"
+        },
+        {
+          "condition_code": "$INBWS",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$IDOK",
+          "condition_code": "$INLFC",
+          "condition_state": "set"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$IDBO"
+      },
+      {
+        "action": "unset",
+        "target": "$IDBA"
+      },
+      {
+        "action": "unset",
+        "target": "$IDOK"
+      },
+      {
+        "action": "unset",
+        "target": "$IDCF"
+      },
+      {
+        "action": "set",
+        "target": "$IDBA",
+        "operator": "or",
+        "condition_code": "$INBTB",
+        "condition_state": "set"
+      },
+      {
+        "operator": "or",
+        "condition_code": "$INBFW",
+        "condition_state": "set"
+      },
+      {
+        "condition_code": "$INBWS",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$IDOK",
+        "condition_code": "$INLFC",
+        "condition_state": "set"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$IDBO"
+      },
+      {
+        "action": "set",
+        "target": "$IDBA",
+        "operator": "and",
+        "condition_code": "$IDOK",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$IDCF",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$IDCF": {
+    "code": "$IDCF",
+    "name": "Carbon Fiber Décor",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 250,
+        "context": "default",
+        "set_rules": [
+          {
+            "action": "set",
+            "target": "$IDCF",
+            "target_value": 0,
+            "condition_code": "$MT10P",
+            "condition_state": "set",
+            "target_property": "price"
+          }
+        ]
+      }
+    ],
+    "long_name": "Carbon Fiber Décor",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Included"
+      }
+    ],
+    "description": "Carbon Fiber Décor",
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "unset",
+          "target": "$IDOK"
+        },
+        {
+          "action": "unset",
+          "target": "$IDBO"
+        },
+        {
+          "action": "unset",
+          "target": "$IDBA"
+        },
+        {
+          "action": "set",
+          "target": "$IDBA",
+          "condition_code": "$INBTB",
+          "condition_state": "set"
+        }
+      ],
+      "unset_rules": [
+        {
+          "action": "set",
+          "target": "$IDBO",
+          "operator": "or",
+          "condition_code": "$INFBP",
+          "condition_state": "set"
+        },
+        {
+          "operator": "or",
+          "condition_code": "$INLFP",
+          "condition_state": "set"
+        },
+        {
+          "condition_code": "$INBBS",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$IDBA",
+          "operator": "or",
+          "condition_code": "$INBTB",
+          "condition_state": "set"
+        },
+        {
+          "operator": "or",
+          "condition_code": "$INBFW",
+          "condition_state": "set"
+        },
+        {
+          "condition_code": "$INBWS",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$IDOK",
+          "condition_code": "$INLFC",
+          "condition_state": "set"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$IDCF"
+      },
+      {
+        "action": "unset",
+        "target": "$IDBO"
+      },
+      {
+        "action": "unset",
+        "target": "$IDBA"
+      },
+      {
+        "action": "unset",
+        "target": "$IDOK"
+      },
+      {
+        "action": "set",
+        "target": "$IDBA",
+        "condition_code": "$INBTB",
+        "condition_state": "set"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$IDCF"
+      },
+      {
+        "action": "set",
+        "target": "$IDBA",
+        "operator": "and",
+        "condition_code": "$IDBO",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$IDOK",
+        "condition_state": "unset"
+      },
+      {
+        "action": "set",
+        "target": "$IDBO",
+        "operator": "or",
+        "condition_code": "$INFBP",
+        "condition_state": "set"
+      },
+      {
+        "operator": "or",
+        "condition_code": "$INLFP",
+        "condition_state": "set"
+      },
+      {
+        "condition_code": "$INBBS",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$IDBA",
+        "operator": "or",
+        "condition_code": "$INBTB",
+        "condition_state": "set"
+      },
+      {
+        "operator": "or",
+        "condition_code": "$INBFW",
+        "condition_state": "set"
+      },
+      {
+        "condition_code": "$INBWS",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$IDOK",
+        "condition_code": "$INLFC",
+        "condition_state": "set"
+      }
+    ]
+  },
+  "$IDOK": {
+    "code": "$IDOK",
+    "name": "Oak Décor",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 0,
+        "context": "default"
+      }
+    ],
+    "long_name": "Oak Décor",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Included"
+      }
+    ],
+    "description": "Oak Décor",
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "set",
+          "target": "$IDBA",
+          "operator": "or",
+          "condition_code": "$INBTB",
+          "condition_state": "set"
+        },
+        {
+          "operator": "or",
+          "condition_code": "$INBFW",
+          "condition_state": "set"
+        },
+        {
+          "condition_code": "$INBWS",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$IDBO",
+          "operator": "or",
+          "condition_code": "$INFBP",
+          "condition_state": "set"
+        },
+        {
+          "operator": "or",
+          "condition_code": "$INLFP",
+          "condition_state": "set"
+        },
+        {
+          "condition_code": "$INBBS",
+          "condition_state": "set"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$IDOK"
+      },
+      {
+        "action": "unset",
+        "target": "$IDBO"
+      },
+      {
+        "action": "unset",
+        "target": "$IDBA"
+      },
+      {
+        "action": "unset",
+        "target": "$IDCF"
+      },
+      {
+        "action": "set",
+        "target": "$IDBA",
+        "operator": "or",
+        "condition_code": "$INBTB",
+        "condition_state": "set"
+      },
+      {
+        "operator": "or",
+        "condition_code": "$INBFW",
+        "condition_state": "set"
+      },
+      {
+        "condition_code": "$INBWS",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$IDBO",
+        "operator": "or",
+        "condition_code": "$INFBP",
+        "condition_state": "set"
+      },
+      {
+        "operator": "or",
+        "condition_code": "$INLFP",
+        "condition_state": "set"
+      },
+      {
+        "condition_code": "$INBBS",
+        "condition_state": "set"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$IDOK"
+      },
+      {
+        "action": "set",
+        "target": "$IDBA",
+        "operator": "and",
+        "condition_code": "$IDBO",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$IDCF",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$MDLS": {
+    "code": "$MDLS",
+    "name": "Model S",
+    "price": 76000,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 76000,
+        "context": "default"
+      },
+      {
+        "type": "order_payment",
+        "value": 2500,
+        "context": "default"
+      }
+    ],
+    "long_name": "Model S",
+    "description": "Model S",
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$MDLS"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$MDLS"
+      },
+      {
+        "action": "set",
+        "target": "$MDLS"
+      }
+    ]
+  },
+  "$PBSB": {
+    "code": "$PBSB",
+    "name": "Solid Black",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 0,
+        "context": "default"
+      }
+    ],
+    "long_name": "Solid Black",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Included"
+      }
+    ],
+    "description": "Solid Black",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODEL3/UI/ui_swat_col_pbsb.png",
+            "type": "image"
+          }
+        ]
+      }
+    ],
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$PBSB"
+      },
+      {
+        "action": "unset",
+        "target": "$PMNG"
+      },
+      {
+        "action": "unset",
+        "target": "$PMBL"
+      },
+      {
+        "action": "unset",
+        "target": "$PPSB"
+      },
+      {
+        "action": "unset",
+        "target": "$PMSS"
+      },
+      {
+        "action": "unset",
+        "target": "$PPSW"
+      },
+      {
+        "action": "unset",
+        "target": "$PPMR"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$PBSB"
+      },
+      {
+        "action": "set",
+        "target": "$PBSB",
+        "operator": "and",
+        "condition_code": "$PMNG",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PMBL",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PPSB",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PMSS",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PPSW",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$PPMR",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$PI01": {
+    "code": "$PI01",
+    "name": "Premium Upgrades Package",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 0,
+        "context": "default"
+      }
+    ],
+    "long_name": "Premium Upgrades Package",
+    "description": "Premium Upgrades Package",
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$PI01"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$PI01"
+      }
+    ]
+  },
+  "$PMBL": {
+    "code": "$PMBL",
+    "name": "Obsidian Black Metallic",
+    "price": 2000,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 2000,
+        "context": "default"
+      }
+    ],
+    "long_name": "Obsidian Black Metallic",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Included"
+      }
+    ],
+    "description": "Obsidian Black Metallic",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODEL3/UI/ui_swat_col_pmbl.png",
+            "type": "image"
+          }
+        ]
+      }
+    ],
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$PMBL"
+      },
+      {
+        "action": "unset",
+        "target": "$PBSB"
+      },
+      {
+        "action": "unset",
+        "target": "$PMNG"
+      },
+      {
+        "action": "unset",
+        "target": "$PPSB"
+      },
+      {
+        "action": "unset",
+        "target": "$PMSS"
+      },
+      {
+        "action": "unset",
+        "target": "$PPSW"
+      },
+      {
+        "action": "unset",
+        "target": "$PPMR"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$PMBL"
+      },
+      {
+        "action": "set",
+        "target": "$PBSB",
+        "operator": "and",
+        "condition_code": "$PMNG",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PPSB",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PMSS",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PPSW",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$PPMR",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$PMNG": {
+    "code": "$PMNG",
+    "name": "Midnight Silver Metallic",
+    "price": 1500,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 1500,
+        "context": "default"
+      }
+    ],
+    "long_name": "Midnight Silver Metallic",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Included"
+      }
+    ],
+    "description": "Midnight Silver Metallic",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODEL3/UI/ui_swat_col_pmng.png",
+            "type": "image"
+          }
+        ]
+      }
+    ],
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$PMNG"
+      },
+      {
+        "action": "unset",
+        "target": "$PBSB"
+      },
+      {
+        "action": "unset",
+        "target": "$PMBL"
+      },
+      {
+        "action": "unset",
+        "target": "$PPSB"
+      },
+      {
+        "action": "unset",
+        "target": "$PMSS"
+      },
+      {
+        "action": "unset",
+        "target": "$PPSW"
+      },
+      {
+        "action": "unset",
+        "target": "$PPMR"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$PMNG"
+      },
+      {
+        "action": "set",
+        "target": "$PBSB",
+        "operator": "and",
+        "condition_code": "$PMBL",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PPSB",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PMSS",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PPSW",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$PPMR",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$PMSS": {
+    "code": "$PMSS",
+    "name": "Silver Metallic",
+    "price": 2000,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 2000,
+        "context": "default"
+      }
+    ],
+    "long_name": "Silver Metallic",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Included"
+      }
+    ],
+    "description": "Silver Metallic",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODEL3/UI/ui_swat_col_pmss.png",
+            "type": "image"
+          }
+        ]
+      }
+    ],
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$PMSS"
+      },
+      {
+        "action": "unset",
+        "target": "$PBSB"
+      },
+      {
+        "action": "unset",
+        "target": "$PMNG"
+      },
+      {
+        "action": "unset",
+        "target": "$PMBL"
+      },
+      {
+        "action": "unset",
+        "target": "$PPSB"
+      },
+      {
+        "action": "unset",
+        "target": "$PPSW"
+      },
+      {
+        "action": "unset",
+        "target": "$PPMR"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$PMSS"
+      },
+      {
+        "action": "set",
+        "target": "$PBSB",
+        "operator": "and",
+        "condition_code": "$PMNG",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PMBL",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PPSB",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PPSW",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$PPMR",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$PPMR": {
+    "code": "$PPMR",
+    "name": "Red Multi-Coat",
+    "price": 2500,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 2500,
+        "context": "default"
+      }
+    ],
+    "long_name": "Red Multi-Coat",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Included"
+      }
+    ],
+    "description": "Red Multi-Coat",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODEL3/UI/ui_swat_col_ppmr.png",
+            "type": "image"
+          }
+        ]
+      }
+    ],
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$PPMR"
+      },
+      {
+        "action": "unset",
+        "target": "$PBSB"
+      },
+      {
+        "action": "unset",
+        "target": "$PMNG"
+      },
+      {
+        "action": "unset",
+        "target": "$PMBL"
+      },
+      {
+        "action": "unset",
+        "target": "$PPSB"
+      },
+      {
+        "action": "unset",
+        "target": "$PMSS"
+      },
+      {
+        "action": "unset",
+        "target": "$PPSW"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$PPMR"
+      },
+      {
+        "action": "set",
+        "target": "$PBSB",
+        "operator": "and",
+        "condition_code": "$PMNG",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PMBL",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PPSB",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PMSS",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$PPSW",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$PPSB": {
+    "code": "$PPSB",
+    "name": "Deep Blue Metallic",
+    "price": 1500,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 1500,
+        "context": "default"
+      }
+    ],
+    "long_name": "Deep Blue Metallic",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Included"
+      }
+    ],
+    "description": "Deep Blue Metallic",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODEL3/UI/ui_swat_col_ppsb.png",
+            "type": "image"
+          }
+        ]
+      }
+    ],
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$PPSB"
+      },
+      {
+        "action": "unset",
+        "target": "$PBSB"
+      },
+      {
+        "action": "unset",
+        "target": "$PMNG"
+      },
+      {
+        "action": "unset",
+        "target": "$PMBL"
+      },
+      {
+        "action": "unset",
+        "target": "$PMSS"
+      },
+      {
+        "action": "unset",
+        "target": "$PPSW"
+      },
+      {
+        "action": "unset",
+        "target": "$PPMR"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$PPSB"
+      },
+      {
+        "action": "set",
+        "target": "$PBSB",
+        "operator": "and",
+        "condition_code": "$PMNG",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PMBL",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PMSS",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PPSW",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$PPMR",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$PPSW": {
+    "code": "$PPSW",
+    "name": "Pearl White Multi-Coat",
+    "price": 2000,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 2000,
+        "context": "default"
+      }
+    ],
+    "long_name": "Pearl White Multi-Coat",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Included"
+      }
+    ],
+    "description": "Pearl White Multi-Coat",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODEL3/UI/ui_swat_col_ppsw.png",
+            "type": "image"
+          }
+        ]
+      }
+    ],
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$PPSW"
+      },
+      {
+        "action": "unset",
+        "target": "$PBSB"
+      },
+      {
+        "action": "unset",
+        "target": "$PMNG"
+      },
+      {
+        "action": "unset",
+        "target": "$PMBL"
+      },
+      {
+        "action": "unset",
+        "target": "$PPSB"
+      },
+      {
+        "action": "unset",
+        "target": "$PMSS"
+      },
+      {
+        "action": "unset",
+        "target": "$PPMR"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$PPSW"
+      },
+      {
+        "action": "set",
+        "target": "$PBSB",
+        "operator": "and",
+        "condition_code": "$PMNG",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PMBL",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PPSB",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PMSS",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$PPMR",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$QTBS": {
+    "code": "$QTBS",
+    "name": "All Black Premium Interior",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 0,
+        "context": "default"
+      }
+    ],
+    "long_name": "All Black Premium Interior",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Included"
+      },
+      {
+        "type": "name",
+        "content": "All Black"
+      }
+    ],
+    "description": "All Black Premium Interior",
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "set",
+          "target": "$QTTB",
+          "condition_code": "$INBTB",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$QTFP",
+          "operator": "or",
+          "condition_code": "$INFBP",
+          "condition_state": "set"
+        },
+        {
+          "condition_code": "$INLFP",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$QTFW",
+          "condition_code": "$INBFW",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$QTFC",
+          "condition_code": "$INLFC",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$QTWS",
+          "condition_code": "$INBWS",
+          "condition_state": "set"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$QTBS"
+      },
+      {
+        "action": "unset",
+        "target": "$QTFC"
+      },
+      {
+        "action": "unset",
+        "target": "$QTFP"
+      },
+      {
+        "action": "unset",
+        "target": "$QTFW"
+      },
+      {
+        "action": "unset",
+        "target": "$QTTB"
+      },
+      {
+        "action": "unset",
+        "target": "$QTWS"
+      },
+      {
+        "action": "set",
+        "target": "$QTTB",
+        "condition_code": "$INBTB",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$QTFP",
+        "operator": "or",
+        "condition_code": "$INFBP",
+        "condition_state": "set"
+      },
+      {
+        "condition_code": "$INLFP",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$QTFW",
+        "condition_code": "$INBFW",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$QTFC",
+        "condition_code": "$INLFC",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$QTWS",
+        "condition_code": "$INBWS",
+        "condition_state": "set"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$QTBS"
+      },
+      {
+        "action": "set",
+        "target": "$QTFW",
+        "operator": "and",
+        "condition_code": "$QTFC",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$QTFP",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$QTTB",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$QTWS",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$QTFC": {
+    "code": "$QTFC",
+    "name": "Cream Premium Interior",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 0,
+        "context": "default"
+      }
+    ],
+    "long_name": "Cream Premium Interior",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Included"
+      },
+      {
+        "type": "name",
+        "content": "Cream"
+      }
+    ],
+    "description": "Cream Premium Interior",
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "set",
+          "target": "$QTTB",
+          "condition_code": "$INBTB",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$QTFP",
+          "operator": "or",
+          "condition_code": "$INFBP",
+          "condition_state": "set"
+        },
+        {
+          "condition_code": "$INLFP",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$QTFW",
+          "condition_code": "$INBFW",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$QTBS",
+          "condition_code": "$INBBS",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$QTWS",
+          "condition_code": "$INBWS",
+          "condition_state": "set"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$QTFC"
+      },
+      {
+        "action": "unset",
+        "target": "$QTBS"
+      },
+      {
+        "action": "unset",
+        "target": "$QTFP"
+      },
+      {
+        "action": "unset",
+        "target": "$QTFW"
+      },
+      {
+        "action": "unset",
+        "target": "$QTTB"
+      },
+      {
+        "action": "unset",
+        "target": "$QTWS"
+      },
+      {
+        "action": "set",
+        "target": "$QTTB",
+        "condition_code": "$INBTB",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$QTFP",
+        "operator": "or",
+        "condition_code": "$INFBP",
+        "condition_state": "set"
+      },
+      {
+        "condition_code": "$INLFP",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$QTFW",
+        "condition_code": "$INBFW",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$QTBS",
+        "condition_code": "$INBBS",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$QTWS",
+        "condition_code": "$INBWS",
+        "condition_state": "set"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$QTFC"
+      },
+      {
+        "action": "set",
+        "target": "$QTFW",
+        "operator": "and",
+        "condition_code": "$QTBS",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$QTFP",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$QTTB",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$QTWS",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$QTFP": {
+    "code": "$QTFP",
+    "name": "All Black Premium Interior",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 0,
+        "context": "default"
+      }
+    ],
+    "long_name": "All Black Premium Interior",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Included"
+      },
+      {
+        "type": "name",
+        "content": "All Black"
+      }
+    ],
+    "description": "All Black Premium Interior",
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "set",
+          "target": "$QTTB",
+          "condition_code": "$INBTB",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$QTBS",
+          "condition_code": "$INBBS",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$QTFW",
+          "condition_code": "$INBFW",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$QTFC",
+          "condition_code": "$INLFC",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$QTWS",
+          "condition_code": "$INBWS",
+          "condition_state": "set"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$QTFP"
+      },
+      {
+        "action": "unset",
+        "target": "$QTBS"
+      },
+      {
+        "action": "unset",
+        "target": "$QTFC"
+      },
+      {
+        "action": "unset",
+        "target": "$QTFW"
+      },
+      {
+        "action": "unset",
+        "target": "$QTTB"
+      },
+      {
+        "action": "unset",
+        "target": "$QTWS"
+      },
+      {
+        "action": "set",
+        "target": "$QTTB",
+        "condition_code": "$INBTB",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$QTBS",
+        "condition_code": "$INBBS",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$QTFW",
+        "condition_code": "$INBFW",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$QTFC",
+        "condition_code": "$INLFC",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$QTWS",
+        "condition_code": "$INBWS",
+        "condition_state": "set"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$QTFP"
+      },
+      {
+        "action": "set",
+        "target": "$QTFW",
+        "operator": "and",
+        "condition_code": "$QTBS",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$QTFC",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$QTTB",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$QTWS",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$QTFW": {
+    "code": "$QTFW",
+    "name": "Black and White Premium Interior",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 0,
+        "context": "default"
+      }
+    ],
+    "long_name": "Black and White Premium Interior",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Included"
+      },
+      {
+        "type": "name",
+        "content": "Black and White"
+      }
+    ],
+    "description": "Black and White Premium Interior",
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "set",
+          "target": "$QTTB",
+          "condition_code": "$INBTB",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$QTFP",
+          "operator": "or",
+          "condition_code": "$INFBP",
+          "condition_state": "set"
+        },
+        {
+          "condition_code": "$INLFP",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$QTFC",
+          "condition_code": "$INLFC",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$QTBS",
+          "condition_code": "$INBBS",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$QTWS",
+          "condition_code": "$INBWS",
+          "condition_state": "set"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$QTFW"
+      },
+      {
+        "action": "unset",
+        "target": "$QTBS"
+      },
+      {
+        "action": "unset",
+        "target": "$QTFC"
+      },
+      {
+        "action": "unset",
+        "target": "$QTFP"
+      },
+      {
+        "action": "unset",
+        "target": "$QTTB"
+      },
+      {
+        "action": "unset",
+        "target": "$QTWS"
+      },
+      {
+        "action": "set",
+        "target": "$QTTB",
+        "condition_code": "$INBTB",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$QTFP",
+        "operator": "or",
+        "condition_code": "$INFBP",
+        "condition_state": "set"
+      },
+      {
+        "condition_code": "$INLFP",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$QTFC",
+        "condition_code": "$INLFC",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$QTBS",
+        "condition_code": "$INBBS",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$QTWS",
+        "condition_code": "$INBWS",
+        "condition_state": "set"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$QTFW"
+      },
+      {
+        "action": "set",
+        "target": "$QTFW",
+        "operator": "and",
+        "condition_code": "$QTBS",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$QTFC",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$QTFP",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$QTTB",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$QTWS",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$QTTB": {
+    "code": "$QTTB",
+    "name": "Black Textile Interior",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 0,
+        "context": "default"
+      }
+    ],
+    "long_name": "Black Textile Interior",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Included"
+      }
+    ],
+    "description": "Textile",
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "set",
+          "target": "$QTFC",
+          "condition_code": "$INLFC",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$QTFP",
+          "operator": "or",
+          "condition_code": "$INFBP",
+          "condition_state": "set"
+        },
+        {
+          "condition_code": "$INLFP",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$QTFW",
+          "condition_code": "$INBFW",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$QTBS",
+          "condition_code": "$INBBS",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$QTWS",
+          "condition_code": "$INBWS",
+          "condition_state": "set"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$QTTB"
+      },
+      {
+        "action": "unset",
+        "target": "$QTBS"
+      },
+      {
+        "action": "unset",
+        "target": "$QTFC"
+      },
+      {
+        "action": "unset",
+        "target": "$QTFP"
+      },
+      {
+        "action": "unset",
+        "target": "$QTFW"
+      },
+      {
+        "action": "unset",
+        "target": "$QTWS"
+      },
+      {
+        "action": "set",
+        "target": "$QTFC",
+        "condition_code": "$INLFC",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$QTFP",
+        "operator": "or",
+        "condition_code": "$INFBP",
+        "condition_state": "set"
+      },
+      {
+        "condition_code": "$INLFP",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$QTFW",
+        "condition_code": "$INBFW",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$QTBS",
+        "condition_code": "$INBBS",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$QTWS",
+        "condition_code": "$INBWS",
+        "condition_state": "set"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$QTTB"
+      },
+      {
+        "action": "set",
+        "target": "$QTFW",
+        "operator": "and",
+        "condition_code": "$QTBS",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$QTFC",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$QTFP",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$QTWS",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$QTWS": {
+    "code": "$QTWS",
+    "name": "Black and White Premium Interior",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 0,
+        "context": "default"
+      }
+    ],
+    "long_name": "Black and White Premium Interior",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Included"
+      },
+      {
+        "type": "name",
+        "content": "Black and White"
+      }
+    ],
+    "description": "Black and White Premium Interior",
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "set",
+          "target": "$QTTB",
+          "condition_code": "$INBTB",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$QTFP",
+          "operator": "or",
+          "condition_code": "$INFBP",
+          "condition_state": "set"
+        },
+        {
+          "condition_code": "$INLFP",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$QTFW",
+          "condition_code": "$INBFW",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$QTFC",
+          "condition_code": "$INLFC",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$QTBS",
+          "condition_code": "$INBBS",
+          "condition_state": "set"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$QTWS"
+      },
+      {
+        "action": "unset",
+        "target": "$QTBS"
+      },
+      {
+        "action": "unset",
+        "target": "$QTFC"
+      },
+      {
+        "action": "unset",
+        "target": "$QTFP"
+      },
+      {
+        "action": "unset",
+        "target": "$QTFW"
+      },
+      {
+        "action": "unset",
+        "target": "$QTTB"
+      },
+      {
+        "action": "set",
+        "target": "$QTTB",
+        "condition_code": "$INBTB",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$QTFP",
+        "operator": "or",
+        "condition_code": "$INFBP",
+        "condition_state": "set"
+      },
+      {
+        "condition_code": "$INLFP",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$QTFW",
+        "condition_code": "$INBFW",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$QTFC",
+        "condition_code": "$INLFC",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$QTBS",
+        "condition_code": "$INBBS",
+        "condition_state": "set"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$QTWS"
+      },
+      {
+        "action": "set",
+        "target": "$QTFW",
+        "operator": "and",
+        "condition_code": "$QTBS",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$QTFC",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$QTFP",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$QTTB",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$RFFG": {
+    "code": "$RFFG",
+    "name": "Glass Roof",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 0,
+        "context": "default"
+      }
+    ],
+    "long_name": "Glass Roof",
+    "description": "Glass Roof",
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$RFFG"
+      },
+      {
+        "action": "unset",
+        "target": "$RFP2"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$RFFG"
+      },
+      {
+        "action": "set",
+        "target": "$RFP2"
+      }
+    ]
+  },
+  "$RFP2": {
+    "code": "$RFP2",
+    "name": "Sunroof",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 2000,
+        "context": "default"
+      }
+    ],
+    "long_name": "Sunroof",
+    "description": "Sunroof",
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$RFP2"
+      },
+      {
+        "action": "unset",
+        "target": "$RFFG"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$RFP2"
+      },
+      {
+        "action": "set",
+        "target": "$RFFG"
+      }
+    ]
+  },
+  "$RNG1": {
+    "code": "$RNG1",
+    "name": "Extended Range",
+    "price": 8000,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 8000,
+        "context": "default"
+      }
+    ],
+    "long_name": "Extended Range",
+    "extra_copy": [
+      {
+        "type": "selectLabel",
+        "content": "Extended Range"
+      },
+      {
+        "type": "deselectLabel",
+        "content": "Extended Range"
+      },
+      {
+        "type": "more_info",
+        "content": "Add 8% more range"
+      }
+    ],
+    "description": "Extended Range",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "checkbox_extended"
+          }
+        ]
+      }
+    ],
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "unset",
+          "target": "$RNG1",
+          "condition_code": "$MT10P",
+          "condition_state": "set"
+        }
+      ]
+    },
+    "after_delivery_price": 8000,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$RNG1"
+      },
+      {
+        "action": "unset",
+        "target": "$RNG1",
+        "condition_code": "$MT10P",
+        "condition_state": "set"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$RNG1"
+      }
+    ]
+  },
+  "$SC04": {
+    "code": "$SC04",
+    "name": "Pay-as-you-go Supercharging",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 0,
+        "context": "default"
+      }
+    ],
+    "long_name": "Pay-as-you-go Supercharging",
+    "description": "Pay-as-you-go Supercharging",
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$SC04"
+      },
+      {
+        "action": "unset",
+        "target": "$SC06"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$SC04"
+      },
+      {
+        "action": "set",
+        "target": "$SC06"
+      }
+    ]
+  },
+  "$SC06": {
+    "code": "$SC06",
+    "name": "Time-bound Supercharging",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 0,
+        "context": "default"
+      }
+    ],
+    "long_name": "Time-bound Supercharging",
+    "description": "Time-bound Supercharging",
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$SC06"
+      },
+      {
+        "action": "unset",
+        "target": "$SC04"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$SC06"
+      },
+      {
+        "action": "set",
+        "target": "$SC04"
+      }
+    ]
+  },
+  "$TR01": {
+    "code": "$TR01",
+    "name": "Rear Facing Seats",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 4000,
+        "context": "default"
+      }
+    ],
+    "long_name": "Rear Facing Seats",
+    "description": "Rear Facing Seats",
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$TR01"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$TR01"
+      }
+    ]
+  },
+  "$UTPB": {
+    "code": "$UTPB",
+    "name": "Dark Headliner",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 0,
+        "context": "default"
+      }
+    ],
+    "long_name": "Dark Headliner",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Included"
+      }
+    ],
+    "description": "Dark Headliner",
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "set",
+          "target": "$UTZW",
+          "operator": "or",
+          "condition_code": "$INLFP",
+          "condition_state": "set"
+        },
+        {
+          "condition_code": "$INLFC",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$UTSB",
+          "operator": "or",
+          "condition_code": "$INFBP",
+          "condition_state": "set"
+        },
+        {
+          "operator": "or",
+          "condition_code": "$INBFW",
+          "condition_state": "set"
+        },
+        {
+          "operator": "or",
+          "condition_code": "$INBBS",
+          "condition_state": "set"
+        },
+        {
+          "condition_code": "$INBWS",
+          "condition_state": "set"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$UTPB"
+      },
+      {
+        "action": "unset",
+        "target": "$UTSB"
+      },
+      {
+        "action": "unset",
+        "target": "$UTZW"
+      },
+      {
+        "action": "set",
+        "target": "$UTZW",
+        "operator": "or",
+        "condition_code": "$INLFP",
+        "condition_state": "set"
+      },
+      {
+        "condition_code": "$INLFC",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$UTSB",
+        "operator": "or",
+        "condition_code": "$INFBP",
+        "condition_state": "set"
+      },
+      {
+        "operator": "or",
+        "condition_code": "$INBFW",
+        "condition_state": "set"
+      },
+      {
+        "operator": "or",
+        "condition_code": "$INBBS",
+        "condition_state": "set"
+      },
+      {
+        "condition_code": "$INBWS",
+        "condition_state": "set"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$UTPB"
+      },
+      {
+        "action": "set",
+        "target": "$UTSB",
+        "condition_code": "$UTZW",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$UTSB": {
+    "code": "$UTSB",
+    "name": "Dark Headliner",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 0,
+        "context": "default"
+      }
+    ],
+    "long_name": "Dark Headliner",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Included"
+      }
+    ],
+    "description": "Dark Headliner",
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "set",
+          "target": "$UTPB",
+          "condition_code": "$INBTB",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$UTZW",
+          "operator": "or",
+          "condition_code": "$INLFP",
+          "condition_state": "set"
+        },
+        {
+          "condition_code": "$INLFC",
+          "condition_state": "set"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$UTSB"
+      },
+      {
+        "action": "unset",
+        "target": "$UTPB"
+      },
+      {
+        "action": "unset",
+        "target": "$UTZW"
+      },
+      {
+        "action": "set",
+        "target": "$UTPB",
+        "condition_code": "$INBTB",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$UTZW",
+        "operator": "or",
+        "condition_code": "$INLFP",
+        "condition_state": "set"
+      },
+      {
+        "condition_code": "$INLFC",
+        "condition_state": "set"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$UTSB"
+      },
+      {
+        "action": "set",
+        "target": "$UTSB",
+        "operator": "and",
+        "condition_code": "$UTPB",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$UTZW",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$UTZW": {
+    "code": "$UTZW",
+    "name": "Light Headliner",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 0,
+        "context": "default"
+      }
+    ],
+    "long_name": "Light Headliner",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Included"
+      }
+    ],
+    "description": "Light Headliner",
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "set",
+          "target": "$UTPB",
+          "condition_code": "$INBTB",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$UTSB",
+          "operator": "or",
+          "condition_code": "$INFBP",
+          "condition_state": "set"
+        },
+        {
+          "operator": "or",
+          "condition_code": "$INBFW",
+          "condition_state": "set"
+        },
+        {
+          "operator": "or",
+          "condition_code": "$INBBS",
+          "condition_state": "set"
+        },
+        {
+          "condition_code": "$INBWS",
+          "condition_state": "set"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$UTZW"
+      },
+      {
+        "action": "unset",
+        "target": "$UTSB"
+      },
+      {
+        "action": "unset",
+        "target": "$UTPB"
+      },
+      {
+        "action": "set",
+        "target": "$UTPB",
+        "condition_code": "$INBTB",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$UTSB",
+        "operator": "or",
+        "condition_code": "$INFBP",
+        "condition_state": "set"
+      },
+      {
+        "operator": "or",
+        "condition_code": "$INBFW",
+        "condition_state": "set"
+      },
+      {
+        "operator": "or",
+        "condition_code": "$INBBS",
+        "condition_state": "set"
+      },
+      {
+        "condition_code": "$INBWS",
+        "condition_state": "set"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$UTZW"
+      },
+      {
+        "action": "set",
+        "target": "$UTSB",
+        "condition_code": "$UTPB",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$WTAB": {
+    "code": "$WTAB",
+    "name": "21’’ Black Arachnid Wheels",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 4500,
+        "context": "default"
+      }
+    ],
+    "long_name": "21’’ Black Arachnid Wheels",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Included"
+      }
+    ],
+    "description": "21’’ Black Arachnid Wheels",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODELS/UI/ui_swat_whl_wtab.png",
+            "type": "image"
+          }
+        ]
+      }
+    ],
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "set",
+          "target": "$MT10P"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$WTAB"
+      },
+      {
+        "action": "unset",
+        "target": "$WTAS"
+      },
+      {
+        "action": "unset",
+        "target": "$WTDS"
+      },
+      {
+        "action": "unset",
+        "target": "$WTTC"
+      },
+      {
+        "action": "set",
+        "target": "$MT10P"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$WTAB"
+      },
+      {
+        "action": "set",
+        "target": "$WTAS",
+        "operator": "and",
+        "condition_code": "$WTDS",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$WTTC",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$WTAS": {
+    "code": "$WTAS",
+    "name": "19’’ Silver Wheels",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 0,
+        "context": "default"
+      }
+    ],
+    "long_name": "19’’ Silver Wheels",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Included"
+      }
+    ],
+    "description": "19’’ Silver Wheels",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODELS/UI/ui_swat_whl_wtas.png",
+            "type": "image"
+          }
+        ]
+      }
+    ],
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$WTAS"
+      },
+      {
+        "action": "unset",
+        "target": "$WTDS"
+      },
+      {
+        "action": "unset",
+        "target": "$WTTC"
+      },
+      {
+        "action": "unset",
+        "target": "$WTAB"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$WTAS"
+      },
+      {
+        "action": "set",
+        "target": "$WTAS",
+        "operator": "and",
+        "condition_code": "$WTDS",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$WTTC",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$WTAB",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$WTDS": {
+    "code": "$WTDS",
+    "name": "19\" Sonic Carbon Slipstream Wheels",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 1500,
+        "context": "default"
+      }
+    ],
+    "long_name": "19\" Sonic Carbon Slipstream Wheels",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Included"
+      }
+    ],
+    "description": "19\" Sonic Carbon Slipstream Wheels",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODELS/UI/ui_swat_whl_wtds.png",
+            "type": "image"
+          }
+        ]
+      }
+    ],
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$WTDS"
+      },
+      {
+        "action": "unset",
+        "target": "$WTAS"
+      },
+      {
+        "action": "unset",
+        "target": "$WTTC"
+      },
+      {
+        "action": "unset",
+        "target": "$WTAB"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$WTDS"
+      },
+      {
+        "action": "set",
+        "target": "$WTAS",
+        "operator": "and",
+        "condition_code": "$WTTC",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$WTAB",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$WTTC": {
+    "code": "$WTTC",
+    "name": "21\" Sonic Carbon Twin Turbine Wheels",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 4500,
+        "context": "default"
+      }
+    ],
+    "long_name": "21\" Sonic Carbon Twin Turbine Wheels",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Included"
+      }
+    ],
+    "description": "21\" Sonic Carbon Twin Turbine Wheels",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODELS/UI/ui_swat_whl_wttc.png",
+            "type": "image"
+          }
+        ]
+      }
+    ],
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$WTTC"
+      },
+      {
+        "action": "unset",
+        "target": "$WTAS"
+      },
+      {
+        "action": "unset",
+        "target": "$WTDS"
+      },
+      {
+        "action": "unset",
+        "target": "$WTAB"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$WTTC"
+      },
+      {
+        "action": "set",
+        "target": "$WTAS",
+        "operator": "and",
+        "condition_code": "$WTDS",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$WTAB",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$X019": {
+    "code": "$X019",
+    "name": "Carbon Fiber Spoiler",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 0,
+        "context": "default"
+      }
+    ],
+    "long_name": "Carbon Fiber Spoiler",
+    "description": "Carbon Fiber Spoiler",
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "unset",
+          "target": "$X019",
+          "condition_code": "$MT10P",
+          "condition_state": "unset"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$X019"
+      },
+      {
+        "action": "unset",
+        "target": "$X019",
+        "condition_code": "$MT10P",
+        "condition_state": "unset"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$X019"
+      }
+    ]
+  },
+  "$INBBS": {
+    "code": "$INBBS",
+    "name": "All Black Premium Interior",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 3300,
+        "context": "default",
+        "set_rules": [
+          {
+            "action": "set",
+            "target": "$INBBS",
+            "target_value": 0,
+            "condition_code": "$MT10L",
+            "condition_state": "set",
+            "target_property": "price"
+          }
+        ]
+      }
+    ],
+    "long_name": "All Black Premium Interior",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Included"
+      }
+    ],
+    "description": "All Black Premium Interior",
+    "extra_content": [
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODEL3/UI/ui_swat_int_in3pb.png",
+            "type": "image"
+          }
+        ]
+      },
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      }
+    ],
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "set",
+          "target": "$IDBO",
+          "condition_code": "$IDCF",
+          "condition_state": "unset"
+        },
+        {
+          "action": "set",
+          "target": "$QTBS"
+        },
+        {
+          "action": "set",
+          "target": "$UTSB"
+        },
+        {
+          "action": "set",
+          "target": "$MT10P"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$INBBS"
+      },
+      {
+        "action": "unset",
+        "target": "$INBFW"
+      },
+      {
+        "action": "unset",
+        "target": "$INFBP"
+      },
+      {
+        "action": "unset",
+        "target": "$INLFP"
+      },
+      {
+        "action": "unset",
+        "target": "$INLFC"
+      },
+      {
+        "action": "unset",
+        "target": "$INBTB"
+      },
+      {
+        "action": "unset",
+        "target": "$INBWS"
+      },
+      {
+        "action": "unset",
+        "target": "$INBCB"
+      },
+      {
+        "action": "unset",
+        "target": "$INWCB"
+      },
+      {
+        "action": "set",
+        "target": "$IDBO",
+        "condition_code": "$IDCF",
+        "condition_state": "unset"
+      },
+      {
+        "action": "set",
+        "target": "$QTBS"
+      },
+      {
+        "action": "set",
+        "target": "$UTSB"
+      },
+      {
+        "action": "set",
+        "target": "$MT10P"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$INBBS"
+      },
+      {
+        "action": "set",
+        "target": "$INBTB",
+        "operator": "and",
+        "condition_code": "$INBFW",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INFBP",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INLFP",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INLFC",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INBWS",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INBCB",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$INWCB",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$INBCB": {
+    "code": "$INBCB",
+    "name": "All Black Premium Interior",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 3300,
+        "context": "default",
+        "set_rules": [
+          {
+            "action": "set",
+            "target": "$INBCB",
+            "target_value": 0,
+            "condition_code": "$MT10P",
+            "condition_state": "set",
+            "target_property": "price"
+          }
+        ]
+      }
+    ],
+    "long_name": "All Black Premium Interior",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Included"
+      },
+      {
+        "type": "name",
+        "content": "All Black"
+      },
+      {
+        "type": "disclaimer_indicator",
+        "content": "Carbon Fiber Décor and Ventilated Seats"
+      }
+    ],
+    "description": "All Black Premium Interior",
+    "extra_content": [
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODELS/UI/ui_option_black_ventilated.png",
+            "type": "image"
+          }
+        ]
+      },
+      {
+        "type": "hidden",
+        "content": [
+          {
+            "configuration": [
+              "$MT10P"
+            ],
+            "condition_state": "not"
+          }
+        ]
+      },
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      }
+    ],
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "set",
+          "target": "$IDCF"
+        },
+        {
+          "action": "set",
+          "target": "$QTBS"
+        },
+        {
+          "action": "set",
+          "target": "$UTSB"
+        },
+        {
+          "action": "set",
+          "target": "$MT10P"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$INBCB"
+      },
+      {
+        "action": "unset",
+        "target": "$INBFW"
+      },
+      {
+        "action": "unset",
+        "target": "$INFBP"
+      },
+      {
+        "action": "unset",
+        "target": "$INLFP"
+      },
+      {
+        "action": "unset",
+        "target": "$INLFC"
+      },
+      {
+        "action": "unset",
+        "target": "$INBTB"
+      },
+      {
+        "action": "unset",
+        "target": "$INBBS"
+      },
+      {
+        "action": "unset",
+        "target": "$INBWS"
+      },
+      {
+        "action": "unset",
+        "target": "$INWCB"
+      },
+      {
+        "action": "set",
+        "target": "$IDCF"
+      },
+      {
+        "action": "set",
+        "target": "$QTBS"
+      },
+      {
+        "action": "set",
+        "target": "$UTSB"
+      },
+      {
+        "action": "set",
+        "target": "$MT10P"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$INBCB"
+      },
+      {
+        "action": "set",
+        "target": "$INBTB",
+        "operator": "and",
+        "condition_code": "$INBFW",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INFBP",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INLFP",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INLFC",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INBBS",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INBWS",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$INWCB",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$INBFW": {
+    "code": "$INBFW",
+    "name": "Black and White Premium Interior",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 1500,
+        "context": "default",
+        "set_rules": [
+          {
+            "action": "set",
+            "target": "$INBFW",
+            "target_value": 0,
+            "condition_code": "$MT10P",
+            "condition_state": "set",
+            "target_property": "price"
+          }
+        ]
+      }
+    ],
+    "long_name": "Black and White Premium Interior",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Included"
+      },
+      {
+        "type": "name",
+        "content": "Black and White"
+      }
+    ],
+    "description": "Black and White Premium Interior",
+    "extra_content": [
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODELS/UI/ui_option_white.png",
+            "type": "image"
+          }
+        ]
+      },
+      {
+        "type": "hidden",
+        "content": [
+          {
+            "configuration": [
+              "$MT10P"
+            ],
+            "condition_state": "and"
+          }
+        ]
+      },
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      }
+    ],
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "set",
+          "target": "$IDBA",
+          "condition_code": "$IDCF",
+          "condition_state": "unset"
+        },
+        {
+          "action": "set",
+          "target": "$QTFW"
+        },
+        {
+          "action": "set",
+          "target": "$UTSB"
+        },
+        {
+          "action": "unset",
+          "target": "$MT10P"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$INBFW"
+      },
+      {
+        "action": "unset",
+        "target": "$INFBP"
+      },
+      {
+        "action": "unset",
+        "target": "$INLFP"
+      },
+      {
+        "action": "unset",
+        "target": "$INLFC"
+      },
+      {
+        "action": "unset",
+        "target": "$INBTB"
+      },
+      {
+        "action": "unset",
+        "target": "$INBBS"
+      },
+      {
+        "action": "unset",
+        "target": "$INBWS"
+      },
+      {
+        "action": "unset",
+        "target": "$INBCB"
+      },
+      {
+        "action": "unset",
+        "target": "$INWCB"
+      },
+      {
+        "action": "set",
+        "target": "$IDBA",
+        "condition_code": "$IDCF",
+        "condition_state": "unset"
+      },
+      {
+        "action": "set",
+        "target": "$QTFW"
+      },
+      {
+        "action": "set",
+        "target": "$UTSB"
+      },
+      {
+        "action": "unset",
+        "target": "$MT10P"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$INBFW"
+      },
+      {
+        "action": "set",
+        "target": "$INBTB",
+        "operator": "and",
+        "condition_code": "$INFBP",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INLFP",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INLFC",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INBBS",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INBWS",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INBCB",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$INWCB",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$INBTB": {
+    "code": "$INBTB",
+    "name": "Black Textile Interior",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 0,
+        "context": "default"
+      }
+    ],
+    "long_name": "Black Textile Interior",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Included"
+      }
+    ],
+    "description": "Black Textile Interior",
+    "extra_content": [
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODEL3/UI/ui_swat_int_in3pb.png",
+            "type": "image"
+          }
+        ]
+      },
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      }
+    ],
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "set",
+          "target": "$IDBA"
+        },
+        {
+          "action": "set",
+          "target": "$QTTB"
+        },
+        {
+          "action": "set",
+          "target": "$UTPB"
+        },
+        {
+          "action": "unset",
+          "target": "$MT10P"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$INBTB"
+      },
+      {
+        "action": "unset",
+        "target": "$INBFW"
+      },
+      {
+        "action": "unset",
+        "target": "$INFBP"
+      },
+      {
+        "action": "unset",
+        "target": "$INLFP"
+      },
+      {
+        "action": "unset",
+        "target": "$INLFC"
+      },
+      {
+        "action": "unset",
+        "target": "$INBBS"
+      },
+      {
+        "action": "unset",
+        "target": "$INBWS"
+      },
+      {
+        "action": "unset",
+        "target": "$INBCB"
+      },
+      {
+        "action": "unset",
+        "target": "$INWCB"
+      },
+      {
+        "action": "set",
+        "target": "$IDBA"
+      },
+      {
+        "action": "set",
+        "target": "$QTTB"
+      },
+      {
+        "action": "set",
+        "target": "$UTPB"
+      },
+      {
+        "action": "unset",
+        "target": "$MT10P"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$INBTB"
+      },
+      {
+        "action": "set",
+        "target": "$INBTB",
+        "operator": "and",
+        "condition_code": "$INBFW",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INFBP",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INLFP",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INLFC",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INBBS",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INBWS",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INBCB",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$INWCB",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$INBWS": {
+    "code": "$INBWS",
+    "name": "Black and White Premium Interior",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 3300,
+        "context": "default",
+        "set_rules": [
+          {
+            "action": "set",
+            "target": "$INBWS",
+            "target_value": 0,
+            "condition_code": "$MT10P",
+            "condition_state": "set",
+            "target_property": "price"
+          }
+        ]
+      }
+    ],
+    "long_name": "Black and White Premium Interior",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Included"
+      }
+    ],
+    "description": "Black and White Premium Interior",
+    "extra_content": [
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODEL3/UI/ui_swat_int_in3pb.png",
+            "type": "image"
+          }
+        ]
+      },
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      }
+    ],
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "set",
+          "target": "$IDBA",
+          "condition_code": "$IDCF",
+          "condition_state": "unset"
+        },
+        {
+          "action": "set",
+          "target": "$QTWS"
+        },
+        {
+          "action": "set",
+          "target": "$UTSB"
+        },
+        {
+          "action": "set",
+          "target": "$MT10P"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$INBWS"
+      },
+      {
+        "action": "unset",
+        "target": "$INBFW"
+      },
+      {
+        "action": "unset",
+        "target": "$INFBP"
+      },
+      {
+        "action": "unset",
+        "target": "$INLFP"
+      },
+      {
+        "action": "unset",
+        "target": "$INLFC"
+      },
+      {
+        "action": "unset",
+        "target": "$INBTB"
+      },
+      {
+        "action": "unset",
+        "target": "$INBBS"
+      },
+      {
+        "action": "unset",
+        "target": "$INBCB"
+      },
+      {
+        "action": "unset",
+        "target": "$INWCB"
+      },
+      {
+        "action": "set",
+        "target": "$IDBA",
+        "condition_code": "$IDCF",
+        "condition_state": "unset"
+      },
+      {
+        "action": "set",
+        "target": "$QTWS"
+      },
+      {
+        "action": "set",
+        "target": "$UTSB"
+      },
+      {
+        "action": "set",
+        "target": "$MT10P"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$INBWS"
+      },
+      {
+        "action": "set",
+        "target": "$INBTB",
+        "operator": "and",
+        "condition_code": "$INBFW",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INFBP",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INLFP",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INLFC",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INBBS",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INBCB",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$INWCB",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$INFBP": {
+    "code": "$INFBP",
+    "name": "All Black Premium Interior",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 0,
+        "context": "default",
+        "set_rules": [
+          {
+            "action": "set",
+            "target": "$INFBP",
+            "target_value": 0,
+            "condition_code": "$MT10P",
+            "condition_state": "set",
+            "target_property": "price"
+          }
+        ]
+      }
+    ],
+    "long_name": "All Black Premium Interior",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Included"
+      },
+      {
+        "type": "name",
+        "content": "All Black"
+      }
+    ],
+    "description": "All Black Premium Interior",
+    "extra_content": [
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODELS/UI/ui_option_black.png",
+            "type": "image"
+          }
+        ]
+      },
+      {
+        "type": "hidden",
+        "content": [
+          {
+            "configuration": [
+              "$MT10P"
+            ],
+            "condition_state": "and"
+          }
+        ]
+      },
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      }
+    ],
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "set",
+          "target": "$IDBO",
+          "condition_code": "$IDCF",
+          "condition_state": "unset"
+        },
+        {
+          "action": "set",
+          "target": "$QTFP"
+        },
+        {
+          "action": "set",
+          "target": "$UTSB"
+        },
+        {
+          "action": "unset",
+          "target": "$MT10P"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$INFBP"
+      },
+      {
+        "action": "unset",
+        "target": "$INBFW"
+      },
+      {
+        "action": "unset",
+        "target": "$INLFP"
+      },
+      {
+        "action": "unset",
+        "target": "$INLFC"
+      },
+      {
+        "action": "unset",
+        "target": "$INBTB"
+      },
+      {
+        "action": "unset",
+        "target": "$INBBS"
+      },
+      {
+        "action": "unset",
+        "target": "$INBWS"
+      },
+      {
+        "action": "unset",
+        "target": "$INBCB"
+      },
+      {
+        "action": "unset",
+        "target": "$INWCB"
+      },
+      {
+        "action": "set",
+        "target": "$IDBO",
+        "condition_code": "$IDCF",
+        "condition_state": "unset"
+      },
+      {
+        "action": "set",
+        "target": "$QTFP"
+      },
+      {
+        "action": "set",
+        "target": "$UTSB"
+      },
+      {
+        "action": "unset",
+        "target": "$MT10P"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$INFBP"
+      },
+      {
+        "action": "set",
+        "target": "$INBTB",
+        "operator": "and",
+        "condition_code": "$INBFW",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INLFP",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INLFC",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INBBS",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INBWS",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INBCB",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$INWCB",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$INLFC": {
+    "code": "$INLFC",
+    "name": "Cream Premium Interior",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 1500,
+        "context": "default",
+        "set_rules": [
+          {
+            "action": "set",
+            "target": "$INLFC",
+            "target_value": 0,
+            "condition_code": "$MT10P",
+            "condition_state": "set",
+            "target_property": "price"
+          }
+        ]
+      }
+    ],
+    "long_name": "Cream Premium Interior",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Included"
+      },
+      {
+        "type": "name",
+        "content": "Cream"
+      }
+    ],
+    "description": "Cream Premium Interior",
+    "extra_content": [
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODELS/UI/ui_option_cream.png",
+            "type": "image"
+          }
+        ]
+      },
+      {
+        "type": "hidden",
+        "content": [
+          {
+            "configuration": [
+              "$MT10P"
+            ],
+            "condition_state": "and"
+          }
+        ]
+      },
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      }
+    ],
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "set",
+          "target": "$IDOK",
+          "condition_code": "$IDCF",
+          "condition_state": "unset"
+        },
+        {
+          "action": "set",
+          "target": "$QTFC"
+        },
+        {
+          "action": "set",
+          "target": "$UTZW"
+        },
+        {
+          "action": "unset",
+          "target": "$MT10P"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$INLFC"
+      },
+      {
+        "action": "unset",
+        "target": "$INBFW"
+      },
+      {
+        "action": "unset",
+        "target": "$INFBP"
+      },
+      {
+        "action": "unset",
+        "target": "$INLFP"
+      },
+      {
+        "action": "unset",
+        "target": "$INBTB"
+      },
+      {
+        "action": "unset",
+        "target": "$INBBS"
+      },
+      {
+        "action": "unset",
+        "target": "$INBWS"
+      },
+      {
+        "action": "unset",
+        "target": "$INBCB"
+      },
+      {
+        "action": "unset",
+        "target": "$INWCB"
+      },
+      {
+        "action": "set",
+        "target": "$IDOK",
+        "condition_code": "$IDCF",
+        "condition_state": "unset"
+      },
+      {
+        "action": "set",
+        "target": "$QTFC"
+      },
+      {
+        "action": "set",
+        "target": "$UTZW"
+      },
+      {
+        "action": "unset",
+        "target": "$MT10P"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$INLFC"
+      },
+      {
+        "action": "set",
+        "target": "$INBTB",
+        "operator": "and",
+        "condition_code": "$INBFW",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INFBP",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INLFP",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INBBS",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INBWS",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INBCB",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$INWCB",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$INLFP": {
+    "code": "$INLFP",
+    "name": "Black Premium / Light Headliner",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 0,
+        "context": "default",
+        "set_rules": [
+          {
+            "action": "set",
+            "target": "$INLFP",
+            "target_value": 0,
+            "condition_code": "$MT10P",
+            "condition_state": "set",
+            "target_property": "price"
+          }
+        ]
+      }
+    ],
+    "long_name": "Black Premium / Light Headliner",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Included"
+      }
+    ],
+    "description": "Black Premium / Light Headliner",
+    "extra_content": [
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODEL3/UI/ui_swat_int_in3pb.png",
+            "type": "image"
+          }
+        ]
+      },
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      }
+    ],
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "set",
+          "target": "$IDBO",
+          "condition_code": "$IDCF",
+          "condition_state": "unset"
+        },
+        {
+          "action": "set",
+          "target": "$QTFP"
+        },
+        {
+          "action": "set",
+          "target": "$UTZW"
+        },
+        {
+          "action": "unset",
+          "target": "$MT10P"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$INLFP"
+      },
+      {
+        "action": "unset",
+        "target": "$INBFW"
+      },
+      {
+        "action": "unset",
+        "target": "$INFBP"
+      },
+      {
+        "action": "unset",
+        "target": "$INLFC"
+      },
+      {
+        "action": "unset",
+        "target": "$INBTB"
+      },
+      {
+        "action": "unset",
+        "target": "$INBBS"
+      },
+      {
+        "action": "unset",
+        "target": "$INBWS"
+      },
+      {
+        "action": "unset",
+        "target": "$INBCB"
+      },
+      {
+        "action": "unset",
+        "target": "$INWCB"
+      },
+      {
+        "action": "set",
+        "target": "$IDBO",
+        "condition_code": "$IDCF",
+        "condition_state": "unset"
+      },
+      {
+        "action": "set",
+        "target": "$QTFP"
+      },
+      {
+        "action": "set",
+        "target": "$UTZW"
+      },
+      {
+        "action": "unset",
+        "target": "$MT10P"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$INLFP"
+      },
+      {
+        "action": "set",
+        "target": "$INBTB",
+        "operator": "and",
+        "condition_code": "$INBFW",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INFBP",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INLFC",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INBBS",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INBWS",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INBCB",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$INWCB",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$INWCB": {
+    "code": "$INWCB",
+    "name": "Black and White Premium Interior",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 3300,
+        "context": "default",
+        "set_rules": [
+          {
+            "action": "set",
+            "target": "$INWCB",
+            "target_value": 0,
+            "condition_code": "$MT10P",
+            "condition_state": "set",
+            "target_property": "price"
+          }
+        ]
+      }
+    ],
+    "long_name": "Black and White Premium Interior",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Included"
+      },
+      {
+        "type": "name",
+        "content": "Black and White"
+      },
+      {
+        "type": "disclaimer_indicator",
+        "content": "Carbon Fiber Décor and Ventilated Seats"
+      }
+    ],
+    "description": "Black and White Premium Interior",
+    "extra_content": [
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODELS/UI/ui_option_white_ventilated.png",
+            "type": "image"
+          }
+        ]
+      },
+      {
+        "type": "hidden",
+        "content": [
+          {
+            "configuration": [
+              "$MT10P"
+            ],
+            "condition_state": "not"
+          }
+        ]
+      },
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      }
+    ],
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "set",
+          "target": "$IDCF"
+        },
+        {
+          "action": "set",
+          "target": "$QTWS"
+        },
+        {
+          "action": "set",
+          "target": "$UTSB"
+        },
+        {
+          "action": "set",
+          "target": "$MT10P"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$INWCB"
+      },
+      {
+        "action": "unset",
+        "target": "$INBFW"
+      },
+      {
+        "action": "unset",
+        "target": "$INFBP"
+      },
+      {
+        "action": "unset",
+        "target": "$INLFP"
+      },
+      {
+        "action": "unset",
+        "target": "$INLFC"
+      },
+      {
+        "action": "unset",
+        "target": "$INBTB"
+      },
+      {
+        "action": "unset",
+        "target": "$INBBS"
+      },
+      {
+        "action": "unset",
+        "target": "$INBWS"
+      },
+      {
+        "action": "unset",
+        "target": "$INBCB"
+      },
+      {
+        "action": "set",
+        "target": "$IDCF"
+      },
+      {
+        "action": "set",
+        "target": "$QTWS"
+      },
+      {
+        "action": "set",
+        "target": "$UTSB"
+      },
+      {
+        "action": "set",
+        "target": "$MT10P"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$INWCB"
+      },
+      {
+        "action": "set",
+        "target": "$INBTB",
+        "operator": "and",
+        "condition_code": "$INBFW",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INFBP",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INLFP",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INLFC",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INBBS",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$INBWS",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$INBCB",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$MT10A": {
+    "code": "$MT10A",
+    "name": "Model S 100D",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 18000,
+        "context": "default"
+      }
+    ],
+    "long_name": "Model S 100D",
+    "extra_copy": [],
+    "description": "Model S 100D",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "block"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "type": "badge",
+            "badgeClass": "100d"
+          }
+        ]
+      },
+      {
+        "type": "price_indicator_override",
+        "content": [
+          {
+            "content": "$85,000",
+            "configuration": [
+              "$MDLS"
+            ],
+            "condition_state": "and"
+          }
+        ]
+      },
+      {
+        "type": "option_price_override",
+        "content": [
+          {
+            "content": 94000,
+            "configuration": [
+              "$MDLS"
+            ],
+            "condition_state": "and"
+          }
+        ]
+      }
+    ],
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "unset",
+          "target": "$IDCF"
+        },
+        {
+          "action": "unset",
+          "target": "$WTAB"
+        },
+        {
+          "action": "set",
+          "target": "$INFBP",
+          "condition_code": "$INBBS",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$INFBP",
+          "condition_code": "$INBWS",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$INFBP",
+          "condition_code": "$INBCB",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$INFBP",
+          "condition_code": "$INWCB",
+          "condition_state": "set"
+        },
+        {
+          "action": "unset",
+          "target": "$X019"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$MT10A"
+      },
+      {
+        "action": "unset",
+        "target": "$MT75A"
+      },
+      {
+        "action": "unset",
+        "target": "$MT10B"
+      },
+      {
+        "action": "unset",
+        "target": "$MT10P"
+      },
+      {
+        "action": "unset",
+        "target": "$MT10L"
+      },
+      {
+        "action": "unset",
+        "target": "$IDCF"
+      },
+      {
+        "action": "unset",
+        "target": "$WTAB"
+      },
+      {
+        "action": "set",
+        "target": "$INFBP",
+        "condition_code": "$INBBS",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$INFBP",
+        "condition_code": "$INBWS",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$INFBP",
+        "condition_code": "$INBCB",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$INFBP",
+        "condition_code": "$INWCB",
+        "condition_state": "set"
+      },
+      {
+        "action": "unset",
+        "target": "$X019"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$MT10A"
+      },
+      {
+        "action": "set",
+        "target": "$MT10B",
+        "operator": "and",
+        "condition_code": "$MT75A",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$MT10P",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$MT10L",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$MT10B": {
+    "code": "$MT10B",
+    "name": "Model S",
+    "price": 9000,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 9000,
+        "context": "default"
+      }
+    ],
+    "long_name": "Model S",
+    "extra_copy": [],
+    "description": "Model S",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "block"
+          }
+        ]
+      },
+      {
+        "type": "price_indicator_override",
+        "content": [
+          {
+            "content": "$85,000",
+            "configuration": [
+              "$MDLS"
+            ],
+            "condition_state": "and"
+          }
+        ]
+      },
+      {
+        "type": "option_price_override",
+        "content": [
+          {
+            "content": 85000,
+            "configuration": [
+              "$MDLS"
+            ],
+            "condition_state": "and"
+          }
+        ]
+      }
+    ],
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "unset",
+          "target": "$ACL1"
+        },
+        {
+          "action": "unset",
+          "target": "$IDCF"
+        },
+        {
+          "action": "unset",
+          "target": "$WTAB"
+        },
+        {
+          "action": "set",
+          "target": "$INFBP",
+          "condition_code": "$INBBS",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$INFBP",
+          "condition_code": "$INBWS",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$INFBP",
+          "condition_code": "$INBCB",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$INFBP",
+          "condition_code": "$INWCB",
+          "condition_state": "set"
+        },
+        {
+          "action": "unset",
+          "target": "$X019"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$MT10B"
+      },
+      {
+        "action": "unset",
+        "target": "$MT75A"
+      },
+      {
+        "action": "unset",
+        "target": "$MT10P"
+      },
+      {
+        "action": "unset",
+        "target": "$MT10A"
+      },
+      {
+        "action": "unset",
+        "target": "$MT10L"
+      },
+      {
+        "action": "unset",
+        "target": "$ACL1"
+      },
+      {
+        "action": "unset",
+        "target": "$IDCF"
+      },
+      {
+        "action": "unset",
+        "target": "$WTAB"
+      },
+      {
+        "action": "set",
+        "target": "$INFBP",
+        "condition_code": "$INBBS",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$INFBP",
+        "condition_code": "$INBWS",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$INFBP",
+        "condition_code": "$INBCB",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$INFBP",
+        "condition_code": "$INWCB",
+        "condition_state": "set"
+      },
+      {
+        "action": "unset",
+        "target": "$X019"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$MT10B"
+      },
+      {
+        "action": "set",
+        "target": "$MT10B",
+        "operator": "and",
+        "condition_code": "$MT75A",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$MT10P",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$MT10A",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$MT10L",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$MT10L": {
+    "code": "$MT10L",
+    "name": "Model S P100D",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 57000,
+        "context": "default"
+      }
+    ],
+    "long_name": "Model S P100D",
+    "extra_copy": [],
+    "description": "Model S P100D",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "block"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "type": "badge",
+            "badgeClass": "p100dl"
+          }
+        ]
+      },
+      {
+        "type": "price_indicator_override",
+        "content": [
+          {
+            "content": "$133,000",
+            "configuration": [
+              "$MDLS"
+            ],
+            "condition_state": "and"
+          }
+        ]
+      },
+      {
+        "type": "option_price_override",
+        "content": [
+          {
+            "content": 133000,
+            "configuration": [
+              "$MDLS"
+            ],
+            "condition_state": "and"
+          }
+        ]
+      }
+    ],
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "set",
+          "target": "$INBCB",
+          "operator": "and",
+          "condition_code": "$INBCB",
+          "condition_state": "unset"
+        },
+        {
+          "condition_code": "$INWCB",
+          "condition_state": "unset"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$MT10L"
+      },
+      {
+        "action": "unset",
+        "target": "$MT75A"
+      },
+      {
+        "action": "unset",
+        "target": "$MT10B"
+      },
+      {
+        "action": "unset",
+        "target": "$MT10P"
+      },
+      {
+        "action": "unset",
+        "target": "$MT10A"
+      },
+      {
+        "action": "set",
+        "target": "$INBCB",
+        "operator": "and",
+        "condition_code": "$INBCB",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$INWCB",
+        "condition_state": "unset"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$MT10L"
+      },
+      {
+        "action": "set",
+        "target": "$MT10B",
+        "operator": "and",
+        "condition_code": "$MT75A",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$MT10P",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$MT10A",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$MT10P": {
+    "code": "$MT10P",
+    "name": "Model S Performance",
+    "price": 36000,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 36000,
+        "context": "default"
+      }
+    ],
+    "long_name": "Model S Performance",
+    "extra_copy": [],
+    "description": "Model S Performance",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "block"
+          }
+        ]
+      },
+      {
+        "type": "price_indicator_override",
+        "content": [
+          {
+            "content": "$112,000",
+            "configuration": [
+              "$MDLS"
+            ],
+            "condition_state": "and"
+          }
+        ]
+      },
+      {
+        "type": "option_price_override",
+        "content": [
+          {
+            "content": 112000,
+            "configuration": [
+              "$MDLS"
+            ],
+            "condition_state": "and"
+          }
+        ]
+      }
+    ],
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "unset",
+          "target": "$RNG1"
+        },
+        {
+          "action": "set",
+          "target": "$INBCB",
+          "operator": "and",
+          "condition_code": "$INBCB",
+          "condition_state": "unset"
+        },
+        {
+          "condition_code": "$INWCB",
+          "condition_state": "unset"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$MT10P"
+      },
+      {
+        "action": "unset",
+        "target": "$MT75A"
+      },
+      {
+        "action": "unset",
+        "target": "$MT10B"
+      },
+      {
+        "action": "unset",
+        "target": "$MT10A"
+      },
+      {
+        "action": "unset",
+        "target": "$MT10L"
+      },
+      {
+        "action": "unset",
+        "target": "$RNG1"
+      },
+      {
+        "action": "set",
+        "target": "$INBCB",
+        "operator": "and",
+        "condition_code": "$INBCB",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$INWCB",
+        "condition_state": "unset"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$MT10P"
+      },
+      {
+        "action": "set",
+        "target": "$MT10B",
+        "operator": "and",
+        "condition_code": "$MT75A",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$MT10A",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$MT10L",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$MT75A": {
+    "code": "$MT75A",
+    "name": "Model S 75D",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 0,
+        "context": "default"
+      }
+    ],
+    "long_name": "Model S 75D",
+    "extra_copy": [],
+    "description": "Model S 75D",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "block"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "type": "badge",
+            "badgeClass": "75d"
+          }
+        ]
+      },
+      {
+        "type": "price_indicator_override",
+        "content": [
+          {
+            "content": "$76,000",
+            "configuration": [
+              "$MDLS"
+            ],
+            "condition_state": "and"
+          }
+        ]
+      },
+      {
+        "type": "option_price_override",
+        "content": [
+          {
+            "content": 76000,
+            "configuration": [
+              "$MDLS"
+            ],
+            "condition_state": "and"
+          }
+        ]
+      }
+    ],
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "unset",
+          "target": "$IDCF"
+        },
+        {
+          "action": "unset",
+          "target": "$WTAB"
+        },
+        {
+          "action": "set",
+          "target": "$INFBP",
+          "condition_code": "$INBBS",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$INFBP",
+          "condition_code": "$INBWS",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$INFBP",
+          "condition_code": "$INBCB",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$INFBP",
+          "condition_code": "$INWCB",
+          "condition_state": "set"
+        },
+        {
+          "action": "unset",
+          "target": "$X019"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$MT75A"
+      },
+      {
+        "action": "unset",
+        "target": "$MT10B"
+      },
+      {
+        "action": "unset",
+        "target": "$MT10P"
+      },
+      {
+        "action": "unset",
+        "target": "$MT10A"
+      },
+      {
+        "action": "unset",
+        "target": "$MT10L"
+      },
+      {
+        "action": "unset",
+        "target": "$IDCF"
+      },
+      {
+        "action": "unset",
+        "target": "$WTAB"
+      },
+      {
+        "action": "set",
+        "target": "$INFBP",
+        "condition_code": "$INBBS",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$INFBP",
+        "condition_code": "$INBWS",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$INFBP",
+        "condition_code": "$INBCB",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$INFBP",
+        "condition_code": "$INWCB",
+        "condition_state": "set"
+      },
+      {
+        "action": "unset",
+        "target": "$X019"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$MT75A"
+      },
+      {
+        "action": "set",
+        "target": "$MT10B",
+        "operator": "and",
+        "condition_code": "$MT10P",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$MT10A",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$MT10L",
+        "condition_state": "unset"
+      }
+    ]
+  }
+}

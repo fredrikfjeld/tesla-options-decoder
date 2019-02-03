@@ -1,0 +1,4533 @@
+{
+  "$APF2": {
+    "code": "$APF2",
+    "name": "Fullverdige selvkjørende egenskaper",
+    "price": 25100,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 25100,
+        "context": "default"
+      },
+      {
+        "type": "upgrade",
+        "value": 41800,
+        "context": "default"
+      }
+    ],
+    "long_name": "Fullverdige selvkjørende egenskaper",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "valgfritt"
+      },
+      {
+        "type": "disclaimer",
+        "content": "Krever forbedret autopilot<br/>$ 4.000 oppgradering etter levering"
+      },
+      {
+        "type": "short_description",
+        "content": "Model 3 vil kjøre på egen hånd langs motorveiene og parkere ved destinasjonen automatisk."
+      },
+      {
+        "type": "disclaimer_details",
+        "content": "Denne funksjonen er avhengig av omfattende programvarevalidering og myndighetsgodkjennelse. Det er ikke mulig å vite nøyaktig når den blir tilgjengelig, da dette er svært avhengig av lokal myndighetsgodkjenning, som kan variere mye fra jurisdiksjon til jurisdiksjon."
+      },
+      {
+        "type": "disclaimer[0]",
+        "content": "Krever Oppgradert Autopilot"
+      },
+      {
+        "type": "disclaimer[1]",
+        "content": "$ 5.000 oppgradering, hvis lagt til etter levering"
+      },
+      {
+        "type": "selectLabel",
+        "content": "Velg alternativ"
+      },
+      {
+        "type": "deselectLabel",
+        "content": "Valgt alternativ"
+      }
+    ],
+    "description": "I fremtiden vil Model 3 være i stand til å gjennomføre turer med ingen intervensjon fra føreren i førersetet.",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "card"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODEL3/UI/sd_img.png",
+            "type": "image",
+            "action": [
+              {
+                "type": "PLAY_VIDEO",
+                "content": {
+                  "src": "https://player.vimeo.com/video/192179726?autoplay=1&color=ff0000&title=0&byline=0&portrait=0",
+                  "type": "video",
+                  "width": 640,
+                  "height": 360
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "set",
+          "target": "$APPB"
+        }
+      ]
+    },
+    "after_delivery_price": 5000,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$APF2"
+      },
+      {
+        "action": "set",
+        "target": "$APPB"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$APF2"
+      }
+    ]
+  },
+  "$APPB": {
+    "code": "$APPB",
+    "name": "Oppgradert Autopilot",
+    "price": 41800,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 41800,
+        "context": "default"
+      },
+      {
+        "type": "trial",
+        "value": 46000,
+        "context": "default"
+      },
+      {
+        "type": "upgrade",
+        "value": 59000,
+        "context": "default"
+      }
+    ],
+    "long_name": "Oppgradert Autopilot",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "valgfritt"
+      },
+      {
+        "type": "short_description",
+        "content": "I fremtiden kan du fortelle Model 3 hvor du ønsker å dra og den vil navigere uten noen intervensjon fra føreren."
+      },
+      {
+        "type": "disclaimer",
+        "content": "kr. 59.000 for oppgradering etter levering"
+      },
+      {
+        "type": "description",
+        "content": "Med Forbedret autopilot vil bilen din styre, akselerere og bremse for deg i bortimot enhver trafikkfil! Den vil også skifte fil automatisk på de fleste motorveiene for å kjøre forbi andre biler eller navigere til kryss og avkjørsler. Med de regelmessige OTA-oppdateringene vil du attpåtil alltid ha tilgang til de mest avanserte egenskapene og funksjonene."
+      },
+      {
+        "type": "disclaimer_details",
+        "content": "Prisene kan endres etter levering. Forbedret autopilot inkluderer ekstra førerassistanse-egenskaper. Hver sjåfør er ansvarlig for eventuelle varsler og må være aktiv under bruk av autopiloten, og må være forberedt på å handle til enhver tid."
+      },
+      {
+        "type": "selectLabel",
+        "content": "Velg alternativ"
+      },
+      {
+        "type": "deselectLabel",
+        "content": "Valgt alternativ"
+      }
+    ],
+    "description": "<p>Model 3 vil matche hastigheten til trafikkforhold, holde seg innenfor en fil, automatisk skifte kjørefelt, kjøre fra en motorvei til en annen, kjøre ut fra motorveien og parkere på egen hånd ved destinasjonen. Dette er en førerassistansefunksjon, hvor fører til enhver tid er ansvarlig for å ha kontroll over kjøretøyet.</p> <p>Utsending av programvaren er påstart, og funksjoner vil bli introdusert på løpende basis ved fullført validering, betinget av myndighetsgodkjennelse.</p>",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "card"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODEL3/UI/autopilot3.jpg",
+            "type": "image",
+            "selected_by": {
+              "or": [
+                {
+                  "on": [
+                    "mobile"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "url": "https://www.tesla.com/ns_videos/models/autonomy/hero-mobile.mp4",
+            "type": "video-inline",
+            "relative": true,
+            "urlDesktop": "https://www.tesla.com/ns_videos/models/autonomy/hero.mp4",
+            "selected_by": {
+              "or": [
+                {
+                  "on": [
+                    "desktop",
+                    "tablet"
+                  ]
+                }
+              ]
+            },
+            "video_props": {
+              "loop": 2,
+              "muted": true,
+              "autoPlay": true,
+              "stopTime": 2,
+              "fullWidth": true
+            }
+          }
+        ]
+      }
+    ],
+    "user_defined_rules": {
+      "unset_rules": [
+        {
+          "action": "unset",
+          "target": "$APF2"
+        }
+      ]
+    },
+    "after_delivery_price": 7000,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$APPB"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$APPB"
+      },
+      {
+        "action": "unset",
+        "target": "$APF2"
+      }
+    ]
+  },
+  "$BC3R": {
+    "code": "$BC3R",
+    "name": "Performance-bremser",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 0,
+        "context": "default"
+      }
+    ],
+    "long_name": "Performance-bremser",
+    "extra_copy": [
+      {
+        "type": "description",
+        "content": "Større og stivere kalipere, og lettvektige todels skiver for forbedret ytelse og termisk kapasitet"
+      },
+      {
+        "type": "price_indicator",
+        "content": "Inkludert"
+      }
+    ],
+    "description": "Performance-bremser",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "cardAddon"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODEL3/UI/model3_performance_brake.png",
+            "type": "image"
+          }
+        ]
+      }
+    ],
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "unset",
+          "target": "$BC3R",
+          "condition_code": "$SPT31",
+          "condition_state": "unset"
+        }
+      ],
+      "unset_rules": [
+        {
+          "action": "set",
+          "target": "$BC3R",
+          "condition_code": "$SPT31",
+          "condition_state": "set"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$BC3R"
+      },
+      {
+        "action": "unset",
+        "target": "$BC3R",
+        "condition_code": "$SPT31",
+        "condition_state": "unset"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$BC3R"
+      },
+      {
+        "action": "set",
+        "target": "$BC3R",
+        "condition_code": "$SPT31",
+        "condition_state": "set"
+      }
+    ]
+  },
+  "$DV2W": {
+    "code": "$DV2W",
+    "name": "Bakhjulsdrift",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 0,
+        "context": "default"
+      }
+    ],
+    "long_name": "Bakhjulsdrift",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Standard"
+      }
+    ],
+    "description": "Bakhjulsdrift",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "block"
+          }
+        ]
+      },
+      {
+        "type": "price_indicator_override",
+        "content": [
+          {
+            "content": " ",
+            "configuration": [
+              "$MT302"
+            ],
+            "condition_state": "and"
+          }
+        ]
+      },
+      {
+        "type": "disable_override",
+        "content": [
+          {
+            "content": true,
+            "configuration": [
+              "$MT302"
+            ],
+            "condition_state": "and"
+          }
+        ]
+      }
+    ],
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "unset",
+          "target": "$MT304"
+        },
+        {
+          "action": "set",
+          "target": "$DV4W",
+          "condition_code": "$MT303",
+          "condition_state": "set"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$DV2W"
+      },
+      {
+        "action": "unset",
+        "target": "$DV4W"
+      },
+      {
+        "action": "unset",
+        "target": "$MT304"
+      },
+      {
+        "action": "set",
+        "target": "$DV4W",
+        "condition_code": "$MT303",
+        "condition_state": "set"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$DV2W"
+      },
+      {
+        "action": "set",
+        "target": "$DV4W"
+      }
+    ]
+  },
+  "$DV4W": {
+    "code": "$DV4W",
+    "name": "Dual Motor firehjulsdrift",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 0,
+        "context": "default",
+        "set_rules": [
+          {
+            "action": "set",
+            "target": "$DV4W",
+            "target_value": 0,
+            "condition_code": "$MT304",
+            "condition_state": "set",
+            "target_property": "price"
+          }
+        ]
+      }
+    ],
+    "long_name": "Dual Motor firehjulsdrift",
+    "extra_copy": [
+      {
+        "type": "disclaimer[0]",
+        "content": "Varsle meg",
+        "behavior": [
+          {
+            "type": "CONTAINER",
+            "content": {
+              "tag": "span"
+            }
+          },
+          {
+            "type": "ACTION",
+            "content": {
+              "type": "NOTIFY_ME"
+            }
+          }
+        ]
+      },
+      {
+        "type": "disclaimer[1]",
+        "content": " når alternativene med firehjulsdrift og standardbatteri blir tilgjengelige.",
+        "behavior": [
+          {
+            "type": "CONTAINER",
+            "content": {
+              "tag": "span"
+            }
+          }
+        ]
+      },
+      {
+        "type": "price_indicator",
+        "content": "Inkludert"
+      },
+      {
+        "type": "disclaimer_details",
+        "content": "Elektriske, redundante Dual Motors kontrollerer uavhengig dreiemomentet til både for- og bakhjulene for mer kraft og sikkerhet. I det usannsynlige tilfellet at en motor slutter å fungere, kan du stole på den andre. Resultatet er umiddelbar respons og presis antispinn, under alle værforhold."
+      }
+    ],
+    "description": "Dual Motor firehjulsdrift",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "block"
+          }
+        ]
+      },
+      {
+        "type": "delivery",
+        "content": [
+          {
+            "extra": true
+          }
+        ]
+      },
+      {
+        "type": "price_indicator_override",
+        "content": [
+          {
+            "content": "Included",
+            "configuration": [
+              "$MT302"
+            ],
+            "condition_state": "and"
+          }
+        ]
+      }
+    ],
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "set",
+          "target": "$DV2W",
+          "condition_code": "$MT302",
+          "condition_state": "set"
+        },
+        {
+          "action": "set",
+          "target": "$DV2W",
+          "condition_code": "$MT305",
+          "condition_state": "set"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$DV4W"
+      },
+      {
+        "action": "unset",
+        "target": "$DV2W"
+      },
+      {
+        "action": "set",
+        "target": "$DV2W",
+        "condition_code": "$MT302",
+        "condition_state": "set"
+      },
+      {
+        "action": "set",
+        "target": "$DV2W",
+        "condition_code": "$MT305",
+        "condition_state": "set"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$DV4W"
+      },
+      {
+        "action": "set",
+        "target": "$DV2W"
+      }
+    ]
+  },
+  "$MDL3": {
+    "code": "$MDL3",
+    "name": "Model 3",
+    "price": 305400,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 305400,
+        "context": "default"
+      },
+      {
+        "type": "reservation_deposit",
+        "value": 10000,
+        "context": "default"
+      },
+      {
+        "type": "order_payment",
+        "value": 15000,
+        "context": "default"
+      }
+    ],
+    "long_name": "Model 3",
+    "extra_copy": [
+      {
+        "type": "learn_more",
+        "content": "Lær mer om leveringer av Model 3"
+      },
+      {
+        "type": "faq",
+        "content": "Ofte stilte spørsmål om Model 3",
+        "behavior": [
+          {
+            "type": "CONTAINER",
+            "content": {
+              "tag": "a",
+              "props": {
+                "href": "https://www.tesla.com/support/model-3-reservations-faq",
+                "target": "_blank"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "description": "Leveringene begynner i USA baset på bestillingsdatoen og de valgte alternativene.",
+    "extra_content": [
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODEL3/blurcar_trans.png",
+            "type": "image"
+          }
+        ]
+      }
+    ],
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$MDL3"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$MDL3"
+      },
+      {
+        "action": "set",
+        "target": "$MDL3"
+      }
+    ]
+  },
+  "$PBSB": {
+    "code": "$PBSB",
+    "name": "Solid Black",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 0,
+        "context": "default"
+      }
+    ],
+    "long_name": "Solid Black lakk",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Inkludert"
+      }
+    ],
+    "description": "Solid Black",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODEL3/UI/ui_swat_col_pbsb.png",
+            "type": "image"
+          }
+        ]
+      }
+    ],
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$PBSB"
+      },
+      {
+        "action": "unset",
+        "target": "$PMNG"
+      },
+      {
+        "action": "unset",
+        "target": "$PPSB"
+      },
+      {
+        "action": "unset",
+        "target": "$PPSW"
+      },
+      {
+        "action": "unset",
+        "target": "$PPMR"
+      },
+      {
+        "action": "unset",
+        "target": "$PMBL"
+      },
+      {
+        "action": "unset",
+        "target": "$PMSS"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$PBSB"
+      },
+      {
+        "action": "set",
+        "target": "$PBSB",
+        "operator": "and",
+        "condition_code": "$PMNG",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PPSB",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PPSW",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PPMR",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PMBL",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$PMSS",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$PL31": {
+    "code": "$PL31",
+    "name": "Performance-pedaler",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 0,
+        "context": "default"
+      }
+    ],
+    "long_name": "Performance-pedaler",
+    "extra_copy": [
+      {
+        "type": "description",
+        "content": "Designet med lett aluminiumslegering for forbedret interiørstyling"
+      },
+      {
+        "type": "price_indicator",
+        "content": "Inkludert"
+      }
+    ],
+    "description": "Performance-pedaler",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "cardAddon"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "type": "image-compositor",
+            "view": "STUD_DRIVER"
+          }
+        ]
+      }
+    ],
+    "long_description": "Performance Pedals",
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "unset",
+          "target": "$PL31",
+          "condition_code": "$SPT31",
+          "condition_state": "unset"
+        }
+      ],
+      "unset_rules": [
+        {
+          "action": "set",
+          "target": "$PL31",
+          "condition_code": "$SPT31",
+          "condition_state": "set"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$PL31"
+      },
+      {
+        "action": "unset",
+        "target": "$PL31",
+        "condition_code": "$SPT31",
+        "condition_state": "unset"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$PL31"
+      },
+      {
+        "action": "set",
+        "target": "$PL31",
+        "condition_code": "$SPT31",
+        "condition_state": "set"
+      }
+    ]
+  },
+  "$PMBL": {
+    "code": "$PMBL",
+    "name": "Obsidian Black Metallic",
+    "price": 16700,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 16700,
+        "context": "default"
+      }
+    ],
+    "long_name": "Obsidian Black Metallic",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Inkludert"
+      }
+    ],
+    "description": "Obsidian Black Metallic",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODEL3/UI/ui_swat_col_pmbl.png",
+            "type": "image"
+          }
+        ]
+      }
+    ],
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$PMBL"
+      },
+      {
+        "action": "unset",
+        "target": "$PBSB"
+      },
+      {
+        "action": "unset",
+        "target": "$PMNG"
+      },
+      {
+        "action": "unset",
+        "target": "$PPSB"
+      },
+      {
+        "action": "unset",
+        "target": "$PPSW"
+      },
+      {
+        "action": "unset",
+        "target": "$PPMR"
+      },
+      {
+        "action": "unset",
+        "target": "$PMSS"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$PMBL"
+      },
+      {
+        "action": "set",
+        "target": "$PBSB",
+        "operator": "and",
+        "condition_code": "$PMNG",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PPSB",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PPSW",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PPMR",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$PMSS",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$PMNG": {
+    "code": "$PMNG",
+    "name": "Midnight Silver Metallic",
+    "price": 12500,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 12500,
+        "context": "default"
+      }
+    ],
+    "long_name": "Midnight Silver Metallic lakk",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Inkludert"
+      }
+    ],
+    "description": "Midnight Silver Metallic",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODEL3/UI/ui_swat_col_pmng.png",
+            "type": "image"
+          }
+        ]
+      }
+    ],
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$PMNG"
+      },
+      {
+        "action": "unset",
+        "target": "$PBSB"
+      },
+      {
+        "action": "unset",
+        "target": "$PPSB"
+      },
+      {
+        "action": "unset",
+        "target": "$PPSW"
+      },
+      {
+        "action": "unset",
+        "target": "$PPMR"
+      },
+      {
+        "action": "unset",
+        "target": "$PMBL"
+      },
+      {
+        "action": "unset",
+        "target": "$PMSS"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$PMNG"
+      },
+      {
+        "action": "set",
+        "target": "$PBSB",
+        "operator": "and",
+        "condition_code": "$PPSB",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PPSW",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PPMR",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PMBL",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$PMSS",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$PMSS": {
+    "code": "$PMSS",
+    "name": "Silver Metallic",
+    "price": 16700,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 16700,
+        "context": "default"
+      }
+    ],
+    "long_name": "Silver Metallic lakk",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Inkludert"
+      }
+    ],
+    "description": "Silver Metallic",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODEL3/UI/ui_swat_col_pmss.png",
+            "type": "image"
+          }
+        ]
+      }
+    ],
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$PMSS"
+      },
+      {
+        "action": "unset",
+        "target": "$PBSB"
+      },
+      {
+        "action": "unset",
+        "target": "$PMNG"
+      },
+      {
+        "action": "unset",
+        "target": "$PPSB"
+      },
+      {
+        "action": "unset",
+        "target": "$PPSW"
+      },
+      {
+        "action": "unset",
+        "target": "$PPMR"
+      },
+      {
+        "action": "unset",
+        "target": "$PMBL"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$PMSS"
+      },
+      {
+        "action": "set",
+        "target": "$PBSB",
+        "operator": "and",
+        "condition_code": "$PMNG",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PPSB",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PPSW",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PPMR",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$PMBL",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$PPMR": {
+    "code": "$PPMR",
+    "name": "Red Multi-Coat",
+    "price": 20900,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 20900,
+        "context": "default"
+      }
+    ],
+    "long_name": "Red Multi-Coat lakk",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Inkludert"
+      }
+    ],
+    "description": "Red Multi-Coat",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODEL3/UI/ui_swat_col_ppmr.png",
+            "type": "image"
+          }
+        ]
+      }
+    ],
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$PPMR"
+      },
+      {
+        "action": "unset",
+        "target": "$PBSB"
+      },
+      {
+        "action": "unset",
+        "target": "$PMNG"
+      },
+      {
+        "action": "unset",
+        "target": "$PPSB"
+      },
+      {
+        "action": "unset",
+        "target": "$PPSW"
+      },
+      {
+        "action": "unset",
+        "target": "$PMBL"
+      },
+      {
+        "action": "unset",
+        "target": "$PMSS"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$PPMR"
+      },
+      {
+        "action": "set",
+        "target": "$PBSB",
+        "operator": "and",
+        "condition_code": "$PMNG",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PPSB",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PPSW",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PMBL",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$PMSS",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$PPSB": {
+    "code": "$PPSB",
+    "name": "Deep Blue Metallic",
+    "price": 12500,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 12500,
+        "context": "default"
+      }
+    ],
+    "long_name": "Deep Blue Metallic lakk",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Inkludert"
+      }
+    ],
+    "description": "Deep Blue Metallic",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODEL3/UI/ui_swat_col_ppsb.png",
+            "type": "image"
+          }
+        ]
+      }
+    ],
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$PPSB"
+      },
+      {
+        "action": "unset",
+        "target": "$PBSB"
+      },
+      {
+        "action": "unset",
+        "target": "$PMNG"
+      },
+      {
+        "action": "unset",
+        "target": "$PPSW"
+      },
+      {
+        "action": "unset",
+        "target": "$PPMR"
+      },
+      {
+        "action": "unset",
+        "target": "$PMBL"
+      },
+      {
+        "action": "unset",
+        "target": "$PMSS"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$PPSB"
+      },
+      {
+        "action": "set",
+        "target": "$PBSB",
+        "operator": "and",
+        "condition_code": "$PMNG",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PPSW",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PPMR",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PMBL",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$PMSS",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$PPSW": {
+    "code": "$PPSW",
+    "name": "Pearl White Multi-Coat",
+    "price": 16700,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 16700,
+        "context": "default"
+      }
+    ],
+    "long_name": "Pearl White lakk",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Inkludert"
+      }
+    ],
+    "description": "Pearl White",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODEL3/UI/ui_swat_col_ppsw.png",
+            "type": "image"
+          }
+        ]
+      }
+    ],
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$PPSW"
+      },
+      {
+        "action": "unset",
+        "target": "$PBSB"
+      },
+      {
+        "action": "unset",
+        "target": "$PMNG"
+      },
+      {
+        "action": "unset",
+        "target": "$PPSB"
+      },
+      {
+        "action": "unset",
+        "target": "$PPMR"
+      },
+      {
+        "action": "unset",
+        "target": "$PMBL"
+      },
+      {
+        "action": "unset",
+        "target": "$PMSS"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$PPSW"
+      },
+      {
+        "action": "set",
+        "target": "$PBSB",
+        "operator": "and",
+        "condition_code": "$PMNG",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PPSB",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PPMR",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$PMBL",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$PMSS",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$SC04": {
+    "code": "$SC04",
+    "name": "Tilgang til Supercharger-nettverket + Betaling på stedet",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 0,
+        "context": "default"
+      }
+    ],
+    "long_name": "Tilgang til Supercharger-nettverket + Betaling på stedet",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "valgfritt"
+      }
+    ],
+    "description": "Tilgang til Supercharger-nettverket + Betaling på stedet",
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$SC04"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$SC04"
+      }
+    ]
+  },
+  "$SLR1": {
+    "code": "$SLR1",
+    "name": "Karbonfiberspoiler",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 0,
+        "context": "default"
+      }
+    ],
+    "long_name": "Karbonfiberspoiler",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Inkludert"
+      },
+      {
+        "type": "disclaimer",
+        "content": "Karbonfiberspoiler og Dual Motor-skilt vil være tilgjengelig for installasjon etter levering"
+      },
+      {
+        "type": "selectLabel",
+        "content": "Velg alternativ"
+      },
+      {
+        "type": "deselectLabel",
+        "content": "Valgt alternativ"
+      },
+      {
+        "type": "description",
+        "content": "For forbedret aerodynamikk og økt stabilitet ved høye hastigheter"
+      }
+    ],
+    "description": "Karbonfiberspoiler",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "cardAddon"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "type": "image-compositor",
+            "view": "STUD_REAR"
+          }
+        ]
+      }
+    ],
+    "long_description": "Carbon Fiber Spoiler",
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "unset",
+          "target": "$SLR1",
+          "condition_code": "$SPT31",
+          "condition_state": "unset"
+        }
+      ],
+      "unset_rules": [
+        {
+          "action": "set",
+          "target": "$SLR1",
+          "condition_code": "$SPT31",
+          "condition_state": "set"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$SLR1"
+      },
+      {
+        "action": "unset",
+        "target": "$SLR1",
+        "condition_code": "$SPT31",
+        "condition_state": "unset"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$SLR1"
+      },
+      {
+        "action": "set",
+        "target": "$SLR1",
+        "condition_code": "$SPT31",
+        "condition_state": "set"
+      }
+    ]
+  },
+  "$W32P": {
+    "code": "$W32P",
+    "name": "20-tommers Performance-felger",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 0,
+        "context": "default"
+      }
+    ],
+    "long_name": "20-tommers Performance-felger",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Inkludert"
+      }
+    ],
+    "description": "Inkluderer Michelin Pilot Sport 4S`-dekk og senket fjæring for veigrep",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "cardAddon"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "type": "image-compositor",
+            "view": "STUD_WHEEL_PERF"
+          }
+        ]
+      },
+      {
+        "type": "hidden",
+        "content": [
+          {
+            "configuration": [
+              "$MT304"
+            ],
+            "condition_state": "not"
+          }
+        ]
+      }
+    ],
+    "long_description": "20 inch Performance wheels",
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "unset",
+          "target": "$W32P",
+          "condition_code": "$SPT31",
+          "condition_state": "unset"
+        }
+      ],
+      "unset_rules": [
+        {
+          "action": "set",
+          "target": "$W38B",
+          "condition_code": "$MT304",
+          "condition_state": "set"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$W32P"
+      },
+      {
+        "action": "unset",
+        "target": "$W38B"
+      },
+      {
+        "action": "unset",
+        "target": "$W39B"
+      },
+      {
+        "action": "unset",
+        "target": "$W32P",
+        "condition_code": "$SPT31",
+        "condition_state": "unset"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$W32P"
+      },
+      {
+        "action": "set",
+        "target": "$W38B",
+        "condition_code": "$W39B",
+        "condition_state": "unset"
+      },
+      {
+        "action": "set",
+        "target": "$W38B",
+        "condition_code": "$MT304",
+        "condition_state": "set"
+      }
+    ]
+  },
+  "$W38B": {
+    "code": "$W38B",
+    "name": "18-tommers Aero-felger",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 0,
+        "context": "default"
+      }
+    ],
+    "long_name": "18-tommers Aero-felger",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "Inkludert"
+      }
+    ],
+    "description": "18-tommers Aero-felger",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODEL3/UI/opt-wheels-18pinwheel.png",
+            "type": "image"
+          }
+        ]
+      },
+      {
+        "type": "disabled",
+        "content": [
+          {
+            "configuration": [
+              "$SPT31"
+            ],
+            "condition_state": "and"
+          }
+        ]
+      },
+      {
+        "type": "price_indicator_override",
+        "content": [
+          {
+            "content": " ",
+            "configuration": [
+              "$W38B"
+            ],
+            "condition_state": "not"
+          }
+        ]
+      },
+      {
+        "type": "disclaimer_details_override",
+        "content": [
+          {
+            "content": "Oppgrader for 20’’ Performance-felger",
+            "configuration": [
+              "$MT304"
+            ],
+            "condition_state": "and"
+          }
+        ]
+      }
+    ],
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "set",
+          "target": "$W32P",
+          "condition_code": "$SPT31",
+          "condition_state": "set"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$W38B"
+      },
+      {
+        "action": "unset",
+        "target": "$W39B"
+      },
+      {
+        "action": "unset",
+        "target": "$W32P"
+      },
+      {
+        "action": "set",
+        "target": "$W32P",
+        "condition_code": "$SPT31",
+        "condition_state": "set"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$W38B"
+      },
+      {
+        "action": "set",
+        "target": "$W38B",
+        "operator": "and",
+        "condition_code": "$W39B",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$W32P",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$W39B": {
+    "code": "$W39B",
+    "name": "19-tommers Sport-felger",
+    "price": 12500,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 12500,
+        "context": "default"
+      }
+    ],
+    "long_name": "19-tommers Sport-felger",
+    "extra_copy": [
+      {
+        "type": "price_indicator",
+        "content": "valgfritt"
+      }
+    ],
+    "description": "19-tommers Sport-felger",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODEL3/UI/opt-wheels-19stilette.png",
+            "type": "image"
+          }
+        ]
+      },
+      {
+        "type": "hidden",
+        "content": [
+          {
+            "configuration": [
+              "$MT304"
+            ],
+            "condition_state": "and"
+          }
+        ]
+      }
+    ],
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "unset",
+          "target": "$W39B",
+          "condition_code": "$MT304",
+          "condition_state": "set"
+        }
+      ],
+      "unset_rules": [
+        {
+          "action": "set",
+          "target": "$W32P",
+          "condition_code": "$W38B",
+          "condition_state": "unset"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$W39B"
+      },
+      {
+        "action": "unset",
+        "target": "$W38B"
+      },
+      {
+        "action": "unset",
+        "target": "$W32P"
+      },
+      {
+        "action": "unset",
+        "target": "$W39B",
+        "condition_code": "$MT304",
+        "condition_state": "set"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$W39B"
+      },
+      {
+        "action": "set",
+        "target": "$W38B",
+        "condition_code": "$W32P",
+        "condition_state": "unset"
+      },
+      {
+        "action": "set",
+        "target": "$W32P",
+        "condition_code": "$W38B",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$IN3PB": {
+    "code": "$IN3PB",
+    "name": "Alt svart Premium-interiør",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 0,
+        "context": "default"
+      }
+    ],
+    "long_name": "Alt svart Premium-interiør",
+    "extra_copy": [
+      {
+        "type": "name",
+        "content": "Helsvart"
+      },
+      {
+        "type": "price_indicator",
+        "content": "Inkludert"
+      },
+      {
+        "type": "spec_description",
+        "content": "Svart skinninteriør"
+      },
+      {
+        "type": "feature_list.default[0].main_title",
+        "content": "Inkluderer:"
+      },
+      {
+        "type": "feature_list.default[0].items[0]",
+        "content": "Premium oppvarmede sitteplasser med 12-veis, elektrisk justerbare forseter"
+      },
+      {
+        "type": "feature_list.default[0].items[1]",
+        "content": "Midtkonsoll med dekket lagringsplass, 4 USB-porter og dokking for to smarttelefoner"
+      },
+      {
+        "type": "feature_list.default[0].items[2]",
+        "content": "Premium lydsystem"
+      },
+      {
+        "type": "feature_list.default[0].items[3]",
+        "content": "Farget glasstak med ultrafiolett og infrarød beskyttelse"
+      },
+      {
+        "type": "feature_list.default[0].items[4]",
+        "content": "Autodimmende, innfellbare, oppvarmede sidespeil"
+      },
+      {
+        "type": "feature_list.default[0].items[5]",
+        "content": "Egendefinerte førerprofiler"
+      },
+      {
+        "type": "feature_list.default[0].items[6]",
+        "content": "LED-tåkelys"
+      },
+      {
+        "type": "feature_list.default[0].items[7]",
+        "content": "Premium-tilkobling (1 år inkludert):"
+      },
+      {
+        "type": "feature_list.default[0].items[8].sub_items[0]",
+        "content": "Satellittkart med sanntids trafikkvisualisering"
+      },
+      {
+        "type": "feature_list.default[0].items[8].sub_items[1]",
+        "content": "Direkteavspilt media i bilen"
+      },
+      {
+        "type": "feature_list.default[0].items[8].sub_items[2]",
+        "content": "OTA-oppdateringer via trådløst og mobilnettverk"
+      },
+      {
+        "type": "view_details_collapsed",
+        "content": "Vis detaljer",
+        "behavior": [
+          {
+            "type": "ACTION",
+            "content": {
+              "type": "FEATURES_LIST_EXPAND",
+              "props": {
+                "options": [
+                  "$IN3PB"
+                ]
+              },
+              "classNames": [
+                "tsla-view-more",
+                "tsla-view-more--collapsed"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "view_details_expanded",
+        "content": "Skjul detaljer",
+        "behavior": [
+          {
+            "type": "ACTION",
+            "content": {
+              "type": "FEATURES_LIST_COLLAPSE",
+              "props": {
+                "options": [
+                  "$IN3PB"
+                ]
+              },
+              "classNames": [
+                "tsla-view-more",
+                "tsla-view-more--expanded"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "description": "Alt svart Premium-interiør",
+    "extra_content": [
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODEL3/UI/ui_swat_int_in3pb.png",
+            "type": "image"
+          }
+        ]
+      },
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      },
+      {
+        "type": "hidden",
+        "content": [
+          {
+            "configuration": [
+              "$PRM31"
+            ],
+            "condition_state": "not"
+          }
+        ]
+      }
+    ],
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$IN3PB"
+      },
+      {
+        "action": "unset",
+        "target": "$IN3PW"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$IN3PB"
+      },
+      {
+        "action": "set",
+        "target": "$IN3PW"
+      }
+    ]
+  },
+  "$IN3PW": {
+    "code": "$IN3PW",
+    "name": "Svart og hvitt Premium-interiør",
+    "price": 8400,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 8400,
+        "context": "default"
+      }
+    ],
+    "long_name": "Svart og hvitt Premium-interiør",
+    "extra_copy": [
+      {
+        "type": "name",
+        "content": "Svart og hvitt"
+      },
+      {
+        "type": "price_indicator",
+        "content": "Inkludert"
+      },
+      {
+        "type": "recommended",
+        "content": "Anbefalt",
+        "behavior": [
+          {
+            "type": "ACTION",
+            "content": {
+              "type": "SHOW_INTERIOR_MODAL",
+              "props": {
+                "content_path": "OMS.lexicon.options.$IN3PW.recommended_content"
+              },
+              "classNames": [
+                "tsla-recommended"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "recommended_content",
+        "content": "Svart og hvitt interiør er det mest slitesterke alternativet tilgjengelig for øyeblikket, laget av flekkbestandig materiale som er enkelt å rengjøre."
+      },
+      {
+        "type": "spec_description",
+        "content": "Hvitt skinninteriør"
+      },
+      {
+        "type": "feature_list.default[0].main_title",
+        "content": "Inkluderer:"
+      },
+      {
+        "type": "feature_list.default[0].items[0]",
+        "content": "Premium oppvarmede sitteplasser med 12-veis, elektrisk justerbare forseter"
+      },
+      {
+        "type": "feature_list.default[0].items[1]",
+        "content": "Midtkonsoll med dekket lagringsplass, 4 USB-porter og dokking for to smarttelefoner"
+      },
+      {
+        "type": "feature_list.default[0].items[2]",
+        "content": "Premium lydsystem"
+      },
+      {
+        "type": "feature_list.default[0].items[3]",
+        "content": "Farget glasstak med ultrafiolett og infrarød beskyttelse"
+      },
+      {
+        "type": "feature_list.default[0].items[4]",
+        "content": "Autodimmende, innfellbare, oppvarmede sidespeil"
+      },
+      {
+        "type": "feature_list.default[0].items[5]",
+        "content": "Egendefinerte førerprofiler"
+      },
+      {
+        "type": "feature_list.default[0].items[6]",
+        "content": "LED-tåkelys"
+      },
+      {
+        "type": "feature_list.default[0].items[7]",
+        "content": "Premium-tilkobling (1 år inkludert):"
+      },
+      {
+        "type": "feature_list.default[0].items[8].sub_items[0]",
+        "content": "Satellittkart med sanntids trafikkvisualisering"
+      },
+      {
+        "type": "feature_list.default[0].items[8].sub_items[1]",
+        "content": "Direkteavspilt media i bilen"
+      },
+      {
+        "type": "feature_list.default[0].items[8].sub_items[2]",
+        "content": "OTA-oppdateringer via trådløst og mobilnettverk"
+      },
+      {
+        "type": "view_details_collapsed",
+        "content": "Vis detaljer",
+        "behavior": [
+          {
+            "type": "ACTION",
+            "content": {
+              "type": "FEATURES_LIST_EXPAND",
+              "props": {
+                "options": [
+                  "$IN3PW"
+                ]
+              },
+              "classNames": [
+                "tsla-view-more",
+                "tsla-view-more--collapsed"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "view_details_expanded",
+        "content": "Skjul detaljer",
+        "behavior": [
+          {
+            "type": "ACTION",
+            "content": {
+              "type": "FEATURES_LIST_COLLAPSE",
+              "props": {
+                "options": [
+                  "$IN3PW"
+                ]
+              },
+              "classNames": [
+                "tsla-view-more",
+                "tsla-view-more--expanded"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "description": "Svart og hvitt Premium-interiør",
+    "extra_content": [
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODEL3/UI/ui_swat_int_white.png",
+            "type": "image"
+          }
+        ]
+      },
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      },
+      {
+        "type": "delivery",
+        "content": [
+          {
+            "extra": true
+          }
+        ]
+      }
+    ],
+    "user_defined_rules": {
+      "set_rules": []
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$IN3PW"
+      },
+      {
+        "action": "unset",
+        "target": "$IN3PB"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$IN3PW"
+      },
+      {
+        "action": "set",
+        "target": "$IN3PB"
+      }
+    ]
+  },
+  "$MT302": {
+    "code": "$MT302",
+    "name": "Long Range-bakhjuldsdrift",
+    "price": 120300,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 120300,
+        "context": "default"
+      }
+    ],
+    "long_name": "Long Range-bakhjuldsdrift",
+    "extra_copy": [
+      {
+        "type": "name",
+        "content": "Bakhjulsdrift"
+      },
+      {
+        "type": "compare_matrix.block[0].label",
+        "content": "Akselerasjon"
+      },
+      {
+        "type": "compare_matrix.block[0].content",
+        "content": "3.5s 0-60mph"
+      },
+      {
+        "type": "compare_matrix.block[1].label",
+        "content": "Kjør"
+      },
+      {
+        "type": "compare_matrix.block[1].content",
+        "content": "Dual Motor-firehjulsdrift"
+      },
+      {
+        "type": "long_name",
+        "content": "Model 3 – Long Range-bakhjuldsdrift"
+      }
+    ],
+    "description": "Model 3 – Long Range-bakhjulsdrift",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "block"
+          }
+        ]
+      },
+      {
+        "type": "price_indicator_override",
+        "content": [
+          {
+            "content": "kr. 436.100",
+            "configuration": [
+              "$MDL3"
+            ],
+            "condition_state": "and"
+          }
+        ]
+      }
+    ],
+    "long_description": "Model 3 Long Range RWD",
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "set",
+          "target": "$DV2W"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$MT302"
+      },
+      {
+        "action": "unset",
+        "target": "$MT303"
+      },
+      {
+        "action": "unset",
+        "target": "$MT304"
+      },
+      {
+        "action": "unset",
+        "target": "$MT305"
+      },
+      {
+        "action": "set",
+        "target": "$DV2W"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$MT302"
+      },
+      {
+        "action": "set",
+        "target": "$MT303",
+        "operator": "and",
+        "condition_code": "$MT304",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$MT305",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$MT303": {
+    "code": "$MT303",
+    "name": "Long Range firehjulsdrift",
+    "price": 149300,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 149300,
+        "context": "default"
+      }
+    ],
+    "long_name": "Long Range firehjulsdrift",
+    "extra_copy": [
+      {
+        "type": "name",
+        "content": "Dual Motor firehjulsdrift"
+      },
+      {
+        "type": "disclaimer_details",
+        "content": "Teslas firehjulsdrift har to uavhengige motorer. Til forskjell fra tradisjonell firehjulsdrift kontrollerer disse to motorene digitalt dreiemomentet til for- og bakhjulene — For langt bedre veigrep og fremkommelighet. Bilen kan kjøre med hvilken som helst av motorene, slik at du ikke behøver å bekymre de for å bli stående på veien. Hvis en motor slutter å fungere, kan du trygt fortsette til målet med den andre."
+      },
+      {
+        "type": "long_name",
+        "content": "Model 3 Long Range firehjulsdrift"
+      }
+    ],
+    "description": "Model 3 Long Range firehjulsdrift",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "block"
+          }
+        ]
+      },
+      {
+        "type": "price_indicator_override",
+        "content": [
+          {
+            "content": "kr. 454.700",
+            "configuration": [
+              "$MDL3"
+            ],
+            "condition_state": "and"
+          }
+        ]
+      }
+    ],
+    "long_description": "Model 3 Long Range AWD",
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "set",
+          "target": "$DV4W"
+        },
+        {
+          "action": "set",
+          "target": "$W3WN8",
+          "operator": "or",
+          "condition_code": "$W3WN2",
+          "condition_state": "set"
+        },
+        {
+          "condition_code": "$W3WE2",
+          "condition_state": "set"
+        },
+        {
+          "action": "unset",
+          "target": "$W3WN2"
+        },
+        {
+          "action": "unset",
+          "target": "$W3WE2"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$MT303"
+      },
+      {
+        "action": "unset",
+        "target": "$MT302"
+      },
+      {
+        "action": "unset",
+        "target": "$MT304"
+      },
+      {
+        "action": "unset",
+        "target": "$MT305"
+      },
+      {
+        "action": "set",
+        "target": "$DV4W"
+      },
+      {
+        "action": "set",
+        "target": "$W3WN8",
+        "operator": "or",
+        "condition_code": "$W3WN2",
+        "condition_state": "set"
+      },
+      {
+        "condition_code": "$W3WE2",
+        "condition_state": "set"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WN2"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WE2"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$MT303"
+      },
+      {
+        "action": "set",
+        "target": "$MT303",
+        "operator": "and",
+        "condition_code": "$MT302",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$MT304",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$MT305",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$MT304": {
+    "code": "$MT304",
+    "name": "Performance – Long Range firehjulsdrift",
+    "price": 240600,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 240600,
+        "context": "default"
+      }
+    ],
+    "long_name": "Performance – Long Range firehjulsdrift",
+    "extra_copy": [
+      {
+        "type": "name",
+        "content": "Dual Motor firehjulsdrift"
+      },
+      {
+        "type": "price_indicator",
+        "content": "Valgfritt"
+      },
+      {
+        "type": "description.main_title[0]",
+        "content": "Model 3 Performance inkluderer:"
+      },
+      {
+        "type": "description.items[0]",
+        "content": "Raskere akselerasjon: 0–100 km/t på 3,5 s"
+      },
+      {
+        "type": "description.items[1]",
+        "content": "Topphastighet: opptil 250 km/t"
+      },
+      {
+        "type": "description.items[2]",
+        "content": "Ytterligere oppgraderinger, eksklusivt for Performance"
+      },
+      {
+        "type": "compare_matrix.block[0].label",
+        "content": "Akselerasjon"
+      },
+      {
+        "type": "compare_matrix.block[0].content",
+        "content": "3,5s 0-100km/t"
+      },
+      {
+        "type": "compare_matrix.block[1].label",
+        "content": "Kjør"
+      },
+      {
+        "type": "compare_matrix.block[1].content",
+        "content": "Dual Motor-firehjulsdrift"
+      },
+      {
+        "type": "disclaimer_details",
+        "content": "Teslas firehjulsdrift har to uavhengige motorer. Til forskjell fra tradisjonell firehjulsdrift kontrollerer disse to motorene digitalt dreiemomentet til for- og bakhjulene — For langt bedre veigrep og fremkommelighet. Bilen kan kjøre med hvilken som helst av motorene, slik at du ikke behøver å bekymre de for å bli stående på veien. Hvis en motor slutter å fungere, kan du trygt fortsette til målet med den andre."
+      },
+      {
+        "type": "long_name",
+        "content": "Model 3 Performance – Dual Motor med firehjulsdrift"
+      }
+    ],
+    "description": "Model 3 Performance firehjulsdrift",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "block"
+          }
+        ]
+      },
+      {
+        "type": "delivery",
+        "content": [
+          {
+            "extra": true
+          }
+        ]
+      },
+      {
+        "type": "price_indicator_override",
+        "content": [
+          {
+            "content": "kr. 546.000",
+            "configuration": [
+              "$MDL3"
+            ],
+            "condition_state": "and"
+          }
+        ]
+      }
+    ],
+    "long_description": "Model 3 Performance AWD",
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "set",
+          "target": "$DV4W"
+        },
+        {
+          "action": "set",
+          "target": "$PRM31"
+        },
+        {
+          "action": "set",
+          "target": "$SPT31"
+        },
+        {
+          "action": "set",
+          "target": "$W3WN2",
+          "operator": "or",
+          "condition_code": "$W3WN8",
+          "condition_state": "set"
+        },
+        {
+          "operator": "or",
+          "condition_code": "$W3WN9",
+          "condition_state": "set"
+        },
+        {
+          "operator": "or",
+          "condition_code": "$W3SN8",
+          "condition_state": "set"
+        },
+        {
+          "operator": "or",
+          "condition_code": "$W3SN9",
+          "condition_state": "set"
+        },
+        {
+          "operator": "or",
+          "condition_code": "$W3WE8",
+          "condition_state": "set"
+        },
+        {
+          "operator": "or",
+          "condition_code": "$W3WE2",
+          "condition_state": "set"
+        },
+        {
+          "condition_code": "$W3WE9",
+          "condition_state": "set"
+        },
+        {
+          "action": "unset",
+          "target": "$W3WN8"
+        },
+        {
+          "action": "unset",
+          "target": "$W3WN9"
+        },
+        {
+          "action": "unset",
+          "target": "$W3SN8"
+        },
+        {
+          "action": "unset",
+          "target": "$W3SN9"
+        },
+        {
+          "action": "unset",
+          "target": "$W3WE8"
+        },
+        {
+          "action": "unset",
+          "target": "$W3WE9"
+        },
+        {
+          "action": "unset",
+          "target": "$W3WE2"
+        }
+      ],
+      "unset_rules": [
+        {
+          "action": "unset",
+          "target": "$SPT31"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$MT304"
+      },
+      {
+        "action": "unset",
+        "target": "$MT302"
+      },
+      {
+        "action": "unset",
+        "target": "$MT303"
+      },
+      {
+        "action": "unset",
+        "target": "$MT305"
+      },
+      {
+        "action": "set",
+        "target": "$DV4W"
+      },
+      {
+        "action": "set",
+        "target": "$PRM31"
+      },
+      {
+        "action": "set",
+        "target": "$SPT31"
+      },
+      {
+        "action": "set",
+        "target": "$W3WN2",
+        "operator": "or",
+        "condition_code": "$W3WN8",
+        "condition_state": "set"
+      },
+      {
+        "operator": "or",
+        "condition_code": "$W3WN9",
+        "condition_state": "set"
+      },
+      {
+        "operator": "or",
+        "condition_code": "$W3SN8",
+        "condition_state": "set"
+      },
+      {
+        "operator": "or",
+        "condition_code": "$W3SN9",
+        "condition_state": "set"
+      },
+      {
+        "operator": "or",
+        "condition_code": "$W3WE8",
+        "condition_state": "set"
+      },
+      {
+        "operator": "or",
+        "condition_code": "$W3WE2",
+        "condition_state": "set"
+      },
+      {
+        "condition_code": "$W3WE9",
+        "condition_state": "set"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WN8"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WN9"
+      },
+      {
+        "action": "unset",
+        "target": "$W3SN8"
+      },
+      {
+        "action": "unset",
+        "target": "$W3SN9"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WE8"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WE9"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WE2"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$MT304"
+      },
+      {
+        "action": "set",
+        "target": "$MT303",
+        "operator": "and",
+        "condition_code": "$MT302",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$MT305",
+        "condition_state": "unset"
+      },
+      {
+        "action": "unset",
+        "target": "$SPT31"
+      }
+    ]
+  },
+  "$MT305": {
+    "code": "$MT305",
+    "name": "Mid Range-bakhjulsdrift",
+    "price": 11000,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 11000,
+        "context": "default"
+      }
+    ],
+    "long_name": "Mid Range-bakhjulsdrift",
+    "extra_copy": [
+      {
+        "type": "name",
+        "content": "Bakhjulsdrift"
+      },
+      {
+        "type": "compare_matrix.block[0].label",
+        "content": "Akselerasjon"
+      },
+      {
+        "type": "compare_matrix.block[0].content",
+        "content": "3.3s 0-60mph"
+      },
+      {
+        "type": "compare_matrix.block[1].label",
+        "content": "Kjør"
+      },
+      {
+        "type": "compare_matrix.block[1].content",
+        "content": "Dual Motor-firehjulsdrift"
+      },
+      {
+        "type": "long_name",
+        "content": "Model 3 Mid Range-bakhjulsdrift"
+      }
+    ],
+    "description": "Model 3 Mid Range-bakhjulsdrift",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "block"
+          }
+        ]
+      },
+      {
+        "type": "price_indicator_override",
+        "content": [
+          {
+            "content": "$46,000",
+            "configuration": [
+              "$MDL3"
+            ],
+            "condition_state": "and"
+          }
+        ]
+      },
+      {
+        "type": "option_price_override",
+        "content": [
+          {
+            "content": 46000,
+            "configuration": [
+              "$MDL3"
+            ],
+            "condition_state": "and"
+          }
+        ]
+      }
+    ],
+    "long_description": "Model 3 Mid Range RWD",
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "set",
+          "target": "$DV2W"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$MT305"
+      },
+      {
+        "action": "unset",
+        "target": "$MT302"
+      },
+      {
+        "action": "unset",
+        "target": "$MT303"
+      },
+      {
+        "action": "unset",
+        "target": "$MT304"
+      },
+      {
+        "action": "set",
+        "target": "$DV2W"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$MT305"
+      },
+      {
+        "action": "set",
+        "target": "$MT303",
+        "operator": "and",
+        "condition_code": "$MT302",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$MT304",
+        "condition_state": "unset"
+      }
+    ]
+  },
+  "$PRM31": {
+    "code": "$PRM31",
+    "name": "Premium interiør",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 0,
+        "context": "default",
+        "set_rules": [
+          {
+            "action": "set",
+            "target": "$PRM31",
+            "target_value": 0,
+            "condition_code": "$MT304",
+            "condition_state": "set",
+            "target_property": "price"
+          }
+        ]
+      }
+    ],
+    "long_name": "Premium interiør",
+    "extra_copy": [
+      {
+        "type": "name",
+        "content": "Premium"
+      },
+      {
+        "type": "price_indicator",
+        "content": "Inkludert"
+      },
+      {
+        "type": "short_description",
+        "content": "Premium-pakken legger til oppgraderte funksjoner gjennom Model 3"
+      }
+    ],
+    "description": "<p>Oppgradere interiøret med flere funksjoner og førsteklasses materialer.</p><ul><li><span>Premium oppvarmede seter og kabinmaterialer i hele interiøret, inkludert tredekor, glasstak og fire USB-porter</span></li><li><span>12-veis, elektrisk regulerbare forseter, ratt og sidespeil, med tilpassede førerprofiler</span></li><li><span>Kraftigere premium lydsystem, diskanthøyttalere, surround-høyttalere og subwoofer</span></li></ul>",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "block"
+          }
+        ]
+      },
+      {
+        "type": "price_indicator_override",
+        "content": [
+          {
+            "content": "$1,500",
+            "configuration": [
+              "$IN3PW"
+            ],
+            "condition_state": "and"
+          }
+        ]
+      }
+    ],
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "set",
+          "target": "$IN3PB"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$PRM31"
+      },
+      {
+        "action": "set",
+        "target": "$IN3PB"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$PRM31"
+      },
+      {
+        "action": "set",
+        "target": "$PRM31"
+      }
+    ]
+  },
+  "$SPT31": {
+    "code": "$SPT31",
+    "name": "Performance-oppgradering",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 0,
+        "context": "default"
+      }
+    ],
+    "long_name": "Performance-oppgradering",
+    "extra_copy": [
+      {
+        "type": "selectLabel",
+        "content": "Velg alternativ"
+      },
+      {
+        "type": "price_indicator",
+        "content": "Inkludert"
+      },
+      {
+        "type": "deselectLabel",
+        "content": "Valgt alternativ"
+      },
+      {
+        "type": "feature_list.default[0].items[0]",
+        "content": "20-tommers Performance-felger"
+      },
+      {
+        "type": "feature_list.default[0].items[1]",
+        "content": "Performance-bremser"
+      },
+      {
+        "type": "feature_list.default[0].items[2]",
+        "content": "Spoiler i karbonfiber"
+      },
+      {
+        "type": "feature_list.default[0].items[3]",
+        "content": "Senket fjæring"
+      },
+      {
+        "type": "feature_list.default[0].items[4]",
+        "content": "Aluminiumslegerte pedaler"
+      },
+      {
+        "type": "feature_list.default[0].items[5]",
+        "content": "Økt topphastighet fra 233 km/t til 250 km/t"
+      },
+      {
+        "type": "feature_list.default[0].items[6]",
+        "content": "Track Mode"
+      }
+    ],
+    "description": "Performance-oppgradering",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "checkbox"
+          }
+        ]
+      },
+      {
+        "type": "action",
+        "content": [
+          {
+            "type": "hero-update",
+            "view": "STUD_3QTR"
+          }
+        ]
+      }
+    ],
+    "long_description": "Performance Upgrade",
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "set",
+          "target": "$W32P"
+        },
+        {
+          "action": "set",
+          "target": "$SLR1"
+        },
+        {
+          "action": "set",
+          "target": "$PL31"
+        },
+        {
+          "action": "unset",
+          "target": "$SPT31",
+          "condition_code": "$MT304",
+          "condition_state": "unset"
+        },
+        {
+          "action": "set",
+          "target": "$BC3R"
+        }
+      ],
+      "unset_rules": [
+        {
+          "action": "unset",
+          "target": "$W32P"
+        },
+        {
+          "action": "unset",
+          "target": "$SLR1"
+        },
+        {
+          "action": "unset",
+          "target": "$PL31"
+        },
+        {
+          "action": "unset",
+          "target": "$BC3R"
+        },
+        {
+          "action": "set",
+          "target": "$SPT31",
+          "condition_code": "$MT304",
+          "condition_state": "set"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$SPT31"
+      },
+      {
+        "action": "set",
+        "target": "$W32P"
+      },
+      {
+        "action": "set",
+        "target": "$SLR1"
+      },
+      {
+        "action": "set",
+        "target": "$PL31"
+      },
+      {
+        "action": "unset",
+        "target": "$SPT31",
+        "condition_code": "$MT304",
+        "condition_state": "unset"
+      },
+      {
+        "action": "set",
+        "target": "$BC3R"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$SPT31"
+      },
+      {
+        "action": "unset",
+        "target": "$W32P"
+      },
+      {
+        "action": "unset",
+        "target": "$SLR1"
+      },
+      {
+        "action": "unset",
+        "target": "$PL31"
+      },
+      {
+        "action": "unset",
+        "target": "$BC3R"
+      },
+      {
+        "action": "set",
+        "target": "$SPT31",
+        "condition_code": "$MT304",
+        "condition_state": "set"
+      }
+    ]
+  },
+  "$W3SN8": {
+    "code": "$W3SN8",
+    "name": "18'' Nokian-vinterdekksett (pigg)",
+    "price": 19450,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 19450,
+        "context": "default"
+      }
+    ],
+    "long_name": "18'' Nokian-vinterdekk (pigg) med Aero-felger",
+    "extra_copy": [
+      {
+        "type": "short_description",
+        "content": "Nokian Hakkapeliitta 9-dekk (pigg), spesialdesignet for nordiske vinterforhold, med innebygde støtdempere som minimerer motstanden til piggene på veioverflaten. Dette reduserer både kabinstøyen og slitasjen. Dette settet inkluderer fire 18'' Aero-felger med påmonterte dekk."
+      }
+    ],
+    "description": "Nokian Hakkapeliitta 9-dekk (pigg), spesialdesignet for nordiske vinterforhold, med innebygde støtdempere som minimerer motstanden til piggene på veioverflaten. Dette reduserer både kabinstøyen og slitasjen. Dette settet inkluderer fire 18'' Aero-felger med påmonterte dekk.",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      },
+      {
+        "type": "disabled",
+        "content": [
+          {
+            "content": true,
+            "configuration": [
+              "$W3SN8"
+            ],
+            "condition_state": "and"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODEL3/UI/ui-option-selector-studded-wheels.png",
+            "type": "image"
+          }
+        ]
+      },
+      {
+        "type": "hidden",
+        "content": [
+          {
+            "configuration": [
+              "$WIN31",
+              "$MT303"
+            ],
+            "condition_state": "not"
+          }
+        ]
+      }
+    ],
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "unset",
+          "target": "$W3SN8",
+          "condition_code": "$MT304",
+          "condition_state": "set"
+        },
+        {
+          "action": "unset",
+          "target": "$W3WN9"
+        },
+        {
+          "action": "unset",
+          "target": "$W3SN9"
+        },
+        {
+          "action": "unset",
+          "target": "$W3WN8"
+        },
+        {
+          "action": "unset",
+          "target": "$W3WE8"
+        },
+        {
+          "action": "unset",
+          "target": "$W3WE9"
+        }
+      ]
+    },
+    "after_delivery_price": 19450,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$W3SN8"
+      },
+      {
+        "action": "unset",
+        "target": "$W3SN8",
+        "condition_code": "$MT304",
+        "condition_state": "set"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WN9"
+      },
+      {
+        "action": "unset",
+        "target": "$W3SN9"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WN8"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WE8"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WE9"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$W3SN8"
+      }
+    ]
+  },
+  "$W3SN9": {
+    "code": "$W3SN9",
+    "name": "19'' Nokian-vinterdekksett (pigg)",
+    "price": 34050,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 34050,
+        "context": "default"
+      }
+    ],
+    "long_name": "19'' Nokian-vinterdekk (piggfri) med Sport-felger",
+    "extra_copy": [
+      {
+        "type": "short_description",
+        "content": "Nokian Hakkapeliitta 9-dekk (pigg), spesialdesignet for nordiske vinterforhold, med innebygde støtdempere som minimerer motstanden til piggene på veioverflaten. Dette reduserer både kabinstøyen og slitasjen. Dette settet inkluderer 19'' Sport-felger med påmonterte dekk."
+      }
+    ],
+    "description": "Nokian Hakkapeliitta 9-dekk (pigg), spesialdesignet for nordiske vinterforhold, med innebygde støtdempere som minimerer motstanden til piggene på veioverflaten. Dette reduserer både kabinstøyen og slitasjen. Dette settet inkluderer 19'' Sport-felger med påmonterte dekk.",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      },
+      {
+        "type": "disabled",
+        "content": [
+          {
+            "content": true,
+            "configuration": [
+              "$W3SN9"
+            ],
+            "condition_state": "and"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODEL3/UI/ui-option-selector-studded-wheels.png",
+            "type": "image"
+          }
+        ]
+      },
+      {
+        "type": "hidden",
+        "content": [
+          {
+            "configuration": [
+              "$WIN31",
+              "$MT303"
+            ],
+            "condition_state": "not"
+          }
+        ]
+      }
+    ],
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "unset",
+          "target": "$W3SN9",
+          "condition_code": "$MT304",
+          "condition_state": "set"
+        },
+        {
+          "action": "unset",
+          "target": "$W3SN8"
+        },
+        {
+          "action": "unset",
+          "target": "$W3WN8"
+        },
+        {
+          "action": "unset",
+          "target": "$W3WN9"
+        },
+        {
+          "action": "unset",
+          "target": "$W3WE8"
+        },
+        {
+          "action": "unset",
+          "target": "$W3WE9"
+        }
+      ]
+    },
+    "after_delivery_price": 34050,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$W3SN9"
+      },
+      {
+        "action": "unset",
+        "target": "$W3SN9",
+        "condition_code": "$MT304",
+        "condition_state": "set"
+      },
+      {
+        "action": "unset",
+        "target": "$W3SN8"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WN8"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WN9"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WE8"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WE9"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$W3SN9"
+      }
+    ]
+  },
+  "$W3WE2": {
+    "code": "$W3WE2",
+    "name": "20'' Pirelli-vinterdekksett",
+    "price": 38900,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 38900,
+        "context": "default"
+      }
+    ],
+    "long_name": "20'' Pirelli-vinterdekk med Performance-felger",
+    "extra_copy": [
+      {
+        "type": "short_description",
+        "content": "Pirelli Sottozero 3-vinterdekk kombinerer både lav rullemotstand og godt grep på snødekte veier. Dette settet inkluderer fire 20'' Performance-felger med påmonterte dekk."
+      }
+    ],
+    "description": "Pirelli Sottozero 3-vinterdekk kombinerer både lav rullemotstand og godt grep på snødekte veier. Dette settet inkluderer fire 20'' Performance-felger med påmonterte dekk.",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODEL3/UI/Sottozero-Selector@3x.png",
+            "type": "image"
+          }
+        ]
+      },
+      {
+        "type": "disabled",
+        "content": [
+          {
+            "content": true,
+            "configuration": [
+              "$W3WE2"
+            ],
+            "condition_state": "and"
+          }
+        ]
+      },
+      {
+        "type": "hidden",
+        "content": [
+          {
+            "configuration": [
+              "$WIN31",
+              "$MT304"
+            ],
+            "condition_state": "not"
+          }
+        ]
+      }
+    ],
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "unset",
+          "target": "$W3WE2",
+          "condition_code": "$MT304",
+          "condition_state": "unset"
+        },
+        {
+          "action": "unset",
+          "target": "$W3WN2"
+        }
+      ]
+    },
+    "after_delivery_price": 38900,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$W3WE2"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WE2",
+        "condition_code": "$MT304",
+        "condition_state": "unset"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WN2"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$W3WE2"
+      }
+    ]
+  },
+  "$W3WE8": {
+    "code": "$W3WE8",
+    "name": "18'' Pirelli-vinterdekksett",
+    "price": 19450,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 19450,
+        "context": "default"
+      }
+    ],
+    "long_name": "18'' Pirelli-vinterdekk med Aero-felger",
+    "extra_copy": [
+      {
+        "type": "short_description",
+        "content": "Pirelli Sottozero 3-vinterdekk kombinerer både lav rullemotstand og godt grep på snødekte veier. Dette settet inkluderer fire 18'' Aero-felger med påmonterte dekk."
+      }
+    ],
+    "description": "Pirelli Sottozero 3-vinterdekk kombinerer både lav rullemotstand og godt grep på snødekte veier. Dette settet inkluderer fire 18'' Aero-felger med påmonterte dekk.",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      },
+      {
+        "type": "disabled",
+        "content": [
+          {
+            "content": true,
+            "configuration": [
+              "$W3WE8"
+            ],
+            "condition_state": "and"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODEL3/UI/Sottozero-Selector@3x.png",
+            "type": "image"
+          }
+        ]
+      },
+      {
+        "type": "hidden",
+        "content": [
+          {
+            "configuration": [
+              "$WIN31",
+              "$MT303"
+            ],
+            "condition_state": "not"
+          }
+        ]
+      }
+    ],
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "unset",
+          "target": "$W3WE8",
+          "condition_code": "$MT304",
+          "condition_state": "set"
+        },
+        {
+          "action": "unset",
+          "target": "$W3WE9"
+        },
+        {
+          "action": "unset",
+          "target": "$W3WN8"
+        },
+        {
+          "action": "unset",
+          "target": "$W3SN8"
+        },
+        {
+          "action": "unset",
+          "target": "$W3SN9"
+        },
+        {
+          "action": "unset",
+          "target": "$W3WN9"
+        }
+      ]
+    },
+    "after_delivery_price": 19450,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$W3WE8"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WE8",
+        "condition_code": "$MT304",
+        "condition_state": "set"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WE9"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WN8"
+      },
+      {
+        "action": "unset",
+        "target": "$W3SN8"
+      },
+      {
+        "action": "unset",
+        "target": "$W3SN9"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WN9"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$W3WE8"
+      }
+    ]
+  },
+  "$W3WE9": {
+    "code": "$W3WE9",
+    "name": "19'' Pirelli-vinterdekksett",
+    "price": 34050,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 34050,
+        "context": "default"
+      }
+    ],
+    "long_name": "19'' Pirelli-vinterdekk med Sport-felger",
+    "extra_copy": [
+      {
+        "type": "short_description",
+        "content": "Pirelli Sottozero 3-vinterdekk kombinerer både lav rullemotstand og godt grep på snødekte veier. Dette settet inkluderer fire 19'' Sport-felger med påmonterte dekk."
+      }
+    ],
+    "description": "Pirelli Sottozero 3-vinterdekk kombinerer både lav rullemotstand og godt grep på snødekte veier. Dette settet inkluderer fire 19'' Sport-felger med påmonterte dekk.",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      },
+      {
+        "type": "disabled",
+        "content": [
+          {
+            "content": true,
+            "configuration": [
+              "$W3WE9"
+            ],
+            "condition_state": "and"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODEL3/UI/Sottozero-Selector@3x.png",
+            "type": "image"
+          }
+        ]
+      },
+      {
+        "type": "hidden",
+        "content": [
+          {
+            "configuration": [
+              "$WIN31",
+              "$MT303"
+            ],
+            "condition_state": "not"
+          }
+        ]
+      }
+    ],
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "unset",
+          "target": "$W3WE9",
+          "condition_code": "$MT304",
+          "condition_state": "set"
+        },
+        {
+          "action": "unset",
+          "target": "$W3WE8"
+        },
+        {
+          "action": "unset",
+          "target": "$W3WN8"
+        },
+        {
+          "action": "unset",
+          "target": "$W3SN8"
+        },
+        {
+          "action": "unset",
+          "target": "$W3SN9"
+        },
+        {
+          "action": "unset",
+          "target": "$W3WN9"
+        }
+      ]
+    },
+    "after_delivery_price": 34050,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$W3WE9"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WE9",
+        "condition_code": "$MT304",
+        "condition_state": "set"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WE8"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WN8"
+      },
+      {
+        "action": "unset",
+        "target": "$W3SN8"
+      },
+      {
+        "action": "unset",
+        "target": "$W3SN9"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WN9"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$W3WE9"
+      }
+    ]
+  },
+  "$W3WN2": {
+    "code": "$W3WN2",
+    "name": "20'' Nokian-vinterdekksett (piggfri)",
+    "price": 38900,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 38900,
+        "context": "default"
+      }
+    ],
+    "long_name": "20'' Nokian-vinterdekk (piggfri) med Performance-felger",
+    "extra_copy": [
+      {
+        "type": "short_description",
+        "content": "Nokian Hakkapeliitta R3-vinterdekk (piggfri), spesialdesignet for nordiske vinterforhold, har små, miljøvennlige krystaller i gummien for forbedret grep på snødekte veier. Dette settet inkluderer 20'' Performance-felger med påmonterte dekk."
+      }
+    ],
+    "description": "Nokian Hakkapeliitta R3-vinterdekk (piggfri), spesialdesignet for nordiske vinterforhold, har små, miljøvennlige krystaller i gummien for forbedret grep på snødekte veier. Dette settet inkluderer 20'' Performance-felger med påmonterte dekk.",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      },
+      {
+        "type": "disabled",
+        "content": [
+          {
+            "content": true,
+            "configuration": [
+              "$W3WN2"
+            ],
+            "condition_state": "and"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODEL3/UI/Nokian-Selector@3x.png",
+            "type": "image"
+          }
+        ]
+      },
+      {
+        "type": "hidden",
+        "content": [
+          {
+            "configuration": [
+              "$WIN31",
+              "$MT304"
+            ],
+            "condition_state": "not"
+          }
+        ]
+      }
+    ],
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "unset",
+          "target": "$W3WN2",
+          "condition_code": "$MT304",
+          "condition_state": "unset"
+        },
+        {
+          "action": "unset",
+          "target": "$W3WE2"
+        }
+      ]
+    },
+    "after_delivery_price": 38900,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$W3WN2"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WN2",
+        "condition_code": "$MT304",
+        "condition_state": "unset"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WE2"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$W3WN2"
+      }
+    ]
+  },
+  "$W3WN8": {
+    "code": "$W3WN8",
+    "name": "18'' Nokian-vinterdekksett (piggfri)",
+    "price": 19450,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 19450,
+        "context": "default"
+      }
+    ],
+    "long_name": "18'' Nokian-vinterdekk (piggfri) med Aero-felger",
+    "extra_copy": [
+      {
+        "type": "short_description",
+        "content": "Nokian Hakkapeliitta R3-vinterdekk (piggfri), spesialdesignet for nordiske vinterforhold, har små, miljøvennlige krystaller i gummien for forbedret grep på snødekte veier. Dette settet inkluderer fire 18'' Aero-felger med påmonterte dekk."
+      }
+    ],
+    "description": "Nokian Hakkapeliitta R3-vinterdekk (piggfri), spesialdesignet for nordiske vinterforhold, har små, miljøvennlige krystaller i gummien for forbedret grep på snødekte veier. Dette settet inkluderer fire 18'' Aero-felger med påmonterte dekk.",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      },
+      {
+        "type": "disabled",
+        "content": [
+          {
+            "content": true,
+            "configuration": [
+              "$W3WN8"
+            ],
+            "condition_state": "and"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODEL3/UI/Nokian-Selector@3x.png",
+            "type": "image"
+          }
+        ]
+      },
+      {
+        "type": "hidden",
+        "content": [
+          {
+            "configuration": [
+              "$WIN31",
+              "$MT303"
+            ],
+            "condition_state": "not"
+          }
+        ]
+      }
+    ],
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "unset",
+          "target": "$W3WN8",
+          "condition_code": "$MT304",
+          "condition_state": "set"
+        },
+        {
+          "action": "unset",
+          "target": "$W3WN9"
+        },
+        {
+          "action": "unset",
+          "target": "$W3SN8"
+        },
+        {
+          "action": "unset",
+          "target": "$W3SN9"
+        },
+        {
+          "action": "unset",
+          "target": "$W3WE8"
+        },
+        {
+          "action": "unset",
+          "target": "$W3WE9"
+        }
+      ]
+    },
+    "after_delivery_price": 19450,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$W3WN8"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WN8",
+        "condition_code": "$MT304",
+        "condition_state": "set"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WN9"
+      },
+      {
+        "action": "unset",
+        "target": "$W3SN8"
+      },
+      {
+        "action": "unset",
+        "target": "$W3SN9"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WE8"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WE9"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$W3WN8"
+      }
+    ]
+  },
+  "$W3WN9": {
+    "code": "$W3WN9",
+    "name": "19'' Nokian-vinterdekksett (piggfri)",
+    "price": 34050,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 34050,
+        "context": "default"
+      }
+    ],
+    "long_name": "19'' Nokian-vinterdekk (piggfri) med Sport-felger",
+    "extra_copy": [
+      {
+        "type": "short_description",
+        "content": "Nokian Hakkapeliitta R3-vinterdekk (piggfri), spesialdesignet for nordiske vinterforhold, har små, miljøvennlige krystaller i gummien for forbedret grep på snødekte veier. Dette settet inkluderer 19'' Sport-felger med påmonterte dekk."
+      }
+    ],
+    "description": "Nokian Hakkapeliitta R3-vinterdekk (piggfri), spesialdesignet for nordiske vinterforhold, har små, miljøvennlige krystaller i gummien for forbedret grep på snødekte veier. Dette settet inkluderer 19'' Sport-felger med påmonterte dekk.",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "circular"
+          }
+        ]
+      },
+      {
+        "type": "disabled",
+        "content": [
+          {
+            "content": true,
+            "configuration": [
+              "$W3WN9"
+            ],
+            "condition_state": "and"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODEL3/UI/Nokian-Selector@3x.png",
+            "type": "image"
+          }
+        ]
+      },
+      {
+        "type": "hidden",
+        "content": [
+          {
+            "configuration": [
+              "$WIN31",
+              "$MT303"
+            ],
+            "condition_state": "not"
+          }
+        ]
+      }
+    ],
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "unset",
+          "target": "$W3WN9",
+          "condition_code": "$MT304",
+          "condition_state": "set"
+        },
+        {
+          "action": "unset",
+          "target": "$W3WN8"
+        },
+        {
+          "action": "unset",
+          "target": "$W3SN8"
+        },
+        {
+          "action": "unset",
+          "target": "$W3SN9"
+        },
+        {
+          "action": "unset",
+          "target": "$W3WE8"
+        },
+        {
+          "action": "unset",
+          "target": "$W3WE9"
+        }
+      ]
+    },
+    "after_delivery_price": 34050,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$W3WN9"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WN9",
+        "condition_code": "$MT304",
+        "condition_state": "set"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WN8"
+      },
+      {
+        "action": "unset",
+        "target": "$W3SN8"
+      },
+      {
+        "action": "unset",
+        "target": "$W3SN9"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WE8"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WE9"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$W3WN9"
+      }
+    ]
+  },
+  "$WIN31": {
+    "code": "$WIN31",
+    "name": "Winter Tire group",
+    "price": 0,
+    "pricing": [
+      {
+        "type": "base",
+        "value": 0,
+        "context": "default"
+      }
+    ],
+    "long_name": "Winter Tire group",
+    "extra_copy": [
+      {
+        "type": "name",
+        "content": " "
+      },
+      {
+        "type": "selectLabel",
+        "content": "Legg til vinterdekk"
+      },
+      {
+        "type": "deselectLabel",
+        "content": "Legg til vinterdekk"
+      }
+    ],
+    "description": "Winter Tire group",
+    "extra_content": [
+      {
+        "type": "shape",
+        "content": [
+          {
+            "type": "checkbox"
+          }
+        ]
+      },
+      {
+        "type": "asset",
+        "content": [
+          {
+            "url": "MODEL3/UI/option-wheels-18-nokian-std.png",
+            "type": "image",
+            "selected_by": {
+              "and": [
+                "$W3WN8"
+              ]
+            }
+          },
+          {
+            "url": "MODEL3/UI/option-wheels-19-nokian-std.png",
+            "type": "image",
+            "selected_by": {
+              "and": [
+                "$W3WN9"
+              ]
+            }
+          },
+          {
+            "url": "MODEL3/UI/option-wheels-20-nokian-std.png",
+            "type": "image",
+            "selected_by": {
+              "and": [
+                "$W3WN2"
+              ]
+            }
+          },
+          {
+            "url": "MODEL3/UI/option-wheels-18-nokian-studded.png",
+            "type": "image",
+            "selected_by": {
+              "and": [
+                "$W3SN8"
+              ]
+            }
+          },
+          {
+            "url": "MODEL3/UI/option-wheels-19-nokian-studded.png",
+            "type": "image",
+            "selected_by": {
+              "and": [
+                "$W3SN9"
+              ]
+            }
+          },
+          {
+            "url": "MODEL3/UI/option-wheels-18-pirrelli.png",
+            "type": "image",
+            "selected_by": {
+              "and": [
+                "$W3WE8"
+              ]
+            }
+          },
+          {
+            "url": "MODEL3/UI/option-wheels-19-pirrelli.png",
+            "type": "image",
+            "selected_by": {
+              "and": [
+                "$W3WE9"
+              ]
+            }
+          },
+          {
+            "url": "MODEL3/UI/option-wheels-20-pirrelli.png",
+            "type": "image",
+            "selected_by": {
+              "and": [
+                "$W3WE2"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "price_override",
+        "content": [
+          {
+            "options": [
+              "$W3WN8",
+              "$W3WN9",
+              "$W3WN2",
+              "$W3SN8",
+              "$W3SN9",
+              "$W3WE8",
+              "$W3WE9",
+              "$W3WE2"
+            ],
+            "default_price": 19450,
+            "default_by_trim": {
+              "$MT304": 38900
+            }
+          }
+        ]
+      }
+    ],
+    "user_defined_rules": {
+      "set_rules": [
+        {
+          "action": "set",
+          "target": "$WIN31"
+        },
+        {
+          "action": "set",
+          "target": "$W3WN8",
+          "operator": "and",
+          "condition_code": "$W3WE9",
+          "condition_state": "unset"
+        },
+        {
+          "operator": "and",
+          "condition_code": "$W3WE8",
+          "condition_state": "unset"
+        },
+        {
+          "operator": "and",
+          "condition_code": "$W3WN9",
+          "condition_state": "unset"
+        },
+        {
+          "operator": "and",
+          "condition_code": "$W3SN8",
+          "condition_state": "unset"
+        },
+        {
+          "operator": "and",
+          "condition_code": "$W3SN9",
+          "condition_state": "unset"
+        },
+        {
+          "condition_code": "$MT304",
+          "condition_state": "unset"
+        },
+        {
+          "action": "set",
+          "target": "$W3WN2",
+          "operator": "and",
+          "condition_code": "$MT304",
+          "condition_state": "set"
+        },
+        {
+          "condition_code": "$W3WE2",
+          "condition_state": "unset"
+        }
+      ],
+      "unset_rules": [
+        {
+          "action": "unset",
+          "target": "$WIN31"
+        },
+        {
+          "action": "unset",
+          "target": "$W3WE8"
+        },
+        {
+          "action": "unset",
+          "target": "$W3WE9"
+        },
+        {
+          "action": "unset",
+          "target": "$W3WE2"
+        },
+        {
+          "action": "unset",
+          "target": "$W3WN8"
+        },
+        {
+          "action": "unset",
+          "target": "$W3WN9"
+        },
+        {
+          "action": "unset",
+          "target": "$W3WN2"
+        },
+        {
+          "action": "unset",
+          "target": "$W3SN8"
+        },
+        {
+          "action": "unset",
+          "target": "$W3SN9"
+        }
+      ]
+    },
+    "after_delivery_price": 0,
+    "set_rules": [
+      {
+        "action": "set",
+        "target": "$WIN31"
+      },
+      {
+        "action": "set",
+        "target": "$WIN31"
+      },
+      {
+        "action": "set",
+        "target": "$W3WN8",
+        "operator": "and",
+        "condition_code": "$W3WE9",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$W3WE8",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$W3WN9",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$W3SN8",
+        "condition_state": "unset"
+      },
+      {
+        "operator": "and",
+        "condition_code": "$W3SN9",
+        "condition_state": "unset"
+      },
+      {
+        "condition_code": "$MT304",
+        "condition_state": "unset"
+      },
+      {
+        "action": "set",
+        "target": "$W3WN2",
+        "operator": "and",
+        "condition_code": "$MT304",
+        "condition_state": "set"
+      },
+      {
+        "condition_code": "$W3WE2",
+        "condition_state": "unset"
+      }
+    ],
+    "unset_rules": [
+      {
+        "action": "unset",
+        "target": "$WIN31"
+      },
+      {
+        "action": "unset",
+        "target": "$WIN31"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WE8"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WE9"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WE2"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WN8"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WN9"
+      },
+      {
+        "action": "unset",
+        "target": "$W3WN2"
+      },
+      {
+        "action": "unset",
+        "target": "$W3SN8"
+      },
+      {
+        "action": "unset",
+        "target": "$W3SN9"
+      }
+    ]
+  }
+}
