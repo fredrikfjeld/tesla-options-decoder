@@ -1,3 +1,12 @@
+// Get variables from URL
+function getUrlVars(url) {
+  var vars = {};
+  var parts = url.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+      vars[key] = value;
+  });
+  return vars;
+}
+
 ////
 // Show all options
 ////
@@ -257,40 +266,19 @@ $(document).on('click touchstart', '#submitPdfLink', function() {
   // Getting and displaying your options
   ////
   var pdfurl = $('#pdflink').val();
-  var myurl_arr = pdfurl.split("options");
-  var model_arr = pdfurl.split("model");
-  var myoptions = "";
+  var link_parameters = getUrlVars(pdfurl);
+  //console.log(link_parameters.model);
 
-  if (myurl_arr.length >= 2) {
-    // handle case where full URL is posted
-    var myurl = myurl_arr[1].split("=");
-    var myoptions = myurl[1].split("&");
-    myoptions = myoptions[0];
-  } else {
-    // handle just the options string being posted
-    myoptions = pdfurl;
-  }
-
-  if (model_arr.length >= 2) {
-    // handle case where full URL is posted
-    var myurl = model_arr[1].split("=");
-    var mymodel = myurl[1].split("&");
-    mymodel = mymodel[0];
-  } else {
-    // handle just the options string being posted
-    mymodel = pdfurl;
-  }
-
-  var commaregex = new RegExp('\%2C', 'g');
-  myoptions = myoptions.replace(commaregex, ',');
-  var arrayOfOptions = myoptions.split(",");
+  var arrayOfOptions = link_parameters.options.split(",");
+  //console.log(arrayOfOptions);
 
   // Set jsonfile based on region
   var jsonfile = "pricebook-3.5_MS_US.json";
 
-  switch(mymodel) {
+  switch(link_parameters.model) {
     case "m3":
       jsonfile = "model3-en_US.json";
+      //jsonfile = "model3-no_NO.json";
       break;
     case "en_GB":
       jsonfile = "pricebook-3.5_MS_en_GB.json";
@@ -303,14 +291,31 @@ $(document).on('click touchstart', '#submitPdfLink', function() {
   $.getJSON(jsonfile, function ( data ) {
     var items = [];
 
-    if (mymodel == "m3") {
+    if (link_parameters.model == "m3") {
       var optionsData = data.DSServices["Lexicon.m3"].options;
     }
     else {
       var optionsData = data.tesla["configSetPrices"].options;
     }
     $.each( arrayOfOptions, function ( n, opt_code ) {
-      var opt_content = optionsData[opt_code];
+
+      // Add $ before option code for Model 3
+      if (link_parameters.model == "m3") {
+        // Remove color category to match options list //.split(":").pop()
+        if (opt_code.includes("-")) {
+          opt_code = opt_code.split("-").pop()
+          var opt_content = optionsData["$" + opt_code];
+          console.log(opt_code)
+        }
+        else {
+          var opt_content = optionsData["$" + opt_code];
+        }
+      }
+      else {
+        var opt_content = optionsData[opt_code];
+      }
+      
+      //console.log(opt_content);
       if(opt_content != null && opt_content.name != null) {
         if (opt_content.description != null && opt_content.description != opt_content.name)
           items.push( '<dt class="opt opt-code">' + opt_code + '</dt><dd id="' + opt_code + '" class="opt"><a class="listitem">' + opt_content.name + '</a><span class="opt-descr" style="display:none;" ><br/>' + opt_content.description + "</span></dd>" );
